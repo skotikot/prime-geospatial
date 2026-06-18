@@ -1,0 +1,74 @@
+---
+title: ""
+page-layout: custom
+---
+
+<header class="hero-banner">
+
+<!-- The text overlay content -->
+
+<h1>Prime Geospatial</h1>
+
+<h2>Bridging the Gap Between Data and Discovery</h2>
+
+<!-- STREAMING_CHUNK:Adding the call-to-action button -->
+
+<a href="services.qmd" class="btn-primary">Explore Our Services</a>
+
+</header>
+
+:::::::::::: {.page-columns .page-full}
+::::::::::: column-page
+At Prime Geospatial, we bridge the gap between complex spatial data and actionable decision-making. We specialize in transforming raw environmental and geographic information into clear, reliable insights that drive sustainable progress.
+
+From robust data architecture and rigorous statistical analysis to expert-led professional training, we empower organizations to understand their landscape, mitigate risk, and optimize their operations through the power of spatial science.
+
+------------------------------------------------------------------------
+
+# Our Core Pillars
+
+:::::: columns
+::: {.column width="45%"}
+### 🛰️Consulting & Analysisr
+
+Tailored geospatial strategies to solve your most complex site-specific and regional challenges.
+:::
+
+::: {.column width="10%"}
+<!-- Visual Spacer -->
+:::
+
+::: {.column width="45%"}
+### 📊 Data Optimization Pipelines
+
+We transform unstructured, messy, or scaled spatial data arrays into organized, open-access, reproducible computational workflows.
+:::
+::::::
+
+:::::: columns
+::: {.column width="45%"}
+### 🖥️ Spatial Decision Tools
+
+We design software packages and web interfaces that integrate complex environmental models directly into planning and management pipelines.
+:::
+
+::: {.column width="10%"}
+<!-- Visual Spacer -->
+:::
+
+::: {.column width="45%"}
+### 🌲 Capacity Building
+
+Specialized, hands-on training in advanced geospatial applications, spatial statistics, and ecological modeling for professionals.
+:::
+::::::
+:::::::::::
+::::::::::::
+
+::: {.column-screen style="background-color: #004a99; color: white; padding: 1rem 0.5rem; text-align: center; margin-top: 1rem;"}
+**Ready to map out your next project?**
+
+We are currently preparing our systems for launch. If you are interested in partnering with us or scheduling a consultation, we would love to hear from you.
+
+**Get in Touch**
+:::
