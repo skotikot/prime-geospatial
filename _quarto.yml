@@ -7,7 +7,7 @@ project:
 
 website:
   #title: Prime Geospatial
-  logo: /images/logo.jpg
+  logo: images/logo.jpg
   search: true
   navbar:
     pinned: true
@@ -30,8 +30,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css # <-- This line tells Quarto to look for your CSS file!
     toc: true                   # Generates the right-hand page navigation menu
     toc-location: right
-# Try changing 'flatly' to 'lux' or 'journal'
+# Try changing 'cosmo', 'flatly' to 'lux' or 'journal'
