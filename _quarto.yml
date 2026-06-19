@@ -3,13 +3,13 @@ project:
   output-dir: docs
   resources:
     - images/bannerNew.jpg
-    - images/logo.jpg
+    - images/logo.png
 
 website:
   title: ""
   search: true
   navbar:
-    logo: images/logo.jpg
+    logo: images/logo.png
     title: false
     logo-href: index.qmd
     pinned: true
