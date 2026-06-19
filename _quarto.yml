@@ -19,14 +19,14 @@ website:
       # Home button removed
       - href: index.qmd
         text: Home
+      - href: services.qmd
+        text: Services
       - href: about.qmd
         text: About us
       - href: people.qmd
         text: Our Team
-      - href: services.qmd
-        text: Services
-      - href: services2.qmd
-        text: Services2
+      - href: services3.qmd
+        text: Services3
       - href: projects.qmd  # Or "Case Studies / White Papers"
         text: Projects
       - href: contact.qmd

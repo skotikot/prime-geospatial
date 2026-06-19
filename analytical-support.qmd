@@ -1,0 +1,23 @@
+---
+title: ""
+format: html
+---
+
+# Analytical Support
+
+We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.
+
+## Statistical Modeling
+- Developing custom models tailored to ecological and environmental questions  
+- Applying advanced statistical and machine‑learning techniques  
+- Supporting scenario analysis and predictive forecasting  
+
+## Visualization & Reporting
+- Creating high‑impact, data‑driven visualizations  
+- Designing clear, compelling graphics for reports and presentations  
+- Communicating complex spatial patterns with clarity  
+
+## Code Review & Optimization
+- Reviewing existing geospatial scripts for accuracy and efficiency  
+- Improving performance, scalability, and reproducibility  
+- Modernizing workflows using best‑practice coding standards  

@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "training-capacity-building.html",
+    "href": "training-capacity-building.html",
+    "title": "Professional Training & Capacity Building",
+    "section": "",
+    "text": "We empower teams to confidently navigate complex spatial challenges through hands‑on, applied training programs.\n\n\n\nWorkshops on point pattern analysis, spatial regression, and interpolation\n\nPractical exercises using real‑world environmental datasets\n\nGuidance on selecting appropriate statistical methods\n\n\n\n\n\nTraining in predictive modeling and habitat suitability analysis\n\nSpecies distribution modeling using modern computational tools\n\nBest practices for model evaluation and interpretation\n\n\n\n\n\nCustom instruction in R and Python for GIS workflows\n\nAdvanced raster analysis and automated mapping\n\nBuilding reproducible geospatial scripts and applications"
+  },
+  {
+    "objectID": "training-capacity-building.html#spatial-statistics",
+    "href": "training-capacity-building.html#spatial-statistics",
+    "title": "Professional Training & Capacity Building",
+    "section": "",
+    "text": "Workshops on point pattern analysis, spatial regression, and interpolation\n\nPractical exercises using real‑world environmental datasets\n\nGuidance on selecting appropriate statistical methods"
+  },
+  {
+    "objectID": "training-capacity-building.html#ecological-modeling",
+    "href": "training-capacity-building.html#ecological-modeling",
+    "title": "Professional Training & Capacity Building",
+    "section": "",
+    "text": "Training in predictive modeling and habitat suitability analysis\n\nSpecies distribution modeling using modern computational tools\n\nBest practices for model evaluation and interpretation"
+  },
+  {
+    "objectID": "training-capacity-building.html#geospatial-applications",
+    "href": "training-capacity-building.html#geospatial-applications",
+    "title": "Professional Training & Capacity Building",
+    "section": "",
+    "text": "Custom instruction in R and Python for GIS workflows\n\nAdvanced raster analysis and automated mapping\n\nBuilding reproducible geospatial scripts and applications"
+  },
+  {
     "objectID": "services2.html",
     "href": "services2.html",
     "title": "What We Offer",
@@ -35,6 +63,34 @@
     "text": "Meet the Team\n\n\n\n\n\nSusan Kotikot\nPrincipal Investigator\nSusan leads our research initiatives with a focus on spatial data science and ecological modeling, driving our technical direction and project strategy.\n\n\n\n\n\nDonald Akanga\nSenior Geospatial Analyst\nDonald specializes in robust data architecture and geospatial processing, ensuring that every project is built upon a foundation of data integrity.\n\n\n\n\n\nDan Wanyama\nPostdoctoral Researcher\nDan focuses on the intersection of ecological modeling and statistical analysis, helping us turn complex landscape data into actionable insights."
   },
   {
+    "objectID": "geospatial-consulting.html",
+    "href": "geospatial-consulting.html",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.\n\n\n\nAssessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning\n\n\n\n\n\nMapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies\n\n\n\n\n\nDesigning geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
+  },
+  {
+    "objectID": "geospatial-consulting.html#landscape-analysis",
+    "href": "geospatial-consulting.html#landscape-analysis",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Assessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning"
+  },
+  {
+    "objectID": "geospatial-consulting.html#environmental-risk-assessment",
+    "href": "geospatial-consulting.html#environmental-risk-assessment",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Mapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies"
+  },
+  {
+    "objectID": "geospatial-consulting.html#project-strategy-advisory",
+    "href": "geospatial-consulting.html#project-strategy-advisory",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact Prime Geospatial",
@@ -63,6 +119,62 @@
     "text": "Professional Standards\n\nReproducibility: Utilizing version control and open-science standards in every project.\nTechnical Precision: A focus on logic-based, systematic approaches to spatial problems.\nInterdisciplinary Collaboration: Leveraging academic expertise to solve real-world environmental management challenges."
   },
   {
+    "objectID": "analytical-support.html",
+    "href": "analytical-support.html",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "analytical-support.html#statistical-modeling",
+    "href": "analytical-support.html#statistical-modeling",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
+  },
+  {
+    "objectID": "analytical-support.html#visualization-reporting",
+    "href": "analytical-support.html#visualization-reporting",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
+  },
+  {
+    "objectID": "analytical-support.html#code-review-optimization",
+    "href": "analytical-support.html#code-review-optimization",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "data-cleaning.html",
+    "href": "data-cleaning.html",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Spatial analysis is only as reliable as the data behind it. We ensure your datasets are accurate, consistent, and ready for high‑quality analysis.\n\n\n\nMerging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets\n\n\n\n\n\nIdentifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards\n\n\n\n\n\nBuilding reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
+  },
+  {
+    "objectID": "data-cleaning.html#data-integration",
+    "href": "data-cleaning.html#data-integration",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Merging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets"
+  },
+  {
+    "objectID": "data-cleaning.html#cleaning-quality-control",
+    "href": "data-cleaning.html#cleaning-quality-control",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Identifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards"
+  },
+  {
+    "objectID": "data-cleaning.html#preprocessing-pipelines",
+    "href": "data-cleaning.html#preprocessing-pipelines",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Building reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
+  },
+  {
     "objectID": "project-cloud.html",
     "href": "project-cloud.html",
     "title": "Prime Geospatial",
@@ -89,5 +201,12 @@
     "title": "Comprehensive Geospatial & Analytical Solutions",
     "section": "",
     "text": "At Prime Geospatial, we provide specialized services designed to bridge the gap between raw environmental data and actionable decision-making. We combine statistical rigor with practical ecological application.\n\n\n1. Geospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges. - Landscape Analysis: Assessing spatial patterns and environmental change over time. - Environmental Risk Assessment: Leveraging spatial intelligence to mitigate operational risks. - Project Strategy: Advising on the integration of geospatial technology into your existing workflows.\n\n\n2. Data Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\nData Integration: Merging disparate spatial and non-spatial environmental datasets.\nCleaning & Quality Control: Systematic removal of errors, noise, and inconsistencies in spatial features.\nPreprocessing Pipelines: Developing reproducible workflows for automated data preparation.\n\n\n\n3. Professional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\nSpatial Statistics: Hands-on workshops covering modern methods for point pattern analysis, spatial regression, and interpolation.\nEcological Modeling: Technical courses on predictive modeling, habitat suitability, and species distribution.\nGeospatial Application: Custom training in R/Python for GIS, advanced raster analysis, and automated mapping.\n\n\n\n4. Analytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\nStatistical Modeling: Building custom models to address unique ecological questions.\nVisualization: Creating high-impact, data-driven visualizations for reporting and decision-making.\nCode Review & Optimization: Refining your existing spatial scripts for speed, scalability, and reproducibility.\n\n\n\n\n\nWhy Choose Prime Geospatial?\n\nReproducible Workflows: Every service is delivered with full documentation and open-science standards.\nExpert Integration: We combine high-level statistical theory with practical, on-the-ground environmental knowledge.\nTailored Solutions: We don’t believe in “one-size-fits-all” spatial analysis.\n\nLet’s discuss your specific needs. [Contact Us / Request a Consultation]"
+  },
+  {
+    "objectID": "services3.html",
+    "href": "services3.html",
+    "title": "What We Offer",
+    "section": "",
+    "text": "What We Offer\n\n\n\n\nGeospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges.\n\n\n\n\n\nData Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\n\n\n\n\n3. Professional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\n\n\n\n\n4. Analytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\n\n\n\nContact Us"
   }
 ]

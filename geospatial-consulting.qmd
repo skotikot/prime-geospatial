@@ -1,0 +1,23 @@
+---
+title: ""
+format: html
+---
+
+# Geospatial Consulting
+
+We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.
+
+## Landscape Analysis
+- Assessing spatial patterns and environmental change over time  
+- Identifying ecological trends and landscape‑level drivers  
+- Supporting conservation, restoration, and land‑use planning  
+
+## Environmental Risk Assessment
+- Mapping and quantifying environmental hazards  
+- Evaluating exposure, vulnerability, and operational risks  
+- Integrating geospatial intelligence into risk‑mitigation strategies  
+
+## Project Strategy & Advisory
+- Designing geospatial workflows aligned with your organizational needs  
+- Recommending tools, platforms, and data pipelines  
+- Supporting the integration of geospatial technology into existing operations  

@@ -1,0 +1,23 @@
+---
+title: ""
+format: html
+---
+
+# Data Cleaning & Preprocessing
+
+Spatial analysis is only as reliable as the data behind it. We ensure your datasets are accurate, consistent, and ready for high‑quality analysis.
+
+## Data Integration
+- Merging spatial and non‑spatial datasets from multiple sources  
+- Harmonizing formats, projections, and attribute structures  
+- Resolving conflicts between overlapping or redundant datasets  
+
+## Cleaning & Quality Control
+- Identifying and removing errors, noise, and inconsistencies  
+- Validating geometries, attributes, and spatial relationships  
+- Ensuring compliance with analytical and regulatory standards  
+
+## Preprocessing Pipelines
+- Building reproducible workflows for automated data preparation  
+- Standardizing transformations, filtering, and feature engineering  
+- Preparing analysis‑ready datasets for modeling and visualization  

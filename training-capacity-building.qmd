@@ -1,0 +1,23 @@
+---
+title: ""
+format: html
+---
+
+# Professional Training & Capacity Building
+
+We empower teams to confidently navigate complex spatial challenges through hands‑on, applied training programs.
+
+## Spatial Statistics
+- Workshops on point pattern analysis, spatial regression, and interpolation  
+- Practical exercises using real‑world environmental datasets  
+- Guidance on selecting appropriate statistical methods  
+
+## Ecological Modeling
+- Training in predictive modeling and habitat suitability analysis  
+- Species distribution modeling using modern computational tools  
+- Best practices for model evaluation and interpretation  
+
+## Geospatial Applications
+- Custom instruction in R and Python for GIS workflows  
+- Advanced raster analysis and automated mapping  
+- Building reproducible geospatial scripts and applications  

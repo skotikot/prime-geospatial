@@ -3,9 +3,7 @@ title: "What We Offer"
 format: html
 ---
 
-
 <div class="container mt-4">
-
   <div class="row">
 
     <!-- Geospatial Consulting -->
@@ -69,12 +67,3 @@ format: html
 </div>
 
 
-<style>
-.card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-</style>
