@@ -243,17 +243,7 @@ transform: translateY(-2px);
 box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
-
-.accordion-button {
-  background-color: #2A5A5C !important;
-  color: #ffffff !important;
-  font-weight: 700;
-  border-radius: 8px !important;
-  margin-bottom: 10px;
-}
-
-.accordion-button:not(.collapsed) {
-  background-color: #C68767 !important; /* Your secondary color when expanded */
-  color: #ffffff !important;
-  box-shadow: none;
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
 }
