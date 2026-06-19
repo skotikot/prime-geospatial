@@ -1,10 +1,10 @@
 ---
-title: "Who we are"
+title: ""
 ---
 
 :::::: grid
 ::: g-col-12
-# Bridging the Gap Between Data and Discovery
+# Who we are
 :::
 
 ::: {.g-col-12 .g-col-md-6}
