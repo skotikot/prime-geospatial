@@ -25,6 +25,8 @@ website:
         text: Our Team
       - href: services.qmd
         text: Services
+      - href: services2.qmd
+        text: Services2
       - href: projects.qmd  # Or "Case Studies / White Papers"
         text: Projects
       - href: contact.qmd
