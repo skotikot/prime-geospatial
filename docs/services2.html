@@ -156,49 +156,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="container">
-<div class="row row-cols-1 row-cols-md-2 g-4">
-<pre><code>&lt;div class="col"&gt;
-  &lt;div class="card h-100 text-center p-4"&gt;
-    &lt;div class="card-body"&gt;
-      &lt;i class="bi bi-geo-alt" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
-      &lt;h5 class="card-title mt-3"&gt;Geospatial Consulting&lt;/h5&gt;
-      &lt;a href="services/consulting.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+<div class="container mt-4">
+<div class="row">
+<pre><code>&lt;!-- Geospatial Consulting --&gt;
+&lt;div class="col-md-6 mb-4"&gt;
+  &lt;a href="geospatial-consulting.qmd" class="text-decoration-none text-dark"&gt;
+    &lt;div class="card h-100 shadow-sm"&gt;
+      &lt;img src="icons/icon1.jpg" class="card-img-top p-4" style="width: 150px; margin: auto;"&gt;
+      &lt;div class="card-body text-center"&gt;
+        &lt;h4 class="card-title"&gt;Geospatial Consulting&lt;/h4&gt;
+        &lt;p class="card-text"&gt;Expert support for spatial analysis, mapping, and geospatial workflows.&lt;/p&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;
+  &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;div class="col"&gt;
-  &lt;div class="card h-100 text-center p-4"&gt;
-    &lt;div class="card-body"&gt;
-      &lt;i class="bi bi-database" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
-      &lt;h5 class="card-title mt-3"&gt;Data Cleaning&lt;/h5&gt;
-      &lt;a href="services/cleaning.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+&lt;!-- Data Cleaning &amp; Preprocessing --&gt;
+&lt;div class="col-md-6 mb-4"&gt;
+  &lt;a href="data-cleaning.qmd" class="text-decoration-none text-dark"&gt;
+    &lt;div class="card h-100 shadow-sm"&gt;
+      &lt;img src="icons/icon2.jpg" class="card-img-top p-4" style="width: 150px; margin: auto;"&gt;
+      &lt;div class="card-body text-center"&gt;
+        &lt;h4 class="card-title"&gt;Data Cleaning &amp; Preprocessing&lt;/h4&gt;
+        &lt;p class="card-text"&gt;Reliable data preparation, transformation, and quality assurance.&lt;/p&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</code></pre>
+</div>
+<div class="row">
+<pre><code>&lt;!-- Professional Training &amp; Capacity Building --&gt;
+&lt;div class="col-md-6 mb-4"&gt;
+  &lt;a href="training-capacity-building.qmd" class="text-decoration-none text-dark"&gt;
+    &lt;div class="card h-100 shadow-sm"&gt;
+      &lt;img src="icons/icon3.jpg" class="card-img-top p-4" style="width: 150px; margin: auto;"&gt;
+      &lt;div class="card-body text-center"&gt;
+        &lt;h4 class="card-title"&gt;Professional Training &amp; Capacity Building&lt;/h4&gt;
+        &lt;p class="card-text"&gt;Workshops, courses, and hands‑on training to strengthen technical skills.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;div class="col"&gt;
-  &lt;div class="card h-100 text-center p-4"&gt;
-    &lt;div class="card-body"&gt;
-      &lt;i class="bi bi-mortarboard" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
-      &lt;h5 class="card-title mt-3"&gt;Training &amp; Capacity&lt;/h5&gt;
-      &lt;a href="services/training.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+&lt;!-- Analytical Support --&gt;
+&lt;div class="col-md-6 mb-4"&gt;
+  &lt;a href="analytical-support.qmd" class="text-decoration-none text-dark"&gt;
+    &lt;div class="card h-100 shadow-sm"&gt;
+      &lt;img src="icons/icon4.jpg" class="card-img-top p-4" style="width: 150px; margin: auto;"&gt;
+      &lt;div class="card-body text-center"&gt;
+        &lt;h4 class="card-title"&gt;Analytical Support&lt;/h4&gt;
+        &lt;p class="card-text"&gt;Custom analysis, modeling, and decision‑support services.&lt;/p&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="col"&gt;
-  &lt;div class="card h-100 text-center p-4"&gt;
-    &lt;div class="card-body"&gt;
-      &lt;i class="bi bi-graph-up-arrow" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
-      &lt;h5 class="card-title mt-3"&gt;Analytical Support&lt;/h5&gt;
-      &lt;a href="services/analytical.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
+  &lt;/a&gt;
 &lt;/div&gt;</code></pre>
 </div>
 </div>
+<style>
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+</style>
 
 
 
