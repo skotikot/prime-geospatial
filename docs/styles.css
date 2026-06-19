@@ -126,10 +126,10 @@ padding: 0;          /* Removes default padding that might cause offsets */
 }
 
 .navbar-brand img {
-  height: 120px; /* Adjust this to match your navbar height */
+  height: 50px; /* Adjust this to match your navbar height */
   width: auto;
   margin-right: 15px; /* Adjust this value to increase the gap */
-  max-height: 120px !important;/* Prevents Quarto layout overrides */
+  max-height: 50px !important;/* Prevents Quarto layout overrides */
 }
 
 .navbar .navbar-nav .nav-link {
