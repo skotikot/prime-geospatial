@@ -131,12 +131,16 @@ text-transform: uppercase !important;
 letter-spacing: 0.05em;
 }
 
+.navbar-brand .navbar-title {
+  display: none;
+}
+
 
 /* 3. Heading Typography */
 h1, h2, h3, h4, h5, h6 {
 font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-weight: 800;
-color: #2A5A5C 
+color: #2A5A5C !important;
 margin-top: 1.5em;
 }
 
