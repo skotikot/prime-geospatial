@@ -6,10 +6,12 @@ project:
     - images/logo.jpg
 
 website:
-  title: Prime Geospatial
+  title: ""
   search: true
   navbar:
     logo: images/logo.jpg
+    title: false
+    logo-href: index.qmd
     pinned: true
     background: "#2A5A5C"            # Gives you that sharp, high-contrast header bar
     foreground: "#FFFFFF"
