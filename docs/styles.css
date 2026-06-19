@@ -108,6 +108,8 @@ padding-right: 2rem !important;
 max-width: 100% !important;
 padding-left: 1rem;
 padding-right: 1rem;
+display: flex !important;
+justify-content: space-between !important;
 }
 
 /* 2b. Navbar Brand (Site Title) Styling */
@@ -124,9 +126,10 @@ padding: 0;          /* Removes default padding that might cause offsets */
 }
 
 .navbar-brand img {
-  height: 40px; /* Adjust this to match your navbar height */
+  height: 120px; /* Adjust this to match your navbar height */
   width: auto;
   margin-right: 15px; /* Adjust this value to increase the gap */
+  max-height: 120px !important;/* Prevents Quarto layout overrides */
 }
 
 .navbar .navbar-nav .nav-link {
