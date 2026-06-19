@@ -156,72 +156,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="servicesAccordion" class="accordion">
-<div class="accordion-item">
-<pre><code>&lt;h2 class="accordion-header"&gt;
-  &lt;button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"&gt;
-    1. Geospatial Consulting
-  &lt;/button&gt;
-&lt;/h2&gt;
-&lt;div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#servicesAccordion"&gt;
-  &lt;div class="accordion-body"&gt;
-    We offer tailored strategies for site-specific and regional environmental challenges.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Landscape Analysis:&lt;/strong&gt; Assessing spatial patterns and environmental change over time.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Environmental Risk Assessment:&lt;/strong&gt; Leveraging spatial intelligence to mitigate operational risks.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Project Strategy:&lt;/strong&gt; Advising on the integration of geospatial technology into your existing workflows.&lt;/li&gt;
-    &lt;/ul&gt;
+<div class="container">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+<pre><code>&lt;div class="col"&gt;
+  &lt;div class="card h-100 text-center p-4"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;i class="bi bi-geo-alt" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
+      &lt;h5 class="card-title mt-3"&gt;Geospatial Consulting&lt;/h5&gt;
+      &lt;a href="services/consulting.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
-<div class="accordion-item">
-<pre><code>&lt;h2 class="accordion-header"&gt;
-  &lt;button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"&gt;
-    2. Data Cleaning &amp; Preprocessing
-  &lt;/button&gt;
-&lt;/h2&gt;
-&lt;div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion"&gt;
-  &lt;div class="accordion-body"&gt;
-    Spatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Data Integration:&lt;/strong&gt; Merging disparate spatial and non-spatial environmental datasets.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Cleaning &amp; Quality Control:&lt;/strong&gt; Systematic removal of errors, noise, and inconsistencies in spatial features.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Preprocessing Pipelines:&lt;/strong&gt; Developing reproducible workflows for automated data preparation.&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col"&gt;
+  &lt;div class="card h-100 text-center p-4"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;i class="bi bi-database" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
+      &lt;h5 class="card-title mt-3"&gt;Data Cleaning&lt;/h5&gt;
+      &lt;a href="services/cleaning.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
-<div class="accordion-item">
-<pre><code>&lt;h2 class="accordion-header"&gt;
-  &lt;button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"&gt;
-    3. Professional Training &amp; Capacity Building
-  &lt;/button&gt;
-&lt;/h2&gt;
-&lt;div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion"&gt;
-  &lt;div class="accordion-body"&gt;
-    We empower your team to handle complex spatial challenges with confidence.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Spatial Statistics:&lt;/strong&gt; Hands-on workshops covering modern methods for point pattern analysis, spatial regression, and interpolation.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Ecological Modeling:&lt;/strong&gt; Technical courses on predictive modeling, habitat suitability, and species distribution.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Geospatial Application:&lt;/strong&gt; Custom training in R/Python for GIS, advanced raster analysis, and automated mapping.&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col"&gt;
+  &lt;div class="card h-100 text-center p-4"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;i class="bi bi-mortarboard" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
+      &lt;h5 class="card-title mt-3"&gt;Training &amp; Capacity&lt;/h5&gt;
+      &lt;a href="services/training.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
-<div class="accordion-item">
-<pre><code>&lt;h2 class="accordion-header"&gt;
-  &lt;button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"&gt;
-    4. Analytical Support
-  &lt;/button&gt;
-&lt;/h2&gt;
-&lt;div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion"&gt;
-  &lt;div class="accordion-body"&gt;
-    Beyond data preparation, we offer deep-dive analytical services for specialized research.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Statistical Modeling:&lt;/strong&gt; Building custom models to address unique ecological questions.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Creating high-impact, data-driven visualizations for reporting and decision-making.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Code Review &amp; Optimization:&lt;/strong&gt; Refining your existing spatial scripts for speed, scalability, and reproducibility.&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col"&gt;
+  &lt;div class="card h-100 text-center p-4"&gt;
+    &lt;div class="card-body"&gt;
+      &lt;i class="bi bi-graph-up-arrow" style="font-size: 3rem; color: #2A5A5C;"&gt;&lt;/i&gt;
+      &lt;h5 class="card-title mt-3"&gt;Analytical Support&lt;/h5&gt;
+      &lt;a href="services/analytical.qmd" class="btn btn-primary mt-3"&gt;Learn More&lt;/a&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</code></pre>
 </div>
