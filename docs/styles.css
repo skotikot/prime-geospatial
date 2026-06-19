@@ -113,15 +113,20 @@ padding-right: 1rem;
 /* 2b. Navbar Brand (Site Title) Styling */
 .navbar-brand {
 font-family: 'Open Sans', sans-serif !important;
-font-size: 2rem !important; /* Adjust this size as needed */
+font-size: 1.5rem !important; /* Adjust this size as needed */
 font-weight: 700 !important;
 text-transform: uppercase !important;
 letter-spacing: 0.05em !important;
 color: #FFFFFF !important;
+display: flex;       /* Enables flexbox for the brand area */
+align-items: center; /* Vertically centers everything inside */
+padding: 0;          /* Removes default padding that might cause offsets */
 }
 
 .navbar-brand img {
   height: 40px; /* Adjust this to match your navbar height */
+  width: auto;
+  margin-right: 15px; /* Adjust this value to increase the gap */
 }
 
 .navbar .navbar-nav .nav-link {
@@ -161,6 +166,7 @@ background-color: #F9FAFB !important;
 color: #2F3640 !important;
 line-height: 1.6;
 font-family: 'Open Sans', sans-serif;
+font-size: 1.2rem;
 }
 
 /* 6. Custom Card Styling */
