@@ -1,5 +1,6 @@
 ---
 title: "What We Offer"
+format: html
 ---
 
 
