@@ -6,44 +6,47 @@ title: ""
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
+<!-- Row 1 -->
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+<a href="geospatial-consulting.qmd">
+  <img src="images/GeospatialConsulting.png"
+       class="rounded-circle"
+       style="width: 200px; height: 200px; object-fit: cover;">
+</a>
 
-![](images/GeospatialConsulting.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
-
-### Geospatial Consulting
+### <a href="geospatial-consulting.qmd" style="text-decoration: none; color: inherit;">
+Geospatial Consulting
+</a>
 
 We offer tailored strategies for site-specific and regional environmental challenges.
-
 :::
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
 ![](images/DataCleaning.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
 
 ### Data Cleaning & Preprocessing
 Spatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.
-
 :::
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
-
+<!-- Row 2 -->
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
 ![](images/Training.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
 
-### 3. Professional Training & Capacity Building
+### Professional Training & Capacity Building
 We empower your team to handle complex spatial challenges with confidence.
-
 :::
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
-
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
 ![](images/AnalyticalSupport.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
 
-### 4. Analytical Support
+### Analytical Support
 Beyond data preparation, we offer deep-dive analytical services for specialized research.
-
 :::
 
 :::
 
 ---
 
-<a href="contact.qmd" class="btn-primary">Contact Us</a>
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="contact.qmd" class="btn btn-primary">Contact Us</a>
+</div>
