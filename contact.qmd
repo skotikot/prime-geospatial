@@ -4,7 +4,7 @@ format: html
 
 <h1 style="text-align: center; margin-bottom: 2rem;">Contact Us</h1>
 
-Let's discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.
+Let's discuss your next geospatial project. Please email <a href="mailto:malaso.susan@gmail.com">malaso.susan@gmail.com</a> and we will get back to you within 2 business days.
 
 You can also send us a message using the form below.
 
