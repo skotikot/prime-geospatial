@@ -255,6 +255,26 @@ box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   color: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.services-bg {
+  background-color: #f0f8ff; /* Change this hex code to your preferred color */
+  padding: 20px;            /* Optional: adds space inside the colored box */
+  border-radius: 8px;       /* Optional: rounds the corners */
+}
+
+
+
+
+
+
+
+
+
+
+
 /* contact us form */
 /* Contact form wrapper */
 .contact-wrapper {
