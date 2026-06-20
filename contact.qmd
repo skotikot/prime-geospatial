@@ -8,7 +8,6 @@ Let's discuss your next geospatial project. Please email malaso.susan@gmail.com 
 
 You can also send us a message using the form below.
 
-
 <div class="contact-wrapper">
 
   <form action="https://formspree.io/f/mrevavwz" method="POST">
