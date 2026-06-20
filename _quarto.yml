@@ -17,8 +17,8 @@ website:
     foreground: "#FFFFFF"
     left:
       # Home button removed
-      - href: index.qmd
-        text: Home
+      # - href: index.qmd
+      #   text: Home
       - href: services.qmd
         text: Services
       - href: about.qmd
