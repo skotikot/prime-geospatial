@@ -64,11 +64,3 @@ Specialized, hands-on training in advanced geospatial applications, spatial stat
 ::::::
 :::::::::::
 ::::::::::::
-
-::: {.footer-container style="text-align: center; padding: 40px 20px; background-color: #f8f9fa;"}
-<!-- Social Icons Image --> <img src="image_6a67de.jpg" alt="Social Media Links" style="max-width: 100%; height: auto; margin-bottom: 20px;"/>
-
-<!-- Copyright Info -->
-
-<p>PrimeGeospatial • 2026 • `<a href="https://skotikot.github.io/prime-geospatial/"`{=html}PrimeGeospatial.com</a></p>
-:::
