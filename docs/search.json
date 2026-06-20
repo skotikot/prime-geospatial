@@ -107,21 +107,21 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Who we are",
+    "title": "\nWho We Are\n",
     "section": "",
     "text": "At Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\n\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity."
   },
   {
     "objectID": "about.html#our-core-competencies",
     "href": "about.html#our-core-competencies",
-    "title": "Who we are",
+    "title": "\nWho We Are\n",
     "section": "Our Core Competencies",
     "text": "Our Core Competencies\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\nStatistical Rigor\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
   },
   {
     "objectID": "about.html#professional-standards",
     "href": "about.html#professional-standards",
-    "title": "Who we are",
+    "title": "\nWho We Are\n",
     "section": "Professional Standards",
     "text": "Professional Standards\n\nReproducibility: Utilizing version control and open-science standards in every project.\nTechnical Precision: A focus on logic-based, systematic approaches to spatial problems.\nInterdisciplinary Collaboration: Leveraging academic expertise to solve real-world environmental management challenges."
   },
