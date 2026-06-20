@@ -1,5 +1,5 @@
 ---
-title: ""
+format: html
 ---
 
 <h1 style="text-align: center; margin-bottom: 2rem;">Contact Us</h1>
@@ -8,9 +8,6 @@ Let's discuss your next geospatial project. Please email malaso.susan@gmail.com 
 
 You can also send us a message using the form below.
 
-<h1 style="text-align:center; color:#2A5A5C; margin-bottom:1.5rem;">
-  Contact Us
-</h1>
 
 <div class="contact-wrapper">
 
@@ -32,5 +29,3 @@ You can also send us a message using the form below.
   </form>
 
 </div>
-
-
