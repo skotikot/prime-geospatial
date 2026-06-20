@@ -3,13 +3,13 @@ project:
   output-dir: docs
   resources:
     - images/bannerNew.jpg
-    - images/logo.png
+    - images/logoWhite.png
 
 website:
   title: ""
   search: true
   navbar:
-    logo: images/logo.png
+    logo: images/logoWhite.png
     title: false
     logo-href: index.qmd
     pinned: true
@@ -25,8 +25,6 @@ website:
         text: About us
       - href: people.qmd
         text: Our Team
-      - href: services4.qmd
-        text: Services3
       - href: projects.qmd  # Or "Case Studies / White Papers"
         text: Projects
       - href: contact.qmd

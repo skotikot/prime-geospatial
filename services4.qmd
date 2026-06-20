@@ -8,7 +8,7 @@ title: ""
 
 <!-- Row 1 -->
 ::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="geospatial-consulting.qmd">
+<a href="geospatial.qmd">
   <img src="images/GeospatialConsulting.png"
        class="rounded-circle"
        style="width: 200px; height: 200px; object-fit: cover;">

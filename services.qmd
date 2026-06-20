@@ -1,61 +1,66 @@
 ---
-title: "Comprehensive Geospatial & Analytical Solutions"
+title: ""
 ---
+
+<h1 style="text-align: center; margin-bottom: 2rem;">What We Offer</h1>
 
 ::: {.grid}
 
-::: {.g-col-12}
-At Prime Geospatial, we provide specialized services designed to bridge the gap between raw environmental data and actionable decision-making. We combine statistical rigor with practical ecological application.
-:::
+<!-- Row 1 -->
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+<a href="geospatial.qmd">
+  <img src="images/GeospatialConsulting.png"
+       class="rounded-circle"
+       style="width: 200px; height: 200px; object-fit: cover;">
+</a>
 
-::: {.g-col-12 .g-col-md-6}
-### 1. Geospatial Consulting
+### <a href="geospatial.qmd" class="no-decoration">Geospatial Consulting</a>
 
 We offer tailored strategies for site-specific and regional environmental challenges.
-- **Landscape Analysis:** Assessing spatial patterns and environmental change over time.
-- **Environmental Risk Assessment:** Leveraging spatial intelligence to mitigate operational risks.
-- **Project Strategy:** Advising on the integration of geospatial technology into your existing workflows.
 
 :::
 
-::: {.g-col-12 .g-col-md-6}
-### 2. Data Cleaning & Preprocessing
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+<a href="datacleaning.qmd">
+  <img src="images/DataCleaning.png"
+       class="rounded-circle"
+       style="width: 200px; height: 200px; object-fit: cover;">
+</a>
+
+### <a href="data-cleaning.qmd" class="no-decoration">Data Cleaning & Preprocessing</a>
+
 Spatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.
-
-- **Data Integration:** Merging disparate spatial and non-spatial environmental datasets.
-- **Cleaning & Quality Control:** Systematic removal of errors, noise, and inconsistencies in spatial features.
-- **Preprocessing Pipelines:** Developing reproducible workflows for automated data preparation.
-
 :::
 
-::: {.g-col-12 .g-col-md-6}
-### 3. Professional Training & Capacity Building
+<!-- Row 2 -->
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+<a href="training-capacity-building.qmd">
+  <img src="images/Training.png"
+       class="rounded-circle"
+       style="width: 200px; height: 200px; object-fit: cover;">
+</a>
+
+### <a href="training-capacity-building.qmd" class="no-decoration">Professional Training & Capacity Building</a>
+
 We empower your team to handle complex spatial challenges with confidence.
-
-- **Spatial Statistics:** Hands-on workshops covering modern methods for point pattern analysis, spatial regression, and interpolation.
-- **Ecological Modeling:** Technical courses on predictive modeling, habitat suitability, and species distribution.
-- **Geospatial Application:** Custom training in R/Python for GIS, advanced raster analysis, and automated mapping.
-
 :::
 
-::: {.g-col-12 .g-col-md-6}
-### 4. Analytical Support
+::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+<a href="analytical-support.qmd">
+  <img src="images/AnalyticalSupport.png"
+       class="rounded-circle"
+       style="width: 200px; height: 200px; object-fit: cover;">
+</a>
+
+### <a href="analytical-support.qmd" class="no-decoration">Analytical Support</a>
+
 Beyond data preparation, we offer deep-dive analytical services for specialized research.
-
-- **Statistical Modeling:** Building custom models to address unique ecological questions.
-- **Visualization:** Creating high-impact, data-driven visualizations for reporting and decision-making.
-- **Code Review & Optimization:** Refining your existing spatial scripts for speed, scalability, and reproducibility.
-
 :::
 
 :::
 
 ---
 
-### Why Choose Prime Geospatial?
-
-- **Reproducible Workflows:** Every service is delivered with full documentation and open-science standards.
-- **Expert Integration:** We combine high-level statistical theory with practical, on-the-ground environmental knowledge.
-- **Tailored Solutions:** We don't believe in "one-size-fits-all" spatial analysis.
-
-**Let's discuss your specific needs.** [Contact Us / Request a Consultation]
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="contact.qmd" class="btn btn-primary">Contact Us</a>
+</div>

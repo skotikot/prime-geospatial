@@ -28,123 +28,46 @@
     "text": "Custom instruction in R and Python for GIS workflows\n\nAdvanced raster analysis and automated mapping\n\nBuilding reproducible geospatial scripts and applications"
   },
   {
-    "objectID": "services3.html",
-    "href": "services3.html",
+    "objectID": "services4.html",
+    "href": "services4.html",
     "title": "\nWhat We Offer\n",
     "section": "",
-    "text": "What We Offer\n\n\n\n\n\nGeospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges.\n\n\n\n\n\nData Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\n\n\n\n\n3. Professional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\n\n\n\n\n4. Analytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\n\n\n\nContact Us"
+    "text": "What We Offer\n\n\n\n\n  \n\nGeospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges.\n\n\n\n  \n\nData Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\n\n\n\n  \n\nProfessional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\n\n\n  \n\nAnalytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\n\n\n\n\nContact Us"
   },
   {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Comprehensive Geospatial & Analytical Solutions",
+    "objectID": "services2.html",
+    "href": "services2.html",
+    "title": "What We Offer",
     "section": "",
-    "text": "At Prime Geospatial, we provide specialized services designed to bridge the gap between raw environmental data and actionable decision-making. We combine statistical rigor with practical ecological application.\n\n\n1. Geospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges. - Landscape Analysis: Assessing spatial patterns and environmental change over time. - Environmental Risk Assessment: Leveraging spatial intelligence to mitigate operational risks. - Project Strategy: Advising on the integration of geospatial technology into your existing workflows.\n\n\n2. Data Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\nData Integration: Merging disparate spatial and non-spatial environmental datasets.\nCleaning & Quality Control: Systematic removal of errors, noise, and inconsistencies in spatial features.\nPreprocessing Pipelines: Developing reproducible workflows for automated data preparation.\n\n\n\n3. Professional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\nSpatial Statistics: Hands-on workshops covering modern methods for point pattern analysis, spatial regression, and interpolation.\nEcological Modeling: Technical courses on predictive modeling, habitat suitability, and species distribution.\nGeospatial Application: Custom training in R/Python for GIS, advanced raster analysis, and automated mapping.\n\n\n\n4. Analytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\nStatistical Modeling: Building custom models to address unique ecological questions.\nVisualization: Creating high-impact, data-driven visualizations for reporting and decision-making.\nCode Review & Optimization: Refining your existing spatial scripts for speed, scalability, and reproducibility.\n\n\n\n\n\nWhy Choose Prime Geospatial?\n\nReproducible Workflows: Every service is delivered with full documentation and open-science standards.\nExpert Integration: We combine high-level statistical theory with practical, on-the-ground environmental knowledge.\nTailored Solutions: We don’t believe in “one-size-fits-all” spatial analysis.\n\nLet’s discuss your specific needs. [Contact Us / Request a Consultation]"
+    "text": "&lt;!-- Geospatial Consulting --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"geospatial-consulting.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon1.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Geospatial Consulting&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Expert support for spatial analysis, mapping, and geospatial workflows.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Data Cleaning & Preprocessing --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"data-cleaning.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon2.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Data Cleaning & Preprocessing&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Reliable data preparation, transformation, and quality assurance.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n\n&lt;!-- Professional Training & Capacity Building --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"training-capacity-building.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon3.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Professional Training & Capacity Building&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Workshops, courses, and hands‑on training to strengthen technical skills.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Analytical Support --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"analytical-support.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon4.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Analytical Support&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Custom analysis, modeling, and decision‑support services.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;"
   },
   {
-    "objectID": "project-mangrove.html",
-    "href": "project-mangrove.html",
-    "title": "Automated Mangrove Monitoring",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects & Applications",
     "section": "",
-    "text": "Project Overview\nThis tool automates regional ecosystem tracking…\n\n\nTechnical Architecture\n\nCompute Engine: Google Earth Engine API\nData Stream: Sentinel-2 Level-2A imagery"
+    "text": "Select an application below to view interactive dashboards, project methodology, and system architectures.\n&lt;div class=“project-grid”&gt;\n\n\n\n\n\nAutomated Mangrove Monitoring\n\n\n\n\n\n\n\nHabitat Suitability Analytics\n\n\n\n\n\n\n\nSpatial Decision Support\n\n\n&lt;/div&gt;"
   },
   {
-    "objectID": "project-cloud.html",
-    "href": "project-cloud.html",
+    "objectID": "project-habitat.html",
+    "href": "project-habitat.html",
     "title": "Prime Geospatial",
     "section": "",
     "text": "Welcome to Prime Geospatial. After 8 years of dormancy, we are back to solve your most complex spatiotemporal and environmental data challenges. We specialize in reproducible workflows, data cleaning, and custom spatial analytics."
   },
   {
-    "objectID": "project-cloud.html#interactive-proof-of-concept",
-    "href": "project-cloud.html#interactive-proof-of-concept",
+    "objectID": "project-habitat.html#interactive-proof-of-concept",
+    "href": "project-habitat.html#interactive-proof-of-concept",
     "title": "Prime Geospatial",
     "section": "Interactive Proof of Concept",
     "text": "Interactive Proof of Concept\nBelow is a live demonstration of our web-mapping deployment pipelines, rendered directly from spatial data attributes."
   },
   {
-    "objectID": "data-cleaning.html",
-    "href": "data-cleaning.html",
-    "title": "Data Cleaning & Preprocessing",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "\nMeet the Team\n",
     "section": "",
-    "text": "Spatial analysis is only as reliable as the data behind it. We ensure your datasets are accurate, consistent, and ready for high‑quality analysis.\n\n\n\nMerging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets\n\n\n\n\n\nIdentifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards\n\n\n\n\n\nBuilding reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
-  },
-  {
-    "objectID": "data-cleaning.html#data-integration",
-    "href": "data-cleaning.html#data-integration",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Merging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets"
-  },
-  {
-    "objectID": "data-cleaning.html#cleaning-quality-control",
-    "href": "data-cleaning.html#cleaning-quality-control",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Identifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards"
-  },
-  {
-    "objectID": "data-cleaning.html#preprocessing-pipelines",
-    "href": "data-cleaning.html#preprocessing-pipelines",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Building reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
-  },
-  {
-    "objectID": "analytical-support.html",
-    "href": "analytical-support.html",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
-  },
-  {
-    "objectID": "analytical-support.html#statistical-modeling",
-    "href": "analytical-support.html#statistical-modeling",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
-  },
-  {
-    "objectID": "analytical-support.html#visualization-reporting",
-    "href": "analytical-support.html#visualization-reporting",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
-  },
-  {
-    "objectID": "analytical-support.html#code-review-optimization",
-    "href": "analytical-support.html#code-review-optimization",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Who we are",
-    "section": "",
-    "text": "At Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\n\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity."
-  },
-  {
-    "objectID": "about.html#our-core-competencies",
-    "href": "about.html#our-core-competencies",
-    "title": "Who we are",
-    "section": "Our Core Competencies",
-    "text": "Our Core Competencies\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\nStatistical Rigor\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
-  },
-  {
-    "objectID": "about.html#professional-standards",
-    "href": "about.html#professional-standards",
-    "title": "Who we are",
-    "section": "Professional Standards",
-    "text": "Professional Standards\n\nReproducibility: Utilizing version control and open-science standards in every project.\nTechnical Precision: A focus on logic-based, systematic approaches to spatial problems.\nInterdisciplinary Collaboration: Leveraging academic expertise to solve real-world environmental management challenges."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Prime Geospatial",
-    "section": "",
-    "text": "Let’s discuss your next geospatial project. Fill out the form below, and one of our three principal partners will get back to you within 2 business days.\n```{=html} &lt;form action=“[https://formspree.io/f/YOUR_UNIQUE_ENDPOINT_ID](https://formspree.io/f/YOUR_UNIQUE_ENDPOINT_ID)” method=“POST” style=“max-width: 500px; margin-top: 20px; font-family: sans-serif;”&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Your Name:&lt;/label&gt; &lt;input type=“text” name=“name” required style=“width:100%; padding:8px; border: 1px solid #ccc; border-radius: 4px;”&gt; &lt;/div&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Email Address:&lt;/label&gt; &lt;input type=“email” name=“_replyto” required style=“width:100%; padding:8px; border: 1px solid #ccc; border-radius: 4px;”&gt; &lt;/div&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Project Scope / Dataset Details:&lt;/label&gt; &lt;textarea name=“message” required style=“width:100%; height:120px; padding:8px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;”&gt;&lt;/textarea&gt; &lt;/div&gt; &lt;button type=“submit” style=“background:#0275d8; color:white; border:none; padding:10px 20px; border-radius: 4px; font-size: 16px; cursor:pointer;”&gt;Submit Project Request&lt;/button&gt; &lt;/form&gt;\n```"
+    "text": "Meet the Team\n\n\n\n\n\nSusan Kotikot\nPrincipal Investigator\nSusan leads our research initiatives with a focus on spatial data science and ecological modeling, driving our technical direction and project strategy.\n\n\n\n\n\nDonald Akanga\nSenior Geospatial Analyst\nDonald specializes in robust data architecture and geospatial processing, ensuring that every project is built upon a foundation of data integrity.\n\n\n\n\n\nDan Wanyama\nPostdoctoral Researcher\nDan focuses on the intersection of ecological modeling and statistical analysis, helping us turn complex landscape data into actionable insights."
   },
   {
     "objectID": "geospatial-consulting.html",
@@ -175,45 +98,129 @@
     "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "\nMeet the Team\n",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Prime Geospatial",
     "section": "",
-    "text": "Meet the Team\n\n\n\n\n\nSusan Kotikot\nPrincipal Investigator\nSusan leads our research initiatives with a focus on spatial data science and ecological modeling, driving our technical direction and project strategy.\n\n\n\n\n\nDonald Akanga\nSenior Geospatial Analyst\nDonald specializes in robust data architecture and geospatial processing, ensuring that every project is built upon a foundation of data integrity.\n\n\n\n\n\nDan Wanyama\nPostdoctoral Researcher\nDan focuses on the intersection of ecological modeling and statistical analysis, helping us turn complex landscape data into actionable insights."
+    "text": "Let’s discuss your next geospatial project. Fill out the form below, and one of our three principal partners will get back to you within 2 business days.\n```{=html} &lt;form action=“[https://formspree.io/f/YOUR_UNIQUE_ENDPOINT_ID](https://formspree.io/f/YOUR_UNIQUE_ENDPOINT_ID)” method=“POST” style=“max-width: 500px; margin-top: 20px; font-family: sans-serif;”&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Your Name:&lt;/label&gt; &lt;input type=“text” name=“name” required style=“width:100%; padding:8px; border: 1px solid #ccc; border-radius: 4px;”&gt; &lt;/div&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Email Address:&lt;/label&gt; &lt;input type=“email” name=“_replyto” required style=“width:100%; padding:8px; border: 1px solid #ccc; border-radius: 4px;”&gt; &lt;/div&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Project Scope / Dataset Details:&lt;/label&gt; &lt;textarea name=“message” required style=“width:100%; height:120px; padding:8px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;”&gt;&lt;/textarea&gt; &lt;/div&gt; &lt;button type=“submit” style=“background:#0275d8; color:white; border:none; padding:10px 20px; border-radius: 4px; font-size: 16px; cursor:pointer;”&gt;Submit Project Request&lt;/button&gt; &lt;/form&gt;\n```"
   },
   {
-    "objectID": "project-habitat.html",
-    "href": "project-habitat.html",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Who we are",
+    "section": "",
+    "text": "At Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\n\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity."
+  },
+  {
+    "objectID": "about.html#our-core-competencies",
+    "href": "about.html#our-core-competencies",
+    "title": "Who we are",
+    "section": "Our Core Competencies",
+    "text": "Our Core Competencies\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\nStatistical Rigor\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
+  },
+  {
+    "objectID": "about.html#professional-standards",
+    "href": "about.html#professional-standards",
+    "title": "Who we are",
+    "section": "Professional Standards",
+    "text": "Professional Standards\n\nReproducibility: Utilizing version control and open-science standards in every project.\nTechnical Precision: A focus on logic-based, systematic approaches to spatial problems.\nInterdisciplinary Collaboration: Leveraging academic expertise to solve real-world environmental management challenges."
+  },
+  {
+    "objectID": "analytical-support.html",
+    "href": "analytical-support.html",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "analytical-support.html#statistical-modeling",
+    "href": "analytical-support.html#statistical-modeling",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
+  },
+  {
+    "objectID": "analytical-support.html#visualization-reporting",
+    "href": "analytical-support.html#visualization-reporting",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
+  },
+  {
+    "objectID": "analytical-support.html#code-review-optimization",
+    "href": "analytical-support.html#code-review-optimization",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "data-cleaning.html",
+    "href": "data-cleaning.html",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Spatial analysis is only as reliable as the data behind it. We ensure your datasets are accurate, consistent, and ready for high‑quality analysis.\n\n\n\nMerging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets\n\n\n\n\n\nIdentifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards\n\n\n\n\n\nBuilding reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
+  },
+  {
+    "objectID": "data-cleaning.html#data-integration",
+    "href": "data-cleaning.html#data-integration",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Merging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets"
+  },
+  {
+    "objectID": "data-cleaning.html#cleaning-quality-control",
+    "href": "data-cleaning.html#cleaning-quality-control",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Identifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards"
+  },
+  {
+    "objectID": "data-cleaning.html#preprocessing-pipelines",
+    "href": "data-cleaning.html#preprocessing-pipelines",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Building reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
+  },
+  {
+    "objectID": "project-cloud.html",
+    "href": "project-cloud.html",
     "title": "Prime Geospatial",
     "section": "",
     "text": "Welcome to Prime Geospatial. After 8 years of dormancy, we are back to solve your most complex spatiotemporal and environmental data challenges. We specialize in reproducible workflows, data cleaning, and custom spatial analytics."
   },
   {
-    "objectID": "project-habitat.html#interactive-proof-of-concept",
-    "href": "project-habitat.html#interactive-proof-of-concept",
+    "objectID": "project-cloud.html#interactive-proof-of-concept",
+    "href": "project-cloud.html#interactive-proof-of-concept",
     "title": "Prime Geospatial",
     "section": "Interactive Proof of Concept",
     "text": "Interactive Proof of Concept\nBelow is a live demonstration of our web-mapping deployment pipelines, rendered directly from spatial data attributes."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects & Applications",
+    "objectID": "project-mangrove.html",
+    "href": "project-mangrove.html",
+    "title": "Automated Mangrove Monitoring",
     "section": "",
-    "text": "Select an application below to view interactive dashboards, project methodology, and system architectures.\n&lt;div class=“project-grid”&gt;\n\n\n\n\n\nAutomated Mangrove Monitoring\n\n\n\n\n\n\n\nHabitat Suitability Analytics\n\n\n\n\n\n\n\nSpatial Decision Support\n\n\n&lt;/div&gt;"
+    "text": "Project Overview\nThis tool automates regional ecosystem tracking…\n\n\nTechnical Architecture\n\nCompute Engine: Google Earth Engine API\nData Stream: Sentinel-2 Level-2A imagery"
   },
   {
-    "objectID": "services2.html",
-    "href": "services2.html",
-    "title": "What We Offer",
-    "section": "",
-    "text": "&lt;!-- Geospatial Consulting --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"geospatial-consulting.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon1.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Geospatial Consulting&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Expert support for spatial analysis, mapping, and geospatial workflows.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Data Cleaning & Preprocessing --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"data-cleaning.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon2.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Data Cleaning & Preprocessing&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Reliable data preparation, transformation, and quality assurance.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n\n&lt;!-- Professional Training & Capacity Building --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"training-capacity-building.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon3.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Professional Training & Capacity Building&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Workshops, courses, and hands‑on training to strengthen technical skills.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Analytical Support --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"analytical-support.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon4.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Analytical Support&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Custom analysis, modeling, and decision‑support services.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;"
-  },
-  {
-    "objectID": "services4.html",
-    "href": "services4.html",
+    "objectID": "services.html",
+    "href": "services.html",
     "title": "\nWhat We Offer\n",
     "section": "",
     "text": "What We Offer\n\n\n\n\n  \n\nGeospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges.\n\n\n\n  \n\nData Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\n\n\n\n  \n\nProfessional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\n\n\n  \n\nAnalytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\n\n\n\n\nContact Us"
+  },
+  {
+    "objectID": "services3.html",
+    "href": "services3.html",
+    "title": "\nWhat We Offer\n",
+    "section": "",
+    "text": "What We Offer\n\n\n\n\n\nGeospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges.\n\n\n\n\n\nData Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\n\n\n\n\n3. Professional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\n\n\n\n\n4. Analytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\n\n\n\nContact Us"
+  },
+  {
+    "objectID": "services_old.html",
+    "href": "services_old.html",
+    "title": "Comprehensive Geospatial & Analytical Solutions",
+    "section": "",
+    "text": "At Prime Geospatial, we provide specialized services designed to bridge the gap between raw environmental data and actionable decision-making. We combine statistical rigor with practical ecological application.\n\n\n1. Geospatial Consulting\nWe offer tailored strategies for site-specific and regional environmental challenges. - Landscape Analysis: Assessing spatial patterns and environmental change over time. - Environmental Risk Assessment: Leveraging spatial intelligence to mitigate operational risks. - Project Strategy: Advising on the integration of geospatial technology into your existing workflows.\n\n\n2. Data Cleaning & Preprocessing\nSpatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.\n\nData Integration: Merging disparate spatial and non-spatial environmental datasets.\nCleaning & Quality Control: Systematic removal of errors, noise, and inconsistencies in spatial features.\nPreprocessing Pipelines: Developing reproducible workflows for automated data preparation.\n\n\n\n3. Professional Training & Capacity Building\nWe empower your team to handle complex spatial challenges with confidence.\n\nSpatial Statistics: Hands-on workshops covering modern methods for point pattern analysis, spatial regression, and interpolation.\nEcological Modeling: Technical courses on predictive modeling, habitat suitability, and species distribution.\nGeospatial Application: Custom training in R/Python for GIS, advanced raster analysis, and automated mapping.\n\n\n\n4. Analytical Support\nBeyond data preparation, we offer deep-dive analytical services for specialized research.\n\nStatistical Modeling: Building custom models to address unique ecological questions.\nVisualization: Creating high-impact, data-driven visualizations for reporting and decision-making.\nCode Review & Optimization: Refining your existing spatial scripts for speed, scalability, and reproducibility.\n\n\n\n\n\nWhy Choose Prime Geospatial?\n\nReproducible Workflows: Every service is delivered with full documentation and open-science standards.\nExpert Integration: We combine high-level statistical theory with practical, on-the-ground environmental knowledge.\nTailored Solutions: We don’t believe in “one-size-fits-all” spatial analysis.\n\nLet’s discuss your specific needs. [Contact Us / Request a Consultation]"
   }
 ]
