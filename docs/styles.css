@@ -254,3 +254,50 @@ box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   text-decoration: none;
   color: inherit;
 }
+
+/* contact us form */
+/* Contact form wrapper */
+.contact-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Input styling */
+.custom-input {
+  border-radius: 8px;
+  border: 1px solid #C7C7C7;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.custom-input:focus {
+  border-color: #C68767;
+  box-shadow: 0 0 0 0.2rem rgba(198,135,103,0.25);
+}
+
+/* Button styling */
+.contact-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+}
+
+/* Checkbox styling */
+.form-check-input {
+  border-color: #C68767;
+}
+
+.form-check-input:checked {
+  background-color: #C68767;
+  border-color: #C68767;
+}
+
+/* Optional: center the reCAPTCHA box */
+.g-recaptcha {
+  margin: 0 auto;
+}

@@ -98,32 +98,11 @@
     "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Prime Geospatial",
+    "objectID": "contact_recapcha.html",
+    "href": "contact_recapcha.html",
+    "title": "\nContact Us\n",
     "section": "",
-    "text": "Let’s discuss your next geospatial project. Fill out the form below, and one of our three principal partners will get back to you within 2 business days.\n```{=html} &lt;form action=“[https://formspree.io/f/YOUR_UNIQUE_ENDPOINT_ID](https://formspree.io/f/YOUR_UNIQUE_ENDPOINT_ID)” method=“POST” style=“max-width: 500px; margin-top: 20px; font-family: sans-serif;”&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Your Name:&lt;/label&gt; &lt;input type=“text” name=“name” required style=“width:100%; padding:8px; border: 1px solid #ccc; border-radius: 4px;”&gt; &lt;/div&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Email Address:&lt;/label&gt; &lt;input type=“email” name=“_replyto” required style=“width:100%; padding:8px; border: 1px solid #ccc; border-radius: 4px;”&gt; &lt;/div&gt; &lt;div style=“margin-bottom: 15px;”&gt; &lt;label style=“display:block; margin-bottom:5px; font-weight: bold;”&gt;Project Scope / Dataset Details:&lt;/label&gt; &lt;textarea name=“message” required style=“width:100%; height:120px; padding:8px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;”&gt;&lt;/textarea&gt; &lt;/div&gt; &lt;button type=“submit” style=“background:#0275d8; color:white; border:none; padding:10px 20px; border-radius: 4px; font-size: 16px; cursor:pointer;”&gt;Submit Project Request&lt;/button&gt; &lt;/form&gt;\n```"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "\nWho We Are\n",
-    "section": "",
-    "text": "At Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\n\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity."
-  },
-  {
-    "objectID": "about.html#our-core-competencies",
-    "href": "about.html#our-core-competencies",
-    "title": "\nWho We Are\n",
-    "section": "Our Core Competencies",
-    "text": "Our Core Competencies\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\nStatistical Rigor\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
-  },
-  {
-    "objectID": "about.html#professional-standards",
-    "href": "about.html#professional-standards",
-    "title": "\nWho We Are\n",
-    "section": "Professional Standards",
-    "text": "Professional Standards\n\nReproducibility: Utilizing version control and open-science standards in every project.\nTechnical Precision: A focus on logic-based, systematic approaches to spatial problems.\nInterdisciplinary Collaboration: Leveraging academic expertise to solve real-world environmental management challenges."
+    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\nContact Us\n\n\n\n&lt;label class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" name=\"email\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" name=\"name\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Message&lt;/label&gt;\n&lt;textarea name=\"message\" rows=\"5\" required class=\"form-control custom-input\"&gt;&lt;/textarea&gt;\n\n&lt;!-- reCAPTCHA widget --&gt;\n&lt;div class=\"mt-4\" style=\"transform:scale(0.95); transform-origin:0 0;\"&gt;\n  &lt;div class=\"g-recaptcha\" data-sitekey=\"YOUR_SITE_KEY\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;button type=\"submit\" class=\"btn btn-primary contact-btn mt-4\"&gt;\n  Submit\n&lt;/button&gt;"
   },
   {
     "objectID": "analytical-support.html",
@@ -152,6 +131,34 @@
     "title": "Analytical Support",
     "section": "",
     "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "\nWho We Are\n",
+    "section": "",
+    "text": "At Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\n\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity."
+  },
+  {
+    "objectID": "about.html#our-core-competencies",
+    "href": "about.html#our-core-competencies",
+    "title": "\nWho We Are\n",
+    "section": "Our Core Competencies",
+    "text": "Our Core Competencies\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\nStatistical Rigor\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
+  },
+  {
+    "objectID": "about.html#professional-standards",
+    "href": "about.html#professional-standards",
+    "title": "\nWho We Are\n",
+    "section": "Professional Standards",
+    "text": "Professional Standards\n\nReproducibility: Utilizing version control and open-science standards in every project.\nTechnical Precision: A focus on logic-based, systematic approaches to spatial problems.\nInterdisciplinary Collaboration: Leveraging academic expertise to solve real-world environmental management challenges."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "\nContact Us\n",
+    "section": "",
+    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\nContact Us\n\n\n\n&lt;label class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" name=\"email\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" name=\"name\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Message&lt;/label&gt;\n&lt;textarea name=\"message\" rows=\"5\" required class=\"form-control custom-input\"&gt;&lt;/textarea&gt;\n\n&lt;button type=\"submit\" class=\"btn btn-primary contact-btn mt-4\"&gt;\n  Submit\n&lt;/button&gt;"
   },
   {
     "objectID": "data-cleaning.html",

@@ -25,6 +25,11 @@ You can also send us a message using the form below.
     <label class="form-label mt-3">Message</label>
     <textarea name="message" rows="5" required class="form-control custom-input"></textarea>
 
+    <!-- reCAPTCHA widget -->
+    <div class="mt-4" style="transform:scale(0.95); transform-origin:0 0;">
+      <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+    </div>
+
     <button type="submit" class="btn btn-primary contact-btn mt-4">
       Submit
     </button>
@@ -32,5 +37,8 @@ You can also send us a message using the form below.
   </form>
 
 </div>
+
+<!-- Load reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
