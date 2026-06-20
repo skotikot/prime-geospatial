@@ -4,7 +4,11 @@ title: ""
 
 :::::: grid
 ::: g-col-12
-<h1 style="text-align: center; margin-bottom: 2rem;">Who We Are</h1>
+<h1 style="text-align: center; margin-bottom: 2rem;">
+
+Who We Are
+
+</h1>
 :::
 
 ::: {.g-col-12 .g-col-md-6}
