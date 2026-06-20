@@ -35,7 +35,7 @@ format:
     css: styles.css # <-- This line tells Quarto to look for your CSS file!
     toc: true                   # Generates the right-hand page navigation menu
     toc-location: right
-    include-after-body: footer.html
-      text: |
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    # include-after-body: footer.html
+    #   text: |
+    #     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 # Try changing 'cosmo', 'flatly' to 'lux' or 'journal'
