@@ -65,56 +65,10 @@ Specialized, hands-on training in advanced geospatial applications, spatial stat
 :::::::::::
 ::::::::::::
 
-## 
+::: {.footer-container style="text-align: center; padding: 40px 20px; background-color: #f8f9fa;"}
+<!-- Social Icons Image --> <img src="image_6a67de.jpg" alt="Social Media Links" style="max-width: 100%; height: auto; margin-bottom: 20px;"/>
 
-::::::::: {#services-section .services-bg}
-<h1 style="text-align: center; margin-bottom: 2rem;">
+<!-- Copyright Info -->
 
-What We Offer
-
-</h1>
-
-::::::: grid
-<!-- Row 1 -->
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="geospatial.qmd"> ![](images/GeospatialConsulting.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"} </a>
-
-### <a href="geospatial.qmd" class="no-decoration">Geospatial Consulting</a>
-
-We offer tailored strategies for site-specific and regional environmental challenges.
+<p>PrimeGeospatial • 2026 • `<a href="https://skotikot.github.io/prime-geospatial/"`{=html}PrimeGeospatial.com</a></p>
 :::
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="datacleaning.qmd"> ![](images/DataCleaning.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"} </a>
-
-### <a href="data-cleaning.qmd" class="no-decoration">Data Cleaning & Preprocessing</a>
-
-Spatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.
-:::
-
-<!-- Row 2 -->
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="training-capacity-building.qmd"> ![](images/Training.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"} </a>
-
-### <a href="training-capacity-building.qmd" class="no-decoration">Professional Training & Capacity Building</a>
-
-We empower your team to handle complex spatial challenges with confidence.
-:::
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="analytical-support.qmd"> ![](images/AnalyticalSupport.png){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"} </a>
-
-### <a href="analytical-support.qmd" class="no-decoration">Analytical Support</a>
-
-Beyond data preparation, we offer deep-dive analytical services for specialized research.
-:::
-:::::::
-
-------------------------------------------------------------------------
-
-::: {style="text-align: center; margin-top: 2rem;"}
-<a href="contact.qmd" class="btn btn-primary">Contact Us</a>
-:::
-:::::::::

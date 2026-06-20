@@ -259,10 +259,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.services-bg {
-  background-color: #CED4DA; /* Change this hex code to your preferred color */
-  padding: 20px;           /* Optional: adds space inside the colored box */
-  border-radius: 8px;       /* Optional: rounds the corners */
+.social-links a {
+  margin: 0 15px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff; /* Changes color when you hover over the icon */
 }
 
 
