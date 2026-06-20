@@ -7,7 +7,6 @@ project:
 
 website:
   title: ""
-  search: true
   navbar:
     logo: images/logoWhite.png
     title: false
