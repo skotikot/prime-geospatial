@@ -65,9 +65,9 @@ Specialized, hands-on training in advanced geospatial applications, spatial stat
 :::::::::::
 ::::::::::::
 
-::::::::: {#services-section .services-bg}
-## Services
+## 
 
+::::::::: {#services-section .services-bg}
 <h1 style="text-align: center; margin-bottom: 2rem;">
 
 What We Offer
@@ -118,45 +118,3 @@ Beyond data preparation, we offer deep-dive analytical services for specialized 
 <a href="contact.qmd" class="btn btn-primary">Contact Us</a>
 :::
 :::::::::
-
-::::::: grid
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="geospatial.qmd"> <img src="images/GeospatialConsulting.png" class="rounded-circle" style="width: 200px; height: 200px; object-fit: cover;"/> </a>
-
-### <a href="geospatial.qmd" class="no-decoration">Geospatial Consulting</a>
-
-We offer tailored strategies for site-specific and regional environmental challenges.
-:::
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="datacleaning.qmd"> <img src="images/DataCleaning.png" class="rounded-circle" style="width: 200px; height: 200px; object-fit: cover;"/> </a>
-
-### <a href="data-cleaning.qmd" class="no-decoration">Data Cleaning & Preprocessing</a>
-
-Spatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.
-:::
-
-<!-- Row 2 -->
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="training-capacity-building.qmd"> <img src="images/Training.png" class="rounded-circle" style="width: 200px; height: 200px; object-fit: cover;"/> </a>
-
-### <a href="training-capacity-building.qmd" class="no-decoration">Professional Training & Capacity Building</a>
-
-We empower your team to handle complex spatial challenges with confidence.
-:::
-
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
-<a href="analytical-support.qmd"> <img src="images/AnalyticalSupport.png" class="rounded-circle" style="width: 200px; height: 200px; object-fit: cover;"/> </a>
-
-### <a href="analytical-support.qmd" class="no-decoration">Analytical Support</a>
-
-Beyond data preparation, we offer deep-dive analytical services for specialized research.
-:::
-:::::::
-
-------------------------------------------------------------------------
-
-::: {style="text-align: center; margin-top: 2rem;"}
-<a href="contact.qmd" class="btn btn-primary">Contact Us</a>
-:::
