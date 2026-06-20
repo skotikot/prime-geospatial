@@ -126,12 +126,13 @@ padding: 0;          /* Removes default padding that might cause offsets */
 }
 
 .navbar-brand img {
-  height: 65px;          /* Increase until the logo is no longer clipped */
-  max-height: 65px !important;
+  height: 60px;          /* Increase until the logo is no longer clipped */
+  max-height: 60px !important;
+  max-width: none !important;/* prevents Quarto from shrinking it */
   width: auto;
   margin-right: 15px;
   object-fit: contain;   /* Prevents clipping inside the box */
-  padding: 4px 0;        /* Adds breathing room above/below */
+  padding: 0, 8px;        /* Adds breathing room above/below */
 }
 
 .navbar .navbar-nav .nav-link {
@@ -139,7 +140,11 @@ color: #FFFFFF !important;
 font-weight: 700 !important;
 text-transform: uppercase !important;
 letter-spacing: 0.05em;
-margin-left: auto !important;
+font-size: 0.9rem !important;   /* adjust smaller or larger */
+}
+
+.navbar-nav {
+  margin-left: auto !important;
 }
 
 .navbar-brand .navbar-title {
