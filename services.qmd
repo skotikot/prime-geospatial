@@ -3,19 +3,18 @@ title: ""
 page-layout: full
 ---
 
-<!-- FULL VIEW HERO BANNER -->
-::: {.column-screen .hero-banner-row}
-::: {.grid style="--bs-gutter-x: 0; align-items: center;"}
+<!-- FULL VIEW HERO BANNER WITH INSTANT HEIGHT LOCK -->
+::: {.column-screen .hero-banner-row style="padding: 0; margin-top: 0; margin-bottom: 3rem; overflow: hidden; clear: both;"}
+::: {.grid style="--bs-gutter-x: 0; align-items: center; margin: 0; padding: 0;"}
 
 <!-- Left Side: The Capsule Masked Image -->
-::: {.g-col-12 .g-col-md-5 .hero-img-col}
-<img src="images/bannerNew.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
+::: {.g-col-12 .g-col-md-5 .hero-img-col style="padding: 0; margin: 0; display: flex;"}
+<img src="images/your-satellite-or-landscape.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
 :::
 
 <!-- Right Side: Header Typography -->
 ::: {.g-col-12 .g-col-md-7 .hero-text-col}
-<span class="hero-tag">Services</span>
-<h1 class="hero-heading">Unlock the power of location with Prime Geospatial</h1>
+<h1 class="hero-heading">Bridging the gap between data and discovery with Prime Geospatial</h1>
 <p class="hero-subtext">
   Geospatial technology provides access to data from layers of site-specific and remote sensing arrays. 
   We harness this data to bring deep analytical precision to your workflows, combat environmental 
@@ -27,9 +26,11 @@ page-layout: full
 :::
 
 <!-- HEADER SECTION -->
-::: {.container style="padding-top: 4rem; padding-bottom: 2rem;"}
+
+::: {.container style="clear: both; display: block; padding-top: 4rem; padding-bottom: 2rem;"}
 <h1 style="font-size: 2.25rem; font-weight: 700; color: #0f2d4a; margin-bottom: 3rem;">&rarr; What We Offer</h1>
 :::
+
 
 <!-- SECTION 1: GEOSPATIAL CONSULTING (Text Left, Image Right) -->
 ::: {.container .grid style="padding-bottom: 6rem; align-items: center;"}
@@ -37,11 +38,12 @@ page-layout: full
 ::: {.g-col-12 .g-col-md-6}
 <h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Geospatial Consulting</h2>
 
-<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">We offer tailored strategies for site-specific and regional environmental challenges. From spatial heterogeneity tracking to setting up resilient project architectures, we align data frameworks with your core technical objectives.</p>
+<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">We offer tailored strategies for site-specific and regional environmental challenges while aligning data frameworks with your core technical objectives.</p>
 
 ::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
-* Strategic Planning: Evaluating project stacks and spatial scaling constraints.
-* Landscape Strategy: Designing resilient spatial approaches for complex ecosystems.
+* Landscape Analysis: Assessing spatial patterns and environmental change over time. 
+* Environmental Risk Assessment: Leveraging spatial intelligence to mitigate operational risks. 
+* Project Strategy: Integration geospatial technology into your existing workflows.
 :::
 
 <a href="geospatial.qmd" class="btn-spark">Learn More</a>
@@ -58,17 +60,19 @@ page-layout: full
 
 <!-- This column uses order utilities so that on mobile text stays on top, but on desktop it moves right -->
 ::: {.g-col-12 .g-col-md-6 .order-last .order-md-first}
-<img src="images/DataCleaning.png" class="img-fluid spark-card-img" alt="Data Cleaning & Preprocessing">
+<img src="images/DataCleaning.png" class="img-fluid spark-card-img" alt="Data Collection, Cleaning & Preprocessing">
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-<h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Data Cleaning & Preprocessing</h2>
+<h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Data Collection, Cleaning & Preprocessing</h2>
 
 <p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">Spatial data is only as good as its foundation. We build automated QA/QC workflows to fix messy coordinates, handle projection shifts, validate topology, and ensure your datasets are completely robust and analysis-ready.</p>
 
 ::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
-* Pipeline Engineering: Reproducible scripts that transform messy raw field data into clean layers.
-* Quality Assurance: Rigorous data dictionaries, metadata compiling, and structural validation.
+* Data Integration: Merging disparate spatial and non-spatial environmental datasets.
+* Cleaning & Quality Control: Systematic removal of errors, noise, and inconsistencies in spatial features.
+* Preprocessing Pipelines: Developing reproducible workflows for automated data preparation.
+
 :::
 
 <a href="data-cleaning.qmd" class="btn-spark">Learn More</a>
@@ -82,11 +86,13 @@ page-layout: full
 ::: {.g-col-12 .g-col-md-6}
 <h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Analytical Support</h2>
 
-<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">Beyond data preparation, we offer deep-dive analytical services for specialized research. We execute advanced spatial statistics, landscape metrics modeling, and predictive distributions to uncover critical ecological and structural trends.</p>
+<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">Beyond data preparation, we offer deep-dive analytical services for specialized research.</p>
 
 ::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
-* Advanced Modeling: Quantifying fragmentation, connectivity, and suitability metrics.
-* Insights & Synthesis: Transforming high-density spatial arrays into clear, reportable insights.
+* Statistical Modeling: Building custom models to address unique ecological questions.
+* Visualization: Creating high-impact, data-driven visualizations for reporting and decision-making.
+* Code Review & Optimization: Refining your existing spatial scripts for speed, scalability, and reproducibility.
+
 :::
 
 <a href="analytical-support.qmd" class="btn-spark">Learn More</a>
@@ -111,8 +117,10 @@ page-layout: full
 <p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">We empower your team to handle complex spatial challenges with confidence. Through targeted workshops and curated technical materials, we help transfer advanced spatial skills directly to your internal workflows.</p>
 
 ::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
-* Workgroup Enablement: Custom training modules covering modern open-source GIS stacks.
-* Reproducible Practices: Hands-on instruction in version-controlled workflows and reporting.
+* Spatial Statistics: Hands-on workshops covering modern methods for point pattern analysis, spatial regression, and interpolation.
+* Ecological Modeling: Technical courses on predictive modeling, habitat suitability, and species distribution.
+* Geospatial Application: Custom training in R/Python for GIS, advanced raster analysis, and automated mapping.
+
 :::
 
 <a href="training-capacity-building.qmd" class="btn-spark">Learn More</a>
@@ -120,8 +128,10 @@ page-layout: full
 
 :::
 
-<!-- CONTACT FOOTER -->
-::: {.container style="text-align: center; padding: 4rem 0; border-top: 1px solid #eaeaea;"}
-<h3 style="font-weight: 600; margin-bottom: 1.5rem; color: #0f2d4a;">Have a specific project in mind?</h3>
-<a href="contact.qmd" class="btn-spark" style="padding: 0.75rem 3rem;">Get in Touch</a>
+<!-- FULL-WIDTH CONTACT FOOTER -->
+::: {.column-screen .footer-banner-dark}
+::: {.container style="text-align: center;"}
+<h3 style="font-weight: 600; margin-bottom: 1.5rem; color: #ffffff;">Have a specific project in mind?</h3>
+<a href="contact.qmd" class="btn-spark-light" style="padding: 0.75rem 3rem;">Contact Us</a>
+:::
 :::

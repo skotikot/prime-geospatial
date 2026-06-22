@@ -386,6 +386,7 @@ html {
   margin-top: 0;
   margin-bottom: 4rem;
   border-bottom: 1px solid #dee2e6;
+  display: block;
 }
 
 /* Ensure the image container sits completely flush to the left boundary */
@@ -398,7 +399,7 @@ html {
 /* The magic shape: Flat on the left, deeply curved into a stadium capsule on the right */
 .hero-capsule-img {
   width: 100%;
-  max-height: 420px;
+  height: 420px;
   object-fit: cover;
   /* Top-left: 0, Top-right: 250px, Bottom-right: 250px, Bottom-left: 0 */
   border-radius: 0 250px 250px 0; 
@@ -406,7 +407,7 @@ html {
 
 /* Padding to give the text column breathing room */
 .hero-text-col {
-  padding: 4rem 4rem 4rem 3rem;
+  padding: 2rem 4rem 2rem 3rem;
   
   @media (max-width: 768px) {
     padding: 2rem 1.5rem; /* Packs tightly on mobile viewports */
@@ -446,3 +447,35 @@ html {
   max-width: 680px;
   margin: 0;
 }
+
+/* CONTACT BANNER UNDER SERVICES PAGE 
+
+/* Full-width dark footer row */
+.footer-banner-dark {
+  background-color: #0f2d4a; /* Matches your corporate deep slate blue */
+  padding: 5rem 0;
+  margin-top: 4rem;          /* Pushes it away from the last service row */
+  margin-bottom: 0;          /* Sits flush at the bottom of the page */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* A reversed pill button style that pops on a dark background */
+.btn-spark-light {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #0f2d4a !important; /* Flips the colors beautifully on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+}
+/* CONTACT BANNER UNDER SERVICES PAGE - end */
