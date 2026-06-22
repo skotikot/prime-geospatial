@@ -5,12 +5,12 @@ page-layout: full
 
 <!-- FLEXBOX HERO BANNER (REPLACES THE GRID) -->
 ::: {.column-screen .hero-banner-flex}
-  
+
 <!-- Left Side Image -->
 ::: {.hero-img-side}
 ![](images/bannerNew.jpg){.hero-capsule-img alt="Geospatial Data Visual"}
 :::
-  
+
 <!-- Right Side Text Container -->
 ::: {.hero-text-side}
 # Bridging the gap between data and discovery with Prime Geospatial
@@ -21,11 +21,9 @@ Geospatial technology provides access to data from layers of site-specific and r
 :::
 
 <!-- HEADER SECTION -->
-
 ::: {.container style="clear: both; display: block; padding-top: 4rem; padding-bottom: 2rem;"}
 <h1 style="font-size: 2.25rem; font-weight: 700; color: #0f2d4a; margin-bottom: 3rem;">&rarr; What We Offer</h1>
 :::
-
 
 <!-- SECTION 1: GEOSPATIAL CONSULTING (Text Left, Image Right) -->
 ::: {.container .grid style="padding-bottom: 6rem; align-items: center;"}

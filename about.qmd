@@ -1,15 +1,35 @@
 ---
 title: ""
+page-layout: full
 ---
 
-:::::: grid
-::: g-col-12
-<h1 style="text-align: center; margin-bottom: 2rem;">
+<!-- FULL VIEW ABOUT US HERO WITH CONCAVE FLANKING IMAGES -->
+::: {.column-screen .about-hero-row}
+::: {.grid style="--bs-gutter-x: 0; align-items: center; margin: 0; padding: 0;"}
 
-Who We Are
-
-</h1>
+<!-- Left Side Image: Concave on the right edge -->
+::: {.g-col-12 .g-col-md-3 .about-img-left}
+![](images/bannerNew.jpg){.about-concave-left alt="Geospatial Fieldwork"}
 :::
+
+<!-- Center Content: Main Heading and About Narrative -->
+::: {.g-col-12 .g-col-md-6 .about-text-center}
+# Who We Are
+
+Prime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.
+:::
+
+<!-- Right Side Image: Concave on the left edge -->
+::: {.g-col-12 .g-col-md-3 .about-img-right}
+![](images/bannerNew.jpg){.about-concave-right alt="Geospatial Analysis"}
+:::
+
+:::
+:::
+
+
+
+:::::: grid
 
 ::: {.g-col-12 .g-col-md-6}
 ### Our Philosophy
@@ -26,27 +46,30 @@ The foundation of Prime Geospatial is built upon years of academic and professio
 
 <br>
 
-## Our Core Competencies
+<!-- CORE COMPETENCIES SECTION -->
+::: {.container style="padding-top: 4rem; padding-bottom: 4rem;"}
 
-:::::: grid
-::: {.g-col-12 .g-col-md-4}
+<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; border-bottom: 1px solid #eaeaea; padding-bottom: 10px;">Our Core Competencies</h2>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .competency-card}
 ### Spatial Data Science
-
 Advanced R and Python workflows for raster analysis and complex data visualization.
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-4 .competency-card}
 ### Ecological Modeling
-
 Theoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.g-col-12 .g-col-md-4 .competency-card}
 ### Statistical Rigor
-
 Expertise in spatial statistics and reproducible research practices to ensure scientific integrity.
 :::
-::::::
+
+:::
+:::
 
 ------------------------------------------------------------------------
 
