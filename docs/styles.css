@@ -112,7 +112,7 @@ font-size: 1.5rem !important; /* Adjust this size as needed */
 font-weight: 700 !important;
 text-transform: uppercase !important;
 letter-spacing: 0.05em !important;
-color: #FFFFFF !important;
+color: #615D6D !important;
 display: flex;       /* Enables flexbox for the brand area */
 align-items: center; /* Vertically centers everything inside */
 padding: 0;          /* Removes default padding that might cause offsets */

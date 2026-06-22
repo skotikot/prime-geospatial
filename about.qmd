@@ -24,7 +24,7 @@ Prime Geospatial was founded to bring rigorous landscape ecology metrics, robust
 
 
 <!-- FULL-WIDTH EXTENDED BACKGROUND SECTION -->
-::: {.column-screen .philosophy-section}
+
 ::: {.container}
 :::::: {.grid style="align-items: stretch; margin: 0;"}
 
@@ -42,11 +42,8 @@ The foundation of Prime Geospatial is built upon years of academic and professio
 
 ::::::
 :::
-:::
 
 
-<!-- STRUCTURAL RESET: Forces the browser out of the full-width breakout layer -->
-<div style="clear: both; width: 100%; display: block;"></div>
 
 
 <!-- CORE COMPETENCIES SECTION -->
