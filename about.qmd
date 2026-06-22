@@ -1,35 +1,31 @@
 ---
 title: ""
 page-layout: full
+toc: false
 ---
 
-<!-- FULL VIEW ABOUT US HERO WITH CONCAVE FLANKING IMAGES -->
-::: {.column-screen .about-hero-row}
-::: {.grid style="--bs-gutter-x: 0; align-items: center; margin: 0; padding: 0;"}
+<!-- FLEXBOX HERO BANNER (REPLACES THE GRID) -->
+::: {.column-screen .hero-banner-flex}
 
-<!-- Left Side Image: Concave on the right edge -->
-::: {.g-col-12 .g-col-md-3 .about-img-left}
-![](images/bannerNew.jpg){.about-concave-left alt="Geospatial Fieldwork"}
+<!-- Left Side Image -->
+::: {.hero-img-side}
+![](images/bannerNew.jpg){.hero-capsule-img alt="Geospatial Data Visual"}
 :::
 
-<!-- Center Content: Main Heading and About Narrative -->
-::: {.g-col-12 .g-col-md-6 .about-text-center}
+<!-- Right Side Text Container -->
+::: {.hero-text-side}
 # Who We Are
 
-Prime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.
-:::
-
-<!-- Right Side Image: Concave on the left edge -->
-::: {.g-col-12 .g-col-md-3 .about-img-right}
-![](images/bannerNew.jpg){.about-concave-right alt="Geospatial Analysis"}
+### Prime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.
 :::
 
 :::
-:::
 
 
 
-:::::: grid
+::: {.philosophy-section}
+::: {.container}
+:::::: {.grid style="align-items: stretch;"}
 
 ::: {.g-col-12 .g-col-md-6}
 ### Our Philosophy
@@ -42,9 +38,12 @@ At Prime Geospatial, our mission is to elevate the standard of spatial data scie
 
 The foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity.
 :::
-::::::
 
-<br>
+::::::
+:::
+:::
+
+
 
 <!-- CORE COMPETENCIES SECTION -->
 ::: {.container style="padding-top: 4rem; padding-bottom: 4rem;"}

@@ -411,7 +411,7 @@ html {
 /* The Masked Capsule Image */
 .hero-capsule-img {
   width: 100%;
-  height: 420px;     /* Locks down the visual height */
+  height: 320px;     /* Locks down the visual height */
   object-fit: cover;
   border-radius: 0 250px 250px 0; /* Smooth stadium curve on the right edge */
   display: block;
@@ -419,7 +419,7 @@ html {
   
   @media (max-width: 768px) {
     border-radius: 0; /* Drops curve on mobile for a clean full-width look */
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -472,9 +472,23 @@ html {
   margin: 0;
 }
 
+/* WHAT WE OFFER TITLE UNDER SERVICES */
+/* Creates a clean break and structural padding below the full-screen hero banner */
+.content-start-section {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
 
+/* Handles the exact typography rules for your section title cleanly */
+.section-main-heading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: #0f2d4a !important;   /* Your deep slate blue */
+  margin-bottom: 3rem !important;
+  margin-top: 0 !important;    /* Prevents default browser margins from pushing it upward */
+}
 
-
+/* WHAT WE OFFER TITLE UNDER SERVICES -END */
 
 
 /* CONTACT BANNER UNDER SERVICES PAGE */ 
@@ -544,3 +558,26 @@ html {
   margin: 0;
 }
 /*CORE COMPETENCIES -ABOUT US PAGE - end */
+
+
+/*PHYLOSOPHY -ABOUT US PAGE - end */
+.philosophy-section {
+  /* Option A: Soft, light gray/blue tint that makes text pop */
+  background-color: #B9CDCE; 
+  
+  /* Option B: If you prefer a very muted version of your brand teal, use this instead: */
+  /* background-color: rgba(42, 90, 92, 0.08); */
+
+  padding: 4rem 0;           /* Generous vertical breathing room top and bottom */
+  margin: 3rem 0;            /* Adds clear space outside the block instead of using <br> tags */
+  width: 100%;
+}
+
+/* Optional: Ensures your h3 headers inside this specific background stand out perfectly */
+.philosophy-section h3 {
+  color: #2A5A5C !important; /* References your primary brand teal */
+  font-weight: 700;
+  margin-top: 0;             /* Prevents default layout shifts */
+  margin-bottom: 1rem;
+}
+/*PHYLOSOPHY -ABOUT US PAGE - end */

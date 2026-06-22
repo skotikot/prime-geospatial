@@ -1,37 +1,52 @@
 
 <h1 style="text-align: center; margin-bottom: 2rem;">Meet the Team</h1>
 
-::: {.grid}
+::: {.people-row}
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
-![](images/Kotikot.jpg){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
+::: {.person-card}
+<img src="images/Kotikot.jpg" class="profile-img" alt="Team Member">
 
-### Susan Kotikot
-
+### Dr. Susan Kotikot
 Principal Investigator
 
-Susan leads our research initiatives with a focus on spatial data science and ecological modeling, driving our technical direction and project strategy.
+::: {.person-social-links}
+<a href="https://www.linkedin.com/in/susankotikot/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+:::
 :::
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
-![](images/Akanga.jpg){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
 
-### Donald Akanga
 
-Senior Geospatial Analyst
+::: {.people-row}
 
-Donald specializes in robust data architecture and geospatial processing, ensuring that every project is built upon a foundation of data integrity.
+::: {.person-card}
+<img src="images/Kotikot.jpg" class="profile-img" alt="Team Member">
+
+### Dr. Donald Akanga
+Principal Investigator2
+
+::: {.person-social-links}
+<a href="https://www.linkedin.com/in/susankotikot/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+:::
 :::
 
-::: {.g-col-12 .g-col-md-4 style="text-align: center;"}
-![](images/Wanyama.jpg){.rounded-circle style="width: 200px; height: 200px; object-fit: cover;"}
 
-### Dan Wanyama
 
-Postdoctoral Researcher
 
-Dan focuses on the intersection of ecological modeling and statistical analysis, helping us turn complex landscape data into actionable insights.
+::: {.people-row}
+
+::: {.person-card}
+<img src="images/Kotikot.jpg" class="profile-img" alt="Team Member">
+
+### Dr. Dan Wanyama
+Principal Investigator3
+
+::: {.person-social-links}
+<a href="https://www.linkedin.com/in/susankotikot/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+:::
 :::
 
+
+
 :::
+
 
