@@ -4,20 +4,21 @@ page-layout: full
 ---
 
 <!-- FLEXBOX HERO BANNER (REPLACES THE GRID) -->
-<div class="column-screen hero-banner-flex">
-  <div class="hero-img-side">
-    <img src="images/bannerNew.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
-  </div>
+::: {.column-screen .hero-banner-flex}
   
-  <div class="hero-text-side">
-    <h1 class="hero-heading">Bridging the gap between data and discovery with Prime Geospatial</h1>
-    <p class="hero-subtext">
-      Geospatial technology provides access to data from layers of site-specific and remote sensing arrays. 
-      We harness this data to bring deep analytical precision to your workflows, combat environmental 
-      fragmentation, and engineer reproducible data pipelines.
-    </p>
-  </div>
-</div>
+<!-- Left Side Image -->
+::: {.hero-img-side}
+![](images/bannerNew.jpg){.hero-capsule-img alt="Geospatial Data Visual"}
+:::
+  
+<!-- Right Side Text Container -->
+::: {.hero-text-side}
+# Bridging the gap between data and discovery with Prime Geospatial
+
+Geospatial technology provides access to data from layers of site-specific and remote sensing arrays. We harness this data to bring deep analytical precision to your workflows, combat environmental fragmentation, and engineer reproducible data pipelines.
+:::
+
+:::
 
 <!-- HEADER SECTION -->
 
