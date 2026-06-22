@@ -564,13 +564,10 @@ html {
 .philosophy-section {
   /* Option A: Soft, light gray/blue tint that makes text pop */
   background-color: #B9CDCE; 
-  
-  /* Option B: If you prefer a very muted version of your brand teal, use this instead: */
-  /* background-color: rgba(42, 90, 92, 0.08); */
-
-  padding: 4rem 0;           /* Generous vertical breathing room top and bottom */
+  padding: 5rem 0;           /* Increased top/bottom padding for an elegant full-screen block look */
   margin: 3rem 0;            /* Adds clear space outside the block instead of using <br> tags */
-  width: 100%;
+  width: 100vw;              /* Forces the block layer to evaluate the literal width of the window viewport */
+  margin-bottom: 0rem;
 }
 
 /* Optional: Ensures your h3 headers inside this specific background stand out perfectly */
@@ -581,3 +578,29 @@ html {
   margin-bottom: 1rem;
 }
 /*PHYLOSOPHY -ABOUT US PAGE - end */
+
+
+/*-TEAM PAGE - SOCIAL MEDIA LINKS */
+/* Target row container layout spacing */
+.person-social-links {
+  display: flex;
+  justify-content: center;   /* Centers the group of icons under the card text */
+  gap: 15px;                 /* Adds clean, uniform spacing between each icon */
+  margin-top: 12px;          /* Separates the icons from the text above it */
+}
+
+/* Individual icon base link adjustments */
+.person-social-links a {
+  font-size: 1.25rem;        /* Scales the icons to match image_9ade8f.png sizing */
+  color: #2A5A5C;            /* Default brand teal color matching your main theme[cite: 1] */
+  text-decoration: none;     /* Strips default line decorations[cite: 1] */
+  transition: color 0.2s ease-in-out, transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Elegant color shift interaction when hovering over an icon */
+.person-social-links a:hover {
+  color: #0f2d4a;            /* Shifts to your deep corporate slate blue on hover */
+  transform: scale(1.1);     /* Adds a micro-interaction popup effect */
+}
+/*-TEAM PAGE - SOCIAL MEDIA LINKS - END */

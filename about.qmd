@@ -23,9 +23,10 @@ toc: false
 
 
 
-::: {.philosophy-section}
+<!-- FULL-WIDTH EXTENDED BACKGROUND SECTION -->
+::: {.column-screen .philosophy-section}
 ::: {.container}
-:::::: {.grid style="align-items: stretch;"}
+:::::: {.grid style="align-items: stretch; margin: 0;"}
 
 ::: {.g-col-12 .g-col-md-6}
 ### Our Philosophy
@@ -46,9 +47,9 @@ The foundation of Prime Geospatial is built upon years of academic and professio
 
 
 <!-- CORE COMPETENCIES SECTION -->
-::: {.container style="padding-top: 4rem; padding-bottom: 4rem;"}
+::: {.container style="padding-top: 1.5rem; padding-bottom: 4rem;"}
 
-<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; border-bottom: 1px solid #eaeaea; padding-bottom: 10px;">Our Core Competencies</h2>
+<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; text-align: center; border-bottom: 1px solid #eaeaea; padding-bottom: 10px;">Our Core Competencies</h2>
 
 ::: {.grid}
 
