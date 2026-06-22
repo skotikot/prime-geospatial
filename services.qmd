@@ -21,6 +21,8 @@ Geospatial technology provides access to data from layers of site-specific and r
 
 :::
 
+<div style="clear: both; width: 100%; display: block;"></div>
+
 <!-- HEADER SECTION -->
 ::: {.column-page .content-start-section}
 
