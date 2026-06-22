@@ -3,92 +3,125 @@ title: ""
 page-layout: full
 ---
 
-::: {.column-screen style="background-color: #ffffff; text-align: center; padding: 5rem 0 3rem 0; border-bottom: 1px solid #eaeaea;"}
-::: {.container}
-<h1 style="font-size: 3rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 1rem; color: #111111;">What We Offer</h1>
-<p style="font-size: 1.25rem; color: #666666; max-width: 600px; margin: 0 auto;">Providing robust spatial strategies, rigorous data engineering, and technical capacity building.</p>
-:::
-:::
+<!-- FULL VIEW HERO BANNER -->
+::: {.column-screen .hero-banner-row}
+::: {.grid style="--bs-gutter-x: 0; align-items: center;"}
 
-::: {.column-screen .service-row-light}
-::: {.container .grid}
-
-::: {.g-col-12 .g-col-md-5}
-<span class="service-num">01</span>
-# Geospatial Consulting
-<a href="geospatial.qmd" class="service-link-main">Explore Strategy &rarr;</a>
+<!-- Left Side: The Capsule Masked Image -->
+::: {.g-col-12 .g-col-md-5 .hero-img-col}
+<img src="images/bannerNew.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
 :::
 
-::: {.g-col-12 .g-col-md-7 .service-description}
-We offer tailored strategies for site-specific and regional environmental challenges. From spatial heterogeneity tracking to setting up resilient project architectures, we align data frameworks with your core technical objectives.
-
-* **Strategic Planning:** Evaluating project stacks and spatial scaling constraints.
-* **Landscape Strategy:** Designing resilient spatial approaches for complex ecosystems.
+<!-- Right Side: Header Typography -->
+::: {.g-col-12 .g-col-md-7 .hero-text-col}
+<span class="hero-tag">Services</span>
+<h1 class="hero-heading">Unlock the power of location with Prime Geospatial</h1>
+<p class="hero-subtext">
+  Geospatial technology provides access to data from layers of site-specific and remote sensing arrays. 
+  We harness this data to bring deep analytical precision to your workflows, combat environmental 
+  fragmentation, and engineer reproducible data pipelines.
+</p>
 :::
 
 :::
 :::
 
-::: {.column-screen .service-row-dark}
-::: {.container .grid}
-
-::: {.g-col-12 .g-col-md-5}
-<span class="service-num" style="color: #666;">02</span>
-# Data Cleaning & Preprocessing
-<a href="data-cleaning.qmd" class="service-link-main" style="color: #ffffff; border-bottom-color: #ffffff;">Explore Data Pipelines &rarr;</a>
+<!-- HEADER SECTION -->
+::: {.container style="padding-top: 4rem; padding-bottom: 2rem;"}
+<h1 style="font-size: 2.25rem; font-weight: 700; color: #0f2d4a; margin-bottom: 3rem;">&rarr; What We Offer</h1>
 :::
 
-::: {.g-col-12 .g-col-md-7 .service-description}
-Spatial data is only as good as its foundation. We build automated QA/QC workflows to fix messy coordinates, handle projection shifts, validate topology, and ensure your datasets are completely robust and analysis-ready.
+<!-- SECTION 1: GEOSPATIAL CONSULTING (Text Left, Image Right) -->
+::: {.container .grid style="padding-bottom: 6rem; align-items: center;"}
 
-* **Pipeline Engineering:** Reproducible scripts that transform messy raw field data into clean layers.
-* **Quality Assurance:** Rigorous data dictionaries, metadata compiling, and structural validation.
+::: {.g-col-12 .g-col-md-6}
+<h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Geospatial Consulting</h2>
+
+<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">We offer tailored strategies for site-specific and regional environmental challenges. From spatial heterogeneity tracking to setting up resilient project architectures, we align data frameworks with your core technical objectives.</p>
+
+::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
+* Strategic Planning: Evaluating project stacks and spatial scaling constraints.
+* Landscape Strategy: Designing resilient spatial approaches for complex ecosystems.
 :::
 
-:::
-:::
-
-::: {.column-screen .service-row-light}
-::: {.container .grid}
-
-::: {.g-col-12 .g-col-md-5}
-<span class="service-num">03</span>
-# Analytical Support
-<a href="analytical-support.qmd" class="service-link-main">Explore Analytics &rarr;</a>
+<a href="geospatial.qmd" class="btn-spark">Learn More</a>
 :::
 
-::: {.g-col-12 .g-col-md-7 .service-description}
-Beyond data preparation, we offer deep-dive analytical services for specialized research. We execute advanced spatial statistics, landscape metrics modeling, and predictive distributions to uncover critical ecological and structural trends.
-
-* **Advanced Modeling:** Quantifying fragmentation, connectivity, and suitability metrics.
-* **Insights & Synthesis:** Transforming high-density spatial arrays into clear, reportable insights.
+::: {.g-col-12 .g-col-md-6}
+<img src="images/GeospatialConsulting.png" class="img-fluid spark-card-img" alt="Geospatial Consulting">
 :::
 
 :::
+
+<!-- SECTION 2: DATA CLEANING (Image Left, Text Right) -->
+::: {.container .grid style="padding-bottom: 6rem; align-items: center;"}
+
+<!-- This column uses order utilities so that on mobile text stays on top, but on desktop it moves right -->
+::: {.g-col-12 .g-col-md-6 .order-last .order-md-first}
+<img src="images/DataCleaning.png" class="img-fluid spark-card-img" alt="Data Cleaning & Preprocessing">
 :::
 
-::: {.column-screen .service-row-dark}
-::: {.container .grid}
+::: {.g-col-12 .g-col-md-6}
+<h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Data Cleaning & Preprocessing</h2>
 
-::: {.g-col-12 .g-col-md-5}
-<span class="service-num" style="color: #666;">04</span>
-# Professional Training & Capacity Building
-<a href="training-capacity-building.qmd" class="service-link-main" style="color: #ffffff; border-bottom-color: #ffffff;">Explore Training &rarr;</a>
+<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">Spatial data is only as good as its foundation. We build automated QA/QC workflows to fix messy coordinates, handle projection shifts, validate topology, and ensure your datasets are completely robust and analysis-ready.</p>
+
+::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
+* Pipeline Engineering: Reproducible scripts that transform messy raw field data into clean layers.
+* Quality Assurance: Rigorous data dictionaries, metadata compiling, and structural validation.
 :::
 
-::: {.g-col-12 .g-col-md-7 .service-description}
-We empower your team to handle complex spatial challenges with confidence. Through targeted workshops and curated technical materials, we help transfer advanced spatial skills directly to your internal workflows.
-
-* **Workgroup Enablement:** Custom training modules covering modern open-source GIS stacks.
-* **Reproducible Practices:** Hands-on instruction in version-controlled workflows and reporting.
+<a href="data-cleaning.qmd" class="btn-spark">Learn More</a>
 :::
 
 :::
+
+<!-- SECTION 3: ANALYTICAL SUPPORT (Text Left, Image Right) -->
+::: {.container .grid style="padding-bottom: 6rem; align-items: center;"}
+
+::: {.g-col-12 .g-col-md-6}
+<h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Analytical Support</h2>
+
+<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">Beyond data preparation, we offer deep-dive analytical services for specialized research. We execute advanced spatial statistics, landscape metrics modeling, and predictive distributions to uncover critical ecological and structural trends.</p>
+
+::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
+* Advanced Modeling: Quantifying fragmentation, connectivity, and suitability metrics.
+* Insights & Synthesis: Transforming high-density spatial arrays into clear, reportable insights.
 :::
 
-::: {.column-screen style="background-color: #ffffff; text-align: center; padding: 6rem 0; border-top: 1px solid #eaeaea;"}
-::: {.container}
-<h2 style="font-weight: 700; margin-bottom: 1.5rem;">Ready to collaborate on your spatial data goals?</h2>
-<a href="contact.qmd" class="btn-consultancy">Get In Touch</a>
+<a href="analytical-support.qmd" class="btn-spark">Learn More</a>
 :::
+
+::: {.g-col-12 .g-col-md-6}
+<img src="images/AnalyticalSupport.png" class="img-fluid spark-card-img" alt="Analytical Support">
+:::
+
+:::
+
+<!-- SECTION 4: PROFESSIONAL TRAINING (Image Left, Text Right) -->
+::: {.container .grid style="padding-bottom: 6rem; align-items: center;"}
+
+::: {.g-col-12 .g-col-md-6 .order-last .order-md-first}
+<img src="images/Training.png" class="img-fluid spark-card-img" alt="Professional Training & Capacity Building">
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Professional Training & Capacity Building</h2>
+
+<p style="font-size: 1.05rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 1.5rem;">We empower your team to handle complex spatial challenges with confidence. Through targeted workshops and curated technical materials, we help transfer advanced spatial skills directly to your internal workflows.</p>
+
+::: {.service-list style="font-size: 1rem; line-height: 1.6; color: #5a6b7c; margin-bottom: 2rem;"}
+* Workgroup Enablement: Custom training modules covering modern open-source GIS stacks.
+* Reproducible Practices: Hands-on instruction in version-controlled workflows and reporting.
+:::
+
+<a href="training-capacity-building.qmd" class="btn-spark">Learn More</a>
+:::
+
+:::
+
+<!-- CONTACT FOOTER -->
+::: {.container style="text-align: center; padding: 4rem 0; border-top: 1px solid #eaeaea;"}
+<h3 style="font-weight: 600; margin-bottom: 1.5rem; color: #0f2d4a;">Have a specific project in mind?</h3>
+<a href="contact.qmd" class="btn-spark" style="padding: 0.75rem 3rem;">Get in Touch</a>
 :::
