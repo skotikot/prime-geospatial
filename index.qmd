@@ -17,6 +17,8 @@ page-layout: custom
 
 </header>
 
+:::::::::::: {.page-columns .page-full}
+::::::::::: column-page
 
 At Prime Geospatial, we bridge the gap between complex spatial data and actionable decision-making. We specialize in transforming raw environmental and geographic information into clear, reliable insights that drive sustainable progress.
 
@@ -87,3 +89,7 @@ Beyond data preparation, we offer deep-dive analytical services for specialized 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="contact.qmd" class="btn btn-primary">Contact Us</a>
 </div>
+
+
+:::::::::::
+::::::::::::
