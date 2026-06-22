@@ -21,7 +21,7 @@ Geospatial technology provides access to data from layers of site-specific and r
 
 :::
 
-<div style="clear: both; width: 100%; display: block;"></div>
+
 
 <!-- HEADER SECTION -->
 ::: {.column-page .content-start-section}
@@ -30,8 +30,11 @@ Geospatial technology provides access to data from layers of site-specific and r
 
 :::
 
+
+::: {.page-columns .page-full}
+
 <!-- SECTION 1: GEOSPATIAL CONSULTING (Text Left, Image Right) -->
-::: {.container .grid style="padding-bottom: 2rem; margin-top: -1.5rem; align-items: center;"}
+::: {.column-page .grid style="padding-bottom: 2rem; margin-top: -1.5rem; align-items: center;"}
 
 ::: {.g-col-12 .g-col-md-6}
 <h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Geospatial Consulting</h2>
@@ -54,7 +57,7 @@ Geospatial technology provides access to data from layers of site-specific and r
 :::
 
 <!-- SECTION 2: DATA CLEANING (Image Left, Text Right) -->
-::: {.container .grid style="padding-bottom: 2rem; align-items: center;"}
+::: {.column-page .grid style="padding-bottom: 2rem; align-items: center;"}
 
 <!-- This column uses order utilities so that on mobile text stays on top, but on desktop it moves right -->
 ::: {.g-col-12 .g-col-md-6 .order-last .order-md-first}
@@ -79,7 +82,7 @@ Geospatial technology provides access to data from layers of site-specific and r
 :::
 
 <!-- SECTION 3: ANALYTICAL SUPPORT (Text Left, Image Right) -->
-::: {.container .grid style="padding-bottom: 2rem; align-items: center;"}
+::: {.column-page .grid style="padding-bottom: 2rem; align-items: center;"}
 
 ::: {.g-col-12 .g-col-md-6}
 <h2 style="font-size: 1.75rem; font-weight: 700; text-transform: uppercase; color: #000000; letter-spacing: -0.5px; margin-bottom: 1.5rem;">Analytical Support</h2>
@@ -103,7 +106,7 @@ Geospatial technology provides access to data from layers of site-specific and r
 :::
 
 <!-- SECTION 4: PROFESSIONAL TRAINING (Image Left, Text Right) -->
-::: {.container .grid style="padding-bottom: 2rem; align-items: center;"}
+::: {.column-page .grid style="padding-bottom: 2rem; align-items: center;"}
 
 ::: {.g-col-12 .g-col-md-6 .order-last .order-md-first}
 <img src="images/Training.png" class="img-fluid spark-card-img" alt="Professional Training & Capacity Building">
@@ -122,6 +125,8 @@ Geospatial technology provides access to data from layers of site-specific and r
 :::
 
 <a href="training-capacity-building.qmd" class="btn-spark">Learn More</a>
+:::
+
 :::
 
 :::
