@@ -3,27 +3,25 @@ title: ""
 page-layout: full
 ---
 
-<!-- FULL VIEW HERO BANNER WITH INSTANT HEIGHT LOCK -->
-::: {.column-screen .hero-banner-row style="padding: 0; margin-top: 0; margin-bottom: 3rem; overflow: hidden; clear: both;"}
-::: {.grid style="--bs-gutter-x: 0; align-items: center; margin: 0; padding: 0;"}
+<!-- FLEXBOX HERO BANNER (REPLACES THE GRID) -->
+<div class="column-screen hero-banner-flex">
+  
+  <!-- Left Side Image -->
+  <div class="hero-img-side">
+    <img src="images/bannerNew.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
+  </div>
+  
+  <!-- Right Side Text Container -->
+  <div class="hero-text-side">
+    <h1 class="hero-heading">Bridging the gap between data and discovery with Prime Geospatial</h1>
+    <p class="hero-subtext">
+      Geospatial technology provides access to data from layers of site-specific and remote sensing arrays. 
+      We harness this data to bring deep analytical precision to your workflows, combat environmental 
+      fragmentation, and engineer reproducible data pipelines.
+    </p>
+  </div>
 
-<!-- Left Side: The Capsule Masked Image -->
-::: {.g-col-12 .g-col-md-5 .hero-img-col style="padding: 0; margin: 0; display: flex;"}
-<img src="images/bannerNew.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
-:::
-
-<!-- Right Side: Header Typography -->
-::: {.g-col-12 .g-col-md-7 .hero-text-col}
-<h1 class="hero-heading">Bridging the gap between data and discovery with Prime Geospatial</h1>
-<p class="hero-subtext">
-  Geospatial technology provides access to data from layers of site-specific and remote sensing arrays. 
-  We harness this data to bring deep analytical precision to your workflows, combat environmental 
-  fragmentation, and engineer reproducible data pipelines.
-</p>
-:::
-
-:::
-:::
+</div>
 
 <!-- HEADER SECTION -->
 
