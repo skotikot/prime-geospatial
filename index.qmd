@@ -31,8 +31,9 @@ From robust data architecture and rigorous statistical analysis to expert-led pr
 
 ::: {.grid}
 
+
 <!-- Row 1 -->
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+::: {.g-col-6 .g-col-lg-3 style="text-align: center;"}
 <a href="geospatial.qmd">
   <img src="images/GeospatialConsulting.png"
        class="rounded-circle"
@@ -45,7 +46,7 @@ We offer tailored strategies for site-specific and regional environmental challe
 
 :::
 
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+::: {.g-col-6 .g-col-lg-3 style="text-align: center;"}
 <a href="datacleaning.qmd">
   <img src="images/DataCleaning.png"
        class="rounded-circle"
@@ -58,7 +59,7 @@ Spatial data is only as good as its foundation. We ensure your datasets are robu
 :::
 
 <!-- Row 2 -->
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+::: {.g-col-6 .g-col-lg-3 style="text-align: center;"}
 <a href="training-capacity-building.qmd">
   <img src="images/Training.png"
        class="rounded-circle"
@@ -70,7 +71,7 @@ Spatial data is only as good as its foundation. We ensure your datasets are robu
 We empower your team to handle complex spatial challenges with confidence.
 :::
 
-::: {.g-col-12 .g-col-md-6 style="text-align: center;"}
+::: {.g-col-6 .g-col-lg-3 style="text-align: center;"}
 <a href="analytical-support.qmd">
   <img src="images/AnalyticalSupport.png"
        class="rounded-circle"
