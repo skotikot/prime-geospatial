@@ -9,7 +9,7 @@ page-layout: full
 
 <!-- Left Side: The Capsule Masked Image -->
 ::: {.g-col-12 .g-col-md-5 .hero-img-col style="padding: 0; margin: 0; display: flex;"}
-<img src="images/your-satellite-or-landscape.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
+<img src="images/bannerNew.jpg" class="hero-capsule-img" alt="Geospatial Data Visual">
 :::
 
 <!-- Right Side: Header Typography -->
