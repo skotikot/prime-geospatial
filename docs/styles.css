@@ -564,8 +564,8 @@ html {
 .philosophy-section {
   /* Option A: Soft, light gray/blue tint that makes text pop */
   background-color: #B9CDCE; 
-  padding: 5rem 0;           /* Increased top/bottom padding for an elegant full-screen block look */
-  margin: 3rem 0;            /* Adds clear space outside the block instead of using <br> tags */
+  padding: 2rem 0;           /* Increased top/bottom padding for an elegant full-screen block look */
+  margin: 2rem 0;            /* Adds clear space outside the block instead of using <br> tags */
   width: 100vw;              /* Forces the block layer to evaluate the literal width of the window viewport */
   margin-bottom: 0rem;
 }
