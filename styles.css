@@ -627,3 +627,29 @@ html {
   transform: scale(1.1);     /* Adds a micro-interaction popup effect */
 }
 /*-TEAM PAGE - SOCIAL MEDIA LINKS - END */
+
+
+/*COMPETENCY CARDS*/
+/* Stretches the image to the card's width and keeps a clean aspect ratio */
+.competency-card-img {
+  width: 100%;
+  height: 180px;            /* Fixed vertical height for consistency across card grids */
+  object-fit: cover;        /* Crops perfectly without distorting the imagery */
+  border-top-left-radius: 6px;  /* Optional: rounds top corners to match your card style */
+  border-top-right-radius: 6px;
+  margin-bottom: 1.25rem;   /* Clean breathing room right above the header text */
+}
+
+/* Gives the card internal text a bit of breathing padding away from the edge */
+.competency-card h3, 
+.competency-card p {
+  padding: 0 1rem;          
+}
+
+.competency-card p {
+  color: #5a6b7c;           /* Muted editorial gray text */
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;   /* Ensures padding consistency at the bottom of the card */
+}
+/*COMPETENCY CARDS - END */
