@@ -383,7 +383,7 @@ html {
 /* HERO BANNER FLEX*/
 /* The Main Parent Container */
 .hero-banner-flex {
-  background-color: #eaf0f9; /* Soft corporate blue/gray background tint */
+  background-color: #D6E4E5; /* Soft corporate blue/gray background tint */
   display: flex;
   flex-direction: row;       /* Sits image and text side-by-side */
   align-items: center;       /* Centers the text vertically next to the image */
@@ -434,6 +434,14 @@ html {
   }
 }
 
+/* Targets the paragraph text specifically inside the right side of the hero banner */
+.hero-text-side p {
+  color: #4D8385 !important;       /* Clean, high-contrast off-white */
+  font-size: 2rem;              /* Optional: keeps it slightly readable and sharp */
+  line-height: 1.6;                /* Elegant line breathing room */
+  opacity: 0.95;                   /* Optional: slightly softens the text so it looks premium */
+}
+
 /* Padding to give the text column breathing room */
 .hero-text-col {
   padding: 2rem 4rem 2rem 3rem;
@@ -475,7 +483,7 @@ html {
 /* WHAT WE OFFER TITLE UNDER SERVICES */
 /* Creates a clean break and structural padding below the full-screen hero banner */
 .content-start-section {
-  padding-top: 5rem;
+  padding-top: 1.5rem;
   padding-bottom: 2rem;
 }
 
@@ -483,8 +491,8 @@ html {
 .section-main-heading {
   font-size: 2.25rem !important;
   font-weight: 700 !important;
-  color: #0f2d4a !important;   /* Your deep slate blue */
-  margin-bottom: 3rem !important;
+  color: #615D6D !important;   /* Your deep slate blue */
+  margin-bottom: 1rem !important;
   margin-top: 0 !important;    /* Prevents default browser margins from pushing it upward */
 }
 
@@ -495,11 +503,18 @@ html {
 
 /* Full-width dark footer row */
 .footer-banner-dark {
-  background-color: #0f2d4a; /* Matches your corporate deep slate blue */
-  padding: 5rem 0;
-  margin-top: 4rem;          /* Pushes it away from the last service row */
+  background-color: #B9CDCE; /* Matches your corporate deep slate blue */
+  padding: 1.5rem 0;
+  margin-top: 2rem;          /* Pushes it away from the last service row */
   margin-bottom: 0;          /* Sits flush at the bottom of the page */
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100vw;
+}
+
+.footer-banner-dark h3 {
+  color: #F8F9FA !important;
+  margin-top: 0 !important;      /* Prevents default browser spacing from blowing up the height */
+  margin-bottom: 1rem !important; /* Keeps a tight, clean gap right above your contact button */
 }
 
 /* A reversed pill button style that pops on a dark background */
