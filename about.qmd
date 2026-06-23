@@ -24,6 +24,7 @@ Prime Geospatial was founded to bring rigorous landscape ecology metrics, robust
 
 
 ::: {.page-columns .page-full}
+
 :::::: {.column-page .grid style="align-items: stretch; margin: 0;"}
 
 ::: {.g-col-12 .g-col-md-6}
@@ -39,6 +40,31 @@ The foundation of Prime Geospatial is built upon years of academic and professio
 :::
 
 ::::::
+
+
+
+
+<!-- CORE COMPETENCIES SECTION -->
+::: {.column-page .grid style="padding-top: 1.5rem; padding-bottom: 4rem;"}
+
+<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; text-align: center; padding-bottom: 10px;">Our Core Competencies</h2>
+
+
+::: {.g-col-12 .g-col-md-4 .competency-card}
+### Spatial Data Science
+Advanced R and Python workflows for raster analysis and complex data visualization.
 :::
 
+::: {.g-col-12 .g-col-md-4 .competency-card}
+### Ecological Modeling
+Theoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.
+:::
 
+::: {.g-col-12 .g-col-md-4 .competency-card}
+### Statistical Rigor
+Expertise in spatial statistics and reproducible research practices to ensure scientific integrity.
+:::
+
+:::
+
+:::
