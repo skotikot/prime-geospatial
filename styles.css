@@ -695,3 +695,15 @@ footer.footer .nav-footer-left {
   order: 2 !important;
 }
 /* FOOTER style - END */
+
+/* FLOOTING CONTACT CARD */
+.floating-contact-card {
+  background-color: #your-brand-color; /* Use your existing footer color here */
+  padding: 3rem;
+  border-radius: 1.5rem; /* Makes it rounded */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Gives it the 'floating' depth */
+  text-align: center;
+  max-width: 800px; /* Limits the width so it doesn't stretch too far */
+  width: 100%;
+}
+/* FLOOTING CONTACT CARD - END */

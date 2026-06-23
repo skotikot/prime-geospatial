@@ -44,8 +44,6 @@ website:
         href: https://github.com/skotikot
       - icon: linkedin
         href: https://www.linkedin.com/in/susankotikot/
-      - icon: chat-left-text
-        href: contact.qmd
 
 format:
   html:
