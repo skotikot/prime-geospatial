@@ -9,7 +9,7 @@ toc: false
 
 <!-- Left Side Image -->
 ::: {.hero-img-side}
-![](images/bannerNew.jpg){.hero-capsule-img alt="Geospatial Data Visual"}
+![](images/messyData.png){.hero-capsule-img alt="Geospatial Data Visual"}
 :::
 
 <!-- Right Side Text Container -->
@@ -53,20 +53,26 @@ The foundation of Prime Geospatial is built upon years of academic and professio
 
 ::: {.g-col-12 .g-col-md-4 .competency-card}
 <img src="images/spatial-science.png" class="img-fluid competency-card-img" alt="Spatial Data Science">
+
 ### Spatial Data Science
+
 Advanced R and Python workflows for raster analysis and complex data visualization.
 :::
 
 ::: {.g-col-12 .g-col-md-4 .competency-card}
 <img src="images/ecological-modeling.png" class="img-fluid competency-card-img" alt="Ecological Modeling">
+
 ### Ecological Modeling
+
 Theoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.
 :::
 
 ::: {.g-col-12 .g-col-md-4 .competency-card}
 <img src="images/statistical-rigor.png" class="img-fluid competency-card-img" alt="Statistical Rigor">
+
 ### Statistical Rigor
-Expertise in spatial statistics and reproducible research practices to ensure scientific integrity.
+
+<p>Expertise in spatial statistics and reproducible research practices to ensure scientific integrity.</p>
 :::
 
 :::
