@@ -131,12 +131,8 @@ Geospatial technology provides access to data from layers of site-specific and r
 
 :::
 
-<!-- FLOATING CONTACT CARD -->
-<div style="display: flex; justify-content: center; padding: 2rem 1rem;">
-  <div class="floating-contact-card">
-    <h3 style="font-weight: 600; margin-bottom: 1.5rem; color: #ffffff;">Have a specific project in mind?</h3>
-    <a href="contact.qmd" class="btn-spark-light" style="padding: 0.75rem 3rem;">Contact Us</a>
-  </div>
-  
-  
-</div>
+::: {.g-col-12 .g-col-md-6 .floating-contact-card}
+<h3 style="font-weight: 600; margin-bottom: 1.5rem; color: #ffffff;">Have a specific project in mind?</h3>
+<a href="contact.qmd" class="btn-spark-light" style="padding: 0.75rem 3rem;">Contact Us</a>
+:::
+
