@@ -521,7 +521,7 @@ html {
 }
 
 .footer-banner-dark h3 {
-  color: #F8F9FA !important;
+  color: #615D6D !important;
   margin-top: 0 !important;      /* Prevents default browser spacing from blowing up the height */
   margin-bottom: 1rem !important; /* Keeps a tight, clean gap right above your contact button */
 }
@@ -654,3 +654,44 @@ html {
   margin-bottom: 1.25rem;   /* Ensures padding consistency at the bottom of the card */
 }
 /*COMPETENCY CARDS - END */
+
+/* FOOTER style */
+/* Targets the social icons built inside the Quarto footer architecture */
+footer.footer .nav-footer-right a,
+footer.footer .nav-footer-center a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;   /* Match the dark gray background circles */
+  color: #ffffff !important;   /* Forces white icons */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;          /* Makes them perfectly circular */
+  margin: 0 6px;               /* Adds breathing room between individual circles */
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Elegant subtle hover interaction */
+footer.footer .nav-footer-right a:hover {
+  background-color: #2A5A5C;   /* Changes to your primary brand teal on hover! */
+  transform: translateY(-2px); /* Slight lifting animation */
+}
+
+/* Forces the footer sections to stack and center perfectly on the page */
+footer.footer .nav-footer {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1rem;
+}
+
+/* Re-orders the elements so icons sit gracefully on top of the copyright text */
+footer.footer .nav-footer-right {
+  order: 1 !important;
+}
+
+footer.footer .nav-footer-left {
+  order: 2 !important;
+}
+/* FOOTER style - END */
