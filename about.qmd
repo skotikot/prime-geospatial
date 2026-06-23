@@ -22,24 +22,9 @@ Prime Geospatial was founded to bring rigorous landscape ecology metrics, robust
 :::
 
 
-:::::: grid
 
-::: {.g-col-12 .g-col-md-6}
-### Our Philosophy
-
-At Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.
-:::
-
-::: {.g-col-12 .g-col-md-6}
-### Technical Foundation
-
-The foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity.
-:::
-::::::
-
-
-<!-- FULL-WIDTH EXTENDED BACKGROUND SECTION -->
-:::::: {.grid style="align-items: stretch; margin: 0;"}
+::: {.page-columns .page-full}
+:::::: {.column-page .grid style="align-items: stretch; margin: 0;"}
 
 ::: {.g-col-12 .g-col-md-6}
 ### Our Philosophy
@@ -54,6 +39,6 @@ The foundation of Prime Geospatial is built upon years of academic and professio
 :::
 
 ::::::
-
+:::
 
 
