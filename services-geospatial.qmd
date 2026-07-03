@@ -62,7 +62,11 @@ We build and audit measurement-reporting-verification pipelines — biomass esti
 :::
 :::
 
-::: {.eg-layer-meta}
+::: {.eg-layer-media}
+![](images/DataCleaning.png){.eg-layer-img alt="Tsavo–Kasigau landscape"}
+:::
+
+<!--::: {.eg-layer-meta}
 [Who it's for]{.eg-tag-label}
 
 [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}
@@ -71,7 +75,8 @@ We build and audit measurement-reporting-verification pipelines — biomass esti
 02°10'S 38°04'E\
 Illustrative anchor: Tsavo–Kasigau region
 :::
-:::
+:::-->
+
 :::
 :::
 

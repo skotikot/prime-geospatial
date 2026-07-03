@@ -948,6 +948,19 @@ main.content:has(.eg-page),
 }
 .eg-footer-inner > p{ margin:0; }
 
+.eg-layer-media {
+  margin-top: 1.5rem;
+  overflow: hidden;
+  border-radius: 8px; /* Optional: matches the card styling */
+}
+
+.eg-layer-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
 /* ================================================================
    END EQUATOR GEOSPATIAL SERVICES PAGE STYLES
    ================================================================ */
