@@ -828,6 +828,14 @@ main.content:has(.eg-page),
 
 .eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }
 
+.h1-style {
+  font-size:clamp(2.1rem, 4.6vw, 3.4rem); /* Or whatever your h1 size is */
+  font-weight: bold;
+  max-width:none; 
+  margin-bottom:22px;
+  /* Add other styles here */
+}
+
 .eg-lede{ max-width:70ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
 
 .eg-hero-ctas{ margin-bottom:56px; }
