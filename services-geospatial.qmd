@@ -14,9 +14,7 @@ format:
 ::: {.eg-wrap}
 <!-- [Geospatial Data Science · East Africa]{.eg-eyebrow} -->
 
-<!-- Use a div or span instead of a Markdown header # -->
-<div class="h1-style">Evidence, not estimates, for how landscapes are changing.</div>
-
+## Evidence, not estimates, for how landscapes are changing.
 
 ::: {.eg-lede}
 We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?
