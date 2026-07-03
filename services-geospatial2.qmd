@@ -52,34 +52,31 @@ Each service reads like a layer in a GIS project — independently useful, and s
 :::
 
 ::: {.eg-layer-body}
-  <!-- New Flex Wrapper -->
-  ::: {.eg-layer-content-wrapper}
-    
-    <!-- Left: Main Text -->
-    ::: {.eg-layer-main}
-      ### Digital MRV & Carbon Verification
-      [Independent, satellite-grounded MRV for carbon and biodiversity credit projects]{.eg-layer-one-liner .eg-l1}
-      ::: {.eg-layer-desc}
-      We build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.
-      :::
-    :::
+::: {.eg-layer-main}
+### Digital MRV & Carbon Verification
 
-    <!-- Right: Image -->
-    ::: {.eg-layer-visual}
-      ![](images/DataCleaning.png){.eg-layer-img}
-    :::
+[Independent, satellite-grounded MRV for carbon and biodiversity credit projects]{.eg-layer-one-liner .eg-l1}
 
-  :::
+::: {.eg-layer-desc}
+We build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.
+:::
+:::
 
-  <!-- Bottom: Metadata (Retained) -->
-  ::: {.eg-layer-meta}
-    [Who it's for]{.eg-tag-label}
-    [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}
-    
-    ::: {.eg-layer-coord}
-    02°10'S 38°04'E | Tsavo–Kasigau region
-    :::
-  :::
+::: {.eg-layer-media}
+![](images/DataCleaning.png){.eg-layer-img alt="Tsavo–Kasigau landscape"}
+:::
+
+<!--::: {.eg-layer-meta}
+[Who it's for]{.eg-tag-label}
+
+[Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}
+
+::: {.eg-layer-coord}
+02°10'S 38°04'E\
+Illustrative anchor: Tsavo–Kasigau region
+:::
+:::-->
+
 :::
 :::
 
