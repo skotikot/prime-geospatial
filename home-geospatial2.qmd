@@ -22,12 +22,11 @@ toc: false
 :::
 
 ::: {.eg-wrap}
-[Geospatial Data Science · East Africa]{.eg-eyebrow}
 
-# Independent geospatial science for East Africa's land, climate, and conservation decisions.
+# Prime Geospatial
 
 ::: {.eg-lede}
-Equator Geospatial is a Nairobi-based consultancy combining remote sensing, ecological modeling, and social-ecological systems research — built for donors, conservancies, and governments who need land-use and climate claims to hold up to scrutiny.
+Bridging the Gap Between Data and Discovery
 :::
 
 ::: {.eg-hero-ctas}
