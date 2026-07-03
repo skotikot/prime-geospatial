@@ -385,7 +385,8 @@ html {
   background-color: #D6E4E5; /* Soft corporate blue/gray background tint */
   display: flex;
   flex-direction: row;       /* Sits image and text side-by-side */
-  align-items: center;       /* Centers the text vertically next to the image */
+  /*align-items: center;        Centers the text vertically next to the image */
+  align-items: stretch; /* Stretch allows both sides to match heights */
   justify-content: flex-start;
   width: 100%;
   clear: both;
@@ -741,3 +742,204 @@ footer.footer .nav-footer-left {
   }
 }
 /*Ensure Mobile Responsiveness - end */
+
+
+/* ================================================================
+   EQUATOR GEOSPATIAL SERVICES PAGE — scoped styles
+   Everything below is scoped under the .eg-page wrapper class, so it
+   only affects the new services page and never touches the rest of
+   the site (navbar, footer, other pages, etc).
+   ================================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+.eg-page{
+  --eg-paper: #EEF0E6;
+  --eg-paper-deep: #E2E4D4;
+  --eg-ink: #1B211D;
+  --eg-ink-soft: #4A5049;
+  --eg-line: #C7C2A9;
+  --eg-canopy: #2E4B32;
+  --eg-ochre: #A97A3D;
+  --eg-teal: #3D6B78;
+  --eg-plum: #7A6584;
+  --eg-rust: #A24E3B;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--eg-ink);
+  background: var(--eg-paper);
+}
+.eg-page, .eg-page *{ box-sizing: border-box; }
+.eg-page p{ margin-bottom: 1em; }
+.eg-page p:last-child{ margin-bottom: 0; }
+.eg-page h1, .eg-page h2, .eg-page h3{
+  font-family:'Space Grotesk', sans-serif;
+  font-weight:600;
+  color: var(--eg-ink);
+  margin-top:0;
+}
+
+/* Let this page's full-bleed sections escape Quarto's default content
+   container width — scoped with :has() so no other page is affected. */
+#quarto-content:has(.eg-page),
+main.content:has(.eg-page),
+#quarto-document-content:has(.eg-page){
+  padding:0 !important; margin:0 !important; max-width:none !important;
+}
+#quarto-content.page-columns:has(.eg-page){
+  display:block; grid-template-columns:none;
+}
+
+.eg-wrap{ max-width:1120px; margin:0 auto; padding:0 32px; }
+
+/* ---------- HERO ---------- */
+.eg-hero{
+  position:relative; overflow:hidden;
+  padding:90px 0 70px;
+  border-bottom:1px solid var(--eg-line);
+}
+.eg-hero > .eg-wrap{ position:relative; z-index:2; }
+
+.eg-hero::before{
+  content:''; position:absolute; inset:0; z-index:1; pointer-events:none;
+  opacity:0.4;
+  background-image:
+    repeating-radial-gradient(circle at 12% 15%, transparent 0 16px, var(--eg-line) 16px 17px, transparent 17px 38px),
+    repeating-radial-gradient(circle at 90% 75%, transparent 0 20px, var(--eg-line) 20px 21px, transparent 21px 46px);
+}
+.eg-hero::after{
+  content:''; position:absolute; left:0; right:0; height:1px; z-index:1;
+  background:linear-gradient(90deg, transparent, var(--eg-canopy), transparent);
+  opacity:0.5;
+  animation: eg-scan 9s linear infinite;
+}
+@keyframes eg-scan{ 0%{ top:0%; } 100%{ top:100%; } }
+@media(prefers-reduced-motion: reduce){ .eg-hero::after{ animation:none; display:none; } }
+
+.eg-eyebrow{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.75rem; letter-spacing:0.12em; color:var(--eg-canopy);
+  text-transform:uppercase; display:inline-flex; align-items:center; gap:10px;
+  margin-bottom:18px;
+}
+.eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
+
+.eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:14ch; margin-bottom:22px; }
+
+.eg-lede{ max-width:56ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
+
+.eg-hero-ctas{ margin-bottom:56px; }
+.eg-btn{
+  font-family:'IBM Plex Mono', monospace; font-size:0.82rem;
+  padding:13px 22px; text-decoration:none; letter-spacing:0.02em;
+  border:1px solid var(--eg-ink); transition:all .2s;
+  display:inline-block; margin:0 14px 12px 0; border-radius:0;
+}
+.eg-btn-solid{ background:var(--eg-ink); color:var(--eg-paper); }
+.eg-btn-solid:hover{ background:var(--eg-canopy); border-color:var(--eg-canopy); color:var(--eg-paper); }
+.eg-btn-outline{ background:transparent; color:var(--eg-ink); }
+.eg-btn-outline:hover{ background:var(--eg-ink); color:var(--eg-paper); }
+
+.eg-city-strip{
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem;
+  color:var(--eg-ink-soft); border-top:1px solid var(--eg-line); padding-top:18px;
+  letter-spacing:0.03em;
+}
+
+/* ---------- SECTION HEADERS ---------- */
+.eg-section{ padding:80px 0; }
+.eg-sec-head{ margin-bottom:44px; max-width:60ch; }
+.eg-sec-head h2{ font-size:clamp(1.6rem, 3vw, 2.1rem); margin-bottom:14px; }
+.eg-sec-head p{ color:var(--eg-ink-soft); }
+
+/* ---------- SERVICES / LAYER PANEL ---------- */
+.eg-services{ background:var(--eg-paper-deep); border-bottom:1px solid var(--eg-line); }
+.eg-layer-stack{ border-top:1px solid var(--eg-line); }
+.eg-layer{
+  border-bottom:1px solid var(--eg-line);
+  padding:30px 0;
+  display:grid;
+  grid-template-columns:56px 1fr;
+  gap:0 24px;
+}
+.eg-layer:hover{ background:rgba(255,255,255,0.4); }
+
+.eg-layer-marker > p{ margin:0 0 8px 0; }
+.eg-layer-toggle{
+  display:inline-block; width:20px; height:20px;
+  border:2px solid var(--eg-ink); box-sizing:border-box;
+  background-clip:content-box; padding:3px;
+}
+.eg-layer-toggle.eg-l1{ background-color:var(--eg-canopy); }
+.eg-layer-toggle.eg-l2{ background-color:var(--eg-ochre); }
+.eg-layer-toggle.eg-l3{ background-color:var(--eg-teal); }
+.eg-layer-toggle.eg-l4{ background-color:var(--eg-plum); }
+.eg-layer-toggle.eg-l5{ background-color:var(--eg-rust); }
+
+.eg-layer-index{ font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--eg-ink-soft); }
+
+.eg-layer-body{ display:grid; grid-template-columns:1fr; gap:14px; }
+@media(min-width:760px){ .eg-layer-body{ grid-template-columns: 1.4fr 1fr; } }
+
+.eg-layer-main h3{ font-size:1.25rem; margin-bottom:8px; }
+.eg-layer-one-liner{ font-size:0.95rem; font-weight:500; display:block; margin-bottom:12px; }
+.eg-layer-one-liner.eg-l1{ color:var(--eg-canopy); }
+.eg-layer-one-liner.eg-l2{ color:var(--eg-ochre); }
+.eg-layer-one-liner.eg-l3{ color:var(--eg-teal); }
+.eg-layer-one-liner.eg-l4{ color:var(--eg-plum); }
+.eg-layer-one-liner.eg-l5{ color:var(--eg-rust); }
+
+.eg-layer-desc{ font-size:0.92rem; color:var(--eg-ink-soft); max-width:52ch; }
+
+.eg-layer-meta{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft); }
+.eg-tag-label{ color:var(--eg-ink); font-weight:500; letter-spacing:0.03em; display:block; margin-bottom:8px; }
+.eg-chip{
+  display:inline-block; border:1px solid var(--eg-line); padding:4px 9px;
+  font-size:0.7rem; background:var(--eg-paper); margin:0 6px 6px 0;
+}
+.eg-layer-coord{
+  padding-top:10px; margin-top:10px; border-top:1px dashed var(--eg-line);
+}
+
+/* ---------- APPROACH ---------- */
+.eg-approach-grid{ display:grid; grid-template-columns:1fr; gap:36px; border-top:1px solid var(--eg-line); padding-top:40px; }
+@media(min-width:760px){ .eg-approach-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-approach-item .eg-num{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-canopy); display:block; margin-bottom:10px; }
+.eg-approach-item h3{ font-size:1.1rem; margin-bottom:10px; }
+.eg-approach-item p{ color:var(--eg-ink-soft); font-size:0.92rem; }
+
+/* ---------- SECTORS ---------- */
+.eg-sectors{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }
+.eg-sector-chip{
+  display:inline-block; border:1px solid var(--eg-ink); padding:10px 18px;
+  font-size:0.85rem; font-family:'IBM Plex Mono', monospace; margin:0 12px 12px 0;
+}
+
+/* ---------- CONTACT ---------- */
+.eg-contact-wrap{
+  display:grid; grid-template-columns:1fr; gap:30px; align-items:end;
+  max-width:1120px; margin:0 auto; padding:0 32px;
+}
+@media(min-width:760px){ .eg-contact-wrap{ grid-template-columns:1.3fr 1fr; } }
+.eg-contact-left h2{ font-size:clamp(1.8rem,3.4vw,2.6rem); max-width:16ch; }
+.eg-contact-left p{ color:var(--eg-ink-soft); max-width:46ch; margin-top:16px; }
+.eg-contact-box{ border:1px solid var(--eg-ink); padding:28px; }
+.eg-contact-box > p{ margin:0 0 6px 0; }
+.eg-mono-label{ font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:var(--eg-ink-soft); display:block; }
+.eg-email{ font-size:1.15rem; font-weight:500; display:block; margin-bottom:22px !important; word-break:break-all; text-decoration:none; color:var(--eg-ink); }
+.eg-email-sub{ font-size:0.95rem; display:block; margin-bottom:22px !important; }
+
+/* ---------- FOOTER ---------- */
+.eg-footer{ border-top:1px solid var(--eg-line); padding:26px 0; }
+.eg-footer-inner{
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  max-width:1120px; margin:0 auto; padding:0 32px;
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
+}
+.eg-footer-inner > p{ margin:0; }
+
+/* ================================================================
+   END EQUATOR GEOSPATIAL SERVICES PAGE STYLES
+   ================================================================ */

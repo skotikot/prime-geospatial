@@ -20,6 +20,8 @@ website:
       #   text: Home
       - href: services.qmd
         text: Services
+      - href: services-geospatial.qmd
+        text: Services2
       - href: about.qmd
         text: About us
       - href: people.qmd
