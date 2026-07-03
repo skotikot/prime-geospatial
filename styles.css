@@ -797,7 +797,7 @@ main.content:has(.eg-page),
 /* ---------- HERO ---------- */
 .eg-hero{
   position:relative; overflow:hidden;
-  padding:90px 0 70px;
+  padding:20px 0 20px;
   border-bottom:1px solid var(--eg-line);
 }
 .eg-hero > .eg-wrap{ position:relative; z-index:2; }
@@ -826,9 +826,9 @@ main.content:has(.eg-page),
 }
 .eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
-.eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:14ch; margin-bottom:22px; }
+.eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }
 
-.eg-lede{ max-width:56ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
+.eg-lede{ max-width:70ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
 
 .eg-hero-ctas{ margin-bottom:56px; }
 .eg-btn{

@@ -1,5 +1,5 @@
 ---
-title: "Services"
+title: ""
 title-block-banner: false
 page-layout: full
 toc: false
@@ -9,7 +9,7 @@ toc: false
 
 ::: {.eg-hero}
 ::: {.eg-wrap}
-[Geospatial Data Science · East Africa]{.eg-eyebrow}
+<!-- [Geospatial Data Science · East Africa]{.eg-eyebrow} -->
 
 # Evidence, not estimates, for how landscapes are changing.
 
@@ -21,16 +21,18 @@ We combine remote sensing, ecological modeling, and social-ecological systems re
 [View services](#services){.eg-btn .eg-btn-solid} [Start a project](#contact){.eg-btn .eg-btn-outline}
 :::
 
-::: {.eg-city-strip}
+<!--::: {.eg-city-strip}
 NAIROBI · KAMPALA · DAR ES SALAAM · KIGALI · ADDIS ABABA
+:::-->
+
 :::
-:::
+
 :::
 
 ::: {#services .eg-section .eg-services}
 ::: {.eg-wrap}
 ::: {.eg-sec-head}
-[Services]{.eg-eyebrow}
+[What We Offer]{.eg-eyebrow}
 
 ## Five layers of analysis, stacked around one landscape.
 
@@ -268,12 +270,12 @@ Tell us what you're trying to prove, protect, or plan for. We'll tell you which 
 :::
 :::
 
-::: {.eg-footer}
+<!--::: {.eg-footer}
 ::: {.eg-footer-inner}
 © 2026 EQUATOR GEOSPATIAL
 
 NAIROBI, KENYA
 :::
-:::
+:::-->
 
 :::
