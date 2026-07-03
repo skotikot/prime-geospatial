@@ -961,6 +961,39 @@ main.content:has(.eg-page),
   object-fit: cover;
 }
 
+/* Use Grid to force uniform heights */
+.eg-layer-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Text takes available space, image is auto width */
+  gap: 2rem;
+  align-items: stretch; /* This is the key: forces both items to match height */
+  margin-bottom: 1.5rem;
+}
+
+.eg-layer-visual {
+  width: 250px; /* Set your preferred fixed width for the image column */
+}
+
+.eg-layer-img {
+  width: 100%;
+  height: 100%; /* Forces image to match height of the text column */
+  object-fit: cover; /* Ensures the image fills the space nicely without distortion */
+  border-radius: 6px;
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .eg-layer-content-wrapper {
+    grid-template-columns: 1fr; /* Stack them on small screens */
+  }
+  
+  .eg-layer-visual {
+    width: 100%;
+    height: 200px; /* Give it a fixed height when stacked */
+  }
+}
+
 /* ================================================================
    END EQUATOR GEOSPATIAL SERVICES PAGE STYLES
    ================================================================ */
