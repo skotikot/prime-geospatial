@@ -824,9 +824,9 @@ main.content:has(.eg-page),
 }
 .eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
-.eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:14ch; margin-bottom:22px; }
+.eg-hero h2{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:14ch; margin-bottom:22px; }
 
-.eg-lede{ max-width:56ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
+.eg-lede{ max-width:70ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
 
 .eg-hero-ctas{ margin-bottom:56px; }
 .eg-btn{
