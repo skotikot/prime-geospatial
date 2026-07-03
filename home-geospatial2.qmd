@@ -25,6 +25,8 @@ toc: false
 
 # Prime Geospatial
 
+## Bridging the Gap Between Data and Discovery
+
 ::: {.eg-lede}
 Bridging the Gap Between Data and Discovery
 :::
@@ -33,11 +35,9 @@ Bridging the Gap Between Data and Discovery
 [Explore our services](services-geospatial.qmd#services){.eg-btn .eg-btn-solid} [Start a project](#contact){.eg-btn .eg-btn-outline}
 :::
 
-::: {.eg-city-strip}
-NAIROBI · KAMPALA · DAR ES SALAAM · KIGALI · ADDIS ABABA
 :::
 :::
-:::
+
 
 ::: {#about .eg-section}
 ::: {.eg-wrap}
@@ -115,69 +115,11 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 [Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 
-::: {.eg-teaser-card}
-[ ]{.eg-layer-toggle .eg-l5}
-
-[LAYER 05]{.eg-layer-index}
-
-### Climate Adaptation & Food-Security Modeling
-
-[Drought, rangeland, and yield forecasting for the people who plan around them.]{.eg-teaser-desc}
-
-[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
-:::
 
 :::
 :::
 :::
 
-::: {#approach .eg-section}
-::: {.eg-wrap}
-::: {.eg-sec-head}
-[Approach]{.eg-eyebrow}
-
-## Three things every layer is built on.
-:::
-
-::: {.eg-approach-grid}
-::: {.eg-approach-item}
-[A]{.eg-num}
-
-### Field-grounded
-
-Every model is checked against ground truth — plots, transects, or partner verification — not just pixels.
-:::
-
-::: {.eg-approach-item}
-[B]{.eg-num}
-
-### Community-informed
-
-Social-ecological methods mean local governance and knowledge shape the analysis, not just the output.
-:::
-
-::: {.eg-approach-item}
-[C]{.eg-num}
-
-### Registry-ready
-
-Work is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.
-:::
-:::
-:::
-:::
-
-::: {#sectors .eg-section .eg-sectors}
-::: {.eg-wrap}
-::: {.eg-sec-head}
-[Sectors]{.eg-eyebrow}
-
-## Who we work with
-:::
-
-[Carbon & Conservation Finance]{.eg-sector-chip} [Government & County Planning]{.eg-sector-chip} [Multilaterals & Bilateral Donors]{.eg-sector-chip} [Research Institutions]{.eg-sector-chip} [Agriculture & Insurance]{.eg-sector-chip}
-:::
-:::
 
 ::: {#contact .eg-section .eg-contact}
 ::: {.eg-contact-wrap}
@@ -201,12 +143,5 @@ Tell us what you're trying to prove, protect, or plan for. We'll tell you which 
 :::
 :::
 
-::: {.eg-footer}
-::: {.eg-footer-inner}
-© 2026 EQUATOR GEOSPATIAL
-
-NAIROBI, KENYA
-:::
-:::
 
 :::

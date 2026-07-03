@@ -17,80 +17,104 @@ page-layout: custom
 
 </header>
 
-:::::::::::: {.page-columns .page-full}
-::::::::::: column-page
+::::::::::::::::::: eg-page
+:::::: {#about .eg-section}
+::::: eg-wrap
+[Who we are]{.eg-eyebrow}
 
-At Prime Geospatial, we bridge the gap between complex spatial data and actionable decision-making. We specialize in transforming raw environmental and geographic information into clear, reliable insights that drive sustainable progress.
+## Science-first, not GIS-generalist.
 
-From robust data architecture and rigorous statistical analysis to expert-led professional training, we empower organizations to understand their landscape, mitigate risk, and optimize their operations through the power of spatial science.
-
-------------------------------------------------------------------------
-
-
-<h1 style="text-align: center; margin-bottom: 2rem;">What We Offer</h1>
-
-::: {.grid}
-
-
-<!-- Row 1 -->
-::: {.g-col-12 .g-col-lg-3 style="text-align: center;"}
-<a href="geospatial.qmd">
-  <img src="images/GeospatialConsulting.png"
-       class="rounded-circle"
-       style="width: 200px; height: 200px; object-fit: cover;">
-</a>
-
-### <a href="geospatial.qmd" class="no-decoration">Geospatial Consulting</a>
-
-We offer tailored strategies for site-specific and regional environmental challenges.
-
+::: eg-intro-lede
+We're a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.
 :::
 
-::: {.g-col-12 .g-col-lg-3 style="text-align: center;"}
-<a href="datacleaning.qmd">
-  <img src="images/DataCleaning.png"
-       class="rounded-circle"
-       style="width: 200px; height: 200px; object-fit: cover;">
-</a>
+::: eg-chip-row
+[Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
+:::
+:::::
+::::::
 
-### <a href="data-cleaning.qmd" class="no-decoration">Data Cleaning & Preprocessing</a>
+:::::::::: {#what-we-do .eg-section .eg-services}
+::::::::: eg-wrap
+::: eg-sec-head
+[What we do]{.eg-eyebrow}
 
-Spatial data is only as good as its foundation. We ensure your datasets are robust and analysis-ready.
+## Five layers of analysis — one landscape.
+
+A quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment.
 :::
 
-<!-- Row 2 -->
-::: {.g-col-12 .g-col-lg-3 style="text-align: center;"}
-<a href="training-capacity-building.qmd">
-  <img src="images/Training.png"
-       class="rounded-circle"
-       style="width: 200px; height: 200px; object-fit: cover;">
-</a>
+::::::: eg-teaser-grid
+::: eg-teaser-card
 
-### <a href="training-capacity-building.qmd" class="no-decoration">Professional Training & Capacity Building</a>
+[LAYER 01]{.eg-layer-index}
 
-We empower your team to handle complex spatial challenges with confidence.
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
 :::
 
-::: {.g-col-12 .g-col-lg-3 style="text-align: center;"}
-<a href="analytical-support.qmd">
-  <img src="images/AnalyticalSupport.png"
-       class="rounded-circle"
-       style="width: 200px; height: 200px; object-fit: cover;">
-</a>
+### Digital MRV & Carbon Verification
 
-### <a href="analytical-support.qmd" class="no-decoration">Analytical Support</a>
+[Independent, satellite-grounded MRV for carbon and biodiversity credit projects.]{.eg-teaser-desc}
 
-Beyond data preparation, we offer deep-dive analytical services for specialized research.
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 
+::: eg-teaser-card
+
+[LAYER 02]{.eg-layer-index}
+
+### Land-Use & Land-Cover Change Modeling
+
+[Mapping and forecasting how agriculture, settlement, and forest cover are moving.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 
----
+::: eg-teaser-card
 
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="contact.qmd" class="btn btn-primary">Contact Us</a>
-</div>
+[LAYER 03]{.eg-layer-index}
 
+### Landscape Connectivity & Conservation Planning
 
-:::::::::::
-::::::::::::
+[Habitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+
+::: eg-teaser-card
+
+[LAYER 04]{.eg-layer-index}
+
+### Social-Ecological Systems & Resilience Assessment
+
+[Where land, climate, and community governance meet — analyzed together, not separately.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+:::::::
+:::::::::
+::::::::::
+
+:::::: {#contact .eg-section .eg-contact}
+::::: eg-contact-wrap
+::: eg-contact-left
+## Have a landscape that needs a closer look?
+
+Tell us what you're trying to prove, protect, or plan for. We'll tell you which layers apply.
+:::
+
+::: eg-contact-box
+[EMAIL]{.eg-mono-label}
+
+[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+:::
+:::::
+::::::
+:::::::::::::::::::

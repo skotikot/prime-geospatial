@@ -68,7 +68,7 @@ Illustrative anchor: Tsavo–Kasigau region
 :::
 
 ::: {.eg-layer-image}
-![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+![](images/DataCleaning.png)
 :::
 :::
 :::
