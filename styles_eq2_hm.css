@@ -795,8 +795,7 @@ main.content:has(.eg-page),
 /* ---------- HERO ---------- */
 .eg-hero{
   position:relative; overflow:hidden;
-  padding: clamp(20px, 7vw, 20px) 0 clamp(36px, 5vw, 56px);
-  /*padding: clamp(44px, 7vw, 80px) 0 clamp(36px, 5vw, 56px); */
+  padding: clamp(44px, 7vw, 80px) 0 clamp(36px, 5vw, 56px);
   border-bottom:1px solid var(--eg-line);
 }
 .eg-hero > .eg-wrap{ position:relative; z-index:2; }
@@ -825,9 +824,9 @@ main.content:has(.eg-page),
 }
 .eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
-.eg-hero h2{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }
+.eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:14ch; margin-bottom:22px; }
 
-.eg-lede{ max-width:70ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
+.eg-lede{ max-width:56ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
 
 .eg-hero-ctas{ margin-bottom:56px; }
 .eg-btn{
@@ -953,10 +952,6 @@ main.content:has(.eg-page),
 .eg-footer-inner > p{ margin:0; }
 
 /* ================================================================
-   END EQUATOR GEOSPATIAL SERVICES PAGE STYLES
-   ================================================================ */
-   
-   /* ================================================================
    EQUATOR GEOSPATIAL HOME PAGE — additional scoped styles
    ================================================================ */
 

@@ -955,3 +955,35 @@ main.content:has(.eg-page),
 /* ================================================================
    END EQUATOR GEOSPATIAL SERVICES PAGE STYLES
    ================================================================ */
+   
+   /* ================================================================
+   EQUATOR GEOSPATIAL HOME PAGE — additional scoped styles
+   ================================================================ */
+
+.eg-intro-lede{ font-size:1.05rem; color:var(--eg-ink-soft); max-width:64ch; margin-bottom:20px; }
+.eg-chip-row{ margin-top:4px; }
+
+.eg-teaser-grid{
+  display:grid; grid-template-columns:1fr; gap:20px; margin-top:12px;
+}
+@media(min-width:640px){ .eg-teaser-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1000px){ .eg-teaser-grid{ grid-template-columns:repeat(3,1fr); } }
+
+.eg-teaser-card{
+  border:1px solid var(--eg-line); background:var(--eg-paper); padding:24px;
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.eg-teaser-card:hover{ transform:translateY(-3px); box-shadow:0 10px 24px rgba(27,33,29,0.08); }
+.eg-teaser-card .eg-layer-toggle{ margin-bottom:12px; }
+.eg-teaser-card .eg-layer-index{ display:block; margin-bottom:14px; }
+.eg-teaser-card h3{ font-size:1.05rem; margin-bottom:8px; line-height:1.25; }
+.eg-teaser-desc{ font-size:0.88rem; color:var(--eg-ink-soft); margin-bottom:16px; }
+.eg-teaser-link{
+  font-family:'IBM Plex Mono', monospace; font-size:0.78rem;
+  color:var(--eg-canopy); text-decoration:none; letter-spacing:0.02em;
+}
+.eg-teaser-link:hover{ text-decoration:underline; }
+
+/* ================================================================
+   END EQUATOR GEOSPATIAL HOME PAGE STYLES
+   ================================================================ */
