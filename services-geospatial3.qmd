@@ -1,15 +1,17 @@
 ---
-title: "Services"
+title: ""
 title-block-banner: false
 page-layout: full
 toc: false
+format:
+  html:
+    title-block-style: none
 ---
 
 ::: {.eg-page}
 
 ::: {.eg-hero}
 ::: {.eg-wrap}
-[Geospatial Data Science · East Africa]{.eg-eyebrow}
 
 # Evidence, not estimates, for how landscapes are changing.
 
@@ -21,9 +23,6 @@ We combine remote sensing, ecological modeling, and social-ecological systems re
 [View services](#services){.eg-btn .eg-btn-solid} [Start a project](#contact){.eg-btn .eg-btn-outline}
 :::
 
-::: {.eg-city-strip}
-NAIROBI · KAMPALA · DAR ES SALAAM · KIGALI · ADDIS ABABA
-:::
 :::
 :::
 
@@ -69,7 +68,7 @@ Illustrative anchor: Tsavo–Kasigau region
 :::
 
 ::: {.eg-layer-image}
-![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/layer-01-mrv.jpg)
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
 :::
 :::
 :::
@@ -104,7 +103,7 @@ Illustrative anchor: Mau Forest Complex
 :::
 
 ::: {.eg-layer-image}
-![Aerial view of forest edge and farmland near the Mau Forest Complex](images/layer-02-land-use.jpg)
+![Aerial view of forest edge and farmland near the Mau Forest Complex](images/DataCleaning.png)
 :::
 :::
 :::
@@ -139,7 +138,7 @@ Illustrative anchor: Northern Rangelands
 :::
 
 ::: {.eg-layer-image}
-![Wildlife corridor landscape in Kenya's Northern Rangelands](images/layer-03-connectivity.jpg)
+![Wildlife corridor landscape in Kenya's Northern Rangelands](images/DataCleaning.png)
 :::
 :::
 :::
@@ -174,7 +173,7 @@ Illustrative anchor: Kilimanjaro socio-ecological zone
 :::
 
 ::: {.eg-layer-image}
-![Community grazing land near Kilimanjaro's socio-ecological zone](images/layer-04-ses.jpg)
+![Community grazing land near Kilimanjaro's socio-ecological zone](images/DataCleaning.png)
 :::
 :::
 :::
@@ -209,7 +208,7 @@ Illustrative anchor: Marsabit, Northern Kenya
 :::
 
 ::: {.eg-layer-image}
-![Dry rangeland landscape near Marsabit, Northern Kenya](images/layer-05-climate.jpg)
+![Dry rangeland landscape near Marsabit, Northern Kenya](images/DataCleaning.png)
 :::
 :::
 :::
@@ -288,12 +287,5 @@ Tell us what you're trying to prove, protect, or plan for. We'll tell you which 
 :::
 :::
 
-::: {.eg-footer}
-::: {.eg-footer-inner}
-© 2026 EQUATOR GEOSPATIAL
-
-NAIROBI, KENYA
-:::
-:::
 
 :::
