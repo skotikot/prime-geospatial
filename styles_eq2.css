@@ -742,8 +742,6 @@ footer.footer .nav-footer-left {
   }
 }
 /*Ensure Mobile Responsiveness - end */
-
-
 /* ================================================================
    EQUATOR GEOSPATIAL SERVICES PAGE — scoped styles
    Everything below is scoped under the .eg-page wrapper class, so it
@@ -797,7 +795,7 @@ main.content:has(.eg-page),
 /* ---------- HERO ---------- */
 .eg-hero{
   position:relative; overflow:hidden;
-  padding:20px 0 20px;
+  padding: clamp(44px, 7vw, 80px) 0 clamp(36px, 5vw, 56px);
   border-bottom:1px solid var(--eg-line);
 }
 .eg-hero > .eg-wrap{ position:relative; z-index:2; }
@@ -824,19 +822,11 @@ main.content:has(.eg-page),
   text-transform:uppercase; display:inline-flex; align-items:center; gap:10px;
   margin-bottom:18px;
 }
-.eg-eyebrow::before{ content:''; width:30px; height:1px; background:var(--eg-canopy); display:inline-block; }
+.eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
-.eg-hero h2{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }
+.eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:14ch; margin-bottom:22px; }
 
-.h1-style {
-  font-size:clamp(2.1rem, 4.6vw, 3.4rem); /* Or whatever your h1 size is */
-  font-weight: bold;
-  max-width:none; 
-  margin-bottom:22px;
-  /* Add other styles here */
-}
-
-.eg-lede{ max-width:70ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
+.eg-lede{ max-width:56ch; color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:34px; }
 
 .eg-hero-ctas{ margin-bottom:56px; }
 .eg-btn{
@@ -891,8 +881,8 @@ main.content:has(.eg-page),
 .eg-layer-body{ display:grid; grid-template-columns:1fr; gap:14px; }
 @media(min-width:760px){ .eg-layer-body{ grid-template-columns: 1.4fr 1fr; } }
 
-.eg-layer-main h3{ font-size:1.3rem; margin-bottom:8px; }
-.eg-layer-one-liner{ font-size:1rem; font-weight:500; display:block; margin-bottom:12px; }
+.eg-layer-main h3{ font-size:1.25rem; margin-bottom:8px; }
+.eg-layer-one-liner{ font-size:0.95rem; font-weight:500; display:block; margin-bottom:12px; }
 .eg-layer-one-liner.eg-l1{ color:var(--eg-canopy); }
 .eg-layer-one-liner.eg-l2{ color:var(--eg-ochre); }
 .eg-layer-one-liner.eg-l3{ color:var(--eg-teal); }
@@ -901,7 +891,20 @@ main.content:has(.eg-page),
 
 .eg-layer-desc{ font-size:0.92rem; color:var(--eg-ink-soft); max-width:52ch; }
 
-.eg-layer-meta{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft); }
+.eg-layer-meta{
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
+  margin-top:16px; padding-top:16px; border-top:1px dashed var(--eg-line);
+}
+
+.eg-layer-image{
+  border:1px solid var(--eg-line);
+  overflow:hidden;
+  min-height:220px;
+}
+.eg-layer-image img{
+  width:100%; height:100%; min-height:220px;
+  object-fit:cover; display:block;
+}
 .eg-tag-label{ color:var(--eg-ink); font-weight:500; letter-spacing:0.03em; display:block; margin-bottom:8px; }
 .eg-chip{
   display:inline-block; border:1px solid var(--eg-line); padding:4px 9px;
@@ -947,52 +950,6 @@ main.content:has(.eg-page),
   font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
 }
 .eg-footer-inner > p{ margin:0; }
-
-.eg-layer-media {
-  margin-top: 1.5rem;
-  overflow: hidden;
-  border-radius: 8px; /* Optional: matches the card styling */
-}
-
-.eg-layer-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-/* Use Grid to force uniform heights */
-.eg-layer-content-wrapper {
-  display: grid;
-  grid-template-columns: 1fr auto; /* Text takes available space, image is auto width */
-  gap: 2rem;
-  align-items: stretch; /* This is the key: forces both items to match height */
-  margin-bottom: 1.5rem;
-}
-
-.eg-layer-visual {
-  width: 250px; /* Set your preferred fixed width for the image column */
-}
-
-.eg-layer-img {
-  width: 100%;
-  height: 100%; /* Forces image to match height of the text column */
-  object-fit: cover; /* Ensures the image fills the space nicely without distortion */
-  border-radius: 6px;
-  display: block;
-}
-
-
-@media (max-width: 768px) {
-  .eg-layer-content-wrapper {
-    grid-template-columns: 1fr; /* Stack them on small screens */
-  }
-  
-  .eg-layer-visual {
-    width: 100%;
-    height: 200px; /* Give it a fixed height when stacked */
-  }
-}
 
 /* ================================================================
    END EQUATOR GEOSPATIAL SERVICES PAGE STYLES

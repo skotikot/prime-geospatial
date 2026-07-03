@@ -42,137 +42,74 @@
     "text": "&lt;!-- Geospatial Consulting --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"geospatial-consulting.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon1.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Geospatial Consulting&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Expert support for spatial analysis, mapping, and geospatial workflows.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Data Cleaning & Preprocessing --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"data-cleaning.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon2.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Data Cleaning & Preprocessing&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Reliable data preparation, transformation, and quality assurance.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n\n&lt;!-- Professional Training & Capacity Building --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"training-capacity-building.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon3.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Professional Training & Capacity Building&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Workshops, courses, and hands‑on training to strengthen technical skills.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Analytical Support --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"analytical-support.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon4.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Analytical Support&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Custom analysis, modeling, and decision‑support services.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;"
   },
   {
-    "objectID": "services-geospatial2.html",
-    "href": "services-geospatial2.html",
-    "title": "",
+    "objectID": "services-geospatial3.html",
+    "href": "services-geospatial3.html",
+    "title": "Services",
     "section": "",
-    "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project\n\n\n\n\n\n\n\n\nWhat We Offer\n\n\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.\n\n\n\n\n\n\nLAYER 01\n\n\n\n\nIndependent, satellite-grounded MRV for carbon and biodiversity credit projects\n\nWe build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.\n\n\n\n\n\n\n\n\n\n\n\nLAYER 02\n\n\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving\n\nHistorical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.\n\n\n\nWho it’s for\nCounty governments Land-use planners Conservation NGOs\n\n00°49’S 35°42’E\nIllustrative anchor: Mau Forest Complex\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled\n\nConnectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.\n\n\n\nWho it’s for\nWildlife conservancies Park authorities Conservation NGOs\n\n00°02’N 37°33’E\nIllustrative anchor: Northern Rangelands\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately\n\nWe pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.\n\n\n\nWho it’s for\nResearch consortia Bilateral donors Conservancy associations\n\n03°04’S 37°21’E\nIllustrative anchor: Kilimanjaro socio-ecological zone\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them\n\nSpatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.\n\n\n\nWho it’s for\nInsurers & reinsurers Early-warning programs Agtech\n\n02°17’N 37°59’E\nIllustrative anchor: Marsabit, Northern Kenya\n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief"
+    "text": "Geospatial Data Science · East Africa\n\n\n\nWe combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project\n\n\nNAIROBI · KAMPALA · DAR ES SALAAM · KIGALI · ADDIS ABABA\n\n\n\n\n\n\n\nServices\n\n\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.\n\n\n\n\n\n\nLAYER 01\n\n\n\n\nIndependent, satellite-grounded MRV for carbon and biodiversity credit projects\n\nWe build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.\n\n\nWho it’s for\nProject developers Conservancies Impact investors\n\n02°10’S 38°04’E\nIllustrative anchor: Tsavo–Kasigau region\n\n\n\n\n\n\n\nSatellite view of forest canopy near the Tsavo–Kasigau corridor\n\n\n\n\n\n\n\n\nLAYER 02\n\n\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving\n\nHistorical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.\n\n\nWho it’s for\nCounty governments Land-use planners Conservation NGOs\n\n00°49’S 35°42’E\nIllustrative anchor: Mau Forest Complex\n\n\n\n\n\n\n\nAerial view of forest edge and farmland near the Mau Forest Complex\n\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled\n\nConnectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.\n\n\nWho it’s for\nWildlife conservancies Park authorities Conservation NGOs\n\n00°02’N 37°33’E\nIllustrative anchor: Northern Rangelands\n\n\n\n\n\n\n\nWildlife corridor landscape in Kenya’s Northern Rangelands\n\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately\n\nWe pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.\n\n\nWho it’s for\nResearch consortia Bilateral donors Conservancy associations\n\n03°04’S 37°21’E\nIllustrative anchor: Kilimanjaro socio-ecological zone\n\n\n\n\n\n\n\nCommunity grazing land near Kilimanjaro’s socio-ecological zone\n\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them\n\nSpatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.\n\n\nWho it’s for\nInsurers & reinsurers Early-warning programs Agtech\n\n02°17’N 37°59’E\nIllustrative anchor: Marsabit, Northern Kenya\n\n\n\n\n\n\n\nDry rangeland landscape near Marsabit, Northern Kenya\n\n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 EQUATOR GEOSPATIAL\nNAIROBI, KENYA"
   },
   {
-    "objectID": "services-geospatial2.html#evidence-not-estimates-for-how-landscapes-are-changing.",
-    "href": "services-geospatial2.html#evidence-not-estimates-for-how-landscapes-are-changing.",
+    "objectID": "services-geospatial3.html#five-layers-of-analysis-stacked-around-one-landscape.",
+    "href": "services-geospatial3.html#five-layers-of-analysis-stacked-around-one-landscape.",
+    "title": "Services",
+    "section": "",
+    "text": "Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project."
+  },
+  {
+    "objectID": "services-geospatial3.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "services-geospatial3.html#have-a-landscape-that-needs-a-closer-look",
+    "title": "Services",
+    "section": "",
+    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+  },
+  {
+    "objectID": "services-geospatial.html",
+    "href": "services-geospatial.html",
+    "title": "",
+    "section": "",
+    "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project\n\n\n\n\n\n\n\n\nWhat We Offer\n\n\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.\n\n\n\n\n::: {.eg-layer-marker}  LAYER 01 :::\n::: {.eg-layer-body} ::: {.eg-layer-content-wrapper}\n  ::: {.eg-layer-main}\n    ### Digital MRV & Carbon Verification\n    [Independent, satellite-grounded MRV for carbon and biodiversity credit projects]{.eg-layer-one-liner .eg-l1}\n    ::: {.eg-layer-desc}\n    We build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.\n    :::\n  :::\n\n  ::: {.eg-layer-visual}\n    ![](images/DataCleaning.png){.eg-layer-img}\n  :::\n:::\n\n::: {.eg-layer-meta}\n  [Who it's for]{.eg-tag-label}\n  [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}\n  \n  ::: {.eg-layer-coord}\n  02°10'S 38°04'E | Tsavo–Kasigau region\n  :::\n:::\n:::\n\n\n\n\nLAYER 02\n\n\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving\n\nHistorical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.\n\n\n\nWho it’s for\nCounty governments Land-use planners Conservation NGOs\n\n00°49’S 35°42’E\nIllustrative anchor: Mau Forest Complex\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled\n\nConnectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.\n\n\n\nWho it’s for\nWildlife conservancies Park authorities Conservation NGOs\n\n00°02’N 37°33’E\nIllustrative anchor: Northern Rangelands\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately\n\nWe pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.\n\n\n\nWho it’s for\nResearch consortia Bilateral donors Conservancy associations\n\n03°04’S 37°21’E\nIllustrative anchor: Kilimanjaro socio-ecological zone\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them\n\nSpatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.\n\n\n\nWho it’s for\nInsurers & reinsurers Early-warning programs Agtech\n\n02°17’N 37°59’E\nIllustrative anchor: Marsabit, Northern Kenya\n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief"
+  },
+  {
+    "objectID": "services-geospatial.html#evidence-not-estimates-for-how-landscapes-are-changing.",
+    "href": "services-geospatial.html#evidence-not-estimates-for-how-landscapes-are-changing.",
     "title": "",
     "section": "",
     "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project"
   },
   {
-    "objectID": "services-geospatial2.html#five-layers-of-analysis-stacked-around-one-landscape.",
-    "href": "services-geospatial2.html#five-layers-of-analysis-stacked-around-one-landscape.",
+    "objectID": "services-geospatial.html#five-layers-of-analysis-stacked-around-one-landscape.",
+    "href": "services-geospatial.html#five-layers-of-analysis-stacked-around-one-landscape.",
     "title": "",
     "section": "",
     "text": "Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project."
   },
   {
-    "objectID": "services-geospatial2.html#have-a-landscape-that-needs-a-closer-look",
-    "href": "services-geospatial2.html#have-a-landscape-that-needs-a-closer-look",
+    "objectID": "services-geospatial.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "services-geospatial.html#have-a-landscape-that-needs-a-closer-look",
     "title": "",
     "section": "",
     "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects & Applications",
+    "objectID": "project-mangrove.html",
+    "href": "project-mangrove.html",
+    "title": "Automated Mangrove Monitoring",
     "section": "",
-    "text": "Example, activities, projects, applications go here"
+    "text": "Project Overview\nThis tool automates regional ecosystem tracking…\n\n\nTechnical Architecture\n\nCompute Engine: Google Earth Engine API\nData Stream: Sentinel-2 Level-2A imagery"
   },
   {
-    "objectID": "project-habitat.html",
-    "href": "project-habitat.html",
+    "objectID": "project-cloud.html",
+    "href": "project-cloud.html",
     "title": "Prime Geospatial",
     "section": "",
     "text": "Welcome to Prime Geospatial. After 8 years of dormancy, we are back to solve your most complex spatiotemporal and environmental data challenges. We specialize in reproducible workflows, data cleaning, and custom spatial analytics."
   },
   {
-    "objectID": "project-habitat.html#interactive-proof-of-concept",
-    "href": "project-habitat.html#interactive-proof-of-concept",
+    "objectID": "project-cloud.html#interactive-proof-of-concept",
+    "href": "project-cloud.html#interactive-proof-of-concept",
     "title": "Prime Geospatial",
     "section": "Interactive Proof of Concept",
     "text": "Interactive Proof of Concept\nBelow is a live demonstration of our web-mapping deployment pipelines, rendered directly from spatial data attributes."
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "\nMeet the Team\n",
-    "section": "",
-    "text": "Meet the Team\n\n\n\n\n\nDr. Susan Kotikot\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\nDr. Donald Akanga\nPrincipal Investigator2\n\n\n\n\n\n\n\n\n\nDr. Dan Wanyama\nPrincipal Investigator3"
-  },
-  {
-    "objectID": "geospatial-consulting.html",
-    "href": "geospatial-consulting.html",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.\n\n\n\nAssessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning\n\n\n\n\n\nMapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies\n\n\n\n\n\nDesigning geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
-  },
-  {
-    "objectID": "geospatial-consulting.html#landscape-analysis",
-    "href": "geospatial-consulting.html#landscape-analysis",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "Assessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning"
-  },
-  {
-    "objectID": "geospatial-consulting.html#environmental-risk-assessment",
-    "href": "geospatial-consulting.html#environmental-risk-assessment",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "Mapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies"
-  },
-  {
-    "objectID": "geospatial-consulting.html#project-strategy-advisory",
-    "href": "geospatial-consulting.html#project-strategy-advisory",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
-  },
-  {
-    "objectID": "contact_recapcha.html",
-    "href": "contact_recapcha.html",
-    "title": "\nContact Us\n",
-    "section": "",
-    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\nContact Us\n\n\n\n&lt;label class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" name=\"email\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" name=\"name\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Message&lt;/label&gt;\n&lt;textarea name=\"message\" rows=\"5\" required class=\"form-control custom-input\"&gt;&lt;/textarea&gt;\n\n&lt;!-- reCAPTCHA widget --&gt;\n&lt;div class=\"mt-4\" style=\"transform:scale(0.95); transform-origin:0 0;\"&gt;\n  &lt;div class=\"g-recaptcha\" data-sitekey=\"YOUR_SITE_KEY\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;button type=\"submit\" class=\"btn btn-primary contact-btn mt-4\"&gt;\n  Submit\n&lt;/button&gt;"
-  },
-  {
-    "objectID": "analytical-support.html",
-    "href": "analytical-support.html",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
-  },
-  {
-    "objectID": "analytical-support.html#statistical-modeling",
-    "href": "analytical-support.html#statistical-modeling",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
-  },
-  {
-    "objectID": "analytical-support.html#visualization-reporting",
-    "href": "analytical-support.html#visualization-reporting",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
-  },
-  {
-    "objectID": "analytical-support.html#code-review-optimization",
-    "href": "analytical-support.html#code-review-optimization",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Who We Are",
-    "section": "",
-    "text": "Who We Are\nPrime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.\n\n\n\n\n\nOur Philosophy\nAt Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\nTechnical Foundation\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity.\n\n\n\n\n\nOur Core Competencies\n\n\n\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\n\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\n\n\n\nStatistical Rigor\n\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "\nContact Us\n",
-    "section": "",
-    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\n\nEmail \nName \nMessage\n\n Submit"
   },
   {
     "objectID": "data-cleaning.html",
@@ -203,50 +140,134 @@
     "text": "Building reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
   },
   {
-    "objectID": "project-cloud.html",
-    "href": "project-cloud.html",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "\nContact Us\n",
+    "section": "",
+    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\n\nEmail \nName \nMessage\n\n Submit"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Who We Are",
+    "section": "",
+    "text": "Who We Are\nPrime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.\n\n\n\n\n\nOur Philosophy\nAt Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\nTechnical Foundation\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity.\n\n\n\n\n\nOur Core Competencies\n\n\n\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\n\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\n\n\n\nStatistical Rigor\n\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
+  },
+  {
+    "objectID": "analytical-support.html",
+    "href": "analytical-support.html",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "analytical-support.html#statistical-modeling",
+    "href": "analytical-support.html#statistical-modeling",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
+  },
+  {
+    "objectID": "analytical-support.html#visualization-reporting",
+    "href": "analytical-support.html#visualization-reporting",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
+  },
+  {
+    "objectID": "analytical-support.html#code-review-optimization",
+    "href": "analytical-support.html#code-review-optimization",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "contact_recapcha.html",
+    "href": "contact_recapcha.html",
+    "title": "\nContact Us\n",
+    "section": "",
+    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\nContact Us\n\n\n\n&lt;label class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" name=\"email\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" name=\"name\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Message&lt;/label&gt;\n&lt;textarea name=\"message\" rows=\"5\" required class=\"form-control custom-input\"&gt;&lt;/textarea&gt;\n\n&lt;!-- reCAPTCHA widget --&gt;\n&lt;div class=\"mt-4\" style=\"transform:scale(0.95); transform-origin:0 0;\"&gt;\n  &lt;div class=\"g-recaptcha\" data-sitekey=\"YOUR_SITE_KEY\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;button type=\"submit\" class=\"btn btn-primary contact-btn mt-4\"&gt;\n  Submit\n&lt;/button&gt;"
+  },
+  {
+    "objectID": "geospatial-consulting.html",
+    "href": "geospatial-consulting.html",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.\n\n\n\nAssessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning\n\n\n\n\n\nMapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies\n\n\n\n\n\nDesigning geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
+  },
+  {
+    "objectID": "geospatial-consulting.html#landscape-analysis",
+    "href": "geospatial-consulting.html#landscape-analysis",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Assessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning"
+  },
+  {
+    "objectID": "geospatial-consulting.html#environmental-risk-assessment",
+    "href": "geospatial-consulting.html#environmental-risk-assessment",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Mapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies"
+  },
+  {
+    "objectID": "geospatial-consulting.html#project-strategy-advisory",
+    "href": "geospatial-consulting.html#project-strategy-advisory",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "\nMeet the Team\n",
+    "section": "",
+    "text": "Meet the Team\n\n\n\n\n\nDr. Susan Kotikot\nPrincipal Investigator\n\n\n\n\n\n\n\n\n\nDr. Donald Akanga\nPrincipal Investigator2\n\n\n\n\n\n\n\n\n\nDr. Dan Wanyama\nPrincipal Investigator3"
+  },
+  {
+    "objectID": "project-habitat.html",
+    "href": "project-habitat.html",
     "title": "Prime Geospatial",
     "section": "",
     "text": "Welcome to Prime Geospatial. After 8 years of dormancy, we are back to solve your most complex spatiotemporal and environmental data challenges. We specialize in reproducible workflows, data cleaning, and custom spatial analytics."
   },
   {
-    "objectID": "project-cloud.html#interactive-proof-of-concept",
-    "href": "project-cloud.html#interactive-proof-of-concept",
+    "objectID": "project-habitat.html#interactive-proof-of-concept",
+    "href": "project-habitat.html#interactive-proof-of-concept",
     "title": "Prime Geospatial",
     "section": "Interactive Proof of Concept",
     "text": "Interactive Proof of Concept\nBelow is a live demonstration of our web-mapping deployment pipelines, rendered directly from spatial data attributes."
   },
   {
-    "objectID": "project-mangrove.html",
-    "href": "project-mangrove.html",
-    "title": "Automated Mangrove Monitoring",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects & Applications",
     "section": "",
-    "text": "Project Overview\nThis tool automates regional ecosystem tracking…\n\n\nTechnical Architecture\n\nCompute Engine: Google Earth Engine API\nData Stream: Sentinel-2 Level-2A imagery"
+    "text": "Example, activities, projects, applications go here"
   },
   {
-    "objectID": "services-geospatial.html",
-    "href": "services-geospatial.html",
+    "objectID": "services-geospatial2.html",
+    "href": "services-geospatial2.html",
     "title": "",
     "section": "",
-    "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project\n\n\n\n\n\n\n\n\nWhat We Offer\n\n\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.\n\n\n\n\n::: {.eg-layer-marker}  LAYER 01 :::\n::: {.eg-layer-body} ::: {.eg-layer-content-wrapper}\n  ::: {.eg-layer-main}\n    ### Digital MRV & Carbon Verification\n    [Independent, satellite-grounded MRV for carbon and biodiversity credit projects]{.eg-layer-one-liner .eg-l1}\n    ::: {.eg-layer-desc}\n    We build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.\n    :::\n  :::\n\n  ::: {.eg-layer-visual}\n    ![](images/DataCleaning.png){.eg-layer-img}\n  :::\n:::\n\n::: {.eg-layer-meta}\n  [Who it's for]{.eg-tag-label}\n  [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}\n  \n  ::: {.eg-layer-coord}\n  02°10'S 38°04'E | Tsavo–Kasigau region\n  :::\n:::\n:::\n\n\n\n\nLAYER 02\n\n\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving\n\nHistorical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.\n\n\n\nWho it’s for\nCounty governments Land-use planners Conservation NGOs\n\n00°49’S 35°42’E\nIllustrative anchor: Mau Forest Complex\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled\n\nConnectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.\n\n\n\nWho it’s for\nWildlife conservancies Park authorities Conservation NGOs\n\n00°02’N 37°33’E\nIllustrative anchor: Northern Rangelands\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately\n\nWe pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.\n\n\n\nWho it’s for\nResearch consortia Bilateral donors Conservancy associations\n\n03°04’S 37°21’E\nIllustrative anchor: Kilimanjaro socio-ecological zone\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them\n\nSpatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.\n\n\n\nWho it’s for\nInsurers & reinsurers Early-warning programs Agtech\n\n02°17’N 37°59’E\nIllustrative anchor: Marsabit, Northern Kenya\n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief"
+    "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project\n\n\n\n\n\n\n\n\nWhat We Offer\n\n\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.\n\n\n\n\n\n\nLAYER 01\n\n\n\n\nIndependent, satellite-grounded MRV for carbon and biodiversity credit projects\n\nWe build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.\n\n\n\n\n\n\n\n\n\n\n\nLAYER 02\n\n\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving\n\nHistorical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.\n\n\n\nWho it’s for\nCounty governments Land-use planners Conservation NGOs\n\n00°49’S 35°42’E\nIllustrative anchor: Mau Forest Complex\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled\n\nConnectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.\n\n\n\nWho it’s for\nWildlife conservancies Park authorities Conservation NGOs\n\n00°02’N 37°33’E\nIllustrative anchor: Northern Rangelands\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately\n\nWe pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.\n\n\n\nWho it’s for\nResearch consortia Bilateral donors Conservancy associations\n\n03°04’S 37°21’E\nIllustrative anchor: Kilimanjaro socio-ecological zone\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them\n\nSpatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.\n\n\n\nWho it’s for\nInsurers & reinsurers Early-warning programs Agtech\n\n02°17’N 37°59’E\nIllustrative anchor: Marsabit, Northern Kenya\n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief"
   },
   {
-    "objectID": "services-geospatial.html#evidence-not-estimates-for-how-landscapes-are-changing.",
-    "href": "services-geospatial.html#evidence-not-estimates-for-how-landscapes-are-changing.",
+    "objectID": "services-geospatial2.html#evidence-not-estimates-for-how-landscapes-are-changing.",
+    "href": "services-geospatial2.html#evidence-not-estimates-for-how-landscapes-are-changing.",
     "title": "",
     "section": "",
     "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project"
   },
   {
-    "objectID": "services-geospatial.html#five-layers-of-analysis-stacked-around-one-landscape.",
-    "href": "services-geospatial.html#five-layers-of-analysis-stacked-around-one-landscape.",
+    "objectID": "services-geospatial2.html#five-layers-of-analysis-stacked-around-one-landscape.",
+    "href": "services-geospatial2.html#five-layers-of-analysis-stacked-around-one-landscape.",
     "title": "",
     "section": "",
     "text": "Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project."
   },
   {
-    "objectID": "services-geospatial.html#have-a-landscape-that-needs-a-closer-look",
-    "href": "services-geospatial.html#have-a-landscape-that-needs-a-closer-look",
+    "objectID": "services-geospatial2.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "services-geospatial2.html#have-a-landscape-that-needs-a-closer-look",
     "title": "",
     "section": "",
     "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
