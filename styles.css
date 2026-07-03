@@ -824,7 +824,7 @@ main.content:has(.eg-page),
   text-transform:uppercase; display:inline-flex; align-items:center; gap:10px;
   margin-bottom:18px;
 }
-.eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
+.eg-eyebrow::before{ content:''; width:30px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
 .eg-hero h1{ font-size:clamp(2.1rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }
 
@@ -883,8 +883,8 @@ main.content:has(.eg-page),
 .eg-layer-body{ display:grid; grid-template-columns:1fr; gap:14px; }
 @media(min-width:760px){ .eg-layer-body{ grid-template-columns: 1.4fr 1fr; } }
 
-.eg-layer-main h3{ font-size:1.25rem; margin-bottom:8px; }
-.eg-layer-one-liner{ font-size:0.95rem; font-weight:500; display:block; margin-bottom:12px; }
+.eg-layer-main h3{ font-size:1.3rem; margin-bottom:8px; }
+.eg-layer-one-liner{ font-size:1rem; font-weight:500; display:block; margin-bottom:12px; }
 .eg-layer-one-liner.eg-l1{ color:var(--eg-canopy); }
 .eg-layer-one-liner.eg-l2{ color:var(--eg-ochre); }
 .eg-layer-one-liner.eg-l3{ color:var(--eg-teal); }

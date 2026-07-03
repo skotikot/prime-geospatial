@@ -42,25 +42,32 @@
     "text": "&lt;!-- Geospatial Consulting --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"geospatial-consulting.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon1.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Geospatial Consulting&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Expert support for spatial analysis, mapping, and geospatial workflows.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Data Cleaning & Preprocessing --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"data-cleaning.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon2.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Data Cleaning & Preprocessing&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Reliable data preparation, transformation, and quality assurance.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n\n&lt;!-- Professional Training & Capacity Building --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"training-capacity-building.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon3.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Professional Training & Capacity Building&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Workshops, courses, and hands‑on training to strengthen technical skills.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;\n\n&lt;!-- Analytical Support --&gt;\n&lt;div class=\"col-md-6 mb-4\"&gt;\n  &lt;a href=\"analytical-support.qmd\" class=\"text-decoration-none text-dark\"&gt;\n    &lt;div class=\"card h-100 shadow-sm\"&gt;\n      &lt;img src=\"icons/icon4.jpg\" class=\"card-img-top p-4\" style=\"width: 150px; margin: auto;\"&gt;\n      &lt;div class=\"card-body text-center\"&gt;\n        &lt;h4 class=\"card-title\"&gt;Analytical Support&lt;/h4&gt;\n        &lt;p class=\"card-text\"&gt;Custom analysis, modeling, and decision‑support services.&lt;/p&gt;\n      &lt;/div&gt;\n    &lt;/div&gt;\n  &lt;/a&gt;\n&lt;/div&gt;"
   },
   {
-    "objectID": "services-geospatial.html",
-    "href": "services-geospatial.html",
-    "title": "Evidence, not estimates, for how landscapes are changing.",
-    "section": "",
-    "text": "We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?\n\n\nView services Start a project\n\n\n\n\n\n\n\n\nWhat We Offer\n\n\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.\n\n\n\n\n\n\nLAYER 01\n\n\n\n\nIndependent, satellite-grounded MRV for carbon and biodiversity credit projects\n\nWe build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.\n\n\n\nWho it’s for\nProject developers Conservancies Impact investors\n\n02°10’S 38°04’E\nIllustrative anchor: Tsavo–Kasigau region\n\n\n\n\n\n\n\nLAYER 02\n\n\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving\n\nHistorical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.\n\n\n\nWho it’s for\nCounty governments Land-use planners Conservation NGOs\n\n00°49’S 35°42’E\nIllustrative anchor: Mau Forest Complex\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled\n\nConnectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.\n\n\n\nWho it’s for\nWildlife conservancies Park authorities Conservation NGOs\n\n00°02’N 37°33’E\nIllustrative anchor: Northern Rangelands\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately\n\nWe pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.\n\n\n\nWho it’s for\nResearch consortia Bilateral donors Conservancy associations\n\n03°04’S 37°21’E\nIllustrative anchor: Kilimanjaro socio-ecological zone\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them\n\nSpatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.\n\n\n\nWho it’s for\nInsurers & reinsurers Early-warning programs Agtech\n\n02°17’N 37°59’E\nIllustrative anchor: Marsabit, Northern Kenya\n\n\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief"
-  },
-  {
     "objectID": "services-geospatial.html#five-layers-of-analysis-stacked-around-one-landscape.",
     "href": "services-geospatial.html#five-layers-of-analysis-stacked-around-one-landscape.",
-    "title": "Evidence, not estimates, for how landscapes are changing.",
-    "section": "",
-    "text": "Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project."
+    "title": "hidden dummy title",
+    "section": "Five layers of analysis, stacked around one landscape.",
+    "text": "Five layers of analysis, stacked around one landscape.\nEach service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project."
+  },
+  {
+    "objectID": "services-geospatial.html#three-things-every-layer-is-built-on.",
+    "href": "services-geospatial.html#three-things-every-layer-is-built-on.",
+    "title": "hidden dummy title",
+    "section": "Three things every layer is built on.",
+    "text": "Three things every layer is built on."
+  },
+  {
+    "objectID": "services-geospatial.html#who-we-build-these-layers-for",
+    "href": "services-geospatial.html#who-we-build-these-layers-for",
+    "title": "hidden dummy title",
+    "section": "Who we build these layers for",
+    "text": "Who we build these layers for"
   },
   {
     "objectID": "services-geospatial.html#have-a-landscape-that-needs-a-closer-look",
     "href": "services-geospatial.html#have-a-landscape-that-needs-a-closer-look",
-    "title": "Evidence, not estimates, for how landscapes are changing.",
-    "section": "",
-    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+    "title": "hidden dummy title",
+    "section": "Have a landscape that needs a closer look?",
+    "text": "Have a landscape that needs a closer look?\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
   },
   {
     "objectID": "project-mangrove.html",

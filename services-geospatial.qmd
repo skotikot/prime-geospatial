@@ -1,8 +1,11 @@
 ---
-title: ""
+title: "hidden dummy title"
 title-block-banner: false
 page-layout: full
 toc: false
+format:
+  html:
+    title-block-style: none
 ---
 
 ::: {.eg-page}
