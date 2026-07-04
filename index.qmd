@@ -15,6 +15,10 @@ page-layout: custom
 
 <a href="services.qmd" class="btn-primary">Explore Our Services</a>
 
+::: {.eg-hero-ctas}
+[Explore our services](services-geospatial.qmd#services){.eg-btn .eg-btn-solid} [Start a project](#contact){.eg-btn .eg-btn-outline}
+:::
+
 </header>
 
 ::::::::::::::::::: eg-page
@@ -28,9 +32,13 @@ page-layout: custom
 We're a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.
 :::
 
-::: eg-chip-row
-[Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
+::: {.eg-hero-ctas}
+[Learn more about us](about.qmd#about){.eg-btn .eg-btn-solid} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
 :::
+
+<!--::: eg-chip-row
+[Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
+:::-->
 :::::
 ::::::
 
@@ -49,15 +57,15 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 [LAYER 01]{.eg-layer-index}
 
-::: {.eg-layer-image}
-![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
-:::
-
 ### Digital MRV & Carbon Verification
 
 [Independent, satellite-grounded MRV for carbon and biodiversity credit projects.]{.eg-teaser-desc}
 
 [Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
 :::
 
 ::: eg-teaser-card
@@ -76,20 +84,23 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 :::
 
+
 ::: eg-teaser-card
 
 [LAYER 03]{.eg-layer-index}
 
 ### Landscape Connectivity & Conservation Planning
 
+[Habitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
 ::: {.eg-layer-image}
 ![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
 :::
 
-[Habitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.]{.eg-teaser-desc}
-
-[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
 :::
+
 
 ::: eg-teaser-card
 
@@ -100,6 +111,11 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 [Where land, climate, and community governance meet — analyzed together, not separately.]{.eg-teaser-desc}
 
 [Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
+
 :::
 :::::::
 :::::::::

@@ -848,8 +848,8 @@ main.content:has(.eg-page),
 }
 
 /* ---------- SECTION HEADERS ---------- */
-.eg-section{ padding:50px 0; } /*was 80*/
-.eg-sec-head{ margin-bottom:44px; max-width:60ch; } 
+.eg-section{ padding:20px 0; } /*was 80*/
+.eg-sec-head{ margin-bottom:44px; max-width:100ch; } /*was 44,60*/
 .eg-sec-head h2{ font-size:clamp(1.6rem, 3vw, 2.1rem); margin-bottom:14px; }
 .eg-sec-head p{ color:var(--eg-ink-soft); }
 
