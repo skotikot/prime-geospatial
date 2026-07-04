@@ -69,6 +69,11 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 [Mapping and forecasting how agriculture, settlement, and forest cover are moving.]{.eg-teaser-desc}
 
 [Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
+
 :::
 
 ::: eg-teaser-card
@@ -76,6 +81,10 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 [LAYER 03]{.eg-layer-index}
 
 ### Landscape Connectivity & Conservation Planning
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
 
 [Habitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.]{.eg-teaser-desc}
 
