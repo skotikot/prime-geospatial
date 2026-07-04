@@ -821,7 +821,7 @@ main.content:has(.eg-page),
   font-family:'IBM Plex Mono', monospace;
   font-size:0.75rem; letter-spacing:0.12em; color:var(--eg-canopy);
   text-transform:uppercase; display:inline-flex; align-items:center; gap:10px;
-  margin-bottom:18px;
+  margin-bottom:12px;/* was 18px */
 }
 .eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
@@ -829,7 +829,7 @@ main.content:has(.eg-page),
 
 .eg-lede{ max-width:120ch; color:var(--eg-ink-soft); font-size:1.5rem; margin-bottom:34px; }
 
-.eg-hero-ctas{ margin-bottom:56px; }
+.eg-hero-ctas{ margin-bottom:10px; }/*was 56px  */
 .eg-btn{
   font-family:'IBM Plex Mono', monospace; font-size:0.82rem;
   padding:13px 22px; text-decoration:none; letter-spacing:0.02em;
@@ -983,6 +983,21 @@ main.content:has(.eg-page),
   color:var(--eg-canopy); text-decoration:none; letter-spacing:0.02em;
 }
 .eg-teaser-link:hover{ text-decoration:underline; }
+
+
+.eg-btn-hp{
+  font-family:'IBM Plex Mono', monospace; font-size:2rem;
+  padding:13px 22px; text-decoration:none; letter-spacing:0.02em;
+  border:1px solid var(--eg-ink); transition:all .2s;
+  display:inline-block; margin:0 14px 12px 0; border-radius:0;
+  background:var(--eg-ink); color:var(--eg-paper);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-weight: 700;
+}
+
+.eg-btn-hp:hover{ background:var(--eg-canopy); border-color:var(--eg-canopy); color:var(--eg-paper); }
+
+
 
 /* ---------- DARK HERO VARIANT (home page) ---------- */
 .eg-hero-dark{

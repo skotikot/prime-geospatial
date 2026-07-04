@@ -13,11 +13,8 @@ page-layout: custom
 
 <!-- STREAMING_CHUNK:Adding the call-to-action button -->
 
-<a href="services.qmd" class="btn-primary">Explore Our Services</a>
+<a href="services.qmd" class=".eg-btn-hp">Explore Our Services</a>
 
-::: {.eg-hero-ctas}
-[Explore our services](services-geospatial.qmd#services){.eg-btn .eg-btn-solid} [Start a project](#contact){.eg-btn .eg-btn-outline}
-:::
 
 </header>
 
@@ -33,7 +30,7 @@ We're a team of geospatial data scientists, ecologists, and social-ecological sy
 :::
 
 ::: {.eg-hero-ctas}
-[Learn more about us](about.qmd#about){.eg-btn .eg-btn-solid} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
+[Learn more about us](about.qmd#about){.eg-btn .eg-btn-outline} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
 :::
 
 <!--::: eg-chip-row
