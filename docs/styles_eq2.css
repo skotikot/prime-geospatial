@@ -1076,5 +1076,89 @@ main.content:has(.eg-page),
 .eg-story-block p{ margin-bottom:16px; }
 
 /* ================================================================
+   ABOUT PAGE — split photo hero, floating cards, collapsible text
+   ================================================================ */
+
+.eg-hero-split .eg-wrap{
+  display:grid; grid-template-columns:1fr; gap:36px; align-items:center;
+  text-align:left;
+}
+@media(min-width:800px){
+  .eg-hero-split .eg-wrap{ grid-template-columns: 1.1fr 0.9fr; }
+}
+.eg-hero-split .eg-eyebrow{ justify-content:flex-start; }
+.eg-hero-split h1{ margin-left:0; margin-right:0; text-align:left; max-width:none; }
+.eg-hero-split .eg-lede{ margin-left:0; margin-right:0; text-align:left; }
+.eg-hero-split .eg-hero-ctas{ justify-content:flex-start; }
+
+.eg-photo-placeholder{
+  border:1px solid var(--eg-line); background:var(--eg-paper-deep);
+  aspect-ratio: 4/3; overflow:hidden; position:relative;
+}
+.eg-photo-placeholder img{ width:100%; height:100%; object-fit:cover; display:block; }
+.eg-photo-caption{
+  font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--eg-ink-soft);
+  margin-top:10px;
+}
+
+/* floating pull-quote card */
+.eg-quote-card{
+  border:1px solid var(--eg-canopy); background:var(--eg-paper-deep);
+  padding:22px 24px; max-width:420px; box-shadow:0 14px 30px rgba(27,33,29,0.10);
+  transform:rotate(-1.2deg); margin: 26px 0;
+}
+.eg-quote-card p{
+  font-family:'Space Grotesk', sans-serif; font-style:italic; font-size:1.05rem;
+  color:var(--eg-ink); margin:0;
+}
+
+/* bridge floating cards ("raw computing" <-> "ground truth") */
+.eg-bridge-grid{
+  display:grid; grid-template-columns:1fr; gap:20px; align-items:center;
+  margin: 22px 0 30px;
+}
+@media(min-width:700px){
+  .eg-bridge-grid{ grid-template-columns: 1fr auto 1fr; gap:16px; }
+}
+.eg-bridge-card{
+  border:1px solid var(--eg-line); background:var(--eg-paper); padding:22px;
+  box-shadow:0 10px 24px rgba(27,33,29,0.06);
+}
+.eg-bridge-card:first-child{ transform:rotate(-1.2deg); }
+.eg-bridge-card:last-child{ transform:rotate(1.2deg); }
+.eg-bridge-label{
+  font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--eg-canopy);
+  text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:8px;
+}
+.eg-bridge-card h3{ font-size:1.1rem; margin-bottom:8px; }
+.eg-bridge-card p{ font-size:0.9rem; color:var(--eg-ink-soft); margin:0; }
+.eg-bridge-arrow{
+  display:flex; align-items:center; justify-content:center;
+  font-family:'IBM Plex Mono', monospace; font-size:1.4rem; color:var(--eg-ink-soft);
+}
+@media(max-width:699px){ .eg-bridge-arrow{ transform:rotate(90deg); } }
+
+/* collapsible read-more sections */
+.eg-expand summary{
+  cursor:pointer; list-style:none;
+  font-family:'IBM Plex Mono', monospace; font-size:0.8rem;
+  color:var(--eg-canopy); font-weight:500; margin-top:10px;
+}
+.eg-expand summary::-webkit-details-marker{ display:none; }
+.eg-expand summary::marker{ content:''; }
+.eg-expand summary:hover{ text-decoration:underline; }
+.eg-expand:not([open]) .eg-less-label{ display:none; }
+.eg-expand[open] .eg-more-label{ display:none; }
+.eg-expand-content{ margin-top:14px; }
+.eg-expand-content p{ margin-bottom:14px; color:var(--eg-ink-soft); font-size:0.95rem; }
+.eg-expand-content p:last-child{ margin-bottom:0; }
+
+/* staggered floating serve cards on wide screens */
+@media(min-width:1000px){
+  .eg-serve-card:nth-child(2){ transform:translateY(16px); }
+  .eg-serve-card:nth-child(4){ transform:translateY(16px); }
+}
+
+/* ================================================================
    END EQUATOR GEOSPATIAL ABOUT PAGE STYLES
    ================================================================ */

@@ -18,15 +18,15 @@ website:
       # Home button removed
       # - href: index.qmd
       #   text: Home
-      - href: home-geospatial.qmd
-        text: Home
-      - href: services.qmd
-        text: Services
+      #- href: home-geospatial.qmd
+      #  text: Home
+      #- href: services.qmd
+      #  text: Services
       - href: services-geospatial3.qmd
-        text: Services2
+        text: Services
       - href: about.qmd
         text: About us
-      - href: about-geospatial.qmd
+      - href: about-geospatial_2.qmd
         text: About us 2  
       - href: people.qmd
         text: Our Team
