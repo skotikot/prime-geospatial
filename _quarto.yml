@@ -26,6 +26,8 @@ website:
         text: Services2
       - href: about.qmd
         text: About us
+      - href: about-geospatial.qmd
+        text: About us 2  
       - href: people.qmd
         text: Our Team
       - href: projects.qmd  # Or "Case Studies / White Papers"
