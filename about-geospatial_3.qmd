@@ -1,0 +1,344 @@
+---
+title: "About Us"
+title-block-banner: false
+page-layout: full
+toc: false
+---
+
+::: {.eg-page}
+
+::: {.eg-hero .eg-hero-split}
+::: {.eg-wrap}
+::: {.eg-hero-text}
+[About Us]{.eg-eyebrow}
+
+# Why should an organization need a GIS degree, or a plane ticket, to use its own spatial data?
+
+::: {.eg-lede}
+Prime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.
+:::
+:::
+
+::: {.eg-photo-placeholder}
+![Prime Geospatial founders at the Christmas get-together where the idea began](images/about-hero-team.jpg)
+:::
+:::
+:::
+
+::: {#story .eg-section}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Who We Are]{.eg-eyebrow}
+
+## Founded by scientists, not just software.
+:::
+
+::: {.eg-story-block}
+Prime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.
+
+::: {.eg-quote-card}
+Three doctoral researchers. One shared frustration. One Christmas conversation that started it all.
+:::
+
+```{=html}
+<details class="eg-expand">
+<summary><span class="eg-more-label">Read the full story →</span><span class="eg-less-label">Show less ↑</span></summary>
+<div class="eg-expand-content">
+<p>The idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?</p>
+</div>
+</details>
+```
+:::
+:::
+:::
+
+::: {#approach .eg-section .eg-services}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Our Approach]{.eg-eyebrow}
+
+## The bridge between raw computing and ground truth.
+:::
+
+::: {.eg-story-block}
+Geospatial AI has made data more abundant than ever — but abundance isn't the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn't possible, as the pandemic made clear, digital models can drift further from reality.
+:::
+
+::: {.eg-bridge-grid}
+::: {.eg-bridge-card}
+[Raw Computing]{.eg-bridge-label}
+
+### Data at scale
+
+Accessing, processing, and analyzing complex multi-source datasets — the heavy lifting automated models are good at.
+:::
+
+::: {.eg-bridge-arrow}
+→
+:::
+
+::: {.eg-bridge-card}
+[Ground Truth]{.eg-bridge-label}
+
+### Verified reality
+
+Expert interpretation and field validation — the context and judgment automated models leave out.
+:::
+:::
+
+::: {.eg-story-block}
+```{=html}
+<details class="eg-expand">
+<summary><span class="eg-more-label">Read more about our approach →</span><span class="eg-less-label">Show less ↑</span></summary>
+<div class="eg-expand-content">
+<p>Our approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we're analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.</p>
+</div>
+</details>
+```
+:::
+
+::: {.eg-chip-row}
+[Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
+:::
+:::
+:::
+
+::: {#how-we-work .eg-section}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[How We Work]{.eg-eyebrow}
+
+## From base research to real-world impact.
+:::
+
+::: {.eg-pathway}
+::: {.eg-pathway-step}
+[STEP 01]{.eg-num}
+
+### Fill gaps in base research
+
+Ground the question in solid ecological and geospatial science first.
+:::
+
+::: {.eg-pathway-arrow}
+→
+:::
+
+::: {.eg-pathway-step}
+[STEP 02]{.eg-num}
+
+### Fill gaps in applied research
+
+Adapt methods to the specific landscape, dataset, and decision at hand.
+:::
+
+::: {.eg-pathway-arrow}
+→
+:::
+
+::: {.eg-pathway-step}
+[STEP 03]{.eg-num}
+
+### Build operational solutions
+
+Turn the analysis into something a client's team can actually use.
+:::
+
+::: {.eg-pathway-arrow}
+→
+:::
+
+::: {.eg-pathway-step}
+[STEP 04]{.eg-num}
+
+### Scale to real-world impact
+
+Hand off decision-ready insight — verified, documented, and defensible.
+:::
+:::
+:::
+:::
+
+::: {#values .eg-section .eg-sectors}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Core Values]{.eg-eyebrow}
+
+## What we hold ourselves to.
+:::
+
+::: {.eg-values-grid}
+::: {.eg-value-item}
+[01]{.eg-num}
+
+### Technical Rigor
+
+Spatial modeling should be reproducible, robust, and scientifically sound — every time, not just when it's convenient.
+:::
+
+::: {.eg-value-item}
+[02]{.eg-num}
+
+### Ground-Truthed
+
+Computation alone isn't enough. We pair it with field validation and local context automated models miss.
+:::
+
+::: {.eg-value-item}
+[03]{.eg-num}
+
+### Transparency
+
+Clients get not just answers, but an understanding of the spatial processes behind them.
+:::
+
+::: {.eg-value-item}
+[04]{.eg-num}
+
+### Local Context
+
+Global, purely computer-driven analyses overlook localized nuance. We don't.
+:::
+
+::: {.eg-value-item}
+[05]{.eg-num}
+
+### Capacity Building
+
+We train the wider environmental and geospatial community, not just our own clients.
+:::
+:::
+:::
+:::
+
+::: {#who-we-serve .eg-section}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Who We Serve]{.eg-eyebrow}
+
+## Four kinds of partners, one bottleneck removed.
+:::
+
+::: {.eg-serve-grid}
+
+::: {.eg-serve-card}
+### Local & National Governments
+
+Translating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.
+:::
+
+::: {.eg-serve-card}
+### Nonprofits & NGOs
+
+Rigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.
+:::
+
+::: {.eg-serve-card}
+### Researchers & Academia
+
+Clean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.
+:::
+
+::: {.eg-serve-card}
+### The Private Sector
+
+Removing the operational overhead of in-house data processing, so commercial teams can move faster.
+:::
+
+:::
+:::
+:::
+
+::: {#team .eg-section}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Our Team]{.eg-eyebrow}
+
+## The founders.
+:::
+
+::: {.eg-team-grid}
+::: {.eg-team-card}
+::: {.eg-team-photo}
+![Founder photo placeholder](images/founder-1.jpg)
+:::
+### [Founder Name]
+
+Co-Founder — Geospatial Data Science
+:::
+
+::: {.eg-team-card}
+::: {.eg-team-photo}
+![Founder photo placeholder](images/founder-2.jpg)
+:::
+### [Founder Name]
+
+Co-Founder — Remote Sensing
+:::
+
+::: {.eg-team-card}
+::: {.eg-team-photo}
+![Founder photo placeholder](images/founder-3.jpg)
+:::
+### [Founder Name]
+
+Co-Founder — Landscape & Forest Ecology
+:::
+
+::: {.eg-team-card}
+::: {.eg-team-photo}
+![Founder photo placeholder](images/founder-4.jpg)
+:::
+### [Founder Name]
+
+Co-Founder — Social-Ecological Systems
+:::
+:::
+:::
+:::
+
+::: {#education .eg-section .eg-sectors}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Capacity Building]{.eg-eyebrow}
+
+## Committed to the wider community, not just our clients.
+:::
+
+::: {.eg-story-block}
+We offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.
+:::
+:::
+:::
+
+::: {#contact .eg-section .eg-contact}
+::: {.eg-contact-wrap}
+::: {.eg-contact-left}
+## Have a landscape that needs a closer look?
+
+Tell us what you're trying to prove, protect, or plan for. We'll tell you which layers apply.
+:::
+
+::: {.eg-contact-box}
+[EMAIL]{.eg-mono-label}
+
+[hello@primegeospatial.com](mailto:hello@primegeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@primegeospatial.com){.eg-btn .eg-btn-solid}
+:::
+:::
+:::
+
+::: {.eg-footer}
+::: {.eg-footer-inner}
+© 2026 PRIME GEOSPATIAL
+
+NAIROBI, KENYA
+:::
+:::
+
+:::
