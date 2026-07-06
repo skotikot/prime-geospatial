@@ -20,35 +20,22 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 :::::: {#about .eg-section}
-::::: eg-wrap.two-column-layout
-
-<!-- Left Column: Image/Impact Text -->
-::: .column-left
-<div class="hero-impact-box">
-  <h2 class="impact-text">
-    CREATING <br>
-    <span class="highlight">Positive</span> Global <br>
-    CHANGE
-  </h2>
-</div>
-:::
-
-<!-- Right Column: Content -->
-::: .column-right
+::::: eg-wrap
 [Who we are]{.eg-eyebrow}
 
 ## Science-first, not GIS-generalist.
 
-<p class="eg-intro-lede">
+::: eg-intro-lede
 We're a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.
-</p>
+:::
 
 ::: {.eg-hero-ctas}
-[Learn more about us](about.qmd#about){.eg-btn .eg-btn-outline} 
-[Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
-:::
+[Learn more about us](about.qmd#about){.eg-btn .eg-btn-outline} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
 :::
 
+<!--::: eg-chip-row
+[Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
+:::-->
 :::::
 ::::::
 

@@ -1214,31 +1214,4 @@ main.content:has(.eg-page),
 /* ================================================================
    END EQUATOR GEOSPATIAL ABOUT PAGE STYLES
    ================================================================ */
-   
-   .two-column-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Creates equal 50/50 split */
-  gap: 2rem;
-  align-items: center;
-}
-
-.hero-impact-box {
-  background-image: url('images/wildB.jpg');
-  background-size: cover;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  padding: 2rem;
-}
-
-.impact-text {
-  color: white;
-  font-size: 3rem;
-  line-height: 1.2;
-}
-
-.impact-text .highlight {
-  background: white;
-  color: #000;
-  padding: 0 5px;
-}
+ 
