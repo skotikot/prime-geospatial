@@ -26,7 +26,7 @@ website:
         text: Services
       - href: about.qmd
         text: About us
-      - href: about-geospatial_2.qmd
+      - href: about-geospatial_3.qmd
         text: About us 2  
       - href: people.qmd
         text: Our Team
