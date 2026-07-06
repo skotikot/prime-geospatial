@@ -23,10 +23,18 @@ page-layout: custom
 ::::: eg-wrap
 [Who we are]{.eg-eyebrow}
 
-## Science-first, not GIS-generalist.
+## Turning landscape data into trusted intelligence for sustainable futures.
 
 ::: eg-intro-lede
-We're a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.
+PrimeGeo is a science-driven spatial analytics and environmental intelligence firm.
+
+We transform complex landscape data into actionable evidence that helps governments, conservation organizations, investors, project developers, and communities make confident decisions. By integrating satellite observation, advanced spatial modeling, field-based data, and social-ecological insights, we deliver audit-ready intelligence that connects environmental outcomes with real-world impact.
+
+Built on a foundation of scientific rigor, transparency, and local relevance, we work at the intersection of conservation, climate, and sustainable development. Our expertise spans carbon measurement and verification, land-use change modeling, landscape ecology, resilience assessment, and evidence-based planning.
+We bridge spatial and social science, combining ecological data, community knowledge, and governance dynamics to provide a complete understanding of how landscapes function and change over time.
+
+From project design and baseline assessments to monitoring, verification, and impact evaluation, we help our partners move beyond assumptions and make decisions backed by credible, measurable evidence.
+
 :::
 
 ::: {.eg-hero-ctas}
