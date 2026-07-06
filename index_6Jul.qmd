@@ -1,0 +1,142 @@
+---
+title: ""
+page-layout: custom
+---
+
+<header class="hero-banner">
+
+<!-- The text overlay content -->
+
+<h1>Prime Geospatial</h1>
+
+<h2>Bridging the Gap Between Data and Discovery</h2>
+
+<!-- STREAMING_CHUNK:Adding the call-to-action button -->
+
+<a href="services.qmd" class=".eg-btn-hp">Explore Our Services</a>
+
+
+</header>
+
+::::::::::::::::::: eg-page
+:::::: {#about .eg-section}
+::::: eg-wrap
+[Who we are]{.eg-eyebrow}
+
+## Science-first, not GIS-generalist.
+
+::: eg-intro-lede
+We're a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.
+:::
+
+::: {.eg-hero-ctas}
+[Learn more about us](about.qmd#about){.eg-btn .eg-btn-outline} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
+:::
+
+<!--::: eg-chip-row
+[Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
+:::-->
+:::::
+::::::
+
+:::::::::: {#what-we-do .eg-section .eg-services}
+::::::::: eg-wrap
+::: eg-sec-head
+[What we do]{.eg-eyebrow}
+
+## Five layers of analysis — one landscape.
+
+A quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment.
+:::
+
+::::::: eg-teaser-grid
+::: eg-teaser-card
+
+[LAYER 01]{.eg-layer-index}
+
+### Digital MRV & Carbon Verification
+
+[Independent, satellite-grounded MRV for carbon and biodiversity credit projects.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
+:::
+
+::: eg-teaser-card
+
+[LAYER 02]{.eg-layer-index}
+
+### Land-Use & Land-Cover Change Modeling
+
+[Mapping and forecasting how agriculture, settlement, and forest cover are moving.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
+
+:::
+
+
+::: eg-teaser-card
+
+[LAYER 03]{.eg-layer-index}
+
+### Landscape Connectivity & Conservation Planning
+
+[Habitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
+
+:::
+
+
+::: eg-teaser-card
+
+[LAYER 04]{.eg-layer-index}
+
+### Social-Ecological Systems & Resilience Assessment
+
+[Where land, climate, and community governance meet — analyzed together, not separately.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+::: {.eg-layer-image}
+![Satellite view of forest canopy near the Tsavo–Kasigau corridor](images/DataCleaning.png)
+:::
+
+:::
+:::::::
+:::::::::
+::::::::::
+
+:::::: {#contact .eg-section .eg-contact}
+::::: eg-contact-wrap
+::: eg-contact-left
+## Have a landscape that needs a closer look?
+
+Tell us what you're trying to prove, protect, or plan for. We'll tell you which layers apply.
+:::
+
+::: eg-contact-box
+[EMAIL]{.eg-mono-label}
+
+[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+:::
+:::::
+::::::
+:::::::::::::::::::
