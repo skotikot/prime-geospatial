@@ -21,9 +21,11 @@ page-layout: custom
 ::::::::::::::::::: eg-page
 :::::: {#about .eg-section}
 ::::: eg-wrap
+::: eg-sec-head
 [Who we are]{.eg-eyebrow}
 
 ## Turning landscape data into trusted intelligence for sustainable futures.
+:::
 
 ::: eg-intro-lede
 PrimeGeo is a science-driven spatial analytics and environmental intelligence firm.
@@ -136,15 +138,16 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 :::::: {#about .eg-section}
 ::::: eg-wrap
+::: eg-sec-head
 [Our core competencies]{.eg-eyebrow}
 
-## Transdisciplinary engagements
-
+## Trans-disciplinary engagements
+:::
 
 <!-- CORE COMPETENCIES SECTION -->
-::: {.column-page style="padding-top: 1.5rem; padding-bottom: 4rem;"}
+::: {.column-page style="padding-top: 1.5rem; padding-bottom: 1.5rem;"}
 
-<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; text-align: center; padding-bottom: 10px;">Our Core Competencies</h2>
+<!--<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; text-align: center; padding-bottom: 10px;">Our Core Competencies</h2>-->
 
 ::: {.grid}
 
