@@ -149,7 +149,7 @@ padding: 0;          /* Removes default padding that might cause offsets */
   width: auto;
   margin-right: 15px;
   object-fit: contain;   /* Prevents clipping inside the box */
-  padding: 2px 8px;        /* Adds breathing room above/below */
+  padding: 0px 8px;        /* Adds breathing room above/below */
 }
 
 .navbar .navbar-nav .nav-link {
@@ -212,6 +212,7 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;    /* Forces h1 and h2 to stack vertically */
   /*justify-content: center;*/
+  justify-content: flex-start
   align-items: center;
   text-align: center;
   
@@ -957,7 +958,7 @@ main.content:has(.eg-page),
    the light gray card + black number badge + colored left-edge accent
    look, without changing the plain .eg-approach-grid used elsewhere. */
 .eg-approach-cards{
-  --eg-approach-accent: --eg-rust; /* left-edge accent color — swap to any brand color */
+  --eg-approach-accent: #A24E3B; /* left-edge accent color — swap to any brand color */
   border-top: none;
   padding-top: 0;
   gap: 28px;
