@@ -39,7 +39,7 @@ website:
   # INSERT YOUR GLOBAL PAGE FOOTER HERE
   # ==========================================
   page-footer:
-    background: "#B9CDCE"             # Clean, subtle off-white footer container
+    background: "#C7C2A9"            # Clean, subtle off-white footer container
     border: true                      # Adds a crisp dividing hairline above the content
     left: |
       © Prime Geospatial • 2026 • [primegeospatial.com](https://skotikot.github.io/prime-geospatial/)

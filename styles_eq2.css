@@ -88,12 +88,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 /* 2. Full-Width Navbar Styling */
+
+/*
 .navbar {
 background-color: #EAEAEA !important;
 border-bottom: 3px solid #2A5A5C !important;
 width: 100% !important;
 padding-left: 2rem !important;
 padding-right: 2rem !important;
+}*/
+
+/* Example for a navbar class */
+.navbar {
+  /* This makes the background semi-transparent black */
+  background-color: rgba(14, 21, 18, 0.5); 
+  
+  /* Adds a modern frosted-glass effect */
+  backdrop-filter: blur(10px); 
+  
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  /* Ensures the navbar sits above your content */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
 
 .navbar .container,
