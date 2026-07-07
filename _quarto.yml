@@ -54,7 +54,7 @@ website:
 format:
   html:
     theme: flatly
-    css: styles_eq2.css # <-- This line tells Quarto to look for your CSS file!
+    css: styles_eq3.css # <-- This line tells Quarto to look for your CSS file!
     toc: true                   # Generates the right-hand page navigation menu
     toc-location: right
     # include-after-body: footer.html

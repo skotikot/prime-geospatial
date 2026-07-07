@@ -193,6 +193,50 @@ Theoretical landscape ecology, focusing on the critical distinction between conf
 
 
 
+
+
+:::: {#social-ecological .eg-section .eg-ses-dark}
+::: eg-wrap
+::: eg-ses-card
+
+::: eg-sec-head
+[Our approach]{.eg-eyebrow}
+
+## Social-ecological integration
+
+[Environmental Problems Don't Exist in Isolation]{.eg-ses-tagline}
+:::
+
+::: eg-ses-intro
+At Prime Geospatial, we recognize that environmental challenges are never purely ecological—they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
+
+By fusing spatial analytics, ecological modeling, and community-informed social-ecological systems thinking, we design interventions that are not just environmentally effective, but socially viable, locally supported, and built to endure.
+:::
+
+::: eg-ses-body
+::: eg-ses-image
+![](images/SES.png)
+:::
+
+::: eg-ses-points
+We map the intersection where these critical dimensions meet:
+
+- **Ecology**: We quantify species presence, habitat quality, carbon storage, and critical ecosystem services.
+- **People**: We account for livelihoods, cultural values, resource dependency, and the wealth of local knowledge that shapes landscape use.
+- **Governance**: We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
+:::
+:::
+
+::: eg-ses-cta
+[Why social-ecological integration matters →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
+:::
+
+:::
+:::
+::::
+
+
+
 :::::::::: {#social-ecological .eg-section .eg-ses-dark}
 ::::::::: eg-wrap
 ::: eg-sec-head
@@ -255,7 +299,7 @@ By fusing spatial analytics, ecological modeling, and community-informed social-
 
 ::: {.eg-layer}
 ::: {.eg-layer-marker}
-[ ]{.eg-layer-toggle .eg-l1}
+{.eg-layer-toggle .eg-l1}
 
 <!--[LAYER 01]{.eg-layer-index}-->
 :::
