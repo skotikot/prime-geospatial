@@ -13,10 +13,10 @@ format:
 ::: {.eg-hero}
 ::: {.eg-wrap}
 
-## Evidence, not estimates, for how landscapes are changing.
+## Beyond Estimates: Rigorous Landscape Intelligence.
 
 ::: {.eg-lede}
-We combine remote sensing, ecological modeling, and social-ecological systems research to answer one question for donors, conservancies, and governments across the region: is this land-use or climate claim actually true — and can we prove it over time?
+We bridge the gap between ecological claims and verifiable reality. Using satellite data, advanced modeling, and local social-ecological insights, we provide donors, developers, investors, land managers and governments across the region, with the definitive, audit-ready proof needed to secure and sustain your land-use investments.
 :::
 
 ::: {.eg-hero-ctas}
@@ -49,10 +49,13 @@ Each service reads like a layer in a GIS project — independently useful, and s
 ::: {.eg-layer-main}
 ### Digital MRV & Carbon Verification
 
-[Independent, satellite-grounded MRV for carbon and biodiversity credit projects]{.eg-layer-one-liner .eg-l1}
+[High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-layer-one-liner .eg-l1}
 
 ::: {.eg-layer-desc}
-We build and audit measurement-reporting-verification pipelines — biomass estimation, land-cover change detection, time-series monitoring — to registry standard, so credits hold up to scrutiny and due diligence holds up to buyers.
+We provide independent, satellite-grounded measurement-reporting-verification (MRV) pipelines designed to meet the strictest registry standards. By integrating precise biomass estimation, automated land-cover change detection, and longitudinal monitoring, we create a transparent data trail that transforms project performance into reliable, investable assets.
+
+Whether you are developing a new project or vetting a portfolio, our rigorous verification ensures your credits withstand third-party scrutiny and satisfy the most demanding due diligence.
+
 :::
 
 ::: {.eg-layer-meta}
@@ -84,10 +87,13 @@ Illustrative anchor: Tsavo–Kasigau region
 ::: {.eg-layer-main}
 ### Land-Use & Land-Cover Change Modeling
 
-[Mapping and forecasting how agriculture, settlement, and forest cover are moving]{.eg-layer-one-liner .eg-l2}
+[Co-designing the future of your landscape.]{.eg-layer-one-liner .eg-l2}
 
 ::: {.eg-layer-desc}
-Historical change detection and scenario modeling for deforestation, agricultural expansion, and urban growth — built for spatial planning, safeguard compliance, and donor reporting.
+Static maps don't capture the pulse of a changing region. We provide dynamic, community-guided scenario modeling that integrates local values and future needs into every projection. From mitigating agricultural sprawl to managing urban growth, we help you build land-use strategies that align conservation goals with sustainable community development. 
+
+Our approaches are precision-engineered for spatial planning, regulatory compliance, and high-impact donor reporting. 
+
 :::
 
 ::: {.eg-layer-meta}
@@ -119,10 +125,18 @@ Illustrative anchor: Mau Forest Complex
 ::: {.eg-layer-main}
 ### Landscape Connectivity & Conservation Planning
 
-[Habitat fragmentation, wildlife corridors, and human-wildlife conflict — mapped and modeled]{.eg-layer-one-liner .eg-l3}
+[Bridging the gap between ecological integrity and human prosperity.]{.eg-layer-one-liner .eg-l3}
 
 ::: {.eg-layer-desc}
-Connectivity analysis and protected-area effectiveness assessments that show where conservation investment and community agreements will actually hold, not just where a map says they should.
+We specialize in mapping and modeling the complexities of fragmented landscapes to create actionable conservation strategies. Our work goes beyond static mapping, utilizing cutting-edge simulation to show where conservation investments and community-led agreements will actually hold, not just where a map says they should.  
+
+Our Core Focus Areas:
+
+- Connectivity & corridor design
+- Proactive human-wildlife conflict modeling
+- Integrated well-being assessments
+- Effectiveness & impact analysis
+
 :::
 
 ::: {.eg-layer-meta}
@@ -154,10 +168,18 @@ Illustrative anchor: Northern Rangelands
 ::: {.eg-layer-main}
 ### Social-Ecological Systems & Resilience Assessment
 
-[Where land, climate, and community governance meet — analyzed together, not separately]{.eg-layer-one-liner .eg-l4}
+[Where land, climate, and community governance converge.]{.eg-layer-one-liner .eg-l4}
 
 ::: {.eg-layer-desc}
-We pair spatial data with social science to assess resilience, land governance, and community-based natural resource management — the layer most geospatial firms skip, and most funders now expect.
+Effective conservation requires more than satellite imagery; it requires understanding the governance systems that sustain the land. We pair spatial data with social science to model resilience, assess land governance, and evaluate community-based natural resource management. 
+
+By projecting the impacts of interventions before they occur and auditing their performance after implementation, we provide the integrated intelligence necessary to turn conservation goals into lasting, on-the-ground resilience.
+
+Our specialized assessments include:
+
+- Landscape & regenerative planning
+- Restoration & intervention analysis
+- Climate adaptation
 :::
 
 ::: {.eg-layer-meta}
@@ -187,22 +209,22 @@ Illustrative anchor: Kilimanjaro socio-ecological zone
 
 ::: {.eg-layer-body}
 ::: {.eg-layer-main}
-### Climate Adaptation & Food-Security Modeling
+### Technical Consulting & Capacity Building
 
-[Drought, rangeland, and yield forecasting for the people who plan around them]{.eg-layer-one-liner .eg-l5}
+[Translating complex spatial data into actionable, team-led expertise.]{.eg-layer-one-liner .eg-l5}
 
 ::: {.eg-layer-desc}
-Spatiotemporal modeling of drought risk, pastoral resilience, and agricultural yield, built to support early-warning systems and index-based insurance design.
+We provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.
 :::
 
 ::: {.eg-layer-meta}
 [Who it's for]{.eg-tag-label}
 
-[Insurers & reinsurers]{.eg-chip} [Early-warning programs]{.eg-chip} [Agtech]{.eg-chip}
+[Conservation NGOs and non-Profits]{.eg-chip} [Government environmental agencies]{.eg-chip} [Carbon and biodiversity project developers]{.eg-chip}
 
 ::: {.eg-layer-coord}
 02°17'N 37°59'E\
-Illustrative anchor: Marsabit, Northern Kenya
+Illustrative anchor: Advanced GIS for conservation practitioners
 :::
 :::
 :::
@@ -220,34 +242,36 @@ Illustrative anchor: Marsabit, Northern Kenya
 ::: {#approach .eg-section}
 ::: {.eg-wrap}
 ::: {.eg-sec-head}
-[Approach]{.eg-eyebrow}
+[Our approach]{.eg-eyebrow}
 
-## Three things every layer is built on.
+## The Foundation of Integrity
+
+[Every service we provide is anchored in three non-negotiable technical pillars:]{.eg-layer-one-liner .eg-l5}
 :::
 
 ::: {.eg-approach-grid}
 ::: {.eg-approach-item}
 [A]{.eg-num}
 
-### Field-grounded
+### Field-Grounded Data Fusion
 
-Every model is checked against ground truth — plots, transects, or partner verification — not just pixels.
+We go beyond remote sensing pixels by integrating high-fidelity ground truth data including field plots, transects, and bioacoustic monitoring to calibrate our models. This multi-source data fusion ensures our spatial projections reflect actual on-the-ground ecological conditions.
 :::
 
 ::: {.eg-approach-item}
 [B]{.eg-num}
 
-### Community-informed
+### Community-Informed Social-Ecological Modeling
 
-Social-ecological methods mean local governance and knowledge shape the analysis, not just the output.
+We integrate social science with spatial analysis to capture the human dimensions of land management. By embedding local governance frameworks and communal knowledge directly into our modeling engines (e.g., Agent-Based Models), we ensure our assessments are socially sustainable and operationally viable.
 :::
 
 ::: {.eg-approach-item}
 [C]{.eg-num}
 
-### Registry-ready
+### Registry-Ready Reproducibility
 
-Work is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.
+Our workflows are built for auditability. We utilize open-science standards to ensure every output meets the strict requirements of carbon registries and institutional auditors. By prioritizing documentation and transparency from the start, we eliminate the need for costly rework during final verification.
 :::
 :::
 :::

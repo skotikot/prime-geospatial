@@ -1266,7 +1266,7 @@ main.content:has(.eg-page),
   max-width:none;
   margin-bottom:0;
 }
-.eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:90ch; } /* max-width:70ch*/
+.eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:100ch; } /* max-width:70ch*/
 .eg-who-desc .eg-hero-ctas{ margin-bottom:0; }
 .eg-who-desc .eg-hero-ctas .eg-btn-outline{
   color:#F3F5EE; border-color:#5C6B60;
@@ -1319,7 +1319,7 @@ main.content:has(.eg-page),
   border-radius: 12px;
   padding: 32px 40px;
   margin: 30px auto 38px;
-  max-width: 100ch;/*70ch*/
+  max-width: 140ch;/*70ch*/
   box-shadow: 0 14px 34px rgba(0,0,0,0.25);
 }
 .eg-ses-intro-box p{
