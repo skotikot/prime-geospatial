@@ -116,6 +116,18 @@ padding-right: 2rem !important;
   transition: background-color 0.3s ease;
 }
 
+:root {
+  --nav-height: 80px;
+}
+
+.navbar {
+  height: var(--nav-height);
+}
+
+.hero-banner {
+  padding-top: var(--nav-height);
+}
+
 .navbar .container,
 .navbar .container-fluid {
 max-width: 100% !important;
@@ -148,10 +160,10 @@ padding: 0;          /* Removes default padding that might cause offsets */
 }
 
 .navbar .navbar-nav .nav-link {
-font-family: 'Open Sans', sans-serif !important;
-color: #615D6D !important;
+font-family: 'Roboto', sans-serif !important;
+color: #F8F9FA !important;
 font-weight: 700 !important;
-text-transform: uppercase !important;
+/*text-transform: uppercase !important;*/
 letter-spacing: 0.05em;
 font-size: 0.9rem !important;   /* adjust smaller or larger */
 }
@@ -212,6 +224,7 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   
   margin: 0;
   position: relative; /* Helps with layout stability */
+  padding-top: 80px;
 }
 
 
