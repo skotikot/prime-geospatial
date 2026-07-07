@@ -165,7 +165,7 @@ color: #F8F9FA !important;
 font-weight: 700 !important;
 /*text-transform: uppercase !important;*/
 letter-spacing: 0.05em;
-font-size: 0.9rem !important;   /* adjust smaller or larger */
+font-size: 1.2rem !important;   /* adjust smaller or larger */
 }
 
 .navbar-nav {
@@ -954,6 +954,55 @@ main.content:has(.eg-page),
 .eg-approach-item .eg-num{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-canopy); display:block; margin-bottom:10px; }
 .eg-approach-item h3{ font-size:1.1rem; margin-bottom:10px; }
 .eg-approach-item p{ color:var(--eg-ink-soft); font-size:0.92rem; }
+
+
+/* ---------- APPROACH — numbered-badge card variant ---------- */
+/* Add the .eg-approach-cards modifier class to .eg-approach-grid to get
+   the light gray card + black number badge + colored left-edge accent
+   look, without changing the plain .eg-approach-grid used elsewhere. */
+.eg-approach-cards{
+  --eg-approach-accent: --eg-rust; /* left-edge accent color — swap to any brand color */
+  border-top: none;
+  padding-top: 0;
+  gap: 28px;
+}
+.eg-approach-cards .eg-approach-item{
+  background: var(--eg-paper-deep);
+  border-left: 6px solid var(--eg-approach-accent);
+  padding: 30px 30px 32px;
+}
+.eg-approach-cards .eg-approach-head{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-bottom:16px;
+}
+.eg-approach-cards .eg-approach-badge{
+  flex:0 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:42px;
+  height:42px;
+  background:#111111;
+  color:#ffffff;
+  font-family:'Space Grotesk', sans-serif;
+  font-weight:700;
+  font-size:1.1rem;
+  border-radius:4px;
+}
+.eg-approach-cards .eg-approach-head h3{
+  margin:0;
+  font-size:1.1rem;
+  line-height:1.3;
+  color: var(--eg-ink);
+}
+.eg-approach-cards .eg-approach-item p{
+  color: var(--eg-ink-soft);
+  font-size:0.95rem;
+  line-height:1.6;
+  margin:0;
+}
 
 /* ---------- SECTORS ---------- */
 .eg-sectors{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }

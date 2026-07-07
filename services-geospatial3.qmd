@@ -239,6 +239,58 @@ Illustrative anchor: Advanced GIS for conservation practitioners
 :::
 :::
 
+
+
+
+
+::: {#approach .eg-section}
+::: {.eg-wrap}
+::: {.eg-sec-head}
+[Our approach]{.eg-eyebrow}
+
+## The Foundation of Integrity
+
+[Every service we provide is anchored in three non-negotiable technical pillars:]{.eg-layer-one-liner .eg-l5}
+:::
+
+::: {.eg-approach-grid .eg-approach-cards}
+::: {.eg-approach-item}
+::: {.eg-approach-head}
+[A]{.eg-approach-badge}
+
+### Field-Grounded Data Fusion
+:::
+
+We go beyond remote sensing pixels by integrating high-fidelity ground truth data including field plots, transects, and bioacoustic monitoring to calibrate our models. This multi-source data fusion ensures our spatial projections reflect actual on-the-ground ecological conditions.
+:::
+
+::: {.eg-approach-item}
+::: {.eg-approach-head}
+[B]{.eg-approach-badge}
+
+### Community-Informed Social-Ecological Modeling
+:::
+
+We integrate social science with spatial analysis to capture the human dimensions of land management. By embedding local governance frameworks and communal knowledge directly into our modeling engines (e.g., Agent-Based Models), we ensure our assessments are socially sustainable and operationally viable.
+:::
+
+::: {.eg-approach-item}
+::: {.eg-approach-head}
+[C]{.eg-approach-badge}
+
+### Registry-Ready Reproducibility
+:::
+
+Our workflows are built for auditability. We utilize open-science standards to ensure every output meets the strict requirements of carbon registries and institutional auditors. By prioritizing documentation and transparency from the start, we eliminate the need for costly rework during final verification.
+:::
+:::
+:::
+:::
+
+
+
+
+
 ::: {#approach .eg-section}
 ::: {.eg-wrap}
 ::: {.eg-sec-head}
