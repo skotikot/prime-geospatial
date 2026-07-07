@@ -1296,10 +1296,12 @@ main.content:has(.eg-page),
 .eg-ses-card .eg-sec-head{ margin-bottom: 0; max-width: none; }
 .eg-ses-tagline{
   display:block;
+  text-align: center; /* This centers the text horizontally */
   font-family:'Space Grotesk', sans-serif;
   font-style: italic;
-  font-size: 1.15rem;
-  color: var(--eg-canopy);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--eg-rust);
   margin-top: 10px;
 }
 

@@ -1261,12 +1261,12 @@ main.content:has(.eg-page),
 .eg-who-title .eg-eyebrow::before{ background:#8FD39D; }
 .eg-who-title h2{
   color:#F3F5EE;
-  font-size:clamp(1.9rem, 3vw, 2.6rem);
+  font-size:clamp(2.2rem, 3vw, 2.6rem);
   line-height:1.2;
   max-width:none;
   margin-bottom:0;
 }
-.eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:70ch; }
+.eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:90ch; } /* max-width:70ch*/
 .eg-who-desc .eg-hero-ctas{ margin-bottom:0; }
 .eg-who-desc .eg-hero-ctas .eg-btn-outline{
   color:#F3F5EE; border-color:#5C6B60;
@@ -1275,43 +1275,92 @@ main.content:has(.eg-page),
   background:#F3F5EE; color:#0E1512; border-color:#F3F5EE;
 }
 
-/* ---------- SOCIAL-ECOLOGICAL INTEGRATION — dark feature layer ---------- */
+
+/* ---------- SOCIAL-ECOLOGICAL INTEGRATION — light card on dark section ---------- */
 .eg-ses-dark{
-  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  background-image: url('images/nrkGraze.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-top:1px solid #2B3830;
   border-bottom:1px solid #2B3830;
-  padding: 56px 0;
+  padding: 64px 0;
 }
-.eg-ses-dark .eg-layer{ border-bottom:none; padding:0; }
-.eg-ses-dark .eg-layer:hover{ background:none; }
-.eg-ses-dark .eg-layer-toggle{ border-color:#8FD39D; }
-.eg-ses-dark .eg-layer-index{ color:#7C8A80; }
-.eg-ses-dark .eg-layer-main h3{
-  color:#F3F5EE;
-  font-size:1.75rem;
-  margin-bottom:12px;
+ 
+/* the pale card that pops against the background image */
+.eg-ses-card{
+  background: var(--eg-paper);
+  border-radius: 16px;
+  padding: 44px 48px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
 }
-.eg-ses-dark .eg-layer-one-liner{ color:#8FD39D !important; font-size:1.2rem; }
-.eg-ses-dark .eg-layer-desc{
-  color:#D3DBD1;
-  font-size:1.05rem;
-  max-width:60ch;
+@media(max-width:640px){
+  .eg-ses-card{ padding: 32px 24px; }
 }
-.eg-ses-dark .eg-layer-desc strong,
-.eg-ses-dark .eg-layer-desc b{ color:#F3F5EE; }
-.eg-ses-dark .eg-layer-image{
-  border-color:#2B3830;
-  min-height:340px;
+ 
+/* heading block, styled to match the eyebrow/H2 pattern used elsewhere */
+.eg-ses-card .eg-sec-head{ margin-bottom: 0; max-width: none; }
+.eg-ses-tagline{
+  display:block;
+  text-align: center; /* This centers the text horizontally */
+  font-family:'Space Grotesk', sans-serif;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--eg-rust);
+  margin-top: 10px;
 }
-.eg-ses-dark .eg-layer-image img{ min-height:340px; }
-
-/* CTA button under the SES text block */
-.eg-ses-cta{ margin-top:26px; }
+ 
+/* intro copy: dark text box, centered inside the light card */
+.eg-ses-intro-box{
+  background: #0E1512;
+  border-radius: 12px;
+  padding: 32px 40px;
+  margin: 30px auto 38px;
+  max-width: 70ch;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+}
+.eg-ses-intro-box p{
+  color: #D3DBD1;
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+.eg-ses-intro-box p:last-child{ margin-bottom:0; }
+@media(max-width:640px){
+  .eg-ses-intro-box{ padding: 26px 24px; }
+}
+ 
+/* image (left) + bullets (right) row below the intro copy */
+.eg-ses-body{
+  display:grid; grid-template-columns:1fr; gap:32px; align-items:center;
+}
+@media(min-width:760px){
+  .eg-ses-body{ grid-template-columns: 1fr 1fr; gap:48px; }
+}
+ 
+.eg-ses-image{
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.eg-ses-image img{
+  width:100%; height:100%; min-height:280px; object-fit:cover; display:block;
+}
+ 
+.eg-ses-points p{ color: var(--eg-ink-soft); margin-bottom: 14px; }
+.eg-ses-points ul{ padding-left: 1.15rem; margin:0 0 24px; }
+.eg-ses-points li{ margin-bottom:10px; color: var(--eg-ink); }
+.eg-ses-points li::marker{ color: var(--eg-canopy); }
+ 
+/* CTA button, now sitting below the bullet list */
+.eg-ses-cta{ margin-top:8px; }
 .eg-ses-cta .eg-btn-solid{
-  background:#8FD39D; color:#0E1512; border-color:#8FD39D;
+  background: var(--eg-canopy); color:#F3F5EE; border-color: var(--eg-canopy);
 }
 .eg-ses-cta .eg-btn-solid:hover{
-  background:#F3F5EE; border-color:#F3F5EE; color:#0E1512;
+  background:#1B211D; border-color:#1B211D; color:#F3F5EE;
 }
 
 /* ---------- COMMUNITY IMPACT & PUBLIC SERVICE SECTION ---------- */
