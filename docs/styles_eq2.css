@@ -103,6 +103,10 @@ padding-right: 2rem !important;
   /* This makes the background semi-transparent black */
   background-color: rgba(14, 21, 18, 0.5); 
   
+  /* Or use padding if you prefer a flexible height */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
   /* Adds a modern frosted-glass effect */
   backdrop-filter: blur(10px); 
   
@@ -116,17 +120,6 @@ padding-right: 2rem !important;
   transition: background-color 0.3s ease;
 }
 
-:root {
-  --nav-height: 80px;
-}
-
-.navbar {
-  height: var(--nav-height);
-}
-
-.hero-banner {
-  padding-top: var(--nav-height);
-}
 
 .navbar .container,
 .navbar .container-fluid {
@@ -218,13 +211,13 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   
   display: flex;
   flex-direction: column;    /* Forces h1 and h2 to stack vertically */
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   text-align: center;
   
   margin: 0;
   position: relative; /* Helps with layout stability */
-  padding: clamp(100px, 7vw, 140px) 0 clamp(36px, 5vw, 56px);
+  padding: clamp(120px, 7vw, 160px) 0 clamp(36px, 5vw, 56px);
   
   /* Because you are using flexbox, you might want to consider this: */
   box-sizing: border-box;
