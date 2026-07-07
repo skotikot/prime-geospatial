@@ -1216,6 +1216,8 @@ main.content:has(.eg-page),
    ================================================================ */
    
    
+   
+   
    /* ================================================================
    HOME PAGE — ADDITIONAL SECTIONS
    1) "Who we are" split into a 30/70 dark panel (punchy title | copy)
@@ -1226,11 +1228,27 @@ main.content:has(.eg-page),
    palette (#0E1512 / #121B17 / #8FD39D / #F3F5EE).
    ================================================================ */
 
-/* ---------- WHO WE ARE — dark split section ---------- */
+/* ---------- WHO WE ARE — dark split section, static background image ---------- */
 .eg-whoweare-dark{
-  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  /* Dark gradient sits at 40% opacity (rgba alpha 0.4) so the photo
+     underneath reads through at roughly 60% strength. Bump both alpha
+     values up together to darken, or down together to lighten. */
+  background-image:
+    linear-gradient(180deg, rgba(14,21,18,0.4) 0%, rgba(18,27,23,0.4) 100%),
+    url('images/nrkWht.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps the image static while the section scrolls past it */
   border-top: 1px solid #2B3830;
   border-bottom: 1px solid #2B3830;
+}
+/* background-attachment:fixed is unreliable/laggy on iOS Safari & most
+   mobile browsers, so fall back to a normal scrolling background there. */
+@media (max-width: 767px){
+  .eg-whoweare-dark{ background-attachment: scroll; }
 }
 .eg-who-grid{
   display:grid; grid-template-columns:1fr; gap:32px;
@@ -1323,4 +1341,3 @@ main.content:has(.eg-page),
 /* ================================================================
    END HOME PAGE — ADDITIONAL SECTIONS
    ================================================================ */
- 
