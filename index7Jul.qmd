@@ -19,21 +19,15 @@ page-layout: custom
 </header>
 
 ::::::::::::::::::: eg-page
-:::::: {#about .eg-section .eg-whoweare-dark}
+:::::: {#about .eg-section}
 ::::: eg-wrap
-:::: eg-who-grid
-
-::: eg-who-title
+::: eg-sec-head
 [Who we are]{.eg-eyebrow}
 
 ## Turning landscape data into trusted intelligence for sustainable futures.
 :::
 
-::: eg-who-desc
 ::: eg-intro-lede
-
-## Prime Geospatial
-
 PrimeGeo is a science-driven spatial analytics and environmental intelligence firm.
 
 We transform complex landscape data into actionable evidence that helps governments, conservation organizations, investors, project developers, and communities make confident decisions. By integrating satellite observation, advanced spatial modeling, field-based data, and social-ecological insights, we deliver audit-ready intelligence that connects environmental outcomes with real-world impact.
@@ -47,9 +41,6 @@ From project design and baseline assessments to monitoring, verification, and im
 ::: {.eg-hero-ctas}
 [Learn more about us](about.qmd#about){.eg-btn .eg-btn-outline} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
 :::
-:::
-
-::::
 
 <!--::: eg-chip-row
 [Remote Sensing]{.eg-chip} [Landscape & Forest Ecology]{.eg-chip} [Spatiotemporal Modeling]{.eg-chip} [Ecological Modeling]{.eg-chip} [Land-Use Mapping & Modeling]{.eg-chip} [Social-Ecological Systems]{.eg-chip}
@@ -193,104 +184,42 @@ Theoretical landscape ecology, focusing on the critical distinction between conf
 
 
 
+::: {.eg-layer}
+::: {.eg-layer-marker}
+[ ]{.eg-layer-toggle .eg-l1}
 
-
-:::: {#social-ecological .eg-section .eg-ses-dark}
-::: eg-wrap
-::: eg-ses-card
-
-::: eg-sec-head
-[Our approach]{.eg-eyebrow}
-
-## Social-ecological integration
-
-[Environmental Problems Don't Exist in Isolation]{.eg-ses-tagline}
+[LAYER 7]{.eg-layer-index}
 :::
 
-::: eg-ses-intro-box
-At Prime Geospatial, we recognize that environmental challenges are never purely ecological, they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
+::: {.eg-layer-body}
+::: {.eg-layer-main}
+### Social-ecological integration
+
+[Environmental Problems Don’t Exist in Isolation]{.eg-layer-one-liner .eg-l1}
+
+::: {.eg-layer-desc}
+At Prime Geospatial, we recognize that environmental challenges are never purely ecological—they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
 
 By fusing spatial analytics, ecological modeling, and community-informed social-ecological systems thinking, we design interventions that are not just environmentally effective, but socially viable, locally supported, and built to endure.
-:::
 
-::: eg-ses-body
-::: eg-ses-image
-![](images/SES.png)
-:::
 
-::: eg-ses-points
 We map the intersection where these critical dimensions meet:
 
-- **Ecology**: We quantify species presence, habitat quality, carbon storage, and critical ecosystem services.
-- **People**: We account for livelihoods, cultural values, resource dependency, and the wealth of local knowledge that shapes landscape use.
-- **Governance**: We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
+-**Ecology**: We quantify species presence, habitat quality, carbon storage, and critical ecosystem services.
+-**People**: We account for livelihoods, cultural values, resource dependency, and the wealth of local knowledge that shapes landscape use.
+-**Governance**: We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
 
-::: eg-ses-cta
-[Why social-ecological integration matters →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
-:::
-:::
+
+
 :::
 
 :::
-:::
-::::
 
-
-
-
-
-:::::: {#impact .eg-section .eg-impact}
-::::: eg-wrap
-::: eg-sec-head
-[Community impact]{.eg-eyebrow}
-
-## Empowering people, institutions, and communities.
-:::
-
-::: eg-impact-lede
-At PrimeGeo, we believe that scientific knowledge creates the greatest impact when it is shared, accessible, and actionable. As part of our commitment to environmental stewardship and community service, we actively support conservation practitioners, local institutions, and the broader public through training, open environmental data, and rapid-response decision support tools.
-:::
-
-::: eg-impact-grid
-::: eg-impact-card
-[Capacity building]{.eg-num}
-
-### Conservation professionals
-
-We provide practical training, workshops, and mentorship in GIS, remote sensing, environmental monitoring, spatial modeling, and social-ecological assessment — strengthening local expertise so practitioners can make evidence-based conservation and land management decisions.
-
-::: {.eg-ses-cta}
-[See more about our trainings →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
+::: {.eg-layer-image}
+![](images/SES.png)
 :::
 :::
-
-::: eg-impact-card
-[Open data]{.eg-num}
-
-### Knowledge access
-
-Access to reliable environmental information is essential for informed decision-making. We work to make environmental data, maps, indicators, and analytical tools publicly accessible, helping researchers, communities, NGOs, and policymakers understand and manage their landscapes.
-
-::: {.eg-ses-cta}
-[See available data →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
 :::
-:::
-
-::: eg-impact-card
-[Rapid response]{.eg-num}
-
-### Disaster intelligence
-
-When environmental emergencies occur, timely information can save lives, livelihoods, and ecosystems. We develop and deploy rapid-response mapping and monitoring tools supporting preparedness, impact assessment, and recovery for floods, droughts, wildfires, and land degradation.
-
-::: {.eg-ses-cta}
-[See available tools →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
-:::
-
-:::
-:::
-:::::
-::::::
 
 
 
@@ -299,7 +228,7 @@ When environmental emergencies occur, timely information can save lives, livelih
 ::: eg-contact-left
 ## Have a landscape that needs a closer look?
 
-Tell us what you're trying to prove, protect, or plan for. Let us discuss which layers apply.
+Tell us what you're trying to prove, protect, or plan for. We'll tell you which layers apply.
 :::
 
 ::: eg-contact-box

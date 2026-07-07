@@ -18,8 +18,8 @@ website:
       # Home button removed
       # - href: index.qmd
       #   text: Home
-      - href: home2.qmd
-        text: Home
+      #- href: home2.qmd
+      #  text: Home
       #- href: services.qmd
       #  text: Services
       - href: services-geospatial3.qmd
