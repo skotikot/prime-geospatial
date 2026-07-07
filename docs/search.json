@@ -147,181 +147,6 @@
     "text": "Have a landscape that needs a closer look?\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
   },
   {
-    "objectID": "home-geospatial.html",
-    "href": "home-geospatial.html",
-    "title": "Equator Geospatial",
-    "section": "",
-    "text": "Geospatial Data Science · East Africa\n\n\n\nEquator Geospatial is a Nairobi-based consultancy combining remote sensing, ecological modeling, and social-ecological systems research — built for donors, conservancies, and governments who need land-use and climate claims to hold up to scrutiny.\n\n\nExplore our services Start a project\n\n\nNAIROBI · KAMPALA · DAR ES SALAAM · KIGALI · ADDIS ABABA\n\n\n\n\n\n\nWho we are\n\n\n\nWe’re a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\n\nWhat we do\n\n\nA quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment.\n\n\n\n\n\nLAYER 01\n\n\nIndependent, satellite-grounded MRV for carbon and biodiversity credit projects.\nLearn more →\n\n\n\n\nLAYER 02\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving.\nLearn more →\n\n\n\n\nLAYER 03\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.\nLearn more →\n\n\n\n\nLAYER 04\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately.\nLearn more →\n\n\n\n\nLAYER 05\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them.\nLearn more →\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 EQUATOR GEOSPATIAL\nNAIROBI, KENYA"
-  },
-  {
-    "objectID": "home-geospatial.html#science-first-not-gis-generalist.",
-    "href": "home-geospatial.html#science-first-not-gis-generalist.",
-    "title": "Equator Geospatial",
-    "section": "",
-    "text": "We’re a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems"
-  },
-  {
-    "objectID": "home-geospatial.html#five-layers-of-analysis-one-landscape.",
-    "href": "home-geospatial.html#five-layers-of-analysis-one-landscape.",
-    "title": "Equator Geospatial",
-    "section": "",
-    "text": "A quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment."
-  },
-  {
-    "objectID": "home-geospatial.html#have-a-landscape-that-needs-a-closer-look",
-    "href": "home-geospatial.html#have-a-landscape-that-needs-a-closer-look",
-    "title": "Equator Geospatial",
-    "section": "",
-    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
-  },
-  {
-    "objectID": "data-cleaning.html",
-    "href": "data-cleaning.html",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Spatial analysis is only as reliable as the data behind it. We ensure your datasets are accurate, consistent, and ready for high‑quality analysis.\n\n\n\nMerging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets\n\n\n\n\n\nIdentifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards\n\n\n\n\n\nBuilding reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
-  },
-  {
-    "objectID": "data-cleaning.html#data-integration",
-    "href": "data-cleaning.html#data-integration",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Merging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets"
-  },
-  {
-    "objectID": "data-cleaning.html#cleaning-quality-control",
-    "href": "data-cleaning.html#cleaning-quality-control",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Identifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards"
-  },
-  {
-    "objectID": "data-cleaning.html#preprocessing-pipelines",
-    "href": "data-cleaning.html#preprocessing-pipelines",
-    "title": "Data Cleaning & Preprocessing",
-    "section": "",
-    "text": "Building reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "\nContact Us\n",
-    "section": "",
-    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\n\nEmail \nName \nMessage\n\n Submit"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Who We Are",
-    "section": "",
-    "text": "Who We Are\nPrime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.\n\n\n\n\n\nOur Philosophy\nAt Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\nTechnical Foundation\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity.\n\n\n\n\n\nOur Core Competencies\n\n\n\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\n\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\n\n\n\nStatistical Rigor\n\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
-  },
-  {
-    "objectID": "about-geospatial_2.html",
-    "href": "about-geospatial_2.html",
-    "title": "About Us",
-    "section": "",
-    "text": "About Us\n\n\n\nPrime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.\n\n\n\n\n\n\n\nPrime Geospatial founders at the Christmas get-together where the idea began\n\n\n\n\n\n\n\n\nWho We Are\n\n\n\n\n\nPrime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.\n\nThree doctoral researchers. One shared frustration. One Christmas conversation that started it all.\n\n\nRead the full story →Show less ↑\n\nThe idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?\n\n\n\n\n\n\n\n\nOur Approach\n\n\n\n\n\nGeospatial AI has made data more abundant than ever — but abundance isn’t the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn’t possible, as the pandemic made clear, digital models can drift further from reality.\n\n\n\nRaw Computing\n\n\nAccessing, processing, and analyzing complex multi-source datasets — the heavy lifting automated models are good at.\n\n\n\n→\n\n\nGround Truth\n\n\nExpert interpretation and field validation — the context and judgment automated models leave out.\n\n\n\n\n\nRead more about our approach →Show less ↑\n\nOur approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we're analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.\n\n\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\nWho We Serve\n\n\n\n\n\n\n\nTranslating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.\n\n\n\nRigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.\n\n\n\nClean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.\n\n\n\nRemoving the operational overhead of in-house data processing, so commercial teams can move faster.\n\n\n\n\n\n\n\nCapacity Building\n\n\n\n\n\nWe offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@primegeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 PRIME GEOSPATIAL\nNAIROBI, KENYA"
-  },
-  {
-    "objectID": "about-geospatial_2.html#have-a-landscape-that-needs-a-closer-look",
-    "href": "about-geospatial_2.html#have-a-landscape-that-needs-a-closer-look",
-    "title": "About Us",
-    "section": "",
-    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
-  },
-  {
-    "objectID": "about-geospatial.html",
-    "href": "about-geospatial.html",
-    "title": "About Us",
-    "section": "",
-    "text": "About Us\n\n\n\nPrime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.\n\n\n\n\n\n\n\nWho We Are\n\n\n\n\n\nPrime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.\nThe idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?\n\n\n\n\n\n\nOur Approach\n\n\n\n\n\nGeospatial AI has made data more abundant than ever — but abundance isn’t the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn’t possible, as the pandemic made clear, digital models can drift further from reality. We handle the heavy lifting of accessing, processing, and analyzing complex datasets, while providing the expert interpretation and ground-truthing that automated models leave out.\nOur approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we’re analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\nWho We Serve\n\n\n\n\n\n\n\nTranslating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.\n\n\n\nRigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.\n\n\n\nClean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.\n\n\n\nRemoving the operational overhead of in-house data processing, so commercial teams can move faster.\n\n\n\n\n\n\n\nCapacity Building\n\n\n\n\n\nWe offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@primegeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 PRIME GEOSPATIAL\nNAIROBI, KENYA"
-  },
-  {
-    "objectID": "about-geospatial.html#have-a-landscape-that-needs-a-closer-look",
-    "href": "about-geospatial.html#have-a-landscape-that-needs-a-closer-look",
-    "title": "About Us",
-    "section": "",
-    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
-  },
-  {
-    "objectID": "about-geospatial_3.html",
-    "href": "about-geospatial_3.html",
-    "title": "About Us",
-    "section": "",
-    "text": "About Us\n\n\n\nPrime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.\n\n\n\n\n\n\n\nPrime Geospatial founders at the Christmas get-together where the idea began\n\n\n\n\n\n\n\n\nWho We Are\n\n\n\n\n\nPrime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.\n\nThree doctoral researchers. One shared frustration. One Christmas conversation that started it all.\n\n\nRead the full story →Show less ↑\n\nThe idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?\n\n\n\n\n\n\n\n\nOur Approach\n\n\n\n\n\nGeospatial AI has made data more abundant than ever — but abundance isn’t the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn’t possible, as the pandemic made clear, digital models can drift further from reality.\n\n\n\nRaw Computing\n\n\nAccessing, processing, and analyzing complex multi-source datasets — the heavy lifting automated models are good at.\n\n\n\n→\n\n\nGround Truth\n\n\nExpert interpretation and field validation — the context and judgment automated models leave out.\n\n\n\n\n\nRead more about our approach →Show less ↑\n\nOur approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we're analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.\n\n\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\nHow We Work\n\n\n\n\n\n\nSTEP 01\n\n\nGround the question in solid ecological and geospatial science first.\n\n\n\n→\n\n\nSTEP 02\n\n\nAdapt methods to the specific landscape, dataset, and decision at hand.\n\n\n\n→\n\n\nSTEP 03\n\n\nTurn the analysis into something a client’s team can actually use.\n\n\n\n→\n\n\nSTEP 04\n\n\nHand off decision-ready insight — verified, documented, and defensible.\n\n\n\n\n\n\n\n\nCore Values\n\n\n\n\n\n\n01\n\n\nSpatial modeling should be reproducible, robust, and scientifically sound — every time, not just when it’s convenient.\n\n\n\n02\n\n\nComputation alone isn’t enough. We pair it with field validation and local context automated models miss.\n\n\n\n03\n\n\nClients get not just answers, but an understanding of the spatial processes behind them.\n\n\n\n04\n\n\nGlobal, purely computer-driven analyses overlook localized nuance. We don’t.\n\n\n\n05\n\n\nWe train the wider environmental and geospatial community, not just our own clients.\n\n\n\n\n\n\n\n\nWho We Serve\n\n\n\n\n\n\n\nTranslating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.\n\n\n\nRigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.\n\n\n\nClean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.\n\n\n\nRemoving the operational overhead of in-house data processing, so commercial teams can move faster.\n\n\n\n\n\n\n\nOur Team\n\n\n\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Geospatial Data Science\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Remote Sensing\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Landscape & Forest Ecology\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Social-Ecological Systems\n\n\n\n\n\n\n\n\nCapacity Building\n\n\n\n\n\nWe offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@primegeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 PRIME GEOSPATIAL\nNAIROBI, KENYA"
-  },
-  {
-    "objectID": "about-geospatial_3.html#have-a-landscape-that-needs-a-closer-look",
-    "href": "about-geospatial_3.html#have-a-landscape-that-needs-a-closer-look",
-    "title": "About Us",
-    "section": "",
-    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
-  },
-  {
-    "objectID": "analytical-support.html",
-    "href": "analytical-support.html",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
-  },
-  {
-    "objectID": "analytical-support.html#statistical-modeling",
-    "href": "analytical-support.html#statistical-modeling",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
-  },
-  {
-    "objectID": "analytical-support.html#visualization-reporting",
-    "href": "analytical-support.html#visualization-reporting",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
-  },
-  {
-    "objectID": "analytical-support.html#code-review-optimization",
-    "href": "analytical-support.html#code-review-optimization",
-    "title": "Analytical Support",
-    "section": "",
-    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
-  },
-  {
-    "objectID": "contact_recapcha.html",
-    "href": "contact_recapcha.html",
-    "title": "\nContact Us\n",
-    "section": "",
-    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\nContact Us\n\n\n\n&lt;label class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" name=\"email\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" name=\"name\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Message&lt;/label&gt;\n&lt;textarea name=\"message\" rows=\"5\" required class=\"form-control custom-input\"&gt;&lt;/textarea&gt;\n\n&lt;!-- reCAPTCHA widget --&gt;\n&lt;div class=\"mt-4\" style=\"transform:scale(0.95); transform-origin:0 0;\"&gt;\n  &lt;div class=\"g-recaptcha\" data-sitekey=\"YOUR_SITE_KEY\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;button type=\"submit\" class=\"btn btn-primary contact-btn mt-4\"&gt;\n  Submit\n&lt;/button&gt;"
-  },
-  {
-    "objectID": "geospatial-consulting.html",
-    "href": "geospatial-consulting.html",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.\n\n\n\nAssessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning\n\n\n\n\n\nMapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies\n\n\n\n\n\nDesigning geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
-  },
-  {
-    "objectID": "geospatial-consulting.html#landscape-analysis",
-    "href": "geospatial-consulting.html#landscape-analysis",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "Assessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning"
-  },
-  {
-    "objectID": "geospatial-consulting.html#environmental-risk-assessment",
-    "href": "geospatial-consulting.html#environmental-risk-assessment",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "Mapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies"
-  },
-  {
-    "objectID": "geospatial-consulting.html#project-strategy-advisory",
-    "href": "geospatial-consulting.html#project-strategy-advisory",
-    "title": "Geospatial Consulting",
-    "section": "",
-    "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
-  },
-  {
     "objectID": "home-geospatial2.html",
     "href": "home-geospatial2.html",
     "title": "Equator Geospatial",
@@ -355,6 +180,223 @@
     "title": "Equator Geospatial",
     "section": "",
     "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+  },
+  {
+    "objectID": "geospatial-consulting.html",
+    "href": "geospatial-consulting.html",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.\n\n\n\nAssessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning\n\n\n\n\n\nMapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies\n\n\n\n\n\nDesigning geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
+  },
+  {
+    "objectID": "geospatial-consulting.html#landscape-analysis",
+    "href": "geospatial-consulting.html#landscape-analysis",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Assessing spatial patterns and environmental change over time\n\nIdentifying ecological trends and landscape‑level drivers\n\nSupporting conservation, restoration, and land‑use planning"
+  },
+  {
+    "objectID": "geospatial-consulting.html#environmental-risk-assessment",
+    "href": "geospatial-consulting.html#environmental-risk-assessment",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Mapping and quantifying environmental hazards\n\nEvaluating exposure, vulnerability, and operational risks\n\nIntegrating geospatial intelligence into risk‑mitigation strategies"
+  },
+  {
+    "objectID": "geospatial-consulting.html#project-strategy-advisory",
+    "href": "geospatial-consulting.html#project-strategy-advisory",
+    "title": "Geospatial Consulting",
+    "section": "",
+    "text": "Designing geospatial workflows aligned with your organizational needs\n\nRecommending tools, platforms, and data pipelines\n\nSupporting the integration of geospatial technology into existing operations"
+  },
+  {
+    "objectID": "contact_recapcha.html",
+    "href": "contact_recapcha.html",
+    "title": "\nContact Us\n",
+    "section": "",
+    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\nContact Us\n\n\n\n&lt;label class=\"form-label\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" name=\"email\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" name=\"name\" required class=\"form-control custom-input\"&gt;\n\n&lt;label class=\"form-label mt-3\"&gt;Message&lt;/label&gt;\n&lt;textarea name=\"message\" rows=\"5\" required class=\"form-control custom-input\"&gt;&lt;/textarea&gt;\n\n&lt;!-- reCAPTCHA widget --&gt;\n&lt;div class=\"mt-4\" style=\"transform:scale(0.95); transform-origin:0 0;\"&gt;\n  &lt;div class=\"g-recaptcha\" data-sitekey=\"YOUR_SITE_KEY\"&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;button type=\"submit\" class=\"btn btn-primary contact-btn mt-4\"&gt;\n  Submit\n&lt;/button&gt;"
+  },
+  {
+    "objectID": "analytical-support.html",
+    "href": "analytical-support.html",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "We provide deep‑dive analytical services to support specialized research, environmental assessment, and decision‑making.\n\n\n\nDeveloping custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting\n\n\n\n\n\nCreating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity\n\n\n\n\n\nReviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "analytical-support.html#statistical-modeling",
+    "href": "analytical-support.html#statistical-modeling",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Developing custom models tailored to ecological and environmental questions\n\nApplying advanced statistical and machine‑learning techniques\n\nSupporting scenario analysis and predictive forecasting"
+  },
+  {
+    "objectID": "analytical-support.html#visualization-reporting",
+    "href": "analytical-support.html#visualization-reporting",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Creating high‑impact, data‑driven visualizations\n\nDesigning clear, compelling graphics for reports and presentations\n\nCommunicating complex spatial patterns with clarity"
+  },
+  {
+    "objectID": "analytical-support.html#code-review-optimization",
+    "href": "analytical-support.html#code-review-optimization",
+    "title": "Analytical Support",
+    "section": "",
+    "text": "Reviewing existing geospatial scripts for accuracy and efficiency\n\nImproving performance, scalability, and reproducibility\n\nModernizing workflows using best‑practice coding standards"
+  },
+  {
+    "objectID": "about-geospatial_3.html",
+    "href": "about-geospatial_3.html",
+    "title": "About Us",
+    "section": "",
+    "text": "About Us\n\n\n\nPrime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.\n\n\n\n\n\n\n\nPrime Geospatial founders at the Christmas get-together where the idea began\n\n\n\n\n\n\n\n\nWho We Are\n\n\n\n\n\nPrime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.\n\nThree doctoral researchers. One shared frustration. One Christmas conversation that started it all.\n\n\nRead the full story →Show less ↑\n\nThe idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?\n\n\n\n\n\n\n\n\nOur Approach\n\n\n\n\n\nGeospatial AI has made data more abundant than ever — but abundance isn’t the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn’t possible, as the pandemic made clear, digital models can drift further from reality.\n\n\n\nRaw Computing\n\n\nAccessing, processing, and analyzing complex multi-source datasets — the heavy lifting automated models are good at.\n\n\n\n→\n\n\nGround Truth\n\n\nExpert interpretation and field validation — the context and judgment automated models leave out.\n\n\n\n\n\nRead more about our approach →Show less ↑\n\nOur approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we're analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.\n\n\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\nHow We Work\n\n\n\n\n\n\nSTEP 01\n\n\nGround the question in solid ecological and geospatial science first.\n\n\n\n→\n\n\nSTEP 02\n\n\nAdapt methods to the specific landscape, dataset, and decision at hand.\n\n\n\n→\n\n\nSTEP 03\n\n\nTurn the analysis into something a client’s team can actually use.\n\n\n\n→\n\n\nSTEP 04\n\n\nHand off decision-ready insight — verified, documented, and defensible.\n\n\n\n\n\n\n\n\nCore Values\n\n\n\n\n\n\n01\n\n\nSpatial modeling should be reproducible, robust, and scientifically sound — every time, not just when it’s convenient.\n\n\n\n02\n\n\nComputation alone isn’t enough. We pair it with field validation and local context automated models miss.\n\n\n\n03\n\n\nClients get not just answers, but an understanding of the spatial processes behind them.\n\n\n\n04\n\n\nGlobal, purely computer-driven analyses overlook localized nuance. We don’t.\n\n\n\n05\n\n\nWe train the wider environmental and geospatial community, not just our own clients.\n\n\n\n\n\n\n\n\nWho We Serve\n\n\n\n\n\n\n\nTranslating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.\n\n\n\nRigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.\n\n\n\nClean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.\n\n\n\nRemoving the operational overhead of in-house data processing, so commercial teams can move faster.\n\n\n\n\n\n\n\nOur Team\n\n\n\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Geospatial Data Science\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Remote Sensing\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Landscape & Forest Ecology\n\n\n\n\n\n\n\nFounder photo placeholder\n\n\n\n\n\nCo-Founder — Social-Ecological Systems\n\n\n\n\n\n\n\n\nCapacity Building\n\n\n\n\n\nWe offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@primegeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 PRIME GEOSPATIAL\nNAIROBI, KENYA"
+  },
+  {
+    "objectID": "about-geospatial_3.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "about-geospatial_3.html#have-a-landscape-that-needs-a-closer-look",
+    "title": "About Us",
+    "section": "",
+    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+  },
+  {
+    "objectID": "about-geospatial.html",
+    "href": "about-geospatial.html",
+    "title": "About Us",
+    "section": "",
+    "text": "About Us\n\n\n\nPrime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.\n\n\n\n\n\n\n\nWho We Are\n\n\n\n\n\nPrime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.\nThe idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?\n\n\n\n\n\n\nOur Approach\n\n\n\n\n\nGeospatial AI has made data more abundant than ever — but abundance isn’t the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn’t possible, as the pandemic made clear, digital models can drift further from reality. We handle the heavy lifting of accessing, processing, and analyzing complex datasets, while providing the expert interpretation and ground-truthing that automated models leave out.\nOur approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we’re analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\nWho We Serve\n\n\n\n\n\n\n\nTranslating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.\n\n\n\nRigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.\n\n\n\nClean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.\n\n\n\nRemoving the operational overhead of in-house data processing, so commercial teams can move faster.\n\n\n\n\n\n\n\nCapacity Building\n\n\n\n\n\nWe offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@primegeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 PRIME GEOSPATIAL\nNAIROBI, KENYA"
+  },
+  {
+    "objectID": "about-geospatial.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "about-geospatial.html#have-a-landscape-that-needs-a-closer-look",
+    "title": "About Us",
+    "section": "",
+    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+  },
+  {
+    "objectID": "about-geospatial_2.html",
+    "href": "about-geospatial_2.html",
+    "title": "About Us",
+    "section": "",
+    "text": "About Us\n\n\n\nPrime Geospatial was founded in 2018 to close the gap between complex spatial data science and real-world environmental decisions — built by scientists who got tired of disconnected data and prohibitive travel costs standing between good analysis and the ground it describes.\n\n\n\n\n\n\n\nPrime Geospatial founders at the Christmas get-together where the idea began\n\n\n\n\n\n\n\n\nWho We Are\n\n\n\n\n\nPrime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers pursuing PhDs in Geography, Spatial Modeling, Geospatial Science, and Climate Science at Michigan State University and The Pennsylvania State University.\n\nThree doctoral researchers. One shared frustration. One Christmas conversation that started it all.\n\n\nRead the full story →Show less ↑\n\nThe idea took shape at a Christmas get-together, born out of a shared frustration: navigating disconnected, multi-source data and facing prohibitive travel costs just to validate study areas on the ground. We kept coming back to the same question — why should an organization need an advanced degree in GIS, or an enormous travel budget, to actually use its own spatial data?\n\n\n\n\n\n\n\n\nOur Approach\n\n\n\n\n\nGeospatial AI has made data more abundant than ever — but abundance isn’t the same as understanding. Purely computer-driven analyses often miss localized geographic nuance, and when global travel isn’t possible, as the pandemic made clear, digital models can drift further from reality.\n\n\n\nRaw Computing\n\n\nAccessing, processing, and analyzing complex multi-source datasets — the heavy lifting automated models are good at.\n\n\n\n→\n\n\nGround Truth\n\n\nExpert interpretation and field validation — the context and judgment automated models leave out.\n\n\n\n\n\nRead more about our approach →Show less ↑\n\nOur approach is grounded in the belief that spatial modeling should be reproducible, robust, and scientifically sound. Whether we're analyzing landscape patterns or assessing environmental risk, we interpret data within the context of landscape ecology theory and statistical integrity — not just process it.\n\n\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\nWho We Serve\n\n\n\n\n\n\n\nTranslating complex multi-source data into standardized, actionable planning frameworks for sustainable development decisions.\n\n\n\nRigorous, localized data-cleaning pipelines that keep costs down without cutting corners on quality.\n\n\n\nClean, verified, ready-to-analyze datasets that pair rapid digital modeling with real-world validation.\n\n\n\nRemoving the operational overhead of in-house data processing, so commercial teams can move faster.\n\n\n\n\n\n\n\nCapacity Building\n\n\n\n\n\nWe offer professional training in spatial statistics and ecological modeling to help practitioners across the environmental and geospatial community take on increasingly difficult environmental challenges — because a stronger field benefits everyone in it.\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@primegeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 PRIME GEOSPATIAL\nNAIROBI, KENYA"
+  },
+  {
+    "objectID": "about-geospatial_2.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "about-geospatial_2.html#have-a-landscape-that-needs-a-closer-look",
+    "title": "About Us",
+    "section": "",
+    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Who We Are",
+    "section": "",
+    "text": "Who We Are\nPrime Geospatial was founded to bring rigorous landscape ecology metrics, robust data cleaning, and reproducible analytical pipelines directly to environmental planning challenges. We transform complex spatial observations into clear, data-driven frameworks.\n\n\n\n\n\nOur Philosophy\nAt Prime Geospatial, our mission is to elevate the standard of spatial data science through technical rigor, transparency, and advanced ecological modeling. We believe that environmental decision-making is only as strong as the data behind it—and the expertise applied to interpret that data.\n\n\nTechnical Foundation\nThe foundation of Prime Geospatial is built upon years of academic and professional engagement with cutting-edge spatial technologies. We do not just process data; we interpret it within the context of landscape ecology theory and statistical integrity.\n\n\n\n\n\nOur Core Competencies\n\n\n\n\n\nSpatial Data Science\nAdvanced R and Python workflows for raster analysis and complex data visualization.\n\n\n\n\n\nEcological Modeling\nTheoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.\n\n\n\n\n\nStatistical Rigor\n\nExpertise in spatial statistics and reproducible research practices to ensure scientific integrity."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "\nContact Us\n",
+    "section": "",
+    "text": "Contact Us\n\nLet’s discuss your next geospatial project. Please email malaso.susan@gmail.com and we will get back to you within 2 business days.\nYou can also send us a message using the form below.\n\n\nEmail \nName \nMessage\n\n Submit"
+  },
+  {
+    "objectID": "data-cleaning.html",
+    "href": "data-cleaning.html",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Spatial analysis is only as reliable as the data behind it. We ensure your datasets are accurate, consistent, and ready for high‑quality analysis.\n\n\n\nMerging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets\n\n\n\n\n\nIdentifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards\n\n\n\n\n\nBuilding reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
+  },
+  {
+    "objectID": "data-cleaning.html#data-integration",
+    "href": "data-cleaning.html#data-integration",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Merging spatial and non‑spatial datasets from multiple sources\n\nHarmonizing formats, projections, and attribute structures\n\nResolving conflicts between overlapping or redundant datasets"
+  },
+  {
+    "objectID": "data-cleaning.html#cleaning-quality-control",
+    "href": "data-cleaning.html#cleaning-quality-control",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Identifying and removing errors, noise, and inconsistencies\n\nValidating geometries, attributes, and spatial relationships\n\nEnsuring compliance with analytical and regulatory standards"
+  },
+  {
+    "objectID": "data-cleaning.html#preprocessing-pipelines",
+    "href": "data-cleaning.html#preprocessing-pipelines",
+    "title": "Data Cleaning & Preprocessing",
+    "section": "",
+    "text": "Building reproducible workflows for automated data preparation\n\nStandardizing transformations, filtering, and feature engineering\n\nPreparing analysis‑ready datasets for modeling and visualization"
+  },
+  {
+    "objectID": "home-geospatial.html",
+    "href": "home-geospatial.html",
+    "title": "Equator Geospatial",
+    "section": "",
+    "text": "Geospatial Data Science · East Africa\n\n\n\nEquator Geospatial is a Nairobi-based consultancy combining remote sensing, ecological modeling, and social-ecological systems research — built for donors, conservancies, and governments who need land-use and climate claims to hold up to scrutiny.\n\n\nExplore our services Start a project\n\n\nNAIROBI · KAMPALA · DAR ES SALAAM · KIGALI · ADDIS ABABA\n\n\n\n\n\n\nWho we are\n\n\n\nWe’re a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems\n\n\n\n\n\n\n\nWhat we do\n\n\nA quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment.\n\n\n\n\n\nLAYER 01\n\n\nIndependent, satellite-grounded MRV for carbon and biodiversity credit projects.\nLearn more →\n\n\n\n\nLAYER 02\n\n\nMapping and forecasting how agriculture, settlement, and forest cover are moving.\nLearn more →\n\n\n\n\nLAYER 03\n\n\nHabitat fragmentation, wildlife corridors, and human-wildlife conflict, mapped and modeled.\nLearn more →\n\n\n\n\nLAYER 04\n\n\nWhere land, climate, and community governance meet — analyzed together, not separately.\nLearn more →\n\n\n\n\nLAYER 05\n\n\nDrought, rangeland, and yield forecasting for the people who plan around them.\nLearn more →\n\n\n\n\n\n\n\n\nApproach\n\n\n\n\n\n\nA\n\n\nEvery model is checked against ground truth — plots, transects, or partner verification — not just pixels.\n\n\n\nB\n\n\nSocial-ecological methods mean local governance and knowledge shape the analysis, not just the output.\n\n\n\nC\n\n\nWork is documented to the standard carbon registries, donors, and auditors actually require — no rework at review time.\n\n\n\n\n\n\n\n\nSectors\n\n\n\n\nCarbon & Conservation Finance Government & County Planning Multilaterals & Bilateral Donors Research Institutions Agriculture & Insurance\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\nhello@equatorgeospatial.com\nBASED IN\nNairobi, Kenya — serving East Africa\nSend us a brief\n\n\n\n\n\n© 2026 EQUATOR GEOSPATIAL\nNAIROBI, KENYA"
+  },
+  {
+    "objectID": "home-geospatial.html#science-first-not-gis-generalist.",
+    "href": "home-geospatial.html#science-first-not-gis-generalist.",
+    "title": "Equator Geospatial",
+    "section": "",
+    "text": "We’re a team of geospatial data scientists, ecologists, and social-ecological systems researchers — not a generalist mapping shop. Every project we take on sits at the intersection of remote sensing and real ecological and social science, which is exactly the layer most GIS-for-hire firms skip.\n\n\nRemote Sensing Landscape & Forest Ecology Spatiotemporal Modeling Ecological Modeling Land-Use Mapping & Modeling Social-Ecological Systems"
+  },
+  {
+    "objectID": "home-geospatial.html#five-layers-of-analysis-one-landscape.",
+    "href": "home-geospatial.html#five-layers-of-analysis-one-landscape.",
+    "title": "Equator Geospatial",
+    "section": "",
+    "text": "A quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment."
+  },
+  {
+    "objectID": "home-geospatial.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "home-geospatial.html#have-a-landscape-that-needs-a-closer-look",
+    "title": "Equator Geospatial",
+    "section": "",
+    "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
+  },
+  {
+    "objectID": "home2.html#turning-landscape-data-into-trusted-intelligence-for-sustainable-futures.",
+    "href": "home2.html#turning-landscape-data-into-trusted-intelligence-for-sustainable-futures.",
+    "title": "",
+    "section": "Turning landscape data into trusted intelligence for sustainable futures.",
+    "text": "Turning landscape data into trusted intelligence for sustainable futures."
+  },
+  {
+    "objectID": "home2.html#prime-geospatial",
+    "href": "home2.html#prime-geospatial",
+    "title": "",
+    "section": "Prime Geospatial",
+    "text": "Prime Geospatial\nPrimeGeo is a science-driven spatial analytics and environmental intelligence firm.\nWe transform complex landscape data into actionable evidence that helps governments, conservation organizations, investors, project developers, and communities make confident decisions. By integrating satellite observation, advanced spatial modeling, field-based data, and social-ecological insights, we deliver audit-ready intelligence that connects environmental outcomes with real-world impact.\nBuilt on a foundation of scientific rigor, transparency, and local relevance, we work at the intersection of conservation, climate, and sustainable development. Our expertise spans carbon measurement and verification, land-use change modeling, landscape ecology, resilience assessment, and evidence-based planning. We bridge spatial and social science, combining ecological data, community knowledge, and governance dynamics to provide a complete understanding of how landscapes function and change over time.\nFrom project design and baseline assessments to monitoring, verification, and impact evaluation, we help our partners move beyond assumptions and make decisions backed by credible, measurable evidence."
+  },
+  {
+    "objectID": "home2.html#five-layers-of-analysis-one-landscape.",
+    "href": "home2.html#five-layers-of-analysis-one-landscape.",
+    "title": "",
+    "section": "Five layers of analysis — one landscape.",
+    "text": "Five layers of analysis — one landscape.\nA quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment."
+  },
+  {
+    "objectID": "home2.html#trans-disciplinary-engagements",
+    "href": "home2.html#trans-disciplinary-engagements",
+    "title": "",
+    "section": "Trans-disciplinary engagements",
+    "text": "Trans-disciplinary engagements"
+  },
+  {
+    "objectID": "home2.html#beyond-analysis-empowering-people-institutions-and-communities.",
+    "href": "home2.html#beyond-analysis-empowering-people-institutions-and-communities.",
+    "title": "",
+    "section": "Beyond analysis: empowering people, institutions, and communities.",
+    "text": "Beyond analysis: empowering people, institutions, and communities."
+  },
+  {
+    "objectID": "home2.html#have-a-landscape-that-needs-a-closer-look",
+    "href": "home2.html#have-a-landscape-that-needs-a-closer-look",
+    "title": "",
+    "section": "Have a landscape that needs a closer look?",
+    "text": "Have a landscape that needs a closer look?\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
   },
   {
     "objectID": "index_6Jul.html#turning-landscape-data-into-trusted-intelligence-for-sustainable-futures.",

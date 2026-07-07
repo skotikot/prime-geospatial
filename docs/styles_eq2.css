@@ -1214,4 +1214,113 @@ main.content:has(.eg-page),
 /* ================================================================
    END EQUATOR GEOSPATIAL ABOUT PAGE STYLES
    ================================================================ */
+   
+   
+   /* ================================================================
+   HOME PAGE — ADDITIONAL SECTIONS
+   1) "Who we are" split into a 30/70 dark panel (punchy title | copy)
+   2) "Social-ecological integration" as a dark, larger-type feature
+      layer with a CTA button under the text
+   3) "Community Impact & Public Service" section
+   All scoped under .eg-page, consistent with existing dark-hero
+   palette (#0E1512 / #121B17 / #8FD39D / #F3F5EE).
+   ================================================================ */
+
+/* ---------- WHO WE ARE — dark split section ---------- */
+.eg-whoweare-dark{
+  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  border-top: 1px solid #2B3830;
+  border-bottom: 1px solid #2B3830;
+}
+.eg-who-grid{
+  display:grid; grid-template-columns:1fr; gap:32px;
+}
+@media(min-width:800px){
+  .eg-who-grid{ grid-template-columns: 30% 1fr; gap:56px; align-items:start; }
+}
+.eg-who-title{ position:relative; }
+.eg-who-title .eg-eyebrow{ color:#8FD39D; }
+.eg-who-title .eg-eyebrow::before{ background:#8FD39D; }
+.eg-who-title h2{
+  color:#F3F5EE;
+  font-size:clamp(1.9rem, 3vw, 2.6rem);
+  line-height:1.2;
+  max-width:none;
+  margin-bottom:0;
+}
+.eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:70ch; }
+.eg-who-desc .eg-hero-ctas{ margin-bottom:0; }
+.eg-who-desc .eg-hero-ctas .eg-btn-outline{
+  color:#F3F5EE; border-color:#5C6B60;
+}
+.eg-who-desc .eg-hero-ctas .eg-btn-outline:hover{
+  background:#F3F5EE; color:#0E1512; border-color:#F3F5EE;
+}
+
+/* ---------- SOCIAL-ECOLOGICAL INTEGRATION — dark feature layer ---------- */
+.eg-ses-dark{
+  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  border-top:1px solid #2B3830;
+  border-bottom:1px solid #2B3830;
+  padding: 56px 0;
+}
+.eg-ses-dark .eg-layer{ border-bottom:none; padding:0; }
+.eg-ses-dark .eg-layer:hover{ background:none; }
+.eg-ses-dark .eg-layer-toggle{ border-color:#8FD39D; }
+.eg-ses-dark .eg-layer-index{ color:#7C8A80; }
+.eg-ses-dark .eg-layer-main h3{
+  color:#F3F5EE;
+  font-size:1.75rem;
+  margin-bottom:12px;
+}
+.eg-ses-dark .eg-layer-one-liner{ color:#8FD39D !important; font-size:1.2rem; }
+.eg-ses-dark .eg-layer-desc{
+  color:#D3DBD1;
+  font-size:1.05rem;
+  max-width:60ch;
+}
+.eg-ses-dark .eg-layer-desc strong,
+.eg-ses-dark .eg-layer-desc b{ color:#F3F5EE; }
+.eg-ses-dark .eg-layer-image{
+  border-color:#2B3830;
+  min-height:340px;
+}
+.eg-ses-dark .eg-layer-image img{ min-height:340px; }
+
+/* CTA button under the SES text block */
+.eg-ses-cta{ margin-top:26px; }
+.eg-ses-cta .eg-btn-solid{
+  background:#8FD39D; color:#0E1512; border-color:#8FD39D;
+}
+.eg-ses-cta .eg-btn-solid:hover{
+  background:#F3F5EE; border-color:#F3F5EE; color:#0E1512;
+}
+
+/* ---------- COMMUNITY IMPACT & PUBLIC SERVICE SECTION ---------- */
+.eg-impact{ background:var(--eg-paper); }
+.eg-impact-lede{ max-width:80ch; color:var(--eg-ink-soft); }
+.eg-impact-grid{
+  display:grid; grid-template-columns:1fr; gap:22px; margin-top:30px;
+}
+@media(min-width:700px){ .eg-impact-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-impact-card{
+  border:1px solid var(--eg-line);
+  background:var(--eg-paper-deep);
+  padding:26px;
+}
+.eg-impact-card .eg-num{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.72rem;
+  color:var(--eg-canopy);
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  display:block;
+  margin-bottom:10px;
+}
+.eg-impact-card h3{ font-size:1.1rem; margin-bottom:10px; line-height:1.3; }
+.eg-impact-card p{ font-size:0.92rem; color:var(--eg-ink-soft); margin:0; }
+
+/* ================================================================
+   END HOME PAGE — ADDITIONAL SECTIONS
+   ================================================================ */
  
