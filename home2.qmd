@@ -208,7 +208,7 @@ Theoretical landscape ecology, focusing on the critical distinction between conf
 :::
 
 ::: eg-ses-intro-box
-At Prime Geospatial, we recognize that environmental challenges are never purely ecological—they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
+At Prime Geospatial, we recognize that environmental challenges are never purely ecological, they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
 
 By fusing spatial analytics, ecological modeling, and community-informed social-ecological systems thinking, we design interventions that are not just environmentally effective, but socially viable, locally supported, and built to endure.
 :::

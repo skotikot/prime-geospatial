@@ -1319,7 +1319,7 @@ main.content:has(.eg-page),
   border-radius: 12px;
   padding: 32px 40px;
   margin: 30px auto 38px;
-  max-width: 70ch;
+  max-width: 100ch;/*70ch*/
   box-shadow: 0 14px 34px rgba(0,0,0,0.25);
 }
 .eg-ses-intro-box p{
