@@ -890,7 +890,7 @@ main.content:has(.eg-page),
 .eg-layer-one-liner.eg-l4{ color:var(--eg-plum); }
 .eg-layer-one-liner.eg-l5{ color:var(--eg-rust); }
 
-.eg-layer-desc{ font-size:0.92rem; color:var(--eg-ink-soft); max-width:52ch; }
+.eg-layer-desc{ font-size:0.92rem; color:var(--eg-ink-soft); max-width:80ch; } /*max-width:52ch*/
 
 .eg-layer-meta{
   font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
@@ -1316,7 +1316,7 @@ main.content:has(.eg-page),
 
 /* ---------- COMMUNITY IMPACT & PUBLIC SERVICE SECTION ---------- */
 .eg-impact{ background:var(--eg-paper); }
-.eg-impact-lede{ max-width:80ch; color:var(--eg-ink-soft); }
+.eg-impact-lede{ max-width:none; color:var(--eg-ink-soft); } /*max-width:80ch*/
 .eg-impact-grid{
   display:grid; grid-template-columns:1fr; gap:22px; margin-top:30px;
 }
