@@ -145,11 +145,11 @@ padding: 0;          /* Removes default padding that might cause offsets */
 
 .navbar-brand img {
   height: 80px;          /* Increase until the logo is no longer clipped */
-  max-height: 80px !important;
+  max-height: 100px !important;
   width: auto;
   margin-right: 15px;
   object-fit: contain;   /* Prevents clipping inside the box */
-  padding: 0 8px;        /* Adds breathing room above/below */
+  padding: 2px 8px;        /* Adds breathing room above/below */
 }
 
 .navbar .navbar-nav .nav-link {
@@ -203,7 +203,7 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.05);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bannerNew.jpg');
   
   width: 100vw;
-  height: 400px;
+  height: 600px;
   
   background-position: center;
   background-size: cover;
