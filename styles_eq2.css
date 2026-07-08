@@ -845,10 +845,18 @@ main.content:has(.eg-page),
 .eg-hero::before{
   content:''; position:absolute; inset:0; z-index:1; pointer-events:none;
   opacity:0.4;
+  background-image: : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bannerNew.jpg');
+}
+/*
+.eg-hero::before{
+  content:''; position:absolute; inset:0; z-index:1; pointer-events:none;
+  opacity:0.4;
   background-image:
     repeating-radial-gradient(circle at 12% 15%, transparent 0 16px, var(--eg-line) 16px 17px, transparent 17px 38px),
     repeating-radial-gradient(circle at 90% 75%, transparent 0 20px, var(--eg-line) 20px 21px, transparent 21px 46px);
 }
+*/
+
 .eg-hero::after{
   content:''; position:absolute; left:0; right:0; height:1px; z-index:1;
   background:linear-gradient(90deg, transparent, var(--eg-canopy), transparent);
