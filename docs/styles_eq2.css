@@ -1087,6 +1087,23 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-intro-lede{ font-size:1.05rem; color:var(--eg-ink-soft); max-width:none; margin-bottom:20px; }
 .eg-chip-row{ margin-top:1px; }
 
+
+.eg-intro-lede h2{
+  color:#F3F5EE!important;
+  font-size:clamp(1.8rem, 3vw, 2.6rem);
+  line-height:1.2;
+  max-width:none;
+  margin-bottom:0;
+}
+
+.eg-intro-lede p{
+  color:#F3F5EE!important;
+  font-size:clamp(1.05rem, 3vw, 1.6rem);
+  line-height:1.2;
+  max-width:none;
+  margin-bottom:0;
+}
+
 .eg-teaser-grid{
   display:grid; grid-template-columns:1fr; gap:20px; margin-top:12px;
 }
@@ -1550,7 +1567,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   background-color: #0E1512;
   background-image:
     linear-gradient(var(--eg-hp-overlay), var(--eg-hp-overlay)),
-    url('images/nrkRiv.jpg');
+    url('images/bannerNew.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1570,9 +1587,9 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
  
 .eg-hero-photo h1{
-  color: var(--eg-hp-ink);
+  color: var(--eg-hp-ink) !important;
   font-family:'Space Grotesk', sans-serif;
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-size: clamp(3.0rem, 5vw, 4.0rem);
   font-weight: 700;
   line-height: 1.15;
   letter-spacing: 0.5px;
@@ -1580,9 +1597,9 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   text-shadow: 2px 2px 8px rgba(0,0,0,0.55);
 }
 .eg-hero-photo h2{
-  color: var(--eg-hp-ink-soft);
+  color: var(--eg-hp-ink-soft) !important;
   font-family:'IBM Plex Sans', sans-serif;
-  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-size: clamp(2.0rem, 2vw, 2.5rem);
   font-weight: 400;
   line-height: 1.5;
   margin: 0 0 30px 0;
