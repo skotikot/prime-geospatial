@@ -1090,15 +1090,15 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 
 .eg-intro-lede h2{
   color:#F3F5EE!important;
-  font-size:clamp(1.8rem, 3vw, 2.6rem);
+  font-size:clamp(1.5rem, 3vw, 2.5rem);
   line-height:1.2;
   max-width:none;
   margin-bottom:0;
 }
 
 .eg-intro-lede p{
-  color:#F3F5EE!important;
-  font-size:clamp(1.05rem, 3vw, 1.6rem);
+  color:eg-intro-lede !important;
+  font-size:1.05rem;
   line-height:1.2;
   max-width:none;
   margin-bottom:0;
@@ -1604,6 +1604,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   line-height: 1.5;
   margin: 0 0 30px 0;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  /*white-space: nowrap;  Forces the text to stay on one line */
 }
  
 .eg-hero-photo-btn{
@@ -1624,7 +1625,15 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   border-color: var(--eg-hp-ink);
   color: #0E1512;
 }
- 
+
+/* 
+Only apply nowrap on large screens (e.g., 992px and up) 
+@media (min-width: 992px) {
+  .eg-hero-photo h2 {
+    white-space: nowrap;
+  }
+}
+*/ 
 /* ---------- content position settings ---------- */
 /* Horizontal: pick one */
 .eg-hero-left{   --eg-hp-justify: flex-start; --eg-hp-text-align: left; }
