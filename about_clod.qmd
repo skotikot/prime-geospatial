@@ -1,0 +1,294 @@
+---
+title: ""
+page-layout: custom
+---
+
+<header class="eg-hero-photo eg-hero-center eg-hero-middle">
+
+<div class="eg-hero-photo-inner">
+
+<h1>About Prime Geospatial</h1>
+
+<h2>Turning raw computing into trusted, field-validated intelligence.</h2>
+
+</div>
+
+</header>
+
+::::::::::::::::::: eg-page
+
+:::::: {#history .eg-section .eg-history}
+::::: eg-wrap
+:::: eg-history-grid
+
+::: eg-history-photo
+![](images/wildB.jpg)
+:::
+
+::: eg-history-text
+[Our story]{.eg-eyebrow}
+
+## Three researchers, one landscape-sized problem
+
+Prime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers. Today, Prime Geospatial serves as the vital link between raw computing and actionable ground truth.
+
+We handle the heavy lifting — accessing, processing, maintaining, and analyzing complex datasets — while uniquely providing the expert interpretation and essential validation framework that automated geospatial models lack.
+
+We turn raw, intimidating data into clear, verified, and deeply understood spatial insights that drive smarter, faster, and more cost-effective decision-making.
+:::
+
+::::
+:::::
+::::::
+
+
+
+:::::: {#positionality .eg-section .eg-position}
+::::: eg-wrap
+:::: eg-position-grid
+
+::: eg-position-text
+[Positionality]{.eg-eyebrow}
+
+## Beyond the map
+
+We don't believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps — we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.
+
+Our workflows are built on a foundation of open, reproducible science and peer-reviewed methodology. Through this transdisciplinary approach, we deliver the high-fidelity diagnostics our partners need to plan, protect, and prove their impact with total confidence.
+
+While our methodology is global in its scientific rigor, our focus is grounded in the complex social-ecological landscapes of East Africa. We believe that deep, place-based knowledge is the essential final layer of geospatial analysis, ensuring our diagnostics are not just accurate, but locally transformative.
+:::
+
+::: eg-position-map
+![](images/GeospatialConsulting.png)
+
+[East Africa — our home landscape]{.eg-position-map-caption}
+:::
+
+::::
+:::::
+::::::
+
+
+
+:::::: {#how-we-work .eg-section .eg-timeline}
+::::: eg-wrap
+::: eg-sec-head
+[Our process]{.eg-eyebrow}
+
+## How we work: the integrated lifecycle
+:::
+
+:::: eg-timeline-track
+
+::: {.eg-timeline-step .eg-tl-1}
+[01]{.eg-timeline-dot}
+
+### Co-design
+
+We bridge the gap between your specific objectives and the social-ecological reality of your landscape.
+:::
+
+::: {.eg-timeline-step .eg-tl-2}
+[02]{.eg-timeline-dot}
+
+### Data Synthesis
+
+We synthesize diverse, multidimensional data streams, bridging remote sensing with complex social, environmental, and institutional inputs, to create a unified landscape perspective.
+:::
+
+::: {.eg-timeline-step .eg-tl-3}
+[03]{.eg-timeline-dot}
+
+### Modeling & Analysis
+
+We use modern computational workflows to ensure your results are statistically sound, reproducible, and fully auditable.
+:::
+
+::: {.eg-timeline-step .eg-tl-4}
+[04]{.eg-timeline-dot}
+
+### Iterative Validation
+
+We provide transparent, regular check-ins to ensure our modeling remains aligned with your expert on-the-ground knowledge.
+:::
+
+::: {.eg-timeline-step .eg-tl-5}
+[05]{.eg-timeline-dot}
+
+### Implementation Support
+
+We deliver "Decision-Ready Intelligence" — providing you with transparent, verifiable, and actionable insights.
+:::
+
+::::
+:::::
+::::::
+
+
+
+:::::: {#core-values .eg-section .eg-values}
+::::: eg-wrap
+::: eg-sec-head
+[What drives us]{.eg-eyebrow}
+
+## Core values
+:::
+
+::: eg-values-list
+
+::: {.eg-value-row .eg-v-1}
+::: eg-value-icon
+<i class="bi bi-clipboard-data"></i>
+:::
+
+::: eg-value-copy
+### Scientific Integrity
+
+We prioritize evidence over convenience. Every model, map, and insight we deliver is held to the highest standards of accuracy, transparency, and reproducibility. We believe that robust data is the only reliable foundation for environmental action.
+:::
+:::
+
+::: {.eg-value-row .eg-v-2}
+::: eg-value-icon
+<i class="bi bi-diagram-3"></i>
+:::
+
+::: eg-value-copy
+### Integrative Systems Thinking
+
+We see the landscape as a whole, not a collection of isolated parts. We actively bridge the gap between biophysical systems and social dynamics, recognizing that the most accurate solutions emerge at the intersection of disciplines.
+:::
+:::
+
+::: {.eg-value-row .eg-v-3}
+::: eg-value-icon
+<i class="bi bi-eye"></i>
+:::
+
+::: eg-value-copy
+### Applied Transparency
+
+We operate in the open. Our workflows are documented, our methods are peer-review-ready, and our findings are auditable. We empower our partners by giving them full clarity into how we arrive at our conclusions, demystifying the "black box" of geospatial analysis.
+:::
+:::
+
+::: {.eg-value-row .eg-v-4}
+::: eg-value-icon
+<i class="bi bi-geo-alt"></i>
+:::
+
+::: eg-value-copy
+### Field-Grounded Reality
+
+Data in a vacuum can be misleading. We bridge the distance between satellite-derived analytics and on-the-ground experience. We are committed to rigorous ground-truthing to ensure our work is theoretically sound, locally relevant, and actionable.
+:::
+:::
+
+::: {.eg-value-row .eg-v-5}
+::: eg-value-icon
+<i class="bi bi-shield-check"></i>
+:::
+
+::: eg-value-copy
+### Resilient Stewardship
+
+We are driven by the long-term health of the landscapes we analyze. Our goal is to provide "Decision-Ready Intelligence" that protects ecosystems and supports community governance, ensuring our partners leave a lasting, positive footprint on the systems they manage.
+:::
+:::
+
+:::
+:::::
+::::::
+
+
+
+:::::: {#founders .eg-section .eg-founders}
+::::: eg-wrap
+::: eg-sec-head
+[Meet the team]{.eg-eyebrow}
+
+## The founders
+:::
+
+::: eg-founder-grid
+
+::: eg-founder-card
+::: eg-founder-photo
+![](images/Akanga.png)
+:::
+
+### Dr. Donald Akanga
+
+[Co-Founder]{.eg-founder-role}
+
+[Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
+
+::: eg-founder-social
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
+[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+:::
+:::
+
+::: eg-founder-card
+::: eg-founder-photo
+![](images/Kotikot.jpg)
+:::
+
+### Dr. Susan Kotikot
+
+[Co-Founder]{.eg-founder-role}
+
+[Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
+
+::: eg-founder-social
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/susankotikot/){target="_blank"}
+[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+:::
+:::
+
+::: eg-founder-card
+::: eg-founder-photo
+![](images/Wanyama.jpg)
+:::
+
+### Dr. Dan Wanyama
+
+[Co-Founder]{.eg-founder-role}
+
+[Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
+
+::: eg-founder-social
+[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
+[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+:::
+:::
+
+:::
+:::::
+::::::
+
+
+:::::: {#contact .eg-section .eg-contact}
+::::: eg-contact-wrap
+::: eg-contact-left
+## Have a landscape that needs a closer look?
+
+Tell us what you're trying to prove, protect, or plan for. We'll tell you which layers apply.
+:::
+
+::: eg-contact-box
+[EMAIL]{.eg-mono-label}
+
+[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+:::
+:::::
+::::::
+
+:::::::::::::::::::

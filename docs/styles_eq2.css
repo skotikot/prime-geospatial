@@ -816,6 +816,7 @@ footer.footer .nav-footer-left {
   font-family:'Space Grotesk', sans-serif;
   font-weight:600;
   color: var(--eg-ink);
+  text-decoration: none;
   margin-top:0;
 }
 
@@ -1395,7 +1396,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   display:grid; grid-template-columns:1fr; gap:32px;
 }
 @media(min-width:800px){
-  .eg-who-grid{ grid-template-columns: 30% 1fr; gap:56px; align-items:start; }
+  .eg-who-grid{ grid-template-columns: 30% 1fr; gap:56px; align-items:center; } /*was align start - we center to center title vertically*/
 }
 .eg-who-title{ position:relative; }
 .eg-who-title .eg-eyebrow{ color:#8FD39D; }
@@ -1582,7 +1583,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-hero-photo-inner{
   position: relative;
   z-index: 2;
-  max-width: 700px;
+  max-width: min(92vw, 980px); /* was a flat 700px, which forced the h2 to wrap */
   text-align: var(--eg-hp-text-align);
 }
  
@@ -1648,3 +1649,145 @@ Only apply nowrap on large screens (e.g., 992px and up)
 /* ================================================================
    END HOME PAGE — PHOTO HERO
    ================================================================ */
+   
+   
+   
+/* ================================================================
+   ABOUT PAGE — founding history, positionality, timeline,
+   core values, founders
+   ================================================================ */
+ 
+/* ---------- FOUNDING HISTORY — split image / narrative ---------- */
+.eg-history{ background:var(--eg-paper); }
+.eg-history-grid{
+  display:grid; grid-template-columns:1fr; gap:40px; align-items:center;
+}
+@media(min-width:800px){
+  .eg-history-grid{ grid-template-columns: 0.9fr 1.1fr; gap:56px; }
+}
+.eg-history-photo{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow: 0 20px 46px rgba(27,33,29,0.18);
+}
+.eg-history-photo img{
+  width:100%; height:100%; min-height:360px; object-fit:cover; display:block;
+}
+.eg-history-photo::after{
+  content:''; position:absolute; inset:0;
+  border:1px solid rgba(255,255,255,0.35);
+  border-radius:18px;
+  pointer-events:none;
+}
+.eg-history-text .eg-eyebrow{ margin-bottom:14px; }
+.eg-history-text h2{ font-size:clamp(1.8rem,3vw,2.4rem); margin-bottom:20px; max-width:none; }
+.eg-history-text p{ font-size:1.05rem; color:var(--eg-ink-soft); margin-bottom:16px; }
+.eg-history-text p:last-child{ margin-bottom:0; }
+ 
+/* ---------- POSITIONALITY — text-heavy with supporting map image ---------- */
+.eg-position{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }
+.eg-position-grid{
+  display:grid; grid-template-columns:1fr; gap:40px; align-items:start;
+}
+@media(min-width:800px){
+  .eg-position-grid{ grid-template-columns: 1.1fr 0.9fr; gap:56px; }
+}
+.eg-position-text .eg-eyebrow{ margin-bottom:14px; }
+.eg-position-text h2{ font-size:clamp(1.8rem,3vw,2.3rem); margin-bottom:20px; }
+.eg-position-text p{ font-size:1.05rem; color:var(--eg-ink-soft); margin-bottom:18px; }
+.eg-position-text p:last-child{ margin-bottom:0; }
+.eg-position-map{
+  border:1px solid var(--eg-line);
+  border-radius:14px;
+  overflow:hidden;
+  position:sticky; top:110px;
+}
+.eg-position-map img{ width:100%; height:100%; min-height:320px; object-fit:cover; display:block; }
+.eg-position-map-caption{
+  font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--eg-ink-soft);
+  padding:12px 16px; background:var(--eg-paper); margin:0;
+}
+@media(max-width:799px){ .eg-position-map{ position:static; } }
+ 
+/* ---------- HOW WE WORK — colorful vertical timeline ---------- */
+.eg-timeline{ background:var(--eg-paper); }
+.eg-timeline-track{
+  position:relative;
+  max-width:820px; margin:44px auto 0;
+  padding-left:48px;
+}
+.eg-timeline-track::before{
+  content:''; position:absolute; left:15px; top:6px; bottom:6px; width:2px;
+  background: linear-gradient(180deg, var(--eg-canopy), var(--eg-ochre), var(--eg-teal), var(--eg-plum), var(--eg-rust));
+}
+.eg-timeline-step{ position:relative; padding-bottom:42px; }
+.eg-timeline-step:last-child{ padding-bottom:0; }
+.eg-timeline-dot{
+  position:absolute; left:-48px; top:2px;
+  width:34px; height:34px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:#fff; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:0.85rem;
+  box-shadow:0 0 0 6px var(--eg-paper);
+}
+.eg-timeline-step.eg-tl-1 .eg-timeline-dot{ background:var(--eg-canopy); }
+.eg-timeline-step.eg-tl-2 .eg-timeline-dot{ background:var(--eg-ochre); }
+.eg-timeline-step.eg-tl-3 .eg-timeline-dot{ background:var(--eg-teal); }
+.eg-timeline-step.eg-tl-4 .eg-timeline-dot{ background:var(--eg-plum); }
+.eg-timeline-step.eg-tl-5 .eg-timeline-dot{ background:var(--eg-rust); }
+.eg-timeline-step h3{ font-size:1.2rem; margin-bottom:8px; }
+.eg-timeline-step.eg-tl-1 h3{ color:var(--eg-canopy); }
+.eg-timeline-step.eg-tl-2 h3{ color:var(--eg-ochre); }
+.eg-timeline-step.eg-tl-3 h3{ color:var(--eg-teal); }
+.eg-timeline-step.eg-tl-4 h3{ color:var(--eg-plum); }
+.eg-timeline-step.eg-tl-5 h3{ color:var(--eg-rust); }
+.eg-timeline-step p{ color:var(--eg-ink-soft); margin:0; font-size:0.97rem; max-width:56ch; }
+ 
+/* ---------- CORE VALUES — colorful icon-led list ---------- */
+.eg-values{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }
+.eg-values-list{ display:grid; grid-template-columns:1fr; gap:28px; margin-top:36px; }
+@media(min-width:700px){ .eg-values-list{ grid-template-columns:repeat(2,1fr); } }
+.eg-value-row{ display:flex; gap:18px; align-items:flex-start; }
+.eg-value-icon{
+  flex:0 0 auto; width:54px; height:54px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:#fff; font-size:1.4rem;
+}
+.eg-value-row.eg-v-1 .eg-value-icon{ background:var(--eg-canopy); }
+.eg-value-row.eg-v-2 .eg-value-icon{ background:var(--eg-ochre); }
+.eg-value-row.eg-v-3 .eg-value-icon{ background:var(--eg-teal); }
+.eg-value-row.eg-v-4 .eg-value-icon{ background:var(--eg-plum); }
+.eg-value-row.eg-v-5 .eg-value-icon{ background:var(--eg-rust); }
+.eg-value-copy h3{ font-size:1.12rem; margin-bottom:6px; }
+.eg-value-copy p{ color:var(--eg-ink-soft); font-size:0.93rem; margin:0; }
+ 
+/* ---------- FOUNDERS — dark cards ---------- */
+.eg-founders{ background: linear-gradient(180deg, #0E1512 0%, #121B17 100%); }
+.eg-founders .eg-sec-head .eg-eyebrow{ color:#8FD39D; }
+.eg-founders .eg-sec-head .eg-eyebrow::before{ background:#8FD39D; }
+.eg-founders .eg-sec-head h2{ color:#F3F5EE !important; }
+.eg-founder-grid{ display:grid; grid-template-columns:1fr; gap:26px; margin-top:36px; }
+@media(min-width:640px){ .eg-founder-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1000px){ .eg-founder-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-founder-card{
+  background:#16201B; border:1px solid #2B3830; border-radius:14px;
+  overflow:hidden; text-align:center; padding-bottom:26px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.eg-founder-card:hover{ transform:translateY(-4px); box-shadow:0 14px 30px rgba(0,0,0,0.35); }
+.eg-founder-photo{ width:100%; aspect-ratio:4/3; overflow:hidden; background:#1E2A24; }
+.eg-founder-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.eg-founder-card h3{ color:#F3F5EE !important; font-size:1.15rem; margin:20px 0 4px; }
+.eg-founder-role{
+  color:#8FD39D; font-family:'IBM Plex Mono',monospace; font-size:0.75rem;
+  text-transform:uppercase; letter-spacing:0.06em; display:block; margin-bottom:12px;
+}
+.eg-founder-expertise{ color:#B7C2B6; font-size:0.88rem; padding:0 22px; margin-bottom:18px; display:block; }
+.eg-founder-social{ display:flex; justify-content:center; gap:16px; }
+.eg-founder-social a{ color:#8FD39D; font-size:1.15rem; transition:color .2s; }
+.eg-founder-social a:hover{ color:#F3F5EE; }
+ 
+/* ================================================================
+   END ABOUT PAGE
+   ================================================================ */
+   
