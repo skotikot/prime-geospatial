@@ -7,7 +7,7 @@ page-layout: custom
 
 <div class="eg-hero-photo-inner">
 
-<h1>Science for Changing Landscapes</h1>
+<h1>Our Mission: Science for Changing Landscapes</h1>
 
 <h2>We deliver data-driven intelligence where it matters most.</h2>
 
@@ -60,22 +60,36 @@ While our methodology is global in its scientific rigor, our focus is grounded i
 :::
 
 ::: eg-position-map
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+```{r}
+#| label: prime-geospatial-map
+#| echo: false
+#| message: false
+#| warning: false
 
-<div id="eg-ea-map" class="eg-position-map-interactive"></div>
+library(leaflet)
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var map = L.map('eg-ea-map', { scrollWheelZoom: false }).setView([2.0, 38.0], 4);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 12
-  }).addTo(map);
-});
-</script>
+# Define your custom color palette (using your brand variables)
+# Replace these hex codes with your CSS variable values if needed
+brand_color <- "#2E4B32" 
 
-[East Africa — our home landscape]{.eg-position-map-caption}
+# Create the map
+leaflet(height = 500) %>%
+  # Use CartoDB Positron for a clean, scientific, "data-first" look
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  
+  # Center on your primary region (e.g., East Africa)
+  setView(lng = 37.0, lat = -1.0, zoom = 6) %>%
+  
+  # Add a custom marker/circle with branding
+  addCircleMarkers(
+    lng = 36.8219, lat = -1.2921,
+    color = brand_color,
+    fillOpacity = 0.8,
+    radius = 8,
+    stroke = FALSE,
+  )
+
+```
 :::
 
 ::::
@@ -346,5 +360,29 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 :::
 :::::
 ::::::
+
+
+:::::: {#contact .eg-section .eg-contact}
+::::: eg-contact-wrap
+::: eg-contact-left
+## Have a landscape that needs a closer look?
+
+Tell us what you're trying to prove, protect, or plan for. Let us discuss which layers apply.
+:::
+
+::: eg-contact-box
+[EMAIL]{.eg-mono-label}
+
+[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+:::
+:::::
+::::::
+
 
 :::::::::::::::::::
