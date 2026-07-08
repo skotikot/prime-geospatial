@@ -833,21 +833,15 @@ main.content:has(.eg-page),
 .eg-wrap{ max-width:1520px; margin:0 auto; padding:0 32px; } /*max-width:1120px*/
 
 /* ---------- HERO ---------- */
+
+/*
 .eg-hero{
   position:relative; overflow:hidden;
   padding: clamp(20px, 7vw, 20px) 0 clamp(36px, 5vw, 56px);
   padding: clamp(100px, 7vw, 140px) 0 clamp(36px, 5vw, 56px);
-  /*padding: clamp(44px, 7vw, 80px) 0 clamp(36px, 5vw, 56px); */
   border-bottom:1px solid var(--eg-line);
 }
 .eg-hero > .eg-wrap{ position:relative; z-index:2; }
-
-.eg-hero::before{
-  content:''; position:absolute; inset:0; z-index:1; pointer-events:none;
-  opacity:0.4;
-  background-image: : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bannerNew.jpg');
-}
-/*
 .eg-hero::before{
   content:''; position:absolute; inset:0; z-index:1; pointer-events:none;
   opacity:0.4;
@@ -856,6 +850,38 @@ main.content:has(.eg-page),
     repeating-radial-gradient(circle at 90% 75%, transparent 0 20px, var(--eg-line) 20px 21px, transparent 21px 46px);
 }
 */
+
+
+
+/*
+for hero banner below:
+More photo, less tint → lower the 0.82 alpha (e.g. 0.5).
+Darker text-on-photo look instead of the light paper tint → swap the tint
+color to something like rgba(14,21,18,0.55) and switch your .eg-hero heading/body
+text to the light colors, similar to how .eg-hero-dark is already set up elsewhere in your file.
+
+*/
+
+.eg-hero{
+  position:relative; overflow:hidden;
+  padding: clamp(100px, 7vw, 140px) 0 clamp(36px, 5vw, 56px);
+  border-bottom:1px solid var(--eg-line);
+  background-color: var(--eg-paper-deep); /* fallback if the image fails to load */
+  /* Tinted overlay + photo, instead of the old dot-pattern ::before.
+     Raise/lower the 0.82 alpha to show more or less of the photo through
+     the paper tint. */
+  background-image:
+    linear-gradient(rgba(238,240,230,0.50), rgba(238,240,230,0.50)),
+    url('images/bannerNew.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.eg-hero > .eg-wrap{ position:relative; z-index:2; }
+
+.eg-hero::before{
+  display:none; /* was the repeating-radial-gradient dot texture — replaced by the photo above */
+}
 
 .eg-hero::after{
   content:''; position:absolute; left:0; right:0; height:1px; z-index:1;
@@ -1358,7 +1384,7 @@ main.content:has(.eg-page),
 .eg-who-title .eg-eyebrow{ color:#8FD39D; }
 .eg-who-title .eg-eyebrow::before{ background:#8FD39D; }
 .eg-who-title h2{
-  color:#F3F5EE;!important;
+  color:#F3F5EE!important;
   font-size:clamp(2.2rem, 3vw, 2.6rem);
   line-height:1.2;
   max-width:none;
