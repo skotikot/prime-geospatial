@@ -3,13 +3,13 @@ title: ""
 page-layout: custom
 ---
 
-<header class="eg-hero-photo eg-hero-center eg-hero-middle">
+<header class="eg-hero-photo-about eg-hero-center eg-hero-middle">
 
-<div class="eg-hero-photo-inner">
+<div class="eg-hero-photo-about-inner">
 
-<h1>About Prime Geospatial</h1>
+<h1>Science for Changing Landscapes</h1>
 
-<h2>Turning raw computing into trusted, field-validated intelligence.</h2>
+<h2>We deliver data-driven intelligence where it matters most.</h2>
 
 </div>
 

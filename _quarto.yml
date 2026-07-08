@@ -24,12 +24,8 @@ website:
       #  text: Services
       - href: services-geospatial3.qmd
         text: Services
-      - href: about.qmd
+      - href: about_clod2.qmd
         text: About us
-      - href: about-geospatial_3.qmd
-        text: About us 2
-      - href: about_clod.qmd
-        text: About us 3
       - href: people.qmd
         text: Our Team
       - href: projects.qmd  # Or "Case Studies / White Papers"
