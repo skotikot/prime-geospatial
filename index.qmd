@@ -3,7 +3,9 @@ title: ""
 page-layout: custom
 ---
 
-<header class="hero-banner">
+<header class="eg-hero-photo eg-hero-center eg-hero-middle">
+
+<div class="eg-hero-photo-inner">
 
 <!-- The text overlay content -->
 
@@ -11,10 +13,11 @@ page-layout: custom
 
 <h2>Bridging the Gap Between Data and Discovery</h2>
 
-<!-- STREAMING_CHUNK:Adding the call-to-action button -->
+<!-- Call-to-action button -->
 
-<a href="services.qmd" class=".eg-btn-hp">Explore Our Services</a>
+<a href="services.qmd" class="eg-hero-photo-btn">Explore Our Services</a>
 
+</div>
 
 </header>
 
