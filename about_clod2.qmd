@@ -168,7 +168,6 @@ We deliver "Decision-Ready Intelligence" — providing you with transparent, ver
 
 :::
 
-
 :::: eg-timeline-track
 
 ::: {.eg-timeline-step .eg-tl-1}

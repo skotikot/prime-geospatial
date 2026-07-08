@@ -1736,7 +1736,7 @@ Only apply nowrap on large screens (e.g., 992px and up)
   position: relative;
   background-color: var(--eg-paper-deep); /* fallback if the image fails to load */
   background-image:
-    linear-gradient(rgba(238,240,230,0.9), rgba(238,240,230,0.9)),
+    linear-gradient(rgba(238,240,230,0.1), rgba(238,240,230,0.1)),
     url('images/habitat.jpg');
   background-size: cover;
   background-position: center;
