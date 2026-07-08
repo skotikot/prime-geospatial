@@ -140,6 +140,72 @@ We deliver "Decision-Ready Intelligence" — providing you with transparent, ver
 
 
 
+
+
+
+:::::: {#how-we-work .eg-section .eg-timeline}
+::::: eg-wrap
+:::: eg-ses-card
+
+::: eg-sec-head
+[Our process]{.eg-eyebrow}
+
+## How we work: the integrated lifecycle
+
+:::
+
+
+:::: eg-timeline-track
+
+::: {.eg-timeline-step .eg-tl-1}
+[01]{.eg-timeline-dot}
+
+### Co-design
+
+We bridge the gap between your specific objectives and the social-ecological reality of your landscape.
+:::
+
+::: {.eg-timeline-step .eg-tl-2}
+[02]{.eg-timeline-dot}
+
+### Data Synthesis
+
+We synthesize diverse, multidimensional data streams, bridging remote sensing with complex social, environmental, and institutional inputs, to create a unified landscape perspective.
+:::
+
+::: {.eg-timeline-step .eg-tl-3}
+[03]{.eg-timeline-dot}
+
+### Modeling & Analysis
+
+We use modern computational workflows to ensure your results are statistically sound, reproducible, and fully auditable.
+:::
+
+::: {.eg-timeline-step .eg-tl-4}
+[04]{.eg-timeline-dot}
+
+### Iterative Validation
+
+We provide transparent, regular check-ins to ensure our modeling remains aligned with your expert on-the-ground knowledge.
+:::
+
+::: {.eg-timeline-step .eg-tl-5}
+[05]{.eg-timeline-dot}
+
+### Implementation Support
+
+We deliver "Decision-Ready Intelligence" — providing you with transparent, verifiable, and actionable insights.
+:::
+
+::::
+
+::::
+:::::
+::::::
+
+
+
+
 :::::: {#core-values .eg-section .eg-values}
 ::::: eg-wrap
 ::: eg-sec-head
