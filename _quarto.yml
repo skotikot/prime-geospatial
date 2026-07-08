@@ -26,8 +26,6 @@ website:
         text: Services
       - href: about_clod2.qmd
         text: About us
-      - href: people.qmd
-        text: Our Team
       - href: projects.qmd  # Or "Case Studies / White Papers"
         text: Projects
       - href: contact.qmd
