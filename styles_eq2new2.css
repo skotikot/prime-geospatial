@@ -970,6 +970,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   max-width:none; 
   margin-bottom:22px;
   font-weight: 700;
+  text-decoration:none !important;
 }
 
 .eg-hero h2 {
@@ -979,6 +980,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   max-width:none; 
   margin-bottom:22px;
   font-weight: 400;
+  text-decoration:none !important;
 }
 
 .eg-lede{ max-width:120ch; color:var(--eg-ink-soft); font-size:1.5rem; margin-bottom:34px; }
