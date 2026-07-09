@@ -6,9 +6,9 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/about-hero-bg.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
 ::: eg-wrap
-[About us]{.eg-eyebrow}
+<!--[About us]{.eg-eyebrow}-->
 
 # Our Mission: Science for Changing Landscapes
 

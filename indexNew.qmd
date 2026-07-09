@@ -7,7 +7,9 @@ page-layout: custom
 
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
 ::: eg-wrap
-[Prime Geospatial]{.eg-eyebrow}
+<!--[Prime Geospatial]{.eg-eyebrow}-->
+
+# ArdhiLytics
 
 ## Bridging the Gap Between Data and Discovery
 
