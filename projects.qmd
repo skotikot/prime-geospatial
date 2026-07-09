@@ -56,7 +56,7 @@ leaflet(height = 500) %>%
 
 
 ::: eg-history-text
-[Our story]{.eg-eyebrow}
+[Our study areas]{.eg-eyebrow}
 
 ## Three researchers, one landscape-sized problem
 
@@ -74,64 +74,45 @@ We turn raw, intimidating data into clear, verified, and deeply understood spati
 
 
 
-:::::: {#founders .eg-section .eg-founders}
+
+:::::: {#case_studies .eg-section .eg-founders}
 ::::: eg-wrap
 ::: eg-sec-head
-[Meet the team]{.eg-eyebrow}
+[Case studies]{.eg-eyebrow}
 
-## The founders
+## Biodiversity assessment and mapping
 :::
 
 ::: eg-founder-grid
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Akanga.png)
+![](images/ecological-modeling.png)
 :::
 
-### Dr. Donald Akanga
+### Mapping Biodivesity in Narok County, Kenya
 
-[Co-Founder]{.eg-founder-role}
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
 
-::: eg-founder-social
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+::: {.eg-hero-ctas}
+[Learn more](projects_MRV.qmd#Nrk_Bio){.eg-btn .eg-btn-outline}
 :::
 :::
+
+
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Kotikot.jpg)
+![](images/nrkWht.jpg)
 :::
 
-### Dr. Susan Kotikot
-
-[Co-Founder]{.eg-founder-role}
+### Habitat assessment for Southern Patas Monkey
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
 
-::: eg-founder-social
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/susankotikot/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
-:::
-:::
-
-::: eg-founder-card
-::: eg-founder-photo
-![](images/Wanyama2.jpg)
-:::
-
-### Dr. Dan Wanyama
-
-[Co-Founder]{.eg-founder-role}
-
-[Geospatial Geospatial Scientist and Environmental Geographer specializing in forest and agricultural land-use change dynamics, climate variability and human-environment interactions, and socio-ecological vulnerability.]{.eg-founder-expertise}
-
-::: eg-founder-social
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+::: {.eg-hero-ctas}
+[Learn more](projects_MRV.qmd#patas_Hab){.eg-btn .eg-btn-outline}
 :::
 :::
 
@@ -146,72 +127,45 @@ We turn raw, intimidating data into clear, verified, and deeply understood spati
 :::::: {#founders .eg-section .eg-founders}
 ::::: eg-wrap
 ::: eg-sec-head
-[Meet the team]{.eg-eyebrow}
+[Case studies]{.eg-eyebrow}
 
-## The founders
+## Land-Use & Land-Cover Change Modeling
 :::
 
 ::: eg-founder-grid
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Akanga.png)
+![](images/nrkGraze.jpg)
 :::
 
-### Dr. Donald Akanga
-
-[Co-Founder]{.eg-founder-role}
+### LULC Change modeling in Narok, Kenya
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
 
-::: eg-founder-social
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+::: {.eg-hero-ctas}
+[Learn more](projects_LULC.qmd#modeling_Nrk){.eg-btn .eg-btn-outline}
 :::
 :::
+
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Kotikot.jpg)
+![](images/wildB.jpg)
 :::
 
-### Dr. Susan Kotikot
-
-[Co-Founder]{.eg-founder-role}
+### LULC Change Scenario modeling for planning
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
 
-::: eg-founder-social
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/susankotikot/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
-:::
-:::
-
-::: eg-founder-card
-::: eg-founder-photo
-![](images/Wanyama2.jpg)
-:::
-
-### Dr. Dan Wanyama
-
-[Co-Founder]{.eg-founder-role}
-
-[Geospatial Geospatial Scientist and Environmental Geographer specializing in forest and agricultural land-use change dynamics, climate variability and human-environment interactions, and socio-ecological vulnerability.]{.eg-founder-expertise}
-
-::: eg-founder-social
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+::: {.eg-hero-ctas}
+[Learn more](projects_LULC.qmd#scenarios_Nrk){.eg-btn .eg-btn-outline}
 :::
 :::
 
 :::
 :::::
 ::::::
-
-
-
-
-
 
 
 

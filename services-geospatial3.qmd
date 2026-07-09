@@ -66,6 +66,9 @@ Whether you are developing a new project or vetting a portfolio, our rigorous ve
 ::: {.eg-layer-coord}
 02°10'S 38°04'E\
 Illustrative anchor: Tsavo–Kasigau region
+::: {.eg-hero-ctas}
+[Learn more](projects.qmd#case_studies){.eg-btn .eg-btn-outline}
+:::
 :::
 :::
 :::
