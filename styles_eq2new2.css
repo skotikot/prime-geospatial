@@ -969,7 +969,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   font-size: clamp(3.0rem, 4.6vw, 3.8rem);
   max-width:none; 
   margin-bottom:22px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .eg-hero h2 {
