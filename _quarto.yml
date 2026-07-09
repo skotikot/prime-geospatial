@@ -28,8 +28,8 @@ website:
         text: About us
       - href: projects.qmd  # Or "Case Studies / White Papers"
         text: Projects
-      - href: contact.qmd
-        text: Contact
+      - href: contact2.qmd
+        text: Contact Us
 
   # ==========================================
   # INSERT YOUR GLOBAL PAGE FOOTER HERE

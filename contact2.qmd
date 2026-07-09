@@ -1,0 +1,98 @@
+---
+title: ""
+page-layout: custom
+---
+
+::::::::::::::::::: eg-page
+
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/contact-hero-bg.jpg');"}
+::: eg-wrap
+[Get in touch]{.eg-eyebrow}
+
+## Let's restore landscapes together.
+
+[Whether you're protecting a forest, verifying carbon, or planning for what comes next — we'd love to hear what you're working on.]{.eg-lede}
+:::
+::::
+
+
+
+:::::: {#invite .eg-section .eg-invite}
+::::: eg-wrap
+::: eg-invite-copy
+[Why reach out]{.eg-eyebrow}
+
+## Great landscapes are never restored alone.
+
+We partner with governments, conservation organizations, investors, project developers, and communities who are ready to turn evidence into action. If you have a landscape that needs to be understood, protected, or transformed, let's talk about which layers of analysis apply to you — and what it would take to get you decision-ready intelligence you can act on.
+:::
+:::::
+::::::
+
+
+
+:::::: {#contact-form .eg-section .eg-contact-form}
+::::: eg-wrap
+:::: eg-contact-form-grid
+
+::: eg-contact-form-info
+[Reach us directly]{.eg-eyebrow}
+
+## Prefer to skip the form?
+
+[EMAIL]{.eg-mono-label}
+
+[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[WORKING WITH]{.eg-mono-label}
+
+[Governments · Conservation organizations · Investors · Project developers · Communities]{.eg-email-sub}
+:::
+
+::: eg-contact-form-card
+
+<form action="https://formspree.io/f/mrevavwz" method="POST">
+
+<div class="eg-form-row">
+<label for="name" class="form-label">Name</label>
+<input type="text" class="custom-input" id="name" name="name" required>
+</div>
+
+<div class="eg-form-row">
+<label for="email" class="form-label">Email</label>
+<input type="email" class="custom-input" id="email" name="email" required>
+</div>
+
+<div class="eg-form-row">
+<label for="organization" class="form-label">Organization <span class="eg-form-hint">(optional)</span></label>
+<input type="text" class="custom-input" id="organization" name="organization">
+</div>
+
+<div class="eg-form-row">
+<label for="message" class="form-label">Tell us about your landscape</label>
+<textarea class="custom-input" id="message" name="message" rows="5" required></textarea>
+</div>
+
+<!-- Anti-spam: keeps the subject line clean and silently drops bot submissions -->
+<input type="hidden" name="_subject" value="New inquiry — Prime Geospatial website">
+<input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+<div class="eg-form-row g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+
+<button type="submit" class="eg-btn eg-btn-solid">Send us a brief</button>
+
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+:::
+
+::::
+:::::
+::::::
+
+:::::::::::::::::::
