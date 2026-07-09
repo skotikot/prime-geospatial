@@ -823,8 +823,7 @@ footer.footer .nav-footer-left {
 .eg-page h1, .eg-page h2, .eg-page h3{
   font-family:'Space Grotesk', sans-serif;
   font-weight:600;
-  color: var(--eg-ink);
-  text-decoration: none !important;
+  /*color: var(--eg-ink);*/
   margin-top:0;
 }
 
