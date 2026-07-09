@@ -1063,18 +1063,31 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
 
 /* ---------- CONTACT ---------- */
+.eg-contact{
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  background-image:
+    linear-gradient(rgba(14,21,18,0.2), rgba(14,21,18,0.2)),
+    url('images/contactBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: clamp(56px, 7vw, 90px) 0;
+}
 .eg-contact-wrap{
   display:grid; grid-template-columns:1fr; gap:30px; align-items:end;
   max-width:1120px; margin:0 auto; padding:0 32px;
 }
 @media(min-width:760px){ .eg-contact-wrap{ grid-template-columns:1.3fr 1fr; } }
-.eg-contact-left h2{ font-size:clamp(1.8rem,3.4vw,2.6rem); max-width:16ch; }
-.eg-contact-left p{ color:var(--eg-ink-soft); max-width:46ch; margin-top:16px; }
-.eg-contact-box{ border:1px solid var(--eg-ink); padding:28px; }
+.eg-contact-left h2{ font-size:clamp(1.8rem,3.4vw,2.6rem); max-width:16ch; color:#F3F5EE !important; text-decoration:none !important; }
+.eg-contact-left p{ color:#D3DBD1; max-width:46ch; margin-top:16px; }
+.eg-contact-box{ border:1px solid rgba(255,255,255,0.35); padding:28px; }
 .eg-contact-box > p{ margin:0 0 6px 0; }
-.eg-mono-label{ font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:var(--eg-ink-soft); display:block; }
+.eg-mono-label{ font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:#B7C2B6; display:block; }
 .eg-email{ font-size:1.15rem; font-weight:500; display:block; margin-bottom:22px !important; word-break:break-all; text-decoration:none; color:var(--eg-ink); }
 .eg-email-sub{ font-size:0.95rem; display:block; margin-bottom:22px !important; }
+.eg-contact .eg-email{ color:#F3F5EE; }
+.eg-contact .eg-email-sub{ color:#D3DBD1; }
 
 /* ---------- FOOTER ---------- */
 .eg-footer{ border-top:1px solid var(--eg-line); padding:26px 0; }
@@ -1585,7 +1598,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   padding: clamp(170px, 14vw, 220px) 40px clamp(56px, 6vw, 80px);
 }
 @media (max-width: 576px){
-  .eg-hero-photo{ padding-top: 190px; min-height: 520px; }
+  .eg-hero-photo{ padding-top: 220px; min-height: 520px; }
 }
  
 .eg-hero-photo-inner{
