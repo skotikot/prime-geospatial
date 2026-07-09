@@ -1427,6 +1427,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   font-size:clamp(2.2rem, 3vw, 2.6rem);
   line-height:1.2;
   max-width:none;
+  text-decoration: none !important;
   margin-bottom:0;
 }
 .eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:100ch; } /* max-width:70ch*/
