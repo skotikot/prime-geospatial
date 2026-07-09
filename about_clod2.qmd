@@ -3,19 +3,19 @@ title: ""
 page-layout: custom
 ---
 
-<header class="eg-hero-photo eg-hero-center eg-hero-middle">
-
-<div class="eg-hero-photo-inner">
-
-<h1>Our Mission: Science for Changing Landscapes</h1>
-
-<h2>We deliver data-driven intelligence where it matters most.</h2>
-
-</div>
-
-</header>
 
 ::::::::::::::::::: eg-page
+
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/about-hero-bg.jpg');"}
+::: eg-wrap
+[About us]{.eg-eyebrow}
+
+# Our Mission: Science for Changing Landscapes
+
+## We deliver data-driven intelligence where it matters most.
+
+:::
+::::
 
 :::::: {#history .eg-section .eg-history}
 ::::: eg-wrap

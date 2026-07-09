@@ -18,8 +18,8 @@ website:
       # Home button removed
       # - href: index.qmd
       #   text: Home
-      #- href: home2.qmd
-      #  text: Home
+      - href: indexNew.qmd
+        text: Home
       #- href: services.qmd
       #  text: Services
       - href: services-geospatial3.qmd
@@ -50,7 +50,7 @@ website:
 format:
   html:
     theme: flatly
-    css: styles_eq2new.css # <-- This line tells Quarto to look for your CSS file!
+    css: styles_eq2new2.css # <-- This line tells Quarto to look for your CSS file!
     toc: true                   # Generates the right-hand page navigation menu
     toc-location: right
     # include-after-body: footer.html

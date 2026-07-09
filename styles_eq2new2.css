@@ -873,20 +873,28 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 
 .eg-hero{
   position:relative; overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  /* Default (flex-start/flex-start) reproduces the original left-aligned,
+     top-anchored block-flow look used on the services page — unaffected
+     unless a positioning modifier class below is added. */
+  justify-content: var(--eg-hero-justify, flex-start);
+  align-items: var(--eg-hero-align, flex-start);
   padding: clamp(100px, 7vw, 140px) 0 clamp(36px, 5vw, 56px);
   border-bottom:1px solid var(--eg-line);
   background-color: var(--eg-paper-deep); /* fallback if the image fails to load */
-  /* Tinted overlay + photo, instead of the old dot-pattern ::before.
-     Raise/lower the 0.82 alpha to show more or less of the photo through
-     the paper tint. */
+  /* Tinted overlay + photo. Both are swappable per-page via CSS variables —
+     set --eg-hero-img (and optionally --eg-hero-tint) as an inline style on
+     the .eg-hero element to use a different photo per page, without needing
+     a separate CSS rule or duplicating this component. */
   background-image:
-    linear-gradient(rgba(238,240,230,0.50), rgba(238,240,230,0.50)),
-    url('images/bannerNew.jpg');
+    linear-gradient(var(--eg-hero-tint, rgba(238,240,230,0.50)), var(--eg-hero-tint, rgba(238,240,230,0.50))),
+    var(--eg-hero-img, url('images/bannerNew.jpg'));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.eg-hero > .eg-wrap{ position:relative; z-index:2; }
+.eg-hero > .eg-wrap{ position:relative; z-index:2; width:100%; }
 
 .eg-hero::before{
   display:none; /* was the repeating-radial-gradient dot texture — replaced by the photo above */
@@ -900,6 +908,31 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
 @keyframes eg-scan{ 0%{ top:0%; } 100%{ top:100%; } }
 @media(prefers-reduced-motion: reduce){ .eg-hero::after{ animation:none; display:none; } }
+
+/* ---------- HERO — content position settings (opt-in modifiers) ---------- */
+/* Horizontal: pick one */
+.eg-hero-left{   --eg-hero-justify: flex-start; text-align:left; }
+.eg-hero-center{ --eg-hero-justify: center;     text-align:center; }
+.eg-hero-right{  --eg-hero-justify: flex-end;   text-align:right; }
+/* Vertical: pick one */
+.eg-hero-top{    --eg-hero-align: flex-start; }
+.eg-hero-middle{ --eg-hero-align: center; }
+.eg-hero-bottom{ --eg-hero-align: flex-end; }
+
+/* ---------- HERO — dark tint variant (light text, for dark/moody photos) ---------- */
+.eg-hero-tint-dark{ --eg-hero-tint: rgba(14,21,18,0.55); }
+.eg-hero-tint-dark .eg-eyebrow{ color:#8FD39D; }
+.eg-hero-tint-dark .eg-eyebrow::before{ background:#8FD39D; }
+.eg-hero-tint-dark h1,
+.eg-hero-tint-dark h2{
+  color:#F3F5EE !important;
+  text-decoration:none !important;
+  text-shadow:2px 2px 10px rgba(0,0,0,0.5);
+}
+.eg-hero-tint-dark .eg-lede,
+.eg-hero-tint-dark p{ color:#DCE3D9; }
+.eg-hero-tint-dark .eg-btn-outline{ color:#F3F5EE; border-color:#F3F5EE; }
+.eg-hero-tint-dark .eg-btn-outline:hover{ background:#F3F5EE; color:#0E1512; }
 
 .eg-eyebrow{
   font-family:'IBM Plex Mono', monospace;
@@ -1153,9 +1186,18 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   aspect-ratio: 3 / 4;
   overflow:hidden;
 }
-.eg-teaser-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+/* Pandoc wraps a lone image in a <p> with no set height, so height:100% on
+   the <img> alone has nothing to resolve against — some photos were only
+   filling their natural (short) height, leaving a gap of card-color below
+   them. Absolute-position the image against .eg-teaser-photo (which does
+   have a real height, from aspect-ratio) so it always fills the frame. */
+.eg-teaser-photo p{ margin:0; height:100%; }
+.eg-teaser-photo img{
+  position:absolute; inset:0;
+  width:100%; height:100%; object-fit:cover; display:block;
+}
 .eg-teaser-photo::after{
-  content:''; position:absolute; left:0; right:0; bottom:0; height:3px;
+  content:''; position:absolute; left:0; right:0; bottom:0; height:3px; z-index:1;
 }
 
 /* colored circular icon badge, overlapping the seam between photo and card body */
@@ -1741,8 +1783,15 @@ Only apply nowrap on large screens (e.g., 992px and up)
 .eg-history-grid{
   display:grid; grid-template-columns:1fr; gap:40px; align-items:center;
 }
+/* On mobile, show the title/text before the photo (source order is photo
+   first, for the desktop left-photo/right-text layout). Above 800px this
+   is reset since the 2-column grid places them side by side either way. */
+.eg-history-text{ order:1; }
+.eg-history-photo{ order:2; }
 @media(min-width:800px){
   .eg-history-grid{ grid-template-columns: 0.9fr 1.1fr; gap:56px; }
+  .eg-history-text{ order:initial; }
+  .eg-history-photo{ order:initial; }
 }
 .eg-history-photo{
   position:relative;
