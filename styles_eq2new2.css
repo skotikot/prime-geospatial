@@ -893,6 +893,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 60vh; /* This will make the banner 60% of the screen height */
 }
 .eg-hero > .eg-wrap{ position:relative; z-index:2; width:100%; }
 
@@ -931,17 +932,19 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 
 /* Unique settings for H1 */
 .eg-hero-tint-dark h1 {
-  color: #F3F5EE !important;
-  font-size: 3rem;       /* Example: Larger size for main title */
+  color: var(--eg-hp-ink) !important;
+  font-family:'Space Grotesk', sans-serif;
+  font-size: clamp(3.0rem, 5vw, 4.0rem);
   font-weight: 700;      /* Example: Bolder weight */
   margin-bottom: 0.5rem;
 }
 
 /* Unique settings for H2 */
 .eg-hero-tint-dark h2 {
-  color: #D1D5DB !important; /* Example: Slightly softer color for subtitle */
-  font-size: 1.5rem;
-  font-weight: 700;
+  color: var(--eg-hp-ink-soft) !important;
+  font-family:'IBM Plex Sans', sans-serif;
+  font-size: clamp(2.0rem, 2vw, 2.5rem);
+  font-weight: 400;
 }
 
 .eg-hero-tint-dark .eg-lede,
@@ -957,7 +960,26 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
 .eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
-.eg-hero h2{ font-size:clamp(2.5rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }
+/*.eg-hero h1{ font-size:clamp(3.0rem, 4.6vw, 3.8rem); max-width:none; margin-bottom:22px; }*/
+/*.eg-hero h2{ font-size:clamp(2.5rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }*/
+
+.eg-hero h1 {
+  color: var(--eg-hp-ink) !important;
+  font-family:'Space Grotesk', sans-serif;
+  font-size: clamp(3.0rem, 4.6vw, 3.8rem);
+  max-width:none; 
+  margin-bottom:22px;
+  font-weight: 400;
+}
+
+.eg-hero h2 {
+  color: var(--eg-hp-ink-soft) !important;
+  font-family:'IBM Plex Sans', sans-serif;
+  font-size: clamp(2.5rem, 4.6vw, 3.4rem);
+  max-width:none; 
+  margin-bottom:22px;
+  font-weight: 400;
+}
 
 .eg-lede{ max-width:120ch; color:var(--eg-ink-soft); font-size:1.5rem; margin-bottom:34px; }
 
