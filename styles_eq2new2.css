@@ -880,7 +880,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
      unless a positioning modifier class below is added. */
   justify-content: var(--eg-hero-justify, flex-start);
   align-items: var(--eg-hero-align, flex-start);
-  padding: clamp(100px, 7vw, 140px) 0 clamp(36px, 5vw, 56px);
+  padding: clamp(120px, 7vw, 160px) 0 clamp(36px, 5vw, 56px);
   border-bottom:1px solid var(--eg-line);
   background-color: var(--eg-paper-deep); /* fallback if the image fails to load */
   /* Tinted overlay + photo. Both are swappable per-page via CSS variables —
@@ -925,10 +925,25 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-hero-tint-dark .eg-eyebrow::before{ background:#8FD39D; }
 .eg-hero-tint-dark h1,
 .eg-hero-tint-dark h2{
-  color:#F3F5EE !important;
   text-decoration:none !important;
   text-shadow:2px 2px 10px rgba(0,0,0,0.5);
 }
+
+/* Unique settings for H1 */
+.eg-hero-tint-dark h1 {
+  color: #F3F5EE !important;
+  font-size: 3rem;       /* Example: Larger size for main title */
+  font-weight: 700;      /* Example: Bolder weight */
+  margin-bottom: 0.5rem;
+}
+
+/* Unique settings for H2 */
+.eg-hero-tint-dark h2 {
+  color: #D1D5DB !important; /* Example: Slightly softer color for subtitle */
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .eg-hero-tint-dark .eg-lede,
 .eg-hero-tint-dark p{ color:#DCE3D9; }
 .eg-hero-tint-dark .eg-btn-outline{ color:#F3F5EE; border-color:#F3F5EE; }
