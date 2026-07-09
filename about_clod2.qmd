@@ -52,7 +52,7 @@ We turn raw, intimidating data into clear, verified, and deeply understood spati
 
 ## Beyond the map
 
-We don't believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps — we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.
+We don't believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps,  we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.
 
 Our workflows are built on a foundation of open, reproducible science and peer-reviewed methodology. Through this transdisciplinary approach, we deliver the high-fidelity diagnostics our partners need to plan, protect, and prove their impact with total confidence.
 

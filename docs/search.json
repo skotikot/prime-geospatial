@@ -277,7 +277,7 @@
     "href": "about_clod2.html#beyond-the-map",
     "title": "",
     "section": "Beyond the map",
-    "text": "Beyond the map\nWe don’t believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps — we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.\nOur workflows are built on a foundation of open, reproducible science and peer-reviewed methodology. Through this transdisciplinary approach, we deliver the high-fidelity diagnostics our partners need to plan, protect, and prove their impact with total confidence.\nWhile our methodology is global in its scientific rigor, our focus is grounded in the complex social-ecological landscapes of East Africa. We believe that deep, place-based knowledge is the essential final layer of geospatial analysis, ensuring our diagnostics are not just accurate, but locally transformative."
+    "text": "Beyond the map\nWe don’t believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps, we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.\nOur workflows are built on a foundation of open, reproducible science and peer-reviewed methodology. Through this transdisciplinary approach, we deliver the high-fidelity diagnostics our partners need to plan, protect, and prove their impact with total confidence.\nWhile our methodology is global in its scientific rigor, our focus is grounded in the complex social-ecological landscapes of East Africa. We believe that deep, place-based knowledge is the essential final layer of geospatial analysis, ensuring our diagnostics are not just accurate, but locally transformative."
   },
   {
     "objectID": "about_clod2.html#how-we-work-the-integrated-lifecycle",
@@ -513,6 +513,13 @@
   {
     "objectID": "index.html#five-layers-of-analysis-one-landscape.",
     "href": "index.html#five-layers-of-analysis-one-landscape.",
+    "title": "",
+    "section": "Five layers of analysis — one landscape.",
+    "text": "Five layers of analysis — one landscape.\nA quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment."
+  },
+  {
+    "objectID": "index.html#five-layers-of-analysis-one-landscape.-1",
+    "href": "index.html#five-layers-of-analysis-one-landscape.-1",
     "title": "",
     "section": "Five layers of analysis — one landscape.",
     "text": "Five layers of analysis — one landscape.\nA quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment."

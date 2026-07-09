@@ -62,6 +62,118 @@ From project design and baseline assessments to monitoring, verification, and im
 
 
 
+
+:::::::::: {#what-we-do .eg-section .eg-services}
+::::::::: eg-wrap
+::: eg-sec-head
+[What we do]{.eg-eyebrow}
+
+## Five layers of analysis — one landscape.
+
+A quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment.
+:::
+
+::::::: eg-teaser-grid
+
+::: eg-teaser-card
+::: eg-teaser-photo
+![](images/service-mrv.jpg)
+:::
+
+::: eg-teaser-icon
+<i class="bi bi-clipboard-data"></i>
+:::
+
+::: eg-teaser-body
+### Digital MRV & Carbon Verification
+
+[High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-teaser-desc}
+
+[View](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+:::
+
+::: eg-teaser-card
+::: eg-teaser-photo
+![](images/service-landuse.jpg)
+:::
+
+::: eg-teaser-icon
+<i class="bi bi-map"></i>
+:::
+
+::: eg-teaser-body
+### Land-Use & Land-Cover Change Modeling
+
+[Co-designing the future of your landscape.]{.eg-teaser-desc}
+
+[View](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+:::
+
+::: eg-teaser-card
+::: eg-teaser-photo
+![](images/service-connectivity.jpg)
+:::
+
+::: eg-teaser-icon
+<i class="bi bi-tree"></i>
+:::
+
+::: eg-teaser-body
+### Landscape Connectivity & Conservation Planning
+
+[Bridging the gap between ecological integrity and human prosperity.]{.eg-teaser-desc}
+
+[View](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+:::
+
+::: eg-teaser-card
+::: eg-teaser-photo
+![](images/service-resilience.jpg)
+:::
+
+::: eg-teaser-icon
+<i class="bi bi-people"></i>
+:::
+
+::: eg-teaser-body
+### Social-Ecological Systems & Resilience Assessment
+
+[Where land, climate, and community governance converge.]{.eg-teaser-desc}
+
+[View](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+:::
+
+::: eg-teaser-card
+::: eg-teaser-photo
+![](images/service-consulting.jpg)
+:::
+
+::: eg-teaser-icon
+<i class="bi bi-mortarboard"></i>
+:::
+
+::: eg-teaser-body
+### Technical Consulting & Capacity Building
+
+[Translating complex spatial data into actionable, team-led expertise.]{.eg-teaser-desc}
+
+[View](services-geospatial.qmd#services){.eg-teaser-link}
+:::
+:::
+
+:::::::
+:::::::::
+::::::::::
+
+
+
+
+
+
 :::::::::: {#what-we-do .eg-section .eg-services}
 ::::::::: eg-wrap
 ::: eg-sec-head
