@@ -71,7 +71,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-mrv.jpg)
+![](images/service-mrv.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -89,7 +89,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-landuse.jpg)
+![](images/service-landuse.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -107,7 +107,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-connectivity.jpg)
+![](images/service-connectivity.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -125,7 +125,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-resilience.jpg)
+![](images/service-resilience.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -143,7 +143,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-consulting.jpg)
+![](images/service-consulting.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon

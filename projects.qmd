@@ -6,7 +6,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/nrkGraze.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-right .eg-hero-top style="--eg-hero-img:url('images/nrkGraze.jpg');"}
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
 

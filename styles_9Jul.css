@@ -919,35 +919,40 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-hero-middle{ --eg-hero-align: center; }
 .eg-hero-bottom{ --eg-hero-align: flex-end; }
 
-/* ---------- HERO — dark tint variant (light text, for dark/moody photos) ---------- */
+/* ---------- HERO — base heading styles (used on every .eg-hero) ---------- */
+.eg-hero h1 {
+  font-family:'Space Grotesk', sans-serif;
+  font-size: clamp(3.0rem, 4.6vw, 3.8rem);
+  font-weight: 700;
+  max-width:none;
+  margin-bottom:22px;
+  text-decoration:none !important;
+}
+.eg-hero h2 {
+  font-family:'IBM Plex Sans', sans-serif;
+  font-size: clamp(2.0rem, 4.6vw, 2.5rem);
+  font-weight: 400;
+  max-width:none;
+  margin-bottom:22px;
+  text-decoration:none !important;
+}
+
+/* ---------- HERO — dark tint variant (light text, for dark/moody photos) ----------
+   NOTE: this block must stay AFTER the base .eg-hero h1/h2 rules above —
+   both are equal specificity, so source order decides which color wins. */
 .eg-hero-tint-dark{ --eg-hero-tint: rgba(14,21,18,0.55); }
 .eg-hero-tint-dark .eg-eyebrow{ color:#8FD39D; }
 .eg-hero-tint-dark .eg-eyebrow::before{ background:#8FD39D; }
-.eg-hero-tint-dark h1,
-.eg-hero-tint-dark h2{
+.eg-hero-tint-dark h1{
+  color:#F3F5EE !important;
   text-decoration:none !important;
   text-shadow:2px 2px 10px rgba(0,0,0,0.5);
 }
-
-/* Unique settings for H1 */
-.eg-hero-tint-dark h1 {
-  color: var(--eg-hp-ink) !important;
-  font-family:'Space Grotesk', sans-serif;
-  font-size: clamp(3.0rem, 5vw, 4.0rem);
-  font-weight: 700;      /* Example: Bolder weight */
-  margin-bottom: 0.5rem;
+.eg-hero-tint-dark h2{
+  color:#DCE3D9 !important;
   text-decoration:none !important;
+  text-shadow:2px 2px 10px rgba(0,0,0,0.5);
 }
-
-/* Unique settings for H2 */
-.eg-hero-tint-dark h2 {
-  color: var(--eg-hp-ink-soft) !important;
-  font-family:'IBM Plex Sans', sans-serif;
-  font-size: clamp(2.0rem, 2vw, 2.5rem);
-  font-weight: 400;
-  text-decoration:none !important;
-}
-
 .eg-hero-tint-dark .eg-lede,
 .eg-hero-tint-dark p{ color:#DCE3D9; }
 .eg-hero-tint-dark .eg-btn-outline{ color:#F3F5EE; border-color:#F3F5EE; }
@@ -961,31 +966,8 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
 .eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
 
-/*.eg-hero h1{ font-size:clamp(3.0rem, 4.6vw, 3.8rem); max-width:none; margin-bottom:22px; }*/
-/*.eg-hero h2{ font-size:clamp(2.5rem, 4.6vw, 3.4rem); max-width:none; margin-bottom:22px; }*/
-
-.eg-hero h1 {
-  color: var(--eg-hp-ink) !important;
-  font-family:'Space Grotesk', sans-serif;
-  font-size: clamp(3.0rem, 4.6vw, 3.8rem);
-  max-width:none; 
-  margin-bottom:22px;
-  font-weight: 700;
-  text-decoration:none !important;
-}
-
-.eg-hero h2 {
-  color: var(--eg-hp-ink-soft) !important;
-  font-family:'IBM Plex Sans', sans-serif;
-  font-size: clamp(2.0rem, 4.6vw, 2.5rem);
-  max-width:none; 
-  margin-bottom:22px;
-  font-weight: 400;
-  text-decoration:none !important;
-}
-
 .smaller-text {
-  color: var(--eg-hp-ink) !important; /* Your chosen accent color */
+  color: #8FD39D; /* was referencing an undefined variable, --eg-hp-ink, which silently broke this rule */
 }
 
 .colored-text {
@@ -1231,7 +1213,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-teaser-photo{
   position:relative;
   width:100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 3;
   overflow:hidden;
 }
 /* Pandoc wraps a lone image in a <p> with no set height, so height:100% on
