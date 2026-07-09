@@ -10,7 +10,7 @@ page-layout: custom
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
 
-# Our Mission: Science for Changing Landscapes
+# Our Mission: [Science for Changing Landscapes]{.colored-text}
 
 ## We deliver data-driven intelligence where it matters most.
 

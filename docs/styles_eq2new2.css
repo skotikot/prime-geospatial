@@ -937,6 +937,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   font-size: clamp(3.0rem, 5vw, 4.0rem);
   font-weight: 700;      /* Example: Bolder weight */
   margin-bottom: 0.5rem;
+  text-decoration:none !important;
 }
 
 /* Unique settings for H2 */
@@ -945,6 +946,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   font-family:'IBM Plex Sans', sans-serif;
   font-size: clamp(2.0rem, 2vw, 2.5rem);
   font-weight: 400;
+  text-decoration:none !important;
 }
 
 .eg-hero-tint-dark .eg-lede,
@@ -976,11 +978,19 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-hero h2 {
   color: var(--eg-hp-ink-soft) !important;
   font-family:'IBM Plex Sans', sans-serif;
-  font-size: clamp(2.5rem, 4.6vw, 3.4rem);
+  font-size: clamp(2.0rem, 4.6vw, 2.5rem);
   max-width:none; 
   margin-bottom:22px;
   font-weight: 400;
   text-decoration:none !important;
+}
+
+.smaller-text {
+  color: var(--eg-hp-ink) !important; /* Your chosen accent color */
+}
+
+.colored-text {
+  color: #8FD39D; /* Your chosen accent color */
 }
 
 .eg-lede{ max-width:120ch; color:var(--eg-ink-soft); font-size:1.5rem; margin-bottom:34px; }
