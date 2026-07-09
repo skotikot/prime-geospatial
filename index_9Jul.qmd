@@ -3,20 +3,25 @@ title: ""
 page-layout: custom
 ---
 
+<header class="eg-hero-photo eg-hero-center eg-hero-middle">
+
+<div class="eg-hero-photo-inner">
+
+<!-- The text overlay content -->
+
+<h1>Prime Geospatial</h1>
+
+<h2>Bridging the Gap Between Data and Discovery</h2>
+
+<!-- Call-to-action button -->
+
+<a href="services.qmd" class="eg-hero-photo-btn">Explore Our Services</a>
+
+</div>
+
+</header>
+
 ::::::::::::::::::: eg-page
-
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
-::: eg-wrap
-<!--[Prime Geospatial]{.eg-eyebrow}-->
-
-# ArdhiLytics
-
-## Bridging the Gap Between Data and Discovery
-
-[Explore Our Services](services.qmd){.eg-btn .eg-btn-solid}
-:::
-::::
-
 :::::: {#about .eg-section .eg-whoweare-dark}
 ::::: eg-wrap
 :::: eg-who-grid
@@ -54,6 +59,7 @@ From project design and baseline assessments to monitoring, verification, and im
 :::-->
 :::::
 ::::::
+
 
 
 
@@ -162,6 +168,144 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 :::::::
 :::::::::
 ::::::::::
+
+
+
+
+
+
+:::::::::: {#what-we-do .eg-section .eg-services}
+::::::::: eg-wrap
+::: eg-sec-head
+[What we do]{.eg-eyebrow}
+
+## Five layers of analysis — one landscape.
+
+A quick look at the stack. Each layer is available on its own, or combined into a full landscape assessment.
+:::
+
+::::::: eg-teaser-grid
+::: eg-teaser-card
+
+[LAYER 01]{.eg-layer-index}
+
+### Digital MRV & Carbon Verification
+
+[High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+
+:::
+
+::: eg-teaser-card
+
+[LAYER 02]{.eg-layer-index}
+
+### Land-Use & Land-Cover Change Modeling
+
+[Co-designing the future of your landscape.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+
+
+:::
+
+
+::: eg-teaser-card
+
+[LAYER 03]{.eg-layer-index}
+
+### Landscape Connectivity & Conservation Planning
+
+[Bridging the gap between ecological integrity and human prosperity.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+
+
+:::
+
+
+::: eg-teaser-card
+
+[LAYER 04]{.eg-layer-index}
+
+### Social-Ecological Systems & Resilience Assessment
+
+[Where land, climate, and community governance converge.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+:::
+
+
+::: eg-teaser-card
+
+[LAYER 05]{.eg-layer-index}
+
+### Technical Consulting & Capacity Building
+
+[Translating complex spatial data into actionable, team-led expertise.]{.eg-teaser-desc}
+
+[Learn more →](services-geospatial.qmd#services){.eg-teaser-link}
+
+:::
+
+:::::::
+:::::::::
+::::::::::
+
+
+
+
+:::::: {#about .eg-section}
+::::: eg-wrap
+::: eg-sec-head
+[Our core competencies]{.eg-eyebrow}
+
+## Trans-disciplinary engagements
+:::
+
+<!-- CORE COMPETENCIES SECTION -->
+::: {.column-page style="padding-top: 1.5rem; padding-bottom: 1.5rem;"}
+
+<!--<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; text-align: center; padding-bottom: 10px;">Our Core Competencies</h2>-->
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .competency-card}
+<img src="images/spatial-science.png" class="img-fluid competency-card-img" alt="Spatial Data Science">
+
+### Spatial Data Science
+
+Advanced R and Python workflows for raster analysis and complex data visualization.
+:::
+
+::: {.g-col-12 .g-col-md-4 .competency-card}
+<img src="images/ecological-modeling.png" class="img-fluid competency-card-img" alt="Ecological Modeling">
+
+### Ecological Modeling
+
+Theoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.
+:::
+
+::: {.g-col-12 .g-col-md-4 .competency-card}
+<img src="images/statistical-rigor.png" class="img-fluid competency-card-img" alt="Statistical Rigor">
+
+### Statistical Rigor
+
+<p>Expertise in spatial statistics and reproducible research practices to ensure scientific integrity.</p>
+:::
+
+:::
+
+:::
+
+:::::
+::::::
+
 
 
 

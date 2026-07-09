@@ -166,56 +166,6 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 
 
-:::::: {#about .eg-section}
-::::: eg-wrap
-::: eg-sec-head
-[Our core competencies]{.eg-eyebrow}
-
-## Trans-disciplinary engagements
-:::
-
-<!-- CORE COMPETENCIES SECTION -->
-::: {.column-page style="padding-top: 1.5rem; padding-bottom: 1.5rem;"}
-
-<!--<h2 style="font-size: 2.25rem; font-weight: 700; color: #2A5A5C; margin-bottom: 2.5rem; text-align: center; padding-bottom: 10px;">Our Core Competencies</h2>-->
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4 .competency-card}
-<img src="images/spatial-science.png" class="img-fluid competency-card-img" alt="Spatial Data Science">
-
-### Spatial Data Science
-
-Advanced R and Python workflows for raster analysis and complex data visualization.
-:::
-
-::: {.g-col-12 .g-col-md-4 .competency-card}
-<img src="images/ecological-modeling.png" class="img-fluid competency-card-img" alt="Ecological Modeling">
-
-### Ecological Modeling
-
-Theoretical landscape ecology, focusing on the critical distinction between configuration and spatial patterns.
-:::
-
-::: {.g-col-12 .g-col-md-4 .competency-card}
-<img src="images/statistical-rigor.png" class="img-fluid competency-card-img" alt="Statistical Rigor">
-
-### Statistical Rigor
-
-<p>Expertise in spatial statistics and reproducible research practices to ensure scientific integrity.</p>
-:::
-
-:::
-
-:::
-
-:::::
-::::::
-
-
-
-
-
 :::: {#social-ecological .eg-section .eg-ses-dark}
 ::: eg-wrap
 ::: eg-ses-card
