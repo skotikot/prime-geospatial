@@ -13,7 +13,7 @@ format:
 ::: {.eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
 ::: {.eg-wrap}
 
-# Beyond Estimates: [Rigorous Landscape Intelligence]{.colored-text}.
+## Beyond Estimates: [Rigorous Landscape Intelligence]{.colored-text}.
 
 ::: {.eg-lede}
 We bridge the gap between ecological claims and verifiable reality. Using satellite data, advanced modeling, and local social-ecological insights, we provide donors, developers, investors, land managers and governments across the region, with the definitive, audit-ready proof needed to secure and sustain your land-use investments.
