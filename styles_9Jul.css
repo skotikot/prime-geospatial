@@ -1864,7 +1864,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   border: 2px solid var(--eg-mint);
   border-radius: 12px;
   padding: 10px 10px; /*32px 40px*/
-  margin: 10px auto 38px; /*30 to 10*/
+  margin: 10px auto 10px; /*30 to 10, 38 to 10*/
   max-width: 100ch;/*70ch*/
   box-shadow: none;
 }
