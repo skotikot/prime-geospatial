@@ -152,13 +152,6 @@ padding: 0;          /* Removes default padding that might cause offsets */
   padding: 0px 8px;        /* Adds breathing room above/below */
 }
 
-/* Ensure the navbar container handles overflow gracefully */
-@media (max-width: 768px) {
-  .navbar-brand {
-    max-width: 100%;    /* Gives the logo only half the navbar width on mobile */
-    overflow: hidden;
-  }
-}
 
 .navbar .navbar-nav .nav-link {
 font-family: 'Roboto', sans-serif !important;
@@ -1861,7 +1854,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 
 .eg-about_map-box{
   background: transparent;
-  border: 2px solid var(--eg-mint);
+  border: 1px solid var(--eg-mint);
   border-radius: 12px;
   padding: 10px 10px; /*32px 40px*/
   margin: 10px auto 10px; /*30 to 10, 38 to 10*/
