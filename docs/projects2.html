@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>geospatial-consulting</title>
+<title>projects2</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -69,6 +69,28 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+
+<script src="site_libs/leaflet-providers-3.0.0/leaflet-providers.js"></script>
+
+<script src="site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
+
 
 
 <link rel="stylesheet" href="styles_9Jul.css">
@@ -101,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects2.html"> 
+    <a class="nav-link active" href="./projects2.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -116,67 +138,158 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#geospatial-consulting" id="toc-geospatial-consulting" class="nav-link active" data-scroll-target="#geospatial-consulting">Geospatial Consulting</a>
-  <ul class="collapse">
-  <li><a href="#landscape-analysis" id="toc-landscape-analysis" class="nav-link" data-scroll-target="#landscape-analysis">Landscape Analysis</a></li>
-  <li><a href="#environmental-risk-assessment" id="toc-environmental-risk-assessment" class="nav-link" data-scroll-target="#environmental-risk-assessment">Environmental Risk Assessment</a></li>
-  <li><a href="#project-strategy-advisory" id="toc-project-strategy-advisory" class="nav-link" data-scroll-target="#project-strategy-advisory">Project Strategy &amp; Advisory</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="geospatial-consulting" class="level1">
-<h1>Geospatial Consulting</h1>
-<p>We provide tailored geospatial strategies designed to address both site‑specific and regional environmental challenges. Our work integrates spatial intelligence, environmental science, and advanced analytics to support informed decision‑making.</p>
-<section id="landscape-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="landscape-analysis">Landscape Analysis</h2>
-<ul>
-<li>Assessing spatial patterns and environmental change over time<br>
-</li>
-<li>Identifying ecological trends and landscape‑level drivers<br>
-</li>
-<li>Supporting conservation, restoration, and land‑use planning</li>
-</ul>
+<div class="eg-page">
+<div id="hero" class="eg-hero eg-hero-tint-dark eg-hero-right eg-hero-top" style="--eg-hero-img:url('images/nrkGraze.jpg');">
+<div class="eg-wrap">
+<!--[About us]{.eg-eyebrow}-->
+<section id="explore-our-projects" class="level1">
+<h1>Explore our projects</h1>
 </section>
-<section id="environmental-risk-assessment" class="level2">
-<h2 class="anchored" data-anchor-id="environmental-risk-assessment">Environmental Risk Assessment</h2>
-<ul>
-<li>Mapping and quantifying environmental hazards<br>
-</li>
-<li>Evaluating exposure, vulnerability, and operational risks<br>
-</li>
-<li>Integrating geospatial intelligence into risk‑mitigation strategies</li>
-</ul>
+</div>
+</div>
+<div id="study-areas" class="eg-section eg-proj-map-section">
+<div class="eg-wrap">
+<div class="eg-proj-map-grid">
+<div class="eg-proj-map">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-66e8c174858abc5d8dd6" style="width:100%;height:444px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-66e8c174858abc5d8dd6">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Positron",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[-1.15,-1.05,-1.2,-1.3],[35.87,35.8,35.95,35.7],9,null,null,{"interactive":true,"className":"","stroke":true,"color":["#2E4B32","#A97A3D","#3D6B78","#7A6584"],"weight":2,"opacity":1,"fill":true,"fillColor":["#2E4B32","#A97A3D","#3D6B78","#7A6584"],"fillOpacity":0.9},null,null,["Biodiversity assessment — Narok County","Southern Patas Monkey habitat","LULC change modeling — Narok","LULC scenario modeling"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[-1.15,35.87],8,[]],"limits":{"lat":[-1.3,-1.05],"lng":[35.7,35.95]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div class="eg-proj-map-text">
+<p><span class="eg-eyebrow">Our study areas</span></p>
+<section id="where-weve-worked" class="level2">
+<h2 data-anchor-id="where-weve-worked">Where we’ve worked</h2>
+<p>Prime Geospatial’s project work spans a range of landscapes, communities, and use cases — from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.</p>
+<div class="eg-proj-legend">
+<div class="eg-proj-legend-item">
+<p><span class="eg-proj-legend-dot" style="background:#2E4B32;"></span></p>
+<div class="eg-proj-legend-copy">
+<p><strong>Biodiversity assessment</strong></p>
+<p><span>Narok County, Kenya</span></p>
+</div>
+</div>
+<div class="eg-proj-legend-item">
+<p><span class="eg-proj-legend-dot" style="background:#A97A3D;"></span></p>
+<div class="eg-proj-legend-copy">
+<p><strong>Southern Patas Monkey habitat</strong></p>
+<p><span>Narok County, Kenya</span></p>
+</div>
+</div>
+<div class="eg-proj-legend-item">
+<p><span class="eg-proj-legend-dot" style="background:#3D6B78;"></span></p>
+<div class="eg-proj-legend-copy">
+<p><strong>LULC change modeling</strong></p>
+<p><span>Narok, Kenya</span></p>
+</div>
+</div>
+<div class="eg-proj-legend-item">
+<p><span class="eg-proj-legend-dot" style="background:#7A6584;"></span></p>
+<div class="eg-proj-legend-copy">
+<p><strong>LULC scenario modeling</strong></p>
+<p><span>Planning applications, Narok</span></p>
+</div>
+</div>
+</div>
 </section>
-<section id="project-strategy-advisory" class="level2">
-<h2 class="anchored" data-anchor-id="project-strategy-advisory">Project Strategy &amp; Advisory</h2>
-<ul>
-<li>Designing geospatial workflows aligned with your organizational needs<br>
-</li>
-<li>Recommending tools, platforms, and data pipelines<br>
-</li>
-<li>Supporting the integration of geospatial technology into existing operations</li>
-</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="case-studies" class="eg-section eg-proj-cases">
+<div class="eg-wrap">
+<div class="eg-sec-head">
+<p><span class="eg-eyebrow">Case studies</span></p>
+<section id="a-closer-look-at-our-work" class="level2">
+<h2 data-anchor-id="a-closer-look-at-our-work">A closer look at our work</h2>
+</section>
+</div>
+<div class="eg-proj-case-grid">
+<div class="eg-proj-case-card">
+<div class="eg-proj-case-photo">
+<p><img src="images/ecological-modeling.png" class="img-fluid" loading="lazy" decoding="async"></p>
+</div>
+<p><span class="eg-proj-case-tag">Biodiversity</span></p>
+<section id="mapping-biodiversity-in-narok-county-kenya" class="level3">
+<h3 data-anchor-id="mapping-biodiversity-in-narok-county-kenya">Mapping Biodiversity in Narok County, Kenya</h3>
+<p><span class="eg-proj-case-desc">Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.</span></p>
+<div class="eg-proj-case-cta">
+<p><a href="projects_MRV.qmd#Nrk_Bio" class="eg-btn eg-btn-outline">Learn more</a></p>
+</div>
+</section>
+</div>
+<div class="eg-proj-case-card">
+<div class="eg-proj-case-photo">
+<p><img src="images/nrkWht.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+</div>
+<p><span class="eg-proj-case-tag">Biodiversity</span></p>
+<section id="habitat-assessment-for-southern-patas-monkey" class="level3">
+<h3 data-anchor-id="habitat-assessment-for-southern-patas-monkey">Habitat Assessment for Southern Patas Monkey</h3>
+<p><span class="eg-proj-case-desc">Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.</span></p>
+<div class="eg-proj-case-cta">
+<p><a href="projects_MRV.qmd#patas_Hab" class="eg-btn eg-btn-outline">Learn more</a></p>
+</div>
+</section>
+</div>
+<div class="eg-proj-case-card">
+<div class="eg-proj-case-photo">
+<p><img src="images/nrkGraze.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+</div>
+<p><span class="eg-proj-case-tag">Land-Use Change</span></p>
+<section id="lulc-change-modeling-in-narok-kenya" class="level3">
+<h3 data-anchor-id="lulc-change-modeling-in-narok-kenya">LULC Change Modeling in Narok, Kenya</h3>
+<p><span class="eg-proj-case-desc">Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.</span></p>
+<div class="eg-proj-case-cta">
+<p><a href="projects_LULC.qmd#modeling_Nrk" class="eg-btn eg-btn-outline">Learn more</a></p>
+</div>
+</section>
+</div>
+<div class="eg-proj-case-card">
+<div class="eg-proj-case-photo">
+<p><img src="images/wildB.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+</div>
+<p><span class="eg-proj-case-tag">Land-Use Change</span></p>
+<section id="lulc-change-scenario-modeling-for-planning" class="level3">
+<h3 data-anchor-id="lulc-change-scenario-modeling-for-planning">LULC Change Scenario Modeling for Planning</h3>
+<p><span class="eg-proj-case-desc">Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.</span></p>
+<div class="eg-proj-case-cta">
+<p><a href="projects_LULC.qmd#scenarios_Nrk" class="eg-btn eg-btn-outline">Learn more</a></p>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<div id="contact" class="eg-section eg-contact">
+<div class="eg-contact-wrap">
+<section id="have-a-landscape-that-needs-a-closer-look" class="level2 eg-contact-left">
+<h2 data-anchor-id="have-a-landscape-that-needs-a-closer-look">Have a landscape that needs a closer look?</h2>
+<p>Tell us what you’re trying to prove, protect, or plan for. Let us discuss which layers apply.</p>
+</section>
+<div class="eg-contact-box">
+<p><span class="eg-mono-label">EMAIL</span></p>
+<p><a href="mailto:hello@equatorgeospatial.com" class="eg-email">hello@equatorgeospatial.com</a></p>
+<p><span class="eg-mono-label">BASED IN</span></p>
+<p><span class="eg-email-sub">Nairobi, Kenya — serving East Africa</span></p>
+<p><a href="mailto:hello@equatorgeospatial.com" class="eg-btn eg-btn-solid">Send us a brief</a></p>
+</div>
+</div>
+</div>
+</div>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
