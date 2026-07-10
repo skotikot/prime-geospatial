@@ -810,6 +810,8 @@ footer.footer .nav-footer-left {
   --eg-teal: #3D6B78;
   --eg-plum: #7A6584;
   --eg-rust: #A24E3B;
+  --eg-mint: #7AE38E;
+  
 
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
@@ -1846,6 +1848,27 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-founder-social{ display:flex; justify-content:center; gap:16px; }
 .eg-founder-social a{ color:#8FD39D; font-size:1.15rem; transition:color .2s; }
 .eg-founder-social a:hover{ color:#F3F5EE; }
+
+
+
+.eg-about_map-box{
+  background: transparent;
+  border: 2px solid var(--eg-mint);
+  border-radius: 12px;
+  padding: 32px 40px;
+  margin: 30px auto 38px;
+  max-width: 70ch;/*70ch*/
+  box-shadow: none;
+}
+.eg-about_map-box p{
+  color: #D3DBD1;
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+.eg-about_map-box p:last-child{ margin-bottom:0; }
+@media(max-width:640px){
+  .eg-about_map-box{ padding: 26px 24px; }
+}
  
 /* ================================================================
    END ABOUT PAGE
@@ -1949,7 +1972,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-proj-legend-item{ display:flex; align-items:flex-start; gap:14px; }
 .eg-proj-legend-dot{
   flex:0 0 auto;
-  width:36px; height:36px;
+  width:72px; height:36px;
   margin-top:3px;
   border-radius:50%;
   /*box-shadow:0 0 0 3px rgba(27,33,29,0.05);*/

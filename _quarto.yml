@@ -3,12 +3,12 @@ project:
   output-dir: docs
   resources:
     - images/bannerNew.jpg
-    - images/logo.png
+    - images/ArdhiLytics1.png
 
 website:
   title: ""
   navbar:
-    logo: images/logo.png
+    logo: images/ArdhiLytics1.png
     title: false
     logo-href: index.qmd
     pinned: true

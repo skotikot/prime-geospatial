@@ -6,7 +6,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-right .eg-hero-top style="--eg-hero-img:url('images/nrkGraze.jpg');"}
+:::: {#hero .eg-hero .eg-hero-right .eg-hero-top style="--eg-hero-img:url('images/nrkGraze.jpg');"}
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
 
@@ -68,7 +68,7 @@ leaflet(height = 460) %>%
 
 ## Where we've worked
 
-Ardhilytics' project work spans a range of landscapes, communities, and use cases — from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
+Ardhilytics' project work spans a range of landscapes, communities, and use cases; from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
 
 ::: eg-proj-legend
 ::: eg-proj-legend-item

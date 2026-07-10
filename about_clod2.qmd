@@ -52,12 +52,21 @@ We turn raw, intimidating data into clear, verified, and deeply understood spati
 
 ## Beyond the map
 
+::: .eg-about_map-box
 We don't believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps,  we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.
+:::
 
+::: .eg-about_map-box
 Our workflows are built on a foundation of open, reproducible science and peer-reviewed methodology. Through this transdisciplinary approach, we deliver the high-fidelity diagnostics our partners need to plan, protect, and prove their impact with total confidence.
 
+:::
+
+::: .eg-about_map-box
 While our methodology is global in its scientific rigor, our focus is grounded in the complex social-ecological landscapes of East Africa. We believe that deep, place-based knowledge is the essential final layer of geospatial analysis, ensuring our diagnostics are not just accurate, but locally transformative.
 :::
+
+:::
+
 
 ::: eg-position-map
 ```{r}
@@ -251,7 +260,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 ![](images/Akanga.png)
 :::
 
-### Dr. Donald Akanga
+### Donald Akanga
 
 [Co-Founder]{.eg-founder-role}
 
@@ -259,7 +268,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ::: eg-founder-social
 [<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+[Scholar](https://scholar.google.com/citations?user=oodpRpcAAAAJ&hl=en){target="_blank"}
 :::
 :::
 
@@ -268,7 +277,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 ![](images/Kotikot.jpg)
 :::
 
-### Dr. Susan Kotikot
+### Susan Kotikot
 
 [Co-Founder]{.eg-founder-role}
 
@@ -276,7 +285,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ::: eg-founder-social
 [<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/susankotikot/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+[Scholar](https://scholar.google.com/citations?user=GiHpEEsAAAAJ&hl=en&oi=ao){target="_blank"}
 :::
 :::
 
@@ -285,7 +294,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 ![](images/Wanyama2.jpg)
 :::
 
-### Dr. Dan Wanyama
+### Dan Wanyama
 
 [Co-Founder]{.eg-founder-role}
 
@@ -293,7 +302,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ::: eg-founder-social
 [<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}
-[<i class="bi bi-envelope"></i>](mailto:hello@equatorgeospatial.com)
+[Scholar](https://scholar.google.com/citations?user=FGzG0GEAAAAJ&hl=en){target="_blank"}
 :::
 :::
 

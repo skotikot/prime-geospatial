@@ -30,9 +30,9 @@ page-layout: custom
 ::: eg-who-desc
 ::: eg-intro-lede
 
-## Prime Geospatial
+## ArdhiLytics
 
-PrimeGeo is a science-driven spatial analytics and environmental intelligence firm.
+ArdhiLytics is a science-driven spatial analytics and environmental intelligence firm.
 
 We transform complex landscape data into actionable evidence that helps governments, conservation organizations, investors, project developers, and communities make confident decisions. By integrating satellite observation, advanced spatial modeling, field-based data, and social-ecological insights, we deliver audit-ready intelligence that connects environmental outcomes with real-world impact.
 
@@ -83,7 +83,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 [High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-teaser-desc}
 
-[View](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 :::
 
@@ -101,7 +101,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 [Co-designing the future of your landscape.]{.eg-teaser-desc}
 
-[View](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 :::
 
@@ -119,7 +119,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 [Bridging the gap between ecological integrity and human prosperity.]{.eg-teaser-desc}
 
-[View](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 :::
 
@@ -137,7 +137,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 [Where land, climate, and community governance converge.]{.eg-teaser-desc}
 
-[View](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 :::
 
@@ -155,7 +155,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 
 [Translating complex spatial data into actionable, team-led expertise.]{.eg-teaser-desc}
 
-[View](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
 :::
 :::
 
@@ -171,7 +171,7 @@ A quick look at the stack. Each layer is available on its own, or combined into 
 ::: eg-ses-card
 
 ::: eg-sec-head
-[Our approach]{.eg-eyebrow}
+[Our Core Logic]{.eg-eyebrow}
 
 ## Social-ecological integration
 
