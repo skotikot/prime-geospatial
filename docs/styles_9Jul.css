@@ -152,6 +152,14 @@ padding: 0;          /* Removes default padding that might cause offsets */
   padding: 0px 8px;        /* Adds breathing room above/below */
 }
 
+/* Ensure the navbar container handles overflow gracefully */
+@media (max-width: 768px) {
+  .navbar-brand {
+    max-width: 50%;    /* Gives the logo only half the navbar width on mobile */
+    overflow: hidden;
+  }
+}
+
 .navbar .navbar-nav .nav-link {
 font-family: 'Roboto', sans-serif !important;
 color: #F8F9FA !important;
