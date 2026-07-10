@@ -29,26 +29,36 @@ page-layout: custom
 #| warning: false
 
 library(leaflet)
+library(dplyr)
 
-# Define your custom color palette (using your brand variables)
-# Replace these hex codes with your CSS variable values if needed
-brand_color <- "#6FCF87" 
 
-# Create the map
-leaflet(height = 500) %>%
-  # Use CartoDB Positron for a clean, scientific, "data-first" look
+# 1. Define your 5 points and assign a specific color category to each
+map_points <- data.frame(
+  name = c("Patas", "BluGam", "LULC", "SES"),
+  lat = c(-2.186424, 0.253178,-1.243098, -0.490834), 
+  lng = c(34.249535, 37.966965,35.669697, 35.896665),
+  # Assign a unique group or color category for each point
+  category = c("A", "B", "C", "D") 
+)
+
+# 2. Define a color palette for the 5 categories
+my_colors <- c("#2A5A5C", "#A97A3D", "#3D6B78", "#7A6584")
+pal <- colorFactor(palette = my_colors, domain = map_points$category)
+
+# 3. Create the map
+leaflet(map_points, height = 500) %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
-  
-  # Center on your primary region (e.g., East Africa)
   setView(lng = 37.0, lat = -1.0, zoom = 6) %>%
   
-  # Add a custom marker/circle with branding
+  # 4. Add markers using the palette
   addCircleMarkers(
-    lng = 36.8219, lat = -1.2921,
-    color = brand_color,
+    lng = ~lng, 
+    lat = ~lat,
+    color = ~pal(category), # Dynamically apply color based on category
     fillOpacity = 0.8,
     radius = 8,
     stroke = FALSE,
+    label = ~name
   )
 
 ```

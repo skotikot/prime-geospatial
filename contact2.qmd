@@ -7,9 +7,8 @@ page-layout: custom
 
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/contact-hero-bg.jpg');"}
 ::: eg-wrap
-[Get in touch]{.eg-eyebrow}
 
-## Let's restore landscapes together.
+## Let's transform landscapes together.
 
 [Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on.]{.eg-lede}
 :::
@@ -20,11 +19,11 @@ page-layout: custom
 :::::: {#invite .eg-section .eg-invite}
 ::::: eg-wrap
 ::: eg-invite-copy
-[Why reach out]{.eg-eyebrow}
+[Get in touch]{.eg-eyebrow}
 
 ## Great landscapes are never restored alone.
 
-We partner with governments, conservation organizations, investors, project developers, and communities who are ready to turn evidence into action. If you have a landscape that needs to be understood, protected, or transformed, let's talk about which layers of analysis apply to you, and what it would take to get you decision-ready intelligence you can act on.
+If you have a landscape that needs to be understood, protected, or transformed, let's talk about which layers of analysis apply to you, and what it would take to get you decision-ready intelligence you can act on.
 :::
 :::::
 ::::::
@@ -46,11 +45,8 @@ We partner with governments, conservation organizations, investors, project deve
 
 [BASED IN]{.eg-mono-label}
 
-[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+[Nairobi, Kenya]{.eg-email-sub}
 
-[WORKING WITH]{.eg-mono-label}
-
-[Governments · Conservation organizations · Investors · Project developers · Communities]{.eg-email-sub}
 :::
 
 ::: eg-contact-form-card

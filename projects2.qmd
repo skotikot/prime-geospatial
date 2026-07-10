@@ -35,13 +35,13 @@ library(leaflet)
 # County, Kenya. Replace lng/lat with your actual site coordinates.
 sites <- data.frame(
   name = c(
-    "Biodiversity assessment — Narok County",
-    "Southern Patas Monkey habitat",
-    "LULC change modeling — Narok",
-    "LULC scenario modeling"
+    "Habitat assessment",
+    "Blue gam mapping",
+    "LULC modeling and scenario planning",
+    "Social-ecological assessment"
   ),
-  lng = c(35.87, 35.80, 35.95, 35.70),
-  lat = c(-1.15, -1.05, -1.20, -1.30),
+  lng = c(34.249535, 37.966965,35.669697, 35.896665),
+  lat = c(-2.186424, 0.253178,-1.243098, -0.490834),
   # colors match the legend dots beside the map — keep these in sync if you
   # add/remove sites
   color = c("#2E4B32", "#A97A3D", "#3D6B78", "#7A6584")
@@ -49,7 +49,7 @@ sites <- data.frame(
 
 leaflet(height = 460) %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
-  setView(lng = 35.87, lat = -1.15, zoom = 8) %>%
+  setView(lng = 35.87, lat = -1.15, zoom = 6) %>%
   addCircleMarkers(
     data = sites,
     lng = ~lng, lat = ~lat,
@@ -68,16 +68,14 @@ leaflet(height = 460) %>%
 
 ## Where we've worked
 
-Prime Geospatial's project work spans a range of landscapes, communities, and use cases — from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
+Ardhilytics' project work spans a range of landscapes, communities, and use cases — from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
 
 ::: eg-proj-legend
 ::: eg-proj-legend-item
 []{.eg-proj-legend-dot style="background:#2E4B32;"}
 
 ::: eg-proj-legend-copy
-**Biodiversity assessment**
-
-[Narok County, Kenya]{}
+**Habitat assessment: ** [Serengeti, Tanzania]{}
 :::
 :::
 
@@ -85,9 +83,7 @@ Prime Geospatial's project work spans a range of landscapes, communities, and us
 []{.eg-proj-legend-dot style="background:#A97A3D;"}
 
 ::: eg-proj-legend-copy
-**Southern Patas Monkey habitat**
-
-[Narok County, Kenya]{}
+**Blue gam mapping: ** [Kenya]{}
 :::
 :::
 
@@ -95,9 +91,7 @@ Prime Geospatial's project work spans a range of landscapes, communities, and us
 []{.eg-proj-legend-dot style="background:#3D6B78;"}
 
 ::: eg-proj-legend-copy
-**LULC change modeling**
-
-[Narok, Kenya]{}
+**LULC modeling and scenario planning: ** [Narok, Kenya]{}
 :::
 :::
 
@@ -105,9 +99,7 @@ Prime Geospatial's project work spans a range of landscapes, communities, and us
 []{.eg-proj-legend-dot style="background:#7A6584;"}
 
 ::: eg-proj-legend-copy
-**LULC scenario modeling**
-
-[Planning applications, Narok]{}
+**Social-ecological assessment: ** [Planning applications, Narok]{}
 :::
 :::
 :::

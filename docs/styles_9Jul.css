@@ -1949,10 +1949,14 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-proj-legend-item{ display:flex; align-items:flex-start; gap:14px; }
 .eg-proj-legend-dot{
   flex:0 0 auto;
-  width:18px; height:18px;
+  width:36px; height:36px;
   margin-top:3px;
   border-radius:50%;
-  box-shadow:0 0 0 3px rgba(27,33,29,0.05);
+  /*box-shadow:0 0 0 3px rgba(27,33,29,0.05);*/
+  /* Replace the blurry box-shadow with a sharp, solid border */
+  border: 2px solid rgba(27, 33, 29, 0.2); 
+  /* Or a stronger, more defined shadow */
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
 }
 .eg-proj-legend-copy strong{
   display:block; color:var(--eg-ink); font-family:'Space Grotesk',sans-serif;
