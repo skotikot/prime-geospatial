@@ -12,6 +12,7 @@ website:
     title: false
     logo-href: index.qmd
     pinned: true
+    search: false    # Add this line to hide the search button
     background: "#2A5A5C"            # Gives you that sharp, high-contrast header bar
     foreground: "#FFFFFF"
     left:

@@ -155,7 +155,7 @@ padding: 0;          /* Removes default padding that might cause offsets */
 /* Ensure the navbar container handles overflow gracefully */
 @media (max-width: 768px) {
   .navbar-brand {
-    max-width: 50%;    /* Gives the logo only half the navbar width on mobile */
+    max-width: 100%;    /* Gives the logo only half the navbar width on mobile */
     overflow: hidden;
   }
 }
@@ -1863,15 +1863,15 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   background: transparent;
   border: 2px solid var(--eg-mint);
   border-radius: 12px;
-  padding: 32px 40px;
-  margin: 30px auto 38px;
-  max-width: 70ch;/*70ch*/
+  padding: 10px 10px; /*32px 40px*/
+  margin: 10px auto 38px; /*30 to 10*/
+  max-width: 100ch;/*70ch*/
   box-shadow: none;
 }
 .eg-about_map-box p{
   color: #D3DBD1;
   font-size: 1.05rem;
-  margin-bottom: 14px;
+  margin-bottom: 1px;/*14*/
 }
 .eg-about_map-box p:last-child{ margin-bottom:0; }
 @media(max-width:640px){
