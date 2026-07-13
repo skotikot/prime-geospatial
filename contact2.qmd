@@ -4,14 +4,13 @@ page-layout: custom
 ---
 
 ::::::::::::::::::: eg-page
-
-:::: {#hero .eg-hero .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/nrkRiv.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/nrkGraze.jpg');"}
 ::: eg-wrap
 
 
 ## Let's transform landscapes together.
 
-[Whether you're protecting a forest, verifying carbon, or planning for what comes next — we'd love to hear what you're working on.]{.eg-lede}
+[Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on.]{.eg-lede}
 :::
 ::::
 
@@ -22,9 +21,8 @@ page-layout: custom
 ::: eg-invite-copy
 [Get in touch]{.eg-eyebrow}
 
-## Great landscapes are never restored alone.
+## Let's talk about which layers of analysis apply to you, and what it would take to get you decision-ready intelligence you can act on.
 
-If you have a landscape that needs to be understood, protected, or transformed, let's talk about which layers of analysis apply to you, and what it would take to get you decision-ready intelligence you can act on.
 :::
 :::::
 ::::::

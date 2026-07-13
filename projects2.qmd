@@ -3,25 +3,18 @@ title: ""
 page-layout: custom
 ---
 
-
-::::::::::::::::::: eg-page
-
+::::::::::::::::::::::::::::::::::::::: eg-page
 :::: {#hero .eg-hero .eg-hero-right .eg-hero-top style="--eg-hero-img:url('images/nrkGraze.jpg');"}
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
 
 # Explore our projects
-
-
 :::
 ::::
 
-
-
-:::::: {#study-areas .eg-section .eg-proj-map-section}
-::::: eg-wrap
-:::: eg-proj-map-grid
-
+:::::::::::::::: {#study-areas .eg-section .eg-proj-map-section}
+::::::::::::::: eg-wrap
+:::::::::::::: eg-proj-map-grid
 ::: eg-proj-map
 ```{r}
 #| label: prime-geospatial-map
@@ -63,65 +56,57 @@ leaflet(height = 460) %>%
 ```
 :::
 
-::: eg-proj-map-text
+:::::::::::: eg-proj-map-text
 [Our study areas]{.eg-eyebrow}
 
 ## Where we've worked
 
 Ardhilytics' project work spans a range of landscapes, communities, and use cases; from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
 
-::: eg-proj-legend
-::: eg-proj-legend-item
-[]{.eg-proj-legend-dot style="background:#2E4B32;"}
+::::::::::: eg-proj-legend
+:::: eg-proj-legend-item
 
 ::: eg-proj-legend-copy
-**Habitat assessment: ** [Serengeti, Tanzania]{}
+**Habitat assessment:** Serengeti, Tanzania
 :::
-:::
-
-::: eg-proj-legend-item
-[]{.eg-proj-legend-dot style="background:#A97A3D;"}
-
-::: eg-proj-legend-copy
-**Blue gam mapping: ** [Kenya]{}
-:::
-:::
-
-::: eg-proj-legend-item
-[]{.eg-proj-legend-dot style="background:#3D6B78;"}
-
-::: eg-proj-legend-copy
-**LULC modeling and scenario planning: ** [Narok, Kenya]{}
-:::
-:::
-
-::: eg-proj-legend-item
-[]{.eg-proj-legend-dot style="background:#7A6584;"}
-
-::: eg-proj-legend-copy
-**Social-ecological assessment: ** [Planning applications, Narok]{}
-:::
-:::
-:::
-:::
-
 ::::
-:::::
-::::::
 
+:::: eg-proj-legend-item
 
+::: eg-proj-legend-copy
+**Blue gam mapping:** Kenya
+:::
+::::
 
-:::::: {#case-studies .eg-section .eg-proj-cases}
-::::: eg-wrap
+:::: eg-proj-legend-item
+
+::: eg-proj-legend-copy
+**LULC modeling and scenario planning:** Narok, Kenya
+:::
+::::
+
+:::: eg-proj-legend-item
+
+::: eg-proj-legend-copy
+**Social-ecological assessment:** Planning applications, Narok
+:::
+::::
+:::::::::::
+::::::::::::
+::::::::::::::
+:::::::::::::::
+::::::::::::::::
+
+:::::::::::::::::: {#case-studies .eg-section .eg-proj-cases}
+::::::::::::::::: eg-wrap
 ::: eg-sec-head
 [Case studies]{.eg-eyebrow}
 
 ## A closer look at our work
 :::
 
-::: eg-proj-case-grid
-
-::: eg-proj-case-card
+::::::::::::::: eg-proj-case-grid
+::::: eg-proj-case-card
 ::: eg-proj-case-photo
 ![](images/ecological-modeling.png){loading="lazy" decoding="async"}
 :::
@@ -135,9 +120,9 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 ::: eg-proj-case-cta
 [Learn more](projects_MRV.qmd#Nrk_Bio){.eg-btn .eg-btn-outline}
 :::
-:::
+:::::
 
-::: eg-proj-case-card
+::::: eg-proj-case-card
 ::: eg-proj-case-photo
 ![](images/nrkWht.jpg){loading="lazy" decoding="async"}
 :::
@@ -151,9 +136,9 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 ::: eg-proj-case-cta
 [Learn more](projects_MRV.qmd#patas_Hab){.eg-btn .eg-btn-outline}
 :::
-:::
+:::::
 
-::: eg-proj-case-card
+::::: eg-proj-case-card
 ::: eg-proj-case-photo
 ![](images/nrkGraze.jpg){loading="lazy" decoding="async"}
 :::
@@ -167,9 +152,9 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 ::: eg-proj-case-cta
 [Learn more](projects_LULC.qmd#modeling_Nrk){.eg-btn .eg-btn-outline}
 :::
-:::
+:::::
 
-::: eg-proj-case-card
+::::: eg-proj-case-card
 ::: eg-proj-case-photo
 ![](images/wildB.jpg){loading="lazy" decoding="async"}
 :::
@@ -183,13 +168,10 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 ::: eg-proj-case-cta
 [Learn more](projects_LULC.qmd#scenarios_Nrk){.eg-btn .eg-btn-outline}
 :::
-:::
-
-:::
 :::::
-::::::
-
-
+:::::::::::::::
+:::::::::::::::::
+::::::::::::::::::
 
 :::::: {#contact .eg-section .eg-contact}
 ::::: eg-contact-wrap
@@ -212,6 +194,4 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 :::
 :::::
 ::::::
-
-
-:::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::
