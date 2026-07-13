@@ -1877,7 +1877,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   background-color: #0E1512;
   background-image:
     linear-gradient(rgba(14,21,18,0.6), rgba(14,21,18,0.6)),
-    url('images/contact-banner-bg.jpg');
+    url('images/contactBG.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
