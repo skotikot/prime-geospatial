@@ -8,9 +8,10 @@ page-layout: custom
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/contact-hero-bg.jpg');"}
 ::: eg-wrap
 
+
 ## Let's transform landscapes together.
 
-[Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on.]{.eg-lede}
+[Whether you're protecting a forest, verifying carbon, or planning for what comes next — we'd love to hear what you're working on.]{.eg-lede}
 :::
 ::::
 
@@ -32,22 +33,13 @@ If you have a landscape that needs to be understood, protected, or transformed, 
 
 :::::: {#contact-form .eg-section .eg-contact-form}
 ::::: eg-wrap
-:::: eg-contact-form-grid
-
-::: eg-contact-form-info
+::: eg-sec-head
 [Reach us directly]{.eg-eyebrow}
 
-## Prefer to skip the form?
-
-[EMAIL]{.eg-mono-label}
-
-[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
-
-[BASED IN]{.eg-mono-label}
-
-[Nairobi, Kenya]{.eg-email-sub}
-
+## Send us a brief
 :::
+
+:::: eg-contact-form-grid
 
 ::: eg-contact-form-card
 
@@ -84,6 +76,19 @@ If you have a landscape that needs to be understood, protected, or transformed, 
 </form>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+:::
+
+::: eg-contact-form-info
+## Prefer to skip the form?
+
+[EMAIL]{.eg-mono-label}
+
+[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
 
 :::
 

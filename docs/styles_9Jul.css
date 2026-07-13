@@ -1562,6 +1562,9 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   margin-bottom:0;
 }
 .eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:100ch; } /* max-width:70ch*/
+.eg-who-desc .eg-intro-lede h2{ margin-bottom:1rem; }
+.eg-who-desc .eg-intro-lede p{ margin-bottom:1.1em; }
+.eg-who-desc .eg-intro-lede p:last-child{ margin-bottom:0; }
 .eg-who-desc .eg-hero-ctas{ margin-bottom:0; }
 .eg-who-desc .eg-hero-ctas .eg-btn-outline{
   color:#F3F5EE; border-color:#5C6B60;
@@ -1892,7 +1895,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 /* ---------- CONTACT FORM ---------- */
 .eg-contact-form{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }
 .eg-contact-form-grid{ display:grid; grid-template-columns:1fr; gap:44px; align-items:start; }
-@media(min-width:860px){ .eg-contact-form-grid{ grid-template-columns: 0.8fr 1.2fr; } }
+@media(min-width:860px){ .eg-contact-form-grid{ grid-template-columns: 1.2fr 0.8fr; } }
  
 .eg-contact-form-info .eg-eyebrow{ margin-bottom:14px; }
 .eg-contact-form-info h2{ font-size:clamp(1.6rem,2.6vw,2rem); margin-bottom:22px; max-width:20ch; }
@@ -1936,6 +1939,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   cursor:pointer;
   font-size:0.85rem;
 }
+
  
 /* ================================================================
    END CONTACT PAGE
