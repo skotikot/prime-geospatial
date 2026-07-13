@@ -1,0 +1,2043 @@
+.project-grid {
+  display: grid;
+  /* Creates 3 equal columns on desktop, drops to fewer columns on tablet/mobile */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+  gap: 30px;                     /* Spacing between grid cells */
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.project-card {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+/* Individual item centering alignment */
+.project-item {
+    text-align: center;
+}
+
+/* Strips out baseline underline stylings from the clickable link */
+.project-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Turns your image path container into a uniform circle */
+.project-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #e3e3e3;
+    margin: 0 auto 15px auto;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Elegant visual response when hovered */
+.project-item:hover .project-circle {
+    transform: translateY(-8px);
+    border-color: #0275d8; /* Changes border to your active blue brand color */
+}
+
+/* Project title presentation font formatting */
+.project-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.profile-img {
+  width: 200px;         /* Sets a uniform width */
+  height: 200px;        /* Sets a uniform height */
+  object-fit: cover;    /* Prevents the image from stretching/squishing */
+  border-radius: 50%;   /* Optional: makes them circular */
+}
+
+
+.people-row {
+  display: flex;            /* Activates the layout engine */
+  flex-direction: row;      /* Places items side-by-side */
+  justify-content: center;  /* Centers the 3 people horizontally on the page */
+  gap: 30px;                /* Creates clean space between each card */
+  flex-wrap: nowrap;        /* Keeps them on 1 row on desktop */
+  width: 100%;
+  max-width: 1200px;        /* Limits row width so it looks good on massive screens */
+  margin: 0 auto;           /* Centers the whole row container itself */
+}
+
+.person-card {
+  flex: 1;                  /* Gives each of the 3 cards an equal width */
+  text-align: center;       /* Centers the text and images inside the card */
+}
+
+@media (max-width: 768px) {
+  .people-row {
+    flex-wrap: wrap; /* Allows them to stack on top of each other on mobile */
+  }
+}
+
+
+/* 1. Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+/* 2. Full-Width Navbar Styling */
+
+/*
+.navbar {
+background-color: #EAEAEA !important;
+border-bottom: 3px solid #2A5A5C !important;
+width: 100% !important;
+padding-left: 2rem !important;
+padding-right: 2rem !important;
+}*/
+
+/* Example for a navbar class */
+.navbar {
+  /* This makes the background semi-transparent black */
+  background-color: rgba(14, 21, 18, 0.5); 
+  
+  /* Or use padding if you prefer a flexible height */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  /* Adds a modern frosted-glass effect */
+  backdrop-filter: blur(10px); 
+  
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  /* Ensures the navbar sits above your content */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+
+.navbar .container,
+.navbar .container-fluid {
+max-width: 100% !important;
+padding-left: 1rem;
+padding-right: 1rem;
+display: flex !important;
+justify-content: space-between !important;
+}
+
+/* 2b. Navbar Brand (Site Title) Styling */
+.navbar-brand {
+font-family: 'Open Sans', sans-serif !important;
+font-size: 1.5rem !important; /* Adjust this size as needed */
+font-weight: 700 !important;
+text-transform: uppercase !important;
+letter-spacing: 0.05em !important;
+color: #615D6D !important;
+display: flex;       /* Enables flexbox for the brand area */
+align-items: center; /* Vertically centers everything inside */
+padding: 0;          /* Removes default padding that might cause offsets */
+}
+
+.navbar-brand img {
+  height: 80px;          /* Increase until the logo is no longer clipped */
+  max-height: 100px !important;
+  width: auto;
+  margin-right: 15px;
+  object-fit: contain;   /* Prevents clipping inside the box */
+  padding: 0px 8px;        /* Adds breathing room above/below */
+}
+
+.navbar .navbar-nav .nav-link {
+font-family: 'Roboto', sans-serif !important;
+color: #F8F9FA !important;
+font-weight: 700 !important;
+/*text-transform: uppercase !important;*/
+letter-spacing: 0.05em;
+font-size: 1.2rem !important;   /* adjust smaller or larger */
+}
+
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.navbar-brand .navbar-title {
+  display: none;
+}
+
+
+/* 3. Heading Typography */
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 800;
+color: #2A5A5C !important;
+margin-top: 1.5em;
+}
+
+
+/* 5. Background and Content */
+body {
+background-color: #F8F9FA !important; /* This is a professional off-white */
+color: #2F3640 !important;
+line-height: 1.6;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.2rem;
+}
+
+/* 6. Custom Card Styling */
+.card {
+border: 1px solid #E0E0E0 !important;
+box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* banner*/
+
+/* STREAMING_CHUNK:Styling the hero background with a gradient and image */
+.hero-banner {
+  /* Add a fallback color (teal) so if the image fails, you see something */
+  background-color: #2A5A5C; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bannerNew.jpg');
+  
+  width: 100vw;
+  height: 600px;
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; /* Ensure it doesn't tile */
+  
+  display: flex;
+  flex-direction: column;    /* Forces h1 and h2 to stack vertically */
+  /*justify-content: center;*/
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  
+  margin: 0;
+  position: relative; /* Helps with layout stability */
+  /* .navbar is position:fixed and floats over the top of the page, so this
+     top padding has to clear the navbar's rendered height (~110-130px)
+     PLUS leave breathing room before the title starts. */
+  padding: clamp(170px, 14vw, 220px) 0 clamp(36px, 5vw, 56px);
+  
+  /* Because you are using flexbox, you might want to consider this: */
+  box-sizing: border-box;
+}
+
+/* On narrow screens the navbar can wrap or sit taller relative to the
+   viewport, so give the hero a bit more top clearance there too. */
+@media (max-width: 576px) {
+  .hero-banner {
+    padding-top: 190px;
+  }
+}
+
+/* Typography styling for the text sitting on top */
+.hero-banner h1 {
+  color: #ffffff !important;
+  font-size: 3.5rem;
+  margin: 0 0 10px 0; /* Tightens the space between h1 and h2 */
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adds extra punch for readability */
+}
+
+
+.hero-banner h2 {
+  color: #f8f9fa !important;
+  font-size: 1.3rem;
+  margin: 0 0 20px 0; /* Adds space between h2 and the button below it */
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* STREAMING_CHUNK:Styling the call-to-action button */
+.btn-primary {
+display: inline-block;
+padding: 1rem 2.5rem;
+background-color: #C68767 !important;
+color: white !important;
+text-decoration: none;
+font-weight: 700;
+border-radius: 50px;
+transition: all 0.3s ease;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-primary:hover {
+background-color: #b07455 !important;
+transform: translateY(-2px);
+box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff; /* Changes color when you hover over the icon */
+}
+
+.footer-container .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Replaces manual margins for more control */
+  padding-bottom: 20px;
+}
+
+.footer-container .social-links a {
+  font-size: 24px;
+  color: #2A5A5C; /* Matching your primary brand teal */
+}
+
+
+
+
+
+
+
+
+
+
+/* contact us form */
+/* Contact form wrapper */
+.contact-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Input styling */
+.custom-input {
+  border-radius: 8px;
+  border: 1px solid #C7C7C7;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.custom-input:focus {
+  border-color: #C68767;
+  box-shadow: 0 0 0 0.2rem rgba(198,135,103,0.25);
+}
+
+/* Button styling */
+.contact-btn {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+}
+
+/* Checkbox styling */
+.form-check-input {
+  border-color: #C68767;
+}
+
+.form-check-input:checked {
+  background-color: #C68767;
+  border-color: #C68767;
+}
+
+/* Optional: center the reCAPTCHA box */
+.g-recaptcha {
+  margin: 0 auto;
+}
+
+/*SERVICES NEW FORMAT */
+
+
+/* Standard container width alignment */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Custom list layout matching image_8d2c61.jpg styles */
+.service-list ul {
+  padding-left: 1.25rem;
+  margin-top: 1rem;
+  
+  li {
+    margin-bottom: 0.4rem;
+    position: relative;
+    list-style-type: disc;
+    
+    ::marker {
+      color: #7a8b9c; /* Subtle gray bullet points */
+    }
+  }
+}
+
+/* Rounded card image styling from image_8d2c61.jpg */
+.spark-card-img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px; /* Gives the soft, clean rounded corners seen in the example */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Very soft drop shadow */
+}
+
+/* Rounded custom button outline matching image_8d2c61.jpg */
+.btn-spark {
+  display: inline-block;
+  background-color: transparent;
+  color: #111111 !important;
+  border: 1px solid #111111;
+  padding: 0.5rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px; /* Creates the pill-shaped button look */
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #111111;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+}
+
+
+/* Hero banner on services page */
+
+/* HERO BANNER FLEX*/
+/* The Main Parent Container */
+.hero-banner-flex {
+  background-color: #D6E4E5; /* Soft corporate blue/gray background tint */
+  display: flex;
+  flex-direction: row;       /* Sits image and text side-by-side */
+  /*align-items: center;        Centers the text vertically next to the image */
+  align-items: stretch; /* Stretch allows both sides to match heights */
+  justify-content: flex-start;
+  width: 100%;
+  clear: both;
+  /* 1. FORCE THE BOUNDARIES */
+  margin: 0 !important;       /* Prevents the block from shifting up or down */
+  padding: 0 !important;      /* Removes accidental inner vertical bloating */
+  /*height: 320px;               Matches your exact .hero-capsule-img height */
+  min-height: 320px;
+  height: auto;      /* Allows the container to expand */
+  overflow: visible; /* Changed from hidden to ensure no clipping */
+  max-width: 100%;        /* Ensures it never exceeds the screen */
+  box-sizing: border-box; /* Crucial: includes padding in width calculation */
+
+  /* Responsive layout: Stack them vertically on mobile devices */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+    min-height: auto; /* Let it be auto-height on mobile */
+  }
+}
+
+/* Image Wrapping Side */
+.hero-img-side {
+  flex: 0 0 41.666%; /* Matches exactly 5 out of 12 Bootstrap columns */
+  display: flex;
+}
+
+/* The magic shape: Flat on the left, deeply curved into a stadium capsule on the right */
+/* The Masked Capsule Image */
+.hero-capsule-img {
+  width: 100%;
+  height: 320px;     /* Locks down the visual height */
+  object-fit: cover;
+  border-radius: 0 250px 250px 0; /* Smooth stadium curve on the right edge */
+  display: block;
+  margin: 0;
+  
+  @media (max-width: 768px) {
+    border-radius: 0; /* Drops curve on mobile for a clean full-width look */
+    height: 200px;
+  }
+}
+
+/* Text Wrapping Side */
+.hero-text-side {
+  flex: 0 0 58.333%; /* Matches exactly 7 out of 12 Bootstrap columns */
+  padding: 3rem 4rem 3rem 4rem; /* Generous inside breathing room */
+  box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* 2. NEUTRALIZE INTERNAL HEADING SPACING */
+.hero-text-side h1 {
+  margin-top: 0 !important;   /* Stops the browser's default h1 top-margin from pushing the banner boundary up */
+  margin-bottom: 0.75rem;     /* Clean, tight spacing right above the paragraph */
+}
+
+/* Targets the paragraph text specifically inside the right side of the hero banner */
+.hero-text-side p {
+  color: #4D8385 !important;       /* Clean, high-contrast off-white */
+  font-size: 1.2rem;              /* Optional: keeps it slightly readable and sharp */
+  line-height: 1.6;                /* Elegant line breathing room */
+  opacity: 0.95;                   /* Optional: slightly softens the text so it looks premium */
+}
+
+/* Padding to give the text column breathing room */
+.hero-text-col {
+  padding: 2rem 4rem 2rem 3rem;
+  
+  @media (max-width: 768px) {
+    padding: 2rem 1.5rem; /* Packs tightly on mobile viewports */
+  }
+}
+
+/* Small muted category label */
+.hero-tag {
+  display: block;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0f2d4a;
+  margin-bottom: 0.75rem;
+}
+
+/* Headline Font Size and Layout Constraints */
+.hero-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000000 !important;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+/* Subtext Layout Constraints */
+.hero-subtext {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #4a5568;
+  margin: 0;
+}
+
+/* WHAT WE OFFER TITLE UNDER SERVICES */
+/* Creates a clean break and structural padding below the full-screen hero banner */
+.content-start-section {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Handles the exact typography rules for your section title cleanly */
+.section-main-heading {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  color: #615D6D !important;   /* Your deep slate blue */
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;    /* Prevents default browser margins from pushing it upward */
+}
+
+/* WHAT WE OFFER TITLE UNDER SERVICES -END */
+
+
+/* CONTACT BANNER UNDER SERVICES PAGE */ 
+
+/* Full-width dark footer row */
+.footer-banner-dark {
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  /* Dark tint + photo. Raise/lower the 0.6 alpha to show more/less photo. */
+  background-image:
+    linear-gradient(rgba(14,21,18,0.6), rgba(14,21,18,0.6)),
+    url('images/contactBanner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 0;
+  margin-top: 2rem;          /* Pushes it away from the last service row */
+  margin-bottom: 0;          /* Sits flush at the bottom of the page */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100vw;
+}
+
+.footer-banner-dark h3 {
+  color: #F3F5EE !important;
+  margin-top: 0 !important;      /* Prevents default browser spacing from blowing up the height */
+  margin-bottom: 1rem !important; /* Keeps a tight, clean gap right above your contact button */
+}
+
+/* A reversed pill button style that pops on a dark background */
+.btn-spark-light {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff !important;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #0f2d4a !important; /* Flips the colors beautifully on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+}
+/* CONTACT BANNER UNDER SERVICES PAGE - end */
+
+/*CORE COMPETENCIES -ABOUT US PAGE*/
+/* Box layouts for individual competency cards */
+.competency-card {
+  background: #ffffff;             /* Crisp white background inside the cards */
+  padding: 2rem 1.75rem;          /* Internal text padding */
+  border-radius: 8px;              /* Soft, clean card corners */
+  border: 1px solid #e0e0e0;       /* Fine boundary line matching your style canvas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04); /* Subtle professional drop shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Micro-interaction lift animation on hover */
+.competency-card:hover {
+  transform: translateY(-4px);     /* Smoothly raises the box up slightly */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08); /* Darkens shadow dynamically */
+  border-color: #2A5A5C;           /* Highlights top edge with your brand teal[cite: 1] */
+}
+
+/* Enforce distinct font styling inside the boxes */
+.competency-card h3 {
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+  color: #2A5A5C !important;      /* Matches your exact header color[cite: 1] */
+  margin-top: 0 !important;        /* Clears out accidental block jumps */
+  margin-bottom: 1rem !important;
+  line-height: 1.3;
+}
+
+.competency-card p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #2F3640;                  /* Keeps clean, legible text blocks[cite: 1] */
+  margin: 0;
+}
+/*CORE COMPETENCIES -ABOUT US PAGE - end */
+
+
+/*PHYLOSOPHY -ABOUT US PAGE - end */
+.philosophy-section {
+  /* Option A: Soft, light gray/blue tint that makes text pop */
+  background-color: #B9CDCE; 
+  padding: 2rem 0;           /* Increased top/bottom padding for an elegant full-screen block look */
+  margin: 2rem 0;            /* Adds clear space outside the block instead of using <br> tags */
+  width: 100vw;              /* Forces the block layer to evaluate the literal width of the window viewport */
+  margin-bottom: 0rem;
+}
+
+/* Optional: Ensures your h3 headers inside this specific background stand out perfectly */
+.philosophy-section h3 {
+  color: #2A5A5C !important; /* References your primary brand teal */
+  font-weight: 700;
+  margin-top: 0;             /* Prevents default layout shifts */
+  margin-bottom: 1rem;
+}
+/*PHYLOSOPHY -ABOUT US PAGE - end */
+
+
+/*-TEAM PAGE - SOCIAL MEDIA LINKS */
+/* Target row container layout spacing */
+.person-social-links {
+  display: flex;
+  justify-content: center;   /* Centers the group of icons under the card text */
+  gap: 15px;                 /* Adds clean, uniform spacing between each icon */
+  margin-top: 12px;          /* Separates the icons from the text above it */
+}
+
+/* Individual icon base link adjustments */
+.person-social-links a {
+  font-size: 1.25rem;        /* Scales the icons to match image_9ade8f.png sizing */
+  color: #2A5A5C;            /* Default brand teal color matching your main theme[cite: 1] */
+  text-decoration: none;     /* Strips default line decorations[cite: 1] */
+  transition: color 0.2s ease-in-out, transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Elegant color shift interaction when hovering over an icon */
+.person-social-links a:hover {
+  color: #0f2d4a;            /* Shifts to your deep corporate slate blue on hover */
+  transform: scale(1.1);     /* Adds a micro-interaction popup effect */
+}
+/*-TEAM PAGE - SOCIAL MEDIA LINKS - END */
+
+
+/*COMPETENCY CARDS*/
+/* Stretches the image to the card's width and keeps a clean aspect ratio */
+.competency-card-img {
+  width: 100%;
+  height: 180px;            /* Fixed vertical height for consistency across card grids */
+  object-fit: cover;        /* Crops perfectly without distorting the imagery */
+  border-top-left-radius: 6px;  /* Optional: rounds top corners to match your card style */
+  border-top-right-radius: 6px;
+  margin-bottom: 1.25rem;   /* Clean breathing room right above the header text */
+}
+
+/* Gives the card internal text a bit of breathing padding away from the edge */
+.competency-card h3, 
+.competency-card p {
+  padding: 0 1rem;          
+}
+
+.competency-card p {
+  color: #5a6b7c;           /* Muted editorial gray text */
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;   /* Ensures padding consistency at the bottom of the card */
+}
+/*COMPETENCY CARDS - END */
+
+/* FOOTER style */
+/* Targets the social icons built inside the Quarto footer architecture */
+footer.footer .nav-footer-right a,
+footer.footer .nav-footer-center a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;   /* Match the dark gray background circles */
+  color: #ffffff !important;   /* Forces white icons */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;          /* Makes them perfectly circular */
+  margin: 0 6px;               /* Adds breathing room between individual circles */
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Elegant subtle hover interaction */
+footer.footer .nav-footer-right a:hover {
+  background-color: #2A5A5C;   /* Changes to your primary brand teal on hover! */
+  transform: translateY(-2px); /* Slight lifting animation */
+}
+
+/* Forces the footer sections to stack and center perfectly on the page */
+footer.footer .nav-footer {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 1rem;
+}
+
+/* Re-orders the elements so icons sit gracefully on top of the copyright text */
+footer.footer .nav-footer-right {
+  order: 1 !important;
+}
+
+footer.footer .nav-footer-left {
+  order: 2 !important;
+}
+/* FOOTER style - END */
+
+/* FLOOTING CONTACT CARD under services*/
+
+.floating-contact-card {
+  background: #2A5A5C;             /* Crisp white background inside the cards */
+  padding: 2rem;
+  border-radius: 1.5rem; /* Makes it rounded */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Gives it the 'floating' depth */
+  text-align: center;
+  /*max-width: 800px;  Limits the width so it doesn't stretch too far */
+  /*width: 100%;*/
+  max-width: 90%;         /* Keeps it inside the screen on mobile */
+  margin: 2rem auto;      /* Centers it */
+  box-sizing: border-box;
+}
+
+/* Enforce distinct font styling inside the boxes */
+.floating-contact-card h3 {
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;      /* Matches your exact header color[cite: 1] */
+  margin-top: 0 !important;        /* Clears out accidental block jumps */
+  margin-bottom: 1rem !important;
+  line-height: 1.3;
+}
+/* FLOOTING CONTACT CARD - END */
+
+
+/*Ensure Mobile Responsiveness*/
+/*It is a "safety net" that fixes common mobile clipping issues globally:*/
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+
+  /* Force all full-width sections to stay within bounds */
+  .column-screen, .column-page, .grid {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+  }
+}
+/*Ensure Mobile Responsiveness - end */
+/* ================================================================
+   EQUATOR GEOSPATIAL SERVICES PAGE — scoped styles
+   Everything below is scoped under the .eg-page wrapper class, so it
+   only affects the new services page and never touches the rest of
+   the site (navbar, footer, other pages, etc).
+   ================================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+.eg-page{
+  --eg-paper: #EEF0E6;
+  --eg-paper-deep: #E2E4D4;
+  --eg-ink: #1B211D;
+  --eg-ink-soft: #4A5049;
+  --eg-line: #C7C2A9;
+  --eg-canopy: #2E4B32;
+  --eg-ochre: #A97A3D;
+  --eg-teal: #3D6B78;
+  --eg-plum: #7A6584;
+  --eg-rust: #A24E3B;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--eg-ink);
+  background: var(--eg-paper);
+}
+.eg-page, .eg-page *{ box-sizing: border-box; }
+.eg-page p{ margin-bottom: 1em; }
+.eg-page p:last-child{ margin-bottom: 0; }
+.eg-page h1, .eg-page h2, .eg-page h3{
+  font-family:'Space Grotesk', sans-serif;
+  font-weight:600;
+  /*color: var(--eg-ink);*/
+  margin-top:0;
+}
+
+/* Let this page's full-bleed sections escape Quarto's default content
+   container width — scoped with :has() so no other page is affected. */
+#quarto-content:has(.eg-page),
+main.content:has(.eg-page),
+#quarto-document-content:has(.eg-page){
+  padding:0 !important; margin:0 !important; max-width:none !important;
+}
+#quarto-content.page-columns:has(.eg-page){
+  display:block; grid-template-columns:none;
+}
+
+.eg-wrap{ max-width:1520px; margin:0 auto; padding:0 32px; } /*max-width:1120px*/
+
+/* ---------- HERO ---------- */
+
+/*
+.eg-hero{
+  position:relative; overflow:hidden;
+  padding: clamp(20px, 7vw, 20px) 0 clamp(36px, 5vw, 56px);
+  padding: clamp(100px, 7vw, 140px) 0 clamp(36px, 5vw, 56px);
+  border-bottom:1px solid var(--eg-line);
+}
+.eg-hero > .eg-wrap{ position:relative; z-index:2; }
+.eg-hero::before{
+  content:''; position:absolute; inset:0; z-index:1; pointer-events:none;
+  opacity:0.4;
+  background-image:
+    repeating-radial-gradient(circle at 12% 15%, transparent 0 16px, var(--eg-line) 16px 17px, transparent 17px 38px),
+    repeating-radial-gradient(circle at 90% 75%, transparent 0 20px, var(--eg-line) 20px 21px, transparent 21px 46px);
+}
+*/
+
+
+
+/*
+for hero banner below:
+More photo, less tint → lower the 0.82 alpha (e.g. 0.5).
+Darker text-on-photo look instead of the light paper tint → swap the tint
+color to something like rgba(14,21,18,0.55) and switch your .eg-hero heading/body
+text to the light colors, similar to how .eg-hero-dark is already set up elsewhere in your file.
+
+*/
+
+.eg-hero{
+  position:relative; overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  /* Default (flex-start/flex-start) reproduces the original left-aligned,
+     top-anchored block-flow look used on the services page — unaffected
+     unless a positioning modifier class below is added. */
+  justify-content: var(--eg-hero-justify, flex-start);
+  align-items: var(--eg-hero-align, flex-start);
+  padding: clamp(120px, 7vw, 160px) 0 clamp(36px, 5vw, 56px);
+  border-bottom:1px solid var(--eg-line);
+  background-color: var(--eg-paper-deep); /* fallback if the image fails to load */
+  /* Tinted overlay + photo. Both are swappable per-page via CSS variables —
+     set --eg-hero-img (and optionally --eg-hero-tint) as an inline style on
+     the .eg-hero element to use a different photo per page, without needing
+     a separate CSS rule or duplicating this component. */
+  background-image:
+    linear-gradient(var(--eg-hero-tint, rgba(238,240,230,0.50)), var(--eg-hero-tint, rgba(238,240,230,0.50))),
+    var(--eg-hero-img, url('images/bannerNew.jpg'));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh; /* This will make the banner 60% of the screen height */
+}
+.eg-hero > .eg-wrap{ position:relative; z-index:2; width:100%; }
+
+.eg-hero::before{
+  display:none; /* was the repeating-radial-gradient dot texture — replaced by the photo above */
+}
+
+.eg-hero::after{
+  content:''; position:absolute; left:0; right:0; height:1px; z-index:1;
+  background:linear-gradient(90deg, transparent, var(--eg-canopy), transparent);
+  opacity:0.5;
+  animation: eg-scan 9s linear infinite;
+}
+@keyframes eg-scan{ 0%{ top:0%; } 100%{ top:100%; } }
+@media(prefers-reduced-motion: reduce){ .eg-hero::after{ animation:none; display:none; } }
+
+/* ---------- HERO — content position settings (opt-in modifiers) ---------- */
+/* Horizontal: pick one */
+.eg-hero-left{   --eg-hero-justify: flex-start; text-align:left; }
+.eg-hero-center{ --eg-hero-justify: center;     text-align:center; }
+.eg-hero-right{  --eg-hero-justify: flex-end;   text-align:right; }
+/* Vertical: pick one */
+.eg-hero-top{    --eg-hero-align: flex-start; }
+.eg-hero-middle{ --eg-hero-align: center; }
+.eg-hero-bottom{ --eg-hero-align: flex-end; }
+
+/* ---------- HERO — base heading styles (used on every .eg-hero) ---------- */
+.eg-hero h1 {
+  font-family:'Space Grotesk', sans-serif;
+  font-size: clamp(3.0rem, 4.6vw, 3.8rem);
+  font-weight: 700;
+  max-width:none;
+  margin-bottom:22px;
+  text-decoration:none !important;
+}
+.eg-hero h2 {
+  font-family:'IBM Plex Sans', sans-serif;
+  font-size: clamp(2.0rem, 4.6vw, 2.5rem);
+  font-weight: 400;
+  max-width:none;
+  margin-bottom:22px;
+  text-decoration:none !important;
+}
+
+/* ---------- HERO — dark tint variant (light text, for dark/moody photos) ----------
+   NOTE: this block must stay AFTER the base .eg-hero h1/h2 rules above —
+   both are equal specificity, so source order decides which color wins. */
+.eg-hero-tint-dark{ --eg-hero-tint: rgba(14,21,18,0.55); }
+.eg-hero-tint-dark .eg-eyebrow{ color:#8FD39D; }
+.eg-hero-tint-dark .eg-eyebrow::before{ background:#8FD39D; }
+.eg-hero-tint-dark h1{
+  color:#F3F5EE !important;
+  text-decoration:none !important;
+  text-shadow:2px 2px 10px rgba(0,0,0,0.5);
+}
+.eg-hero-tint-dark h2{
+  color:#DCE3D9 !important;
+  text-decoration:none !important;
+  text-shadow:2px 2px 10px rgba(0,0,0,0.5);
+}
+.eg-hero-tint-dark .eg-lede,
+.eg-hero-tint-dark p{ color:#DCE3D9; }
+.eg-hero-tint-dark .eg-btn-outline{ color:#F3F5EE; border-color:#F3F5EE; }
+.eg-hero-tint-dark .eg-btn-outline:hover{ background:#F3F5EE; color:#0E1512; }
+
+.eg-eyebrow{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.75rem; letter-spacing:0.12em; color:var(--eg-canopy);
+  text-transform:uppercase; display:inline-flex; align-items:center; gap:10px;
+  margin-bottom:12px;/* was 18px */
+}
+.eg-eyebrow::before{ content:''; width:22px; height:1px; background:var(--eg-canopy); display:inline-block; }
+
+.smaller-text {
+  color: #8FD39D; /* was referencing an undefined variable, --eg-hp-ink, which silently broke this rule */
+}
+
+.colored-text {
+  color: #8FD39D; /* Your chosen accent color */
+}
+
+.eg-lede{ max-width:120ch; color:var(--eg-ink-soft); font-size:1.5rem; margin-bottom:34px; }
+
+.eg-hero-ctas{ margin-bottom:10px; }/*was 56px  */
+.eg-btn{
+  font-family:'IBM Plex Mono', monospace; font-size:0.82rem;
+  padding:13px 22px; text-decoration:none; letter-spacing:0.02em;
+  border:1px solid var(--eg-ink); transition:all .2s;
+  display:inline-block; margin:0 14px 12px 0; border-radius:0;
+}
+.eg-btn-solid{ background:var(--eg-ink); color:var(--eg-paper); }
+.eg-btn-solid:hover{ background:var(--eg-canopy); border-color:var(--eg-canopy); color:var(--eg-paper); }
+.eg-btn-outline{ background:transparent; color:var(--eg-ink); }
+.eg-btn-outline:hover{ background:var(--eg-ink); color:var(--eg-paper); }
+
+.eg-city-strip{
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem;
+  color:var(--eg-ink-soft); border-top:1px solid var(--eg-line); padding-top:18px;
+  letter-spacing:0.03em;
+}
+
+/* ---------- SECTION HEADERS ---------- */
+.eg-section{ padding:20px 0; } /*was 80*/
+.eg-sec-head{ margin-bottom:44px; max-width:100ch; } /*was 44,60*/
+.eg-sec-head h2{ font-size:clamp(1.6rem, 3vw, 2.1rem); margin-bottom:14px; }
+.eg-sec-head p{ color:var(--eg-ink-soft); }
+
+/* ---------- SERVICES / LAYER PANEL ---------- */
+.eg-services{ background:var(--eg-paper-deep); border-bottom:1px solid var(--eg-line); }
+.eg-layer-stack{ border-top:1px solid var(--eg-line); }
+.eg-layer{
+  border-bottom:1px solid var(--eg-line);
+  padding:30px 0;
+  display:grid;
+  grid-template-columns:56px 1fr;
+  gap:0 24px;
+}
+.eg-layer:hover{ background:rgba(255,255,255,0.4); }
+
+.eg-layer-marker > p{ margin:0 0 8px 0; }
+.eg-layer-toggle{
+  display:inline-block; width:20px; height:20px;
+  border:2px solid var(--eg-ink); box-sizing:border-box;
+  background-clip:content-box; padding:3px;
+}
+.eg-layer-toggle.eg-l1{ background-color:var(--eg-canopy); }
+.eg-layer-toggle.eg-l2{ background-color:var(--eg-ochre); }
+.eg-layer-toggle.eg-l3{ background-color:var(--eg-teal); }
+.eg-layer-toggle.eg-l4{ background-color:var(--eg-plum); }
+.eg-layer-toggle.eg-l5{ background-color:var(--eg-rust); }
+
+.eg-layer-index{ font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--eg-ink-soft); }
+
+.eg-layer-body{ display:grid; grid-template-columns:1fr; gap:14px; }
+@media(min-width:760px){ .eg-layer-body{ grid-template-columns: 1.4fr 1fr; } }
+
+.eg-layer-main h3{ font-size:1.25rem; margin-bottom:8px; }
+.eg-layer-one-liner{ font-size:0.95rem; font-weight:500; display:block; margin-bottom:12px; }
+.eg-layer-one-liner.eg-l1{ color:var(--eg-canopy); }
+.eg-layer-one-liner.eg-l2{ color:var(--eg-ochre); }
+.eg-layer-one-liner.eg-l3{ color:var(--eg-teal); }
+.eg-layer-one-liner.eg-l4{ color:var(--eg-plum); }
+.eg-layer-one-liner.eg-l5{ color:var(--eg-rust); }
+
+.eg-layer-desc{ font-size:0.92rem; color:var(--eg-ink-soft); max-width:80ch; } /*max-width:52ch*/
+
+.eg-layer-meta{
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
+  margin-top:16px; padding-top:16px; border-top:1px dashed var(--eg-line);
+}
+
+.eg-layer-image{
+  border:1px solid var(--eg-line);
+  overflow:hidden;
+  min-height:220px;
+}
+.eg-layer-image img{
+  width:100%; height:100%; min-height:220px;
+  object-fit:cover; display:block;
+}
+.eg-tag-label{ color:var(--eg-ink); font-weight:500; letter-spacing:0.03em; display:block; margin-bottom:8px; }
+.eg-chip{
+  display:inline-block; border:1px solid var(--eg-line); padding:4px 9px;
+  font-size:0.7rem; background:var(--eg-paper); margin:0 6px 6px 0;
+}
+.eg-layer-coord{
+  padding-top:10px; margin-top:10px; border-top:1px dashed var(--eg-line);
+}
+
+/* ---------- APPROACH ---------- */
+.eg-approach-grid{ display:grid; grid-template-columns:1fr; gap:36px; border-top:1px solid var(--eg-line); padding-top:40px; }
+@media(min-width:760px){ .eg-approach-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-approach-item .eg-num{ font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-canopy); display:block; margin-bottom:10px; }
+.eg-approach-item h3{ font-size:1.1rem; margin-bottom:10px; }
+.eg-approach-item p{ color:var(--eg-ink-soft); font-size:0.92rem; }
+
+
+/* ---------- APPROACH — numbered-badge card variant ---------- */
+/* Add the .eg-approach-cards modifier class to .eg-approach-grid to get
+   the light gray card + black number badge + colored left-edge accent
+   look, without changing the plain .eg-approach-grid used elsewhere. */
+.eg-approach-cards{
+  --eg-approach-accent: #A24E3B; /* left-edge accent color — swap to any brand color */
+  border-top: none;
+  padding-top: 0;
+  gap: 28px;
+}
+.eg-approach-cards .eg-approach-item{
+  background: var(--eg-paper-deep);
+  border-left: 6px solid var(--eg-approach-accent);
+  padding: 30px 30px 32px;
+}
+.eg-approach-cards .eg-approach-head{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-bottom:16px;
+}
+.eg-approach-cards .eg-approach-badge{
+  flex:0 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:42px;
+  height:42px;
+  background:#111111;
+  color:#ffffff;
+  font-family:'Space Grotesk', sans-serif;
+  font-weight:700;
+  font-size:1.1rem;
+  border-radius:4px;
+}
+.eg-approach-cards .eg-approach-head h3{
+  margin:0;
+  font-size:1.1rem;
+  line-height:1.3;
+  color: var(--eg-ink);
+}
+.eg-approach-cards .eg-approach-item p{
+  color: var(--eg-ink-soft);
+  font-size:0.95rem;
+  line-height:1.6;
+  margin:0;
+}
+
+/* ---------- SECTORS ---------- */
+.eg-sectors{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }
+.eg-sector-chip{
+  display:inline-block; border:1px solid var(--eg-ink); padding:10px 18px;
+  font-size:0.85rem; font-family:'IBM Plex Mono', monospace; margin:0 12px 12px 0;
+}
+
+/* ---------- CONTACT ---------- */
+.eg-contact{
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  background-image:
+    linear-gradient(rgba(14,21,18,0.2), rgba(14,21,18,0.2)),
+    url('images/contactBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: clamp(56px, 7vw, 90px) 0;
+}
+.eg-contact-wrap{
+  display:grid; grid-template-columns:1fr; gap:30px; align-items:end;
+  max-width:1120px; margin:0 auto; padding:0 32px;
+}
+@media(min-width:760px){ .eg-contact-wrap{ grid-template-columns:1.3fr 1fr; } }
+.eg-contact-left h2{ font-size:clamp(1.8rem,3.4vw,2.6rem); max-width:16ch; color:#F3F5EE !important; text-decoration:none !important; }
+.eg-contact-left p{ color:#D3DBD1; max-width:46ch; margin-top:16px; }
+.eg-contact-box{ border:1px solid rgba(255,255,255,0.35); padding:28px; }
+.eg-contact-box > p{ margin:0 0 6px 0; }
+.eg-mono-label{ font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:#B7C2B6; display:block; }
+.eg-email{ font-size:1.15rem; font-weight:500; display:block; margin-bottom:22px !important; word-break:break-all; text-decoration:none; color:var(--eg-ink); }
+.eg-email-sub{ font-size:0.95rem; display:block; margin-bottom:22px !important; }
+.eg-contact .eg-email{ color:#F3F5EE; }
+.eg-contact .eg-email-sub{ color:#D3DBD1; }
+
+/* ---------- FOOTER ---------- */
+.eg-footer{ border-top:1px solid var(--eg-line); padding:26px 0; }
+.eg-footer-inner{
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  max-width:1120px; margin:0 auto; padding:0 32px;
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
+}
+.eg-footer-inner > p{ margin:0; }
+
+/* ================================================================
+   END EQUATOR GEOSPATIAL SERVICES PAGE STYLES
+   ================================================================ */
+   
+   /* ================================================================
+   EQUATOR GEOSPATIAL HOME PAGE — additional scoped styles
+   ================================================================ */
+
+.eg-intro-lede{ font-size:1.05rem; color:var(--eg-ink-soft); max-width:none; margin-bottom:20px; }
+.eg-chip-row{ margin-top:1px; }
+
+
+.eg-intro-lede h2{
+  color:#F3F5EE!important;
+  font-size:clamp(1.5rem, 3vw, 2.5rem);
+  line-height:1.2;
+  max-width:none;
+  margin-bottom:0;
+}
+
+.eg-intro-lede p{
+  color:eg-intro-lede !important;
+  font-size:1.05rem;
+  line-height:1.2;
+  max-width:none;
+  margin-bottom:0;
+}
+
+.eg-teaser-grid{
+  display:grid; grid-template-columns:1fr; gap:22px; margin-top:12px;
+}
+@media(min-width:560px){ .eg-teaser-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:860px){ .eg-teaser-grid{ grid-template-columns:repeat(3,1fr); } }
+@media(min-width:1200px){ .eg-teaser-grid{ grid-template-columns:repeat(5,1fr); } }
+
+/* Card itself is dark; the section/page background it sits on is untouched. */
+.eg-teaser-card{
+  background:#12201A;
+  border-radius:6px;
+  overflow:hidden;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+  box-shadow:0 10px 26px rgba(27,33,29,0.18);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.eg-teaser-card:hover{ transform:translateY(-4px); box-shadow:0 18px 34px rgba(0,0,0,0.28); }
+
+/* tall, narrow photo at the top of the card */
+.eg-teaser-photo{
+  position:relative;
+  width:100%;
+  aspect-ratio: 4 / 3;
+  overflow:hidden;
+}
+/* Pandoc wraps a lone image in a <p> with no set height, so height:100% on
+   the <img> alone has nothing to resolve against — some photos were only
+   filling their natural (short) height, leaving a gap of card-color below
+   them. Absolute-position the image against .eg-teaser-photo (which does
+   have a real height, from aspect-ratio) so it always fills the frame. */
+.eg-teaser-photo p{ margin:0; height:100%; }
+.eg-teaser-photo img{
+  position:absolute; inset:0;
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+.eg-teaser-photo::after{
+  content:''; position:absolute; left:0; right:0; bottom:0; height:3px; z-index:1;
+}
+
+/* colored circular icon badge, overlapping the seam between photo and card body */
+.eg-teaser-icon{
+  position:relative;
+  z-index:2;
+  width:44px; height:44px;
+  margin:-22px auto 0;
+  border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  border:3px solid #12201A;
+  color:#F3F5EE;
+  font-size:1.05rem;
+}
+
+.eg-teaser-body{
+  padding:20px 20px 28px;
+  text-align:center;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+.eg-teaser-card h3{ color:#F3F5EE !important; font-size:1.05rem; margin:6px 0 12px; line-height:1.3; text-decoration:none !important; }
+.eg-teaser-desc{ font-size:0.86rem; color:#B7C2B6; margin-bottom:22px; flex:1; }
+.eg-teaser-link{
+  align-self:center;
+  display:inline-block;
+  font-family:'IBM Plex Mono', monospace; font-size:0.72rem;
+  letter-spacing:0.08em; text-transform:uppercase;
+  color:#8FD39D; text-decoration:none;
+  border:1px solid #8FD39D; border-radius:2px;
+  padding:8px 22px;
+  transition:all .2s ease;
+}
+.eg-teaser-link:hover{ background:#8FD39D; color:#12201A; text-decoration:none; }
+
+/* cycle the palette's five accent colors across the icon badge + photo underline */
+.eg-teaser-card:nth-child(5n+1) .eg-teaser-icon,
+.eg-teaser-card:nth-child(5n+1) .eg-teaser-photo::after{ background:var(--eg-canopy); }
+.eg-teaser-card:nth-child(5n+2) .eg-teaser-icon,
+.eg-teaser-card:nth-child(5n+2) .eg-teaser-photo::after{ background:var(--eg-ochre); }
+.eg-teaser-card:nth-child(5n+3) .eg-teaser-icon,
+.eg-teaser-card:nth-child(5n+3) .eg-teaser-photo::after{ background:var(--eg-teal); }
+.eg-teaser-card:nth-child(5n+4) .eg-teaser-icon,
+.eg-teaser-card:nth-child(5n+4) .eg-teaser-photo::after{ background:var(--eg-plum); }
+.eg-teaser-card:nth-child(5n+5) .eg-teaser-icon,
+.eg-teaser-card:nth-child(5n+5) .eg-teaser-photo::after{ background:var(--eg-rust); }
+
+
+.eg-btn-hp{
+  font-family:'IBM Plex Mono', monospace; font-size:2rem;
+  padding:13px 22px; text-decoration:none; letter-spacing:0.02em;
+  border:1px solid var(--eg-ink); transition:all .2s;
+  display:inline-block; margin:0 14px 12px 0; border-radius:0;
+  background:var(--eg-ink); color:var(--eg-paper);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-weight: 700;
+}
+
+.eg-btn-hp:hover{ background:var(--eg-canopy); border-color:var(--eg-canopy); color:var(--eg-paper); }
+
+
+
+/* ---------- DARK HERO VARIANT (home page) ---------- */
+.eg-hero-dark{
+  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  border-bottom: 1px solid #2B3830;
+}
+.eg-hero-dark::before{
+  background-image:
+    linear-gradient(rgba(140,196,150,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140,196,150,0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+  opacity:1;
+}
+.eg-hero-dark::after{
+  background:linear-gradient(90deg, transparent, #6FCF87, transparent);
+  opacity:0.6;
+}
+.eg-hero-dark .eg-eyebrow{ color:#8FD39D; }
+.eg-hero-dark .eg-eyebrow::before{ background:#8FD39D; }
+.eg-hero-dark h1{ color:#F3F5EE; }
+.eg-hero-dark .eg-lede{ color:#B7C2B6; }
+.eg-hero-dark .eg-city-strip{ color:#7C8A80; border-top-color:#2B3830; }
+.eg-hero-dark .eg-btn-solid{ background:#8FD39D; color:#0E1512; border-color:#8FD39D; }
+.eg-hero-dark .eg-btn-solid:hover{ background:#F3F5EE; border-color:#F3F5EE; color:#0E1512; }
+.eg-hero-dark .eg-btn-outline{ color:#F3F5EE; border-color:#5C6B60; }
+.eg-hero-dark .eg-btn-outline:hover{ background:#F3F5EE; color:#0E1512; border-color:#F3F5EE; }
+
+/* floating equations & code — decorative, sits behind the hero text */
+.eg-float-layer{
+  position:absolute; inset:0; z-index:1; pointer-events:none; overflow:hidden;
+}
+.eg-float-item{
+  position:absolute; white-space:nowrap;
+  color:#7FB88A; opacity:0.35;
+  font-family:'IBM Plex Mono', monospace; font-size:0.72rem; letter-spacing:0.01em;
+}
+.eg-float-item.eg-float-eq{
+  font-family:'Space Grotesk', sans-serif; font-style:italic;
+  color:#9FBFAE; opacity:0.28; font-size:0.85rem;
+}
+.eg-float-1{ top:12%; left:6%;  transform:rotate(-6deg); }
+.eg-float-2{ top:20%; left:60%; transform:rotate(4deg); }
+.eg-float-3{ top:8%;  left:36%; transform:rotate(3deg); }
+.eg-float-4{ top:42%; left:80%; transform:rotate(-4deg); }
+.eg-float-5{ top:58%; left:4%;  transform:rotate(5deg); }
+.eg-float-6{ top:70%; left:42%; transform:rotate(-3deg); }
+.eg-float-7{ top:80%; left:68%; transform:rotate(2deg); }
+.eg-float-8{ top:30%; left:16%; transform:rotate(-2deg); }
+.eg-float-9{ top:64%; left:24%; transform:rotate(4deg); }
+.eg-float-10{ top:15%; left:84%; transform:rotate(-5deg); }
+
+@media(max-width:760px){
+  .eg-float-layer{ display:none; }
+}
+/* ================================================================
+   END EQUATOR GEOSPATIAL HOME PAGE STYLES
+   ================================================================ */
+   
+   
+   /* ================================================================
+   EQUATOR GEOSPATIAL ABOUT PAGE — additional scoped styles
+   ================================================================ */
+
+.eg-serve-grid{
+  display:grid; grid-template-columns:1fr; gap:18px; margin-top:12px;
+}
+@media(min-width:640px){ .eg-serve-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1000px){ .eg-serve-grid{ grid-template-columns:repeat(4,1fr); } }
+.eg-serve-card{
+  border:1px solid var(--eg-line); background:var(--eg-paper-deep); padding:22px;
+}
+.eg-serve-card h3{ font-size:1rem; margin-bottom:8px; line-height:1.3; }
+.eg-serve-card p{ font-size:0.88rem; color:var(--eg-ink-soft); }
+
+.eg-story-block{ max-width:70ch; }
+.eg-story-block p{ margin-bottom:16px; }
+
+/* ================================================================
+   ABOUT PAGE — split photo hero, floating cards, collapsible text
+   ================================================================ */
+
+.eg-hero-split .eg-wrap{
+  display:grid; grid-template-columns:1fr; gap:36px; align-items:center;
+  text-align:left;
+}
+@media(min-width:800px){
+  .eg-hero-split .eg-wrap{ grid-template-columns: 1.1fr 0.9fr; }
+}
+.eg-hero-split .eg-eyebrow{ justify-content:flex-start; }
+.eg-hero-split h1{ margin-left:0; margin-right:0; text-align:left; max-width:none; }
+.eg-hero-split .eg-lede{ margin-left:0; margin-right:0; text-align:left; }
+.eg-hero-split .eg-hero-ctas{ justify-content:flex-start; }
+
+.eg-photo-placeholder{
+  border:1px solid var(--eg-line); background:var(--eg-paper-deep);
+  aspect-ratio: 4/3; overflow:hidden; position:relative;
+}
+.eg-photo-placeholder img{ width:100%; height:100%; object-fit:cover; display:block; }
+.eg-photo-caption{
+  font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--eg-ink-soft);
+  margin-top:10px;
+}
+
+/* floating pull-quote card */
+.eg-quote-card{
+  border:1px solid var(--eg-canopy); background:var(--eg-paper-deep);
+  padding:22px 24px; max-width:420px; box-shadow:0 14px 30px rgba(27,33,29,0.10);
+  transform:rotate(-1.2deg); margin: 26px 0;
+}
+.eg-quote-card p{
+  font-family:'Space Grotesk', sans-serif; font-style:italic; font-size:1.05rem;
+  color:var(--eg-ink); margin:0;
+}
+
+/* bridge floating cards ("raw computing" <-> "ground truth") */
+.eg-bridge-grid{
+  display:grid; grid-template-columns:1fr; gap:20px; align-items:center;
+  margin: 22px 0 30px;
+}
+@media(min-width:700px){
+  .eg-bridge-grid{ grid-template-columns: 1fr auto 1fr; gap:16px; }
+}
+.eg-bridge-card{
+  border:1px solid var(--eg-line); background:var(--eg-paper); padding:22px;
+  box-shadow:0 10px 24px rgba(27,33,29,0.06);
+}
+.eg-bridge-card:first-child{ transform:rotate(-1.2deg); }
+.eg-bridge-card:last-child{ transform:rotate(1.2deg); }
+.eg-bridge-label{
+  font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--eg-canopy);
+  text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:8px;
+}
+.eg-bridge-card h3{ font-size:1.1rem; margin-bottom:8px; }
+.eg-bridge-card p{ font-size:0.9rem; color:var(--eg-ink-soft); margin:0; }
+.eg-bridge-arrow{
+  display:flex; align-items:center; justify-content:center;
+  font-family:'IBM Plex Mono', monospace; font-size:1.4rem; color:var(--eg-ink-soft);
+}
+@media(max-width:699px){ .eg-bridge-arrow{ transform:rotate(90deg); } }
+
+/* collapsible read-more sections */
+.eg-expand summary{
+  cursor:pointer; list-style:none;
+  font-family:'IBM Plex Mono', monospace; font-size:0.8rem;
+  color:var(--eg-canopy); font-weight:500; margin-top:10px;
+}
+.eg-expand summary::-webkit-details-marker{ display:none; }
+.eg-expand summary::marker{ content:''; }
+.eg-expand summary:hover{ text-decoration:underline; }
+.eg-expand:not([open]) .eg-less-label{ display:none; }
+.eg-expand[open] .eg-more-label{ display:none; }
+.eg-expand-content{ margin-top:14px; }
+.eg-expand-content p{ margin-bottom:14px; color:var(--eg-ink-soft); font-size:0.95rem; }
+.eg-expand-content p:last-child{ margin-bottom:0; }
+
+/* staggered floating serve cards on wide screens */
+@media(min-width:1000px){
+  .eg-serve-card:nth-child(2){ transform:translateY(16px); }
+  .eg-serve-card:nth-child(4){ transform:translateY(16px); }
+}
+
+/* ================================================================
+   ABOUT PAGE — impact pathway, core values, team grid
+   ================================================================ */
+
+.eg-pathway{
+  display:grid; grid-template-columns:1fr; gap:16px; margin-top:12px;
+}
+@media(min-width:900px){
+  .eg-pathway{ grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr; align-items:center; }
+}
+.eg-pathway-step{
+  border:1px solid var(--eg-line); background:var(--eg-paper-deep); padding:20px;
+}
+.eg-pathway-step .eg-num{
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-canopy);
+  display:block; margin-bottom:8px;
+}
+.eg-pathway-step h3{ font-size:0.95rem; margin-bottom:6px; line-height:1.3; }
+.eg-pathway-step p{ font-size:0.82rem; color:var(--eg-ink-soft); margin:0; }
+.eg-pathway-arrow{
+  display:flex; align-items:center; justify-content:center;
+  font-family:'IBM Plex Mono', monospace; font-size:1.2rem; color:var(--eg-line);
+}
+@media(max-width:899px){ .eg-pathway-arrow{ display:none; } }
+
+.eg-values-grid{
+  display:grid; grid-template-columns:1fr; gap:28px; margin-top:12px;
+}
+@media(min-width:640px){ .eg-values-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1000px){ .eg-values-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-value-item .eg-num{
+  font-family:'Space Grotesk', sans-serif; font-size:1.6rem; font-weight:700;
+  color:var(--eg-canopy); display:block; margin-bottom:8px;
+}
+.eg-value-item h3{ font-size:1rem; margin-bottom:8px; }
+.eg-value-item p{ font-size:0.88rem; color:var(--eg-ink-soft); }
+
+.eg-team-grid{
+  display:grid; grid-template-columns:1fr; gap:24px; margin-top:12px;
+}
+@media(min-width:640px){ .eg-team-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1000px){ .eg-team-grid{ grid-template-columns:repeat(4,1fr); } }
+.eg-team-card{ text-align:center; }
+.eg-team-photo{
+  width:120px; height:120px; border-radius:50%; overflow:hidden;
+  border:1px solid var(--eg-line); background:var(--eg-paper-deep);
+  margin:0 auto 14px auto;
+}
+.eg-team-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.eg-team-card h3{ font-size:1rem; margin-bottom:4px; }
+.eg-team-card p{ font-size:0.82rem; color:var(--eg-ink-soft); font-family:'IBM Plex Mono', monospace; }
+
+/* ================================================================
+   END EQUATOR GEOSPATIAL ABOUT PAGE STYLES
+   ================================================================ */
+   
+   
+   
+   
+   /* ================================================================
+   HOME PAGE — ADDITIONAL SECTIONS
+   1) "Who we are" split into a 30/70 dark panel (punchy title | copy)
+   2) "Social-ecological integration" as a dark, larger-type feature
+      layer with a CTA button under the text
+   3) "Community Impact & Public Service" section
+   All scoped under .eg-page, consistent with existing dark-hero
+   palette (#0E1512 / #121B17 / #8FD39D / #F3F5EE).
+   ================================================================ */
+
+/* ---------- WHO WE ARE — dark split section, static background image ---------- */
+.eg-whoweare-dark{
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  /* Dark gradient sits at 40% opacity (rgba alpha 0.4) so the photo
+     underneath reads through at roughly 60% strength. Bump both alpha
+     values up together to darken, or down together to lighten. */
+  background-image:
+    linear-gradient(180deg, rgba(14,21,18,0.7) 0%, rgba(18,27,23,0.7) 100%),
+    url('images/nrkWht.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps the image static while the section scrolls past it */
+  border-top: 1px solid #2B3830;
+  border-bottom: 1px solid #2B3830;
+}
+/* background-attachment:fixed is unreliable/laggy on iOS Safari & most
+   mobile browsers, so fall back to a normal scrolling background there. */
+@media (max-width: 767px){
+  .eg-whoweare-dark{ background-attachment: scroll; }
+}
+.eg-who-grid{
+  display:grid; grid-template-columns:1fr; gap:32px;
+}
+@media(min-width:800px){
+  .eg-who-grid{ grid-template-columns: 30% 1fr; gap:56px; align-items:center; } /*was align start - we center to center title vertically*/
+}
+.eg-who-title{ position:relative; }
+.eg-who-title .eg-eyebrow{ color:#8FD39D; }
+.eg-who-title .eg-eyebrow::before{ background:#8FD39D; }
+.eg-who-title h2{
+  color:#F3F5EE!important;
+  font-size:clamp(2.2rem, 3vw, 2.6rem);
+  line-height:1.2;
+  max-width:none;
+  margin-bottom:0;
+}
+.eg-who-desc .eg-intro-lede{ color:#B7C2B6; font-size:1.1rem; max-width:100ch; } /* max-width:70ch*/
+.eg-who-desc .eg-intro-lede h2{ margin-bottom:1rem; }
+.eg-who-desc .eg-intro-lede p{ margin-bottom:1.1em; }
+.eg-who-desc .eg-intro-lede p:last-child{ margin-bottom:0; }
+.eg-who-desc .eg-hero-ctas{ margin-bottom:0; }
+.eg-who-desc .eg-hero-ctas .eg-btn-outline{
+  color:#F3F5EE; border-color:#5C6B60;
+}
+.eg-who-desc .eg-hero-ctas .eg-btn-outline:hover{
+  background:#F3F5EE; color:#0E1512; border-color:#F3F5EE;
+}
+
+
+/* ---------- SOCIAL-ECOLOGICAL INTEGRATION — light card on dark section ---------- */
+.eg-ses-dark{
+  position: relative;
+  background-color: #0E1512; /* fallback if the image fails to load */
+  background-image: url('images/nrkGraze.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top:1px solid #2B3830;
+  border-bottom:1px solid #2B3830;
+  padding: 64px 0;
+}
+ 
+/* the pale card that pops against the background image */
+.eg-ses-card{
+  background: var(--eg-paper);
+  border-radius: 16px;
+  padding: 44px 48px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+}
+@media(max-width:640px){
+  .eg-ses-card{ padding: 32px 24px; }
+}
+ 
+/* heading block, styled to match the eyebrow/H2 pattern used elsewhere */
+.eg-ses-card .eg-sec-head{ margin-bottom: 0; max-width: none; }
+.eg-ses-tagline{
+  display:block;
+  text-align: center; /* This centers the text horizontally */
+  font-family:'Space Grotesk', sans-serif;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--eg-rust);
+  margin-top: 10px;
+}
+ 
+/* intro copy: dark text box, centered inside the light card */
+.eg-ses-intro-box{
+  background: #0E1512;
+  border-radius: 12px;
+  padding: 32px 40px;
+  margin: 30px auto 38px;
+  max-width: 140ch;/*70ch*/
+  box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+}
+.eg-ses-intro-box p{
+  color: #D3DBD1;
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+.eg-ses-intro-box p:last-child{ margin-bottom:0; }
+@media(max-width:640px){
+  .eg-ses-intro-box{ padding: 26px 24px; }
+}
+ 
+/* image (left) + bullets (right) row below the intro copy */
+.eg-ses-body{
+  display:grid; grid-template-columns:1fr; gap:32px; align-items:center;
+}
+@media(min-width:760px){
+  .eg-ses-body{ grid-template-columns: 1fr 1fr; gap:48px; }
+}
+ 
+.eg-ses-image{
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.eg-ses-image img{
+  width:100%; height:100%; min-height:280px; object-fit:cover; display:block;
+}
+ 
+.eg-ses-points p{ color: var(--eg-ink-soft); margin-bottom: 14px; }
+.eg-ses-points ul{ padding-left: 1.15rem; margin:0 0 24px; }
+.eg-ses-points li{ margin-bottom:10px; color: var(--eg-ink); }
+.eg-ses-points li::marker{ color: var(--eg-canopy); }
+ 
+/* CTA button, now sitting below the bullet list */
+.eg-ses-cta{ margin-top:8px; }
+.eg-ses-cta .eg-btn-solid{
+  background: var(--eg-canopy); color:#F3F5EE; border-color: var(--eg-canopy);
+}
+.eg-ses-cta .eg-btn-solid:hover{
+  background:#1B211D; border-color:#1B211D; color:#F3F5EE;
+}
+
+/* ---------- COMMUNITY IMPACT & PUBLIC SERVICE SECTION ---------- */
+.eg-impact{ background:var(--eg-paper); }
+.eg-impact-lede{ max-width:none; color:var(--eg-ink-soft); } /*max-width:80ch*/
+.eg-impact-grid{
+  display:grid; grid-template-columns:1fr; gap:22px; margin-top:30px;
+}
+@media(min-width:700px){ .eg-impact-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-impact-card{
+  border:1px solid var(--eg-line);
+  background:var(--eg-paper-deep);
+  padding:26px;
+}
+.eg-impact-card .eg-num{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.72rem;
+  color:var(--eg-canopy);
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  display:block;
+  margin-bottom:10px;
+}
+.eg-impact-card h3{ font-size:1.1rem; margin-bottom:10px; line-height:1.3; }
+.eg-impact-card p{ font-size:0.92rem; color:var(--eg-ink-soft); margin:0; }
+
+/* ================================================================
+   END HOME PAGE — ADDITIONAL SECTIONS
+   ================================================================ */
+   
+   
+     /* ================================================================
+   ABOUT PAGE — founding history, positionality, timeline,
+   core values, founders
+   ================================================================ */
+ 
+/* ---------- FOUNDING HISTORY — split image / narrative ---------- */
+.eg-history{ background:var(--eg-paper); }
+.eg-history-grid{
+  display:grid; grid-template-columns:1fr; gap:40px; align-items:center;
+}
+/* On mobile, show the title/text before the photo (source order is photo
+   first, for the desktop left-photo/right-text layout). Above 800px this
+   is reset since the 2-column grid places them side by side either way. */
+.eg-history-text{ order:1; }
+.eg-history-photo{ order:2; }
+@media(min-width:800px){
+  .eg-history-grid{ grid-template-columns: 0.9fr 1.1fr; gap:56px; }
+  .eg-history-text{ order:initial; }
+  .eg-history-photo{ order:initial; }
+}
+.eg-history-photo{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow: 0 20px 46px rgba(27,33,29,0.18);
+}
+.eg-history-photo img{
+  width:100%; height:100%; min-height:360px; object-fit:cover; display:block;
+}
+.eg-history-photo::after{
+  content:''; position:absolute; inset:0;
+  border:1px solid rgba(255,255,255,0.35);
+  border-radius:18px;
+  pointer-events:none;
+}
+.eg-history-text .eg-eyebrow{ margin-bottom:14px; }
+.eg-history-text h2{ font-size:clamp(1.8rem,3vw,2.4rem); margin-bottom:20px; max-width:none; }
+.eg-history-text p{ font-size:1.05rem; color:var(--eg-ink-soft); margin-bottom:16px; }
+.eg-history-text p:last-child{ margin-bottom:0; }
+ 
+/* ---------- POSITIONALITY — dark, text-heavy, with interactive map ---------- */
+.eg-position{
+  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  border-top:1px solid #2B3830;
+  border-bottom:1px solid #2B3830;
+}
+.eg-position-grid{
+  display:grid; grid-template-columns:1fr; gap:40px; align-items:start;
+}
+@media(min-width:800px){
+  .eg-position-grid{ grid-template-columns: 1.1fr 0.9fr; gap:56px; }
+}
+.eg-position-text .eg-eyebrow{ margin-bottom:14px; color:#8FD39D; }
+.eg-position-text .eg-eyebrow::before{ background:#8FD39D; }
+.eg-position-text h2{ font-size:clamp(1.8rem,3vw,2.3rem); margin-bottom:20px; color:#F3F5EE !important; text-decoration:none !important; }
+.eg-position-text p{ font-size:1.05rem; color:#D3DBD1; margin-bottom:18px; }
+.eg-position-text p:last-child{ margin-bottom:0; }
+.eg-position-map{
+  border:1px solid #2B3830;
+  border-radius:14px;
+  overflow:hidden;
+  position:sticky; top:110px;
+}
+.eg-position-map img{ width:100%; height:100%; min-height:320px; object-fit:cover; display:block; }
+/* Interactive (Leaflet) map variant — swap in place of the <img> */
+.eg-position-map-interactive{
+  width:100%;
+  height:380px;
+  min-height:320px;
+  background:#1E2A24; /* shows while map tiles load */
+}
+.eg-position-map-caption{
+  font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:#B7C2B6;
+  padding:12px 16px; background:#16201B; margin:0;
+}
+@media(max-width:799px){ .eg-position-map{ position:static; } }
+ 
+/* ---------- HOW WE WORK — colorful vertical timeline, on a photo background ---------- */
+.eg-timeline{
+  position: relative;
+  background-color: var(--eg-paper-deep); /* fallback if the image fails to load */
+  background-image:
+    linear-gradient(rgba(238,240,230,0.1), rgba(238,240,230,0.1)),
+    url('images/habitat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.eg-timeline-track{
+  position:relative;
+  max-width:820px; margin:44px auto 0;
+  padding-left:48px;
+}
+.eg-timeline-track::before{
+  content:''; position:absolute; left:15px; top:6px; bottom:6px; width:2px;
+  background: linear-gradient(180deg, var(--eg-canopy), var(--eg-ochre), var(--eg-teal), var(--eg-plum), var(--eg-rust));
+}
+.eg-timeline-step{ position:relative; padding-bottom:42px; }
+.eg-timeline-step:last-child{ padding-bottom:0; }
+.eg-timeline-dot{
+  position:absolute; left:-48px; top:2px;
+  width:34px; height:34px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:#fff; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:0.85rem;
+  box-shadow:0 0 0 6px var(--eg-paper);
+}
+.eg-timeline-step.eg-tl-1 .eg-timeline-dot{ background:var(--eg-canopy); }
+.eg-timeline-step.eg-tl-2 .eg-timeline-dot{ background:var(--eg-ochre); }
+.eg-timeline-step.eg-tl-3 .eg-timeline-dot{ background:var(--eg-teal); }
+.eg-timeline-step.eg-tl-4 .eg-timeline-dot{ background:var(--eg-plum); }
+.eg-timeline-step.eg-tl-5 .eg-timeline-dot{ background:var(--eg-rust); }
+.eg-timeline-step h3{ font-size:1.2rem; margin-bottom:8px; }
+.eg-timeline-step.eg-tl-1 h3{ color:var(--eg-canopy); }
+.eg-timeline-step.eg-tl-2 h3{ color:var(--eg-ochre); }
+.eg-timeline-step.eg-tl-3 h3{ color:var(--eg-teal); }
+.eg-timeline-step.eg-tl-4 h3{ color:var(--eg-plum); }
+.eg-timeline-step.eg-tl-5 h3{ color:var(--eg-rust); }
+.eg-timeline-step p{ color:var(--eg-ink-soft); margin:0; font-size:0.97rem; max-width:56ch; }
+ 
+/* ---------- CORE VALUES — colorful icon-led list ---------- */
+.eg-values{ background:var(--eg-paper-deep); border-top:1px solid var(--eg-line); border-bottom:1px solid var(--eg-line); }
+.eg-values-list{ display:grid; grid-template-columns:1fr; gap:28px; margin-top:36px; }
+@media(min-width:700px){ .eg-values-list{ grid-template-columns:repeat(2,1fr); } }
+.eg-value-row{ display:flex; gap:18px; align-items:flex-start; }
+.eg-value-icon{
+  flex:0 0 auto; width:54px; height:54px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  color:#fff; font-size:1.4rem;
+}
+.eg-value-row.eg-v-1 .eg-value-icon{ background:var(--eg-canopy); }
+.eg-value-row.eg-v-2 .eg-value-icon{ background:var(--eg-ochre); }
+.eg-value-row.eg-v-3 .eg-value-icon{ background:var(--eg-teal); }
+.eg-value-row.eg-v-4 .eg-value-icon{ background:var(--eg-plum); }
+.eg-value-row.eg-v-5 .eg-value-icon{ background:var(--eg-rust); }
+.eg-value-copy h3{ font-size:1.12rem; margin-bottom:6px; }
+.eg-value-copy p{ color:var(--eg-ink-soft); font-size:0.93rem; margin:0; }
+ 
+/* ---------- FOUNDERS — dark cards ---------- */
+.eg-founders{ background: linear-gradient(180deg, #0E1512 0%, #121B17 100%); }
+.eg-founders .eg-sec-head .eg-eyebrow{ color:#8FD39D; }
+.eg-founders .eg-sec-head .eg-eyebrow::before{ background:#8FD39D; }
+.eg-founders .eg-sec-head h2{ color:#F3F5EE !important; }
+.eg-founder-grid{ display:grid; grid-template-columns:1fr; gap:26px; margin-top:36px; }
+@media(min-width:640px){ .eg-founder-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(min-width:1000px){ .eg-founder-grid{ grid-template-columns:repeat(3,1fr); } }
+.eg-founder-card{
+  background:#16201B; border:1px solid #2B3830; border-radius:14px;
+  overflow:hidden; text-align:center; padding-bottom:26px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.eg-founder-card:hover{ transform:translateY(-4px); box-shadow:0 14px 30px rgba(0,0,0,0.35); }
+.eg-founder-photo{ width:100%; aspect-ratio:4/3; overflow:hidden; background:#1E2A24; }
+.eg-founder-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+.eg-founder-card h3{ color:#F3F5EE !important; font-size:1.15rem; margin:20px 0 4px; }
+.eg-founder-role{
+  color:#8FD39D; font-family:'IBM Plex Mono',monospace; font-size:0.75rem;
+  text-transform:uppercase; letter-spacing:0.06em; display:block; margin-bottom:12px;
+}
+.eg-founder-expertise{ color:#B7C2B6; font-size:0.88rem; padding:0 22px; margin-bottom:18px; display:block; }
+.eg-founder-social{ display:flex; justify-content:center; gap:16px; }
+.eg-founder-social a{ color:#8FD39D; font-size:1.15rem; transition:color .2s; }
+.eg-founder-social a:hover{ color:#F3F5EE; }
+ 
+/* ================================================================
+   END ABOUT PAGE
+   ================================================================ */
+   
+
+/* ================================================================
+   CONTACT PAGE — invitation copy + Formspree form
+   ================================================================ */
+
+/* ---------- INVITE — centered slogan/collaboration message ---------- */
+.eg-invite{
+  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  border-top:1px solid #2B3830;
+  border-bottom:1px solid #2B3830;
+}
+.eg-invite-copy{ max-width:820px; margin:0 auto; text-align:center; }
+.eg-invite-copy .eg-eyebrow{ justify-content:center; color:#8FD39D; }
+.eg-invite-copy .eg-eyebrow::before{ background:#8FD39D; }
+.eg-invite-copy h2{ font-size:clamp(1.9rem,3.4vw,2.7rem); margin-bottom:20px; color:#F3F5EE !important; text-decoration:none !important; }
+.eg-invite-copy p{ font-size:1.15rem; color:#D3DBD1; line-height:1.6; }
+
+/* ---------- CONTACT FORM ---------- */
+.eg-contact-form{
+  position: relative;
+  background-color: #0E1512;
+  background-image:
+    linear-gradient(rgba(14,21,18,0.6), rgba(14,21,18,0.6)),
+    url('images/contact-banner-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top:1px solid #2B3830;
+  border-bottom:1px solid #2B3830;
+}
+.eg-contact-form .eg-sec-head .eg-eyebrow{ color:#8FD39D; }
+.eg-contact-form .eg-sec-head .eg-eyebrow::before{ background:#8FD39D; }
+.eg-contact-form .eg-sec-head h2{ color:#F3F5EE !important; text-decoration:none !important; }
+.eg-contact-form-grid{ display:grid; grid-template-columns:1fr; gap:44px; align-items:start; }
+@media(min-width:860px){ .eg-contact-form-grid{ grid-template-columns: 1.2fr 0.8fr; } }
+
+.eg-contact-form-info .eg-eyebrow{ margin-bottom:14px; color:#8FD39D; }
+.eg-contact-form-info .eg-eyebrow::before{ background:#8FD39D; }
+.eg-contact-form-info h2{ font-size:clamp(1.6rem,2.6vw,2rem); margin-bottom:22px; max-width:20ch; color:#F3F5EE !important; text-decoration:none !important; }
+.eg-contact-form-info .eg-mono-label{ margin-top:18px; color:#B7C2B6; }
+.eg-contact-form-info .eg-mono-label:first-of-type{ margin-top:0; }
+.eg-contact-form-info .eg-email{ color:#F3F5EE; }
+.eg-contact-form-info .eg-email-sub{ color:#D3DBD1; }
+
+.eg-contact-form-card{
+  background:#ffffff;
+  border:1px solid var(--eg-line);
+  border-radius:14px;
+  padding: clamp(28px, 4vw, 40px);
+  box-shadow:0 16px 40px rgba(27,33,29,0.08);
+}
+.eg-contact-form-card .form-label{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.75rem;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--eg-ink-soft);
+  margin-bottom:6px;
+  display:block;
+}
+.eg-contact-form-card .custom-input{
+  width:100%;
+}
+.eg-contact-form-card .custom-input:focus{
+  border-color:var(--eg-canopy);
+  box-shadow:0 0 0 0.2rem rgba(46,75,50,0.15);
+  outline:none;
+}
+.eg-contact-form-card .eg-form-row{ margin-bottom:20px; }
+.eg-contact-form-card .eg-form-hint{
+  font-size:0.78rem; color:var(--eg-ink-soft); font-weight:400; text-transform:none;
+  letter-spacing:0; margin-left:4px;
+}
+.eg-contact-form-card .g-recaptcha{ margin:4px 0 22px; }
+.eg-contact-form-card .eg-btn-solid{
+  width:100%;
+  text-align:center;
+  border:none;
+  cursor:pointer;
+  font-size:0.85rem;
+}
+
+/* ================================================================
+   END CONTACT PAGE
+   ================================================================ */
+
+
+/* ================================================================
+   PROJECTS PAGE — dedicated styles (previously reused .eg-history /
+   .eg-founders from the About page; this page now has its own set)
+   ================================================================ */
+
+/* ---------- STUDY-AREA MAP + LEGEND ---------- */
+.eg-proj-map-section{ background:var(--eg-paper); }
+.eg-proj-map-grid{
+  display:grid; grid-template-columns:1fr; gap:40px; align-items:start;
+}
+@media(min-width:900px){
+  .eg-proj-map-grid{ grid-template-columns: 1.1fr 0.9fr; gap:50px; }
+}
+
+.eg-proj-map{
+  border:1px solid var(--eg-line);
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 14px 34px rgba(27,33,29,0.10);
+}
+.eg-proj-map .leaflet-container{ width:100%; height:460px; }
+
+.eg-proj-map-text .eg-eyebrow{ margin-bottom:14px; }
+.eg-proj-map-text h2{ font-size:clamp(1.7rem,3vw,2.2rem); margin-bottom:16px; }
+.eg-proj-map-text p{ color:var(--eg-ink-soft); font-size:1rem; margin-bottom:22px; }
+
+.eg-proj-legend{ display:flex; flex-direction:column; gap:16px; margin-top:6px; }
+.eg-proj-legend-item{ display:flex; align-items:flex-start; gap:14px; }
+.eg-proj-legend-dot{
+  flex:0 0 auto;
+  width:18px; height:18px;
+  margin-top:3px;
+  border-radius:50%;
+  box-shadow:0 0 0 3px rgba(27,33,29,0.05);
+}
+.eg-proj-legend-copy strong{
+  display:block; color:var(--eg-ink); font-family:'Space Grotesk',sans-serif;
+  font-size:0.95rem; margin-bottom:2px;
+}
+.eg-proj-legend-copy span{ color:var(--eg-ink-soft); font-size:0.85rem; }
+
+/* ---------- CASE STUDIES — one unified section, grid fills however many cards exist ---------- */
+.eg-proj-cases{
+  background: linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+}
+.eg-proj-cases .eg-sec-head .eg-eyebrow{ color:#8FD39D; }
+.eg-proj-cases .eg-sec-head .eg-eyebrow::before{ background:#8FD39D; }
+.eg-proj-cases .eg-sec-head h2{ color:#F3F5EE !important; }
+.eg-proj-cases .eg-sec-head p{ color:#B7C2B6; }
+
+/* auto-fit stretches cards to fill the row whether there are 2, 3, or 6 of
+   them — no more lopsided rows when a section doesn't have enough cards
+   to fill a fixed column count. */
+.eg-proj-case-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap:26px;
+  margin-top:36px;
+}
+.eg-proj-case-card{
+  background:#16201B;
+  border:1px solid #2B3830;
+  border-radius:14px;
+  overflow:hidden;
+  text-align:center;
+  padding-bottom:26px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.eg-proj-case-card:hover{ transform:translateY(-4px); box-shadow:0 14px 30px rgba(0,0,0,0.35); }
+
+.eg-proj-case-photo{ position:relative; width:100%; aspect-ratio:4/3; overflow:hidden; background:#1E2A24; }
+.eg-proj-case-photo p{ margin:0; height:100%; }
+.eg-proj-case-photo img{
+  position:absolute; inset:0;
+  width:100%; height:100%; object-fit:cover; display:block;
+}
+
+.eg-proj-case-tag{
+  display:inline-block;
+  margin:18px 22px 0;
+  padding:4px 12px;
+  border:1px solid #8FD39D;
+  border-radius:20px;
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.68rem;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:#8FD39D;
+}
+
+.eg-proj-case-card h3{ color:#F3F5EE !important; font-size:1.1rem; margin:14px 22px 8px; line-height:1.3; }
+.eg-proj-case-desc{ color:#B7C2B6; font-size:0.9rem; padding:0 22px; margin-bottom:20px; display:block; }
+
+.eg-proj-case-cta{ margin-top:4px; }
+.eg-proj-case-cta .eg-btn-outline{ color:#8FD39D; border-color:#8FD39D; }
+.eg-proj-case-cta .eg-btn-outline:hover{ background:#8FD39D; color:#0E1512; }
+
+/* ================================================================
+   END PROJECTS PAGE
+   ================================================================ */

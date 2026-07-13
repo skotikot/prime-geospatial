@@ -5,7 +5,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/contact-hero-bg.jpg');"}
+:::: {#hero .eg-hero .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/nrkRiv.jpg');"}
 ::: eg-wrap
 
 
