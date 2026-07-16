@@ -262,7 +262,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 [Co-Founder]{.eg-founder-role}
 
-[Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
+[Geospatial scientist and sustainability practitioner driving transformative impact by linking land‑change dynamics, resource management, and livelihood resilience.]{.eg-founder-expertise}
 
 ::: eg-founder-social
 [<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}

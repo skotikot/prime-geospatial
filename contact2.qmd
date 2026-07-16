@@ -8,7 +8,7 @@ page-layout: custom
 ::: eg-wrap
 
 
-# Let's transform landscapes together.
+## Let's transform landscapes together.
 
 [Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on.]{.eg-lede}
 :::

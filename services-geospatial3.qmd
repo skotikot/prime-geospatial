@@ -102,9 +102,8 @@ Our approaches are precision-engineered for spatial planning, regulatory complia
 
 [County governments]{.eg-chip} [Land-use planners]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
-::: {.eg-layer-coord}
-00°49'S 35°42'E\
-Illustrative anchor: Mau Forest Complex
+::: eg-proj-case-cta
+[See related work](land-use-modeling.qmd){.eg-btn .eg-btn-outline}
 :::
 :::
 :::
