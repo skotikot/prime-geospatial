@@ -8,17 +8,9 @@ page-layout: custom
 ::: eg-wrap
 
 
-# Let's transform landscapes together.
+# Let's transform landscapes together
 
-[Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on.]{.eg-lede}
-
-
-::: {.eg-lede .eg-lede-cascade}
-Whether you're protecting a forest,<br>
-<span class="eg-cascade-l2">verifying carbon,</span><br>
-<span class="eg-cascade-l3">or planning for what comes next,</span><br>
-<span class="eg-cascade-l4">We'd love to hear what you're working on.</span>
-:::
+## Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on
 
 :::
 ::::
@@ -30,7 +22,7 @@ Whether you're protecting a forest,<br>
 ::: eg-invite-copy
 [Get in touch]{.eg-eyebrow}
 
-### Let's talk about what it would take to get you decision-ready intelligence you can act on.
+## Let's talk about what it would take to get you decision-ready intelligence you can act on.
 
 :::
 :::::
@@ -45,7 +37,6 @@ Whether you're protecting a forest,<br>
 
 ## Send us a brief
 
-Let’s talk about what it would take to get you decision-ready intelligence you can act on.
 
 :::
 
