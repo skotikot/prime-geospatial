@@ -1771,6 +1771,14 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   overflow:hidden;
   position:sticky; top:110px;
 }
+
+.eg-position-graphic{
+  border:1px solid #2B3830;
+  border-radius:14px;
+  overflow:hidden;
+  position:sticky; top:110px;
+}
+.eg-position-graphic img{ width:100%; height:100%; min-height:320px; object-fit:contain; display:block; }
 .eg-position-map img{ width:100%; height:100%; min-height:320px; object-fit:cover; display:block; }
 /* Interactive (Leaflet) map variant — swap in place of the <img> */
 .eg-position-map-interactive{
@@ -1784,6 +1792,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   padding:12px 16px; background:#16201B; margin:0;
 }
 @media(max-width:799px){ .eg-position-map{ position:static; } }
+@media(max-width:799px){ .eg-position-graphic{ position:static; } }
  
 /* ---------- HOW WE WORK — colorful vertical timeline, on a photo background ---------- */
 .eg-timeline{
@@ -1999,6 +2008,14 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
 @media(min-width:900px){
   .eg-proj-map-grid{ grid-template-columns: 1.1fr 0.9fr; gap:50px; }
+}
+
+/* On phones (single-column grid) show the text before the map — the
+   markup order is map-then-text (needed for the desktop 2-col layout),
+   so we flip the visual order back below the 900px breakpoint. */
+@media(max-width:899px){
+  .eg-proj-map{ order: 2; }
+  .eg-proj-map-text{ order: 1; }
 }
  
 .eg-proj-map{

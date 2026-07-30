@@ -67,36 +67,7 @@ While our methodology is global in its scientific rigor, our focus is grounded i
 
 
 ::: eg-position-map
-```{r}
-#| label: prime-geospatial-map
-#| echo: false
-#| message: false
-#| warning: false
-
-library(leaflet)
-
-# Define your custom color palette (using your brand variables)
-# Replace these hex codes with your CSS variable values if needed
-brand_color <- "#6FCF87" 
-
-# Create the map
-leaflet(height = 500) %>%
-  # Use CartoDB Positron for a clean, scientific, "data-first" look
-  addProviderTiles(providers$CartoDB.Positron) %>%
-  
-  # Center on your primary region (e.g., East Africa)
-  setView(lng = 37.0, lat = -1.0, zoom = 6) %>%
-  
-  # Add a custom marker/circle with branding
-  addCircleMarkers(
-    lng = 36.8219, lat = -1.2921,
-    color = brand_color,
-    fillOpacity = 0.8,
-    radius = 8,
-    stroke = FALSE,
-  )
-
-```
+![](images/positionality_graphic.png)
 :::
 
 ::::
