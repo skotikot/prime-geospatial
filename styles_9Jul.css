@@ -972,6 +972,15 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-hero-tint-dark .eg-btn-outline{ color:#F3F5EE; border-color:#F3F5EE; }
 .eg-hero-tint-dark .eg-btn-outline:hover{ background:#F3F5EE; color:#0E1512; }
 
+
+/* ---------- cascading / "staircase" lede paragraph (contact hero) ---------- */
+.eg-lede-cascade{ text-align:left; max-width:560px; margin-left:auto; margin-right:auto; }
+.eg-lede-cascade span{ display:block; margin-top:8px; }
+.eg-lede-cascade .eg-cascade-l2{ margin-left:16%; }
+.eg-lede-cascade .eg-cascade-l3{ margin-left:30%; }
+.eg-lede-cascade .eg-cascade-l4{ margin-left:42%; }
+
+
 .eg-eyebrow{
   font-family:'IBM Plex Mono', monospace;
   font-size:0.75rem; letter-spacing:0.12em; color:var(--eg-canopy);
@@ -1773,7 +1782,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 }
 
 .eg-position-graphic{
-  border:1px solid #2B3830;
+  border:0px solid #2B3830;
   border-radius:14px;
   overflow:hidden;
   position:sticky; top:110px;
