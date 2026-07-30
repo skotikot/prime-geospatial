@@ -64,15 +64,15 @@ Whether you are developing a new project or vetting a portfolio, our rigorous ve
 [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}
 
 ::: {.eg-layer-coord}
-02°10'S 38°04'E\
-Illustrative anchor: Tsavo–Kasigau region
+[01°06'S 35°51'E\
+Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
 
 :::
 :::
 :::
 
 ::: {.eg-layer-image}
-![](images/DataCleaning.png)
+![](images/services_mrv.jpg)
 :::
 :::
 :::
@@ -102,8 +102,10 @@ Our approaches are precision-engineered for spatial planning, regulatory complia
 
 [County governments]{.eg-chip} [Land-use planners]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
-::: eg-proj-case-cta
-[See related work](land-use-modeling.qmd){.eg-btn .eg-btn-outline}
+::: {.eg-layer-coord}
+[01°06'S 35°51'E\
+Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
+
 :::
 :::
 :::
