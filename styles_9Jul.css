@@ -938,6 +938,8 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   max-width:none;
   margin-bottom:22px;
   text-decoration:none !important;
+  border-bottom: none;      /* add this */
+  padding-bottom: 0;        /* and this */
 }
 
 /* ---------- HERO — dark tint variant (light text, for dark/moody photos) ----------

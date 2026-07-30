@@ -45,7 +45,7 @@ The same approach lets us test alternative futures. Run the model forward under 
 ::::: eg-wrap
 
 <figure style="margin:0;">
-<img src="images/land-use-scenarios.png" alt="Simulated land cover maps under three governance scenarios" style="width:100%;border:1px solid var(--eg-line);display:block;">
+<img src="images/nrkWht.jpg" alt="Simulated land cover maps under three governance scenarios" style="width:100%;border:1px solid var(--eg-line);display:block;">
 <figcaption class="eg-photo-caption" style="margin-top:14px;">
 Simulated land cover under three governance scenarios for a landscape in southern Kenya. Comparing a current-policy baseline against group-ranch and privatized tenure shows how a single policy choice reshapes forest, rangeland, and cropland extent, years before it happens on the ground.
 </figcaption>

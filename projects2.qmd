@@ -150,7 +150,7 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-proj-case-desc}
 
 ::: eg-proj-case-cta
-[Learn more](projects_LULC.qmd#modeling_Nrk){.eg-btn .eg-btn-outline}
+[Learn more](land-use-modeling.qmd){.eg-btn .eg-btn-outline}
 :::
 :::::
 
