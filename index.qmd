@@ -65,7 +65,7 @@ From project design and baseline assessments to monitoring, verification, and im
 
 ## Five layers of analysis. One landscape.
 
-From carbon verification to capacity building — each layer stands alone, or stacks into a full landscape assessment
+From carbon verification to capacity building, each layer stands alone, or stacks into a full landscape assessment
 :::
 
 ::::::: eg-teaser-grid

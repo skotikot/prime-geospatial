@@ -146,12 +146,21 @@ padding: 0;          /* Removes default padding that might cause offsets */
 .navbar-brand img {
   height: 80px;          /* Increase until the logo is no longer clipped */
   max-height: 100px !important;
+  max-width: 100%;       /* NEW — safety net: never exceed available space */
   width: auto;
   margin-right: 15px;
   object-fit: contain;   /* Prevents clipping inside the box */
   padding: 0px 8px;        /* Adds breathing room above/below */
 }
 
+/* NEW — scale the logo down on phones so it fits next to the nav toggle */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    height: 40px;
+    max-height: 44px !important;
+    padding: 0;
+  }
+}
 
 .navbar .navbar-nav .nav-link {
 font-family: 'Roboto', sans-serif !important;
