@@ -111,7 +111,7 @@ Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
 :::
 
 ::: {.eg-layer-image}
-![Aerial view of forest edge and farmland near the Mau Forest Complex](images/DataCleaning.png)
+![Aerial view of forest edge and farmland near the Mau Forest Complex](images/landuse_web_1200.webp)
 :::
 :::
 :::
