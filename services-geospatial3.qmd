@@ -111,7 +111,7 @@ Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
 :::
 
 ::: {.eg-layer-image}
-![Aerial view of forest edge and farmland near the Mau Forest Complex](images/landuse_web_1200.webp)
+![Aerial view of forest edge and farmland near the Mau Forest Complex](images/landuse_webp.webp)
 :::
 :::
 :::
@@ -147,8 +147,8 @@ Our Core Focus Areas:
 [Wildlife conservancies]{.eg-chip} [Park authorities]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
 ::: {.eg-layer-coord}
-00°02'N 37°33'E\
-Illustrative anchor: Northern Rangelands
+[00°02'N 37°33'E\
+Illustrative anchor: Northern Rangelands](land-use-modeling.qmd)
 :::
 :::
 :::
@@ -190,8 +190,8 @@ Our specialized assessments include:
 [Research consortia]{.eg-chip} [Bilateral donors]{.eg-chip} [Conservancy associations]{.eg-chip}
 
 ::: {.eg-layer-coord}
-03°04'S 37°21'E\
-Illustrative anchor: Kilimanjaro socio-ecological zone
+[03°04'S 37°21'E\
+Illustrative anchor: Kilimanjaro socio-ecological zone](land-use-modeling.qmd)
 :::
 :::
 :::
@@ -225,8 +225,8 @@ We provide the analytical heavy lifting, from advanced statistical modeling to c
 [Conservation NGOs and non-Profits]{.eg-chip} [Government environmental agencies]{.eg-chip} [Carbon and biodiversity project developers]{.eg-chip}
 
 ::: {.eg-layer-coord}
-02°17'N 37°59'E\
-Illustrative anchor: Advanced GIS for conservation practitioners
+[02°17'N 37°59'E\
+Illustrative anchor: Advanced GIS for conservation practitioners](land-use-modeling.qmd)
 :::
 :::
 :::
