@@ -1092,29 +1092,24 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 
 .eg-layer-coord a{
   display:block;
-  color:var(--eg-ink-soft);
+  color:var(--eg-canopy);
+  background:var(--eg-paper-deep);
   text-decoration:none;
   padding:8px 10px;
-  border:1px solid transparent;
+  border:1px solid var(--eg-line);
   border-radius:6px;
   cursor:pointer;
-  transition:background .2s ease, border-color .2s ease, color .2s ease;
+  transition:background .2s ease, border-color .2s ease, color .2s ease, box-shadow .2s ease;
 }
 .eg-layer-coord a::after{
   content:" →";
-  opacity:0;
-  transition:opacity .2s ease;
 }
 .eg-layer-coord a:hover,
 .eg-layer-coord a:focus-visible{
-  background:var(--eg-paper-deep);
-  border-color:var(--eg-line);
-  color:var(--eg-canopy);
+  background:#DCE3D9;
+  border-color:var(--eg-canopy);
+  box-shadow:0 2px 8px rgba(46,75,50,0.18);
   outline:none;
-}
-.eg-layer-coord a:hover::after,
-.eg-layer-coord a:focus-visible::after{
-  opacity:1;
 }
 
 /* ---------- APPROACH ---------- */
