@@ -144,8 +144,8 @@ padding: 0;          /* Removes default padding that might cause offsets */
 }
 
 .navbar-brand img {
-  height: 80px;          /* Increase until the logo is no longer clipped */
-  max-height: 100px !important;
+  height: 64px;          /* Increase until the logo is no longer clipped */
+  max-height: 64px !important;
   max-width: 100%;       /* NEW — safety net: never exceed available space */
   width: auto;
   margin-right: 15px;
