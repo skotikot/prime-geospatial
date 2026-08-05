@@ -52,9 +52,16 @@ Each service reads like a layer in a GIS project — independently useful, and s
 [High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-layer-one-liner .eg-l1}
 
 ::: {.eg-layer-desc}
-We provide independent, satellite-grounded measurement-reporting-verification (MRV) pipelines designed to meet the strictest registry standards. By integrating precise biomass estimation, automated land-cover change detection, and longitudinal monitoring, we create a transparent data trail that transforms project performance into reliable, investable assets.
+We provide independent, satellite-grounded measurement-reporting-verification (MRV) pipelines designed to meet the strictest registry standards. By integrating precise biomass estimation, biodiversity co-benefit monitoring, automated land-cover change detection, and longitudinal monitoring, we create a transparent data trail that transforms project performance into reliable, investable assets.
 
 Whether you are developing a new project or vetting a portfolio, our rigorous verification ensures your credits withstand third-party scrutiny and satisfy the most demanding due diligence.
+
+Our MRV capabilities include:
+
+- Biomass & carbon stock quantification (satellite + spaceborne lidar fusion)
+- Biodiversity co-benefit monitoring (spectral & structural diversity indices, aligned with CCB/Gold Standard safeguards)
+- Land-cover change detection & longitudinal monitoring
+- Registry-ready reporting & third-party verification support
 
 :::
 
