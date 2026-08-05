@@ -1,0 +1,148 @@
+---
+title: ""
+title-block-banner: false
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: none
+---
+
+::: {.eg-page}
+
+::: {.eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
+::: {.eg-wrap}
+
+[Illustrative example]{.eg-eyebrow}
+
+## What a completed engagement could look like
+
+::: {.eg-lede}
+This page shows the shape and depth of deliverable our services produce — the layout, the kind of figures, the kind of metrics — so a prospective client knows what to expect before commissioning real work.
+:::
+
+:::
+:::
+
+::: {#case-study .eg-section}
+::: {.eg-wrap}
+
+::: {.eg-disclaimer}
+This is a representative example, not a completed client engagement
+
+The location, figures, and outputs on this page are illustrative placeholders built to demonstrate methodology and reporting style. They do not represent a real project, a real client, or verified results. Replace this page with an actual case study as soon as one is available.
+:::
+
+::: {.eg-sec-head}
+[Methodology]{.eg-eyebrow}
+
+## How an engagement like this runs
+
+Most engagements — whether an MRV pipeline, a land-use scenario, a connectivity assessment, a resilience study, or a capacity-building programme — follow the same three-phase arc, from initial scoping through to a client-ready deliverable.
+:::
+
+::: {.eg-approach-grid .eg-approach-cards}
+::: {.eg-approach-item}
+::: {.eg-approach-head}
+[01]{.eg-approach-badge}
+
+### Establish the reference case
+:::
+
+We start by building a defensible baseline — satellite-derived land cover, biomass, connectivity, or social-ecological indicators for the area of interest — validated against whatever field data, local knowledge, or ancillary datasets are available. This baseline is the yardstick everything else is measured against.
+:::
+
+::: {.eg-approach-item}
+::: {.eg-approach-head}
+[02]{.eg-approach-badge}
+
+### Track change and model scenarios
+:::
+
+We run the monitoring, modeling, or scenario pipeline appropriate to the service — longitudinal change detection, land-use projections, corridor or resilience modeling — on a cadence that matches the client's decision timeline, not just a one-off snapshot.
+:::
+
+::: {.eg-approach-item}
+::: {.eg-approach-head}
+[03]{.eg-approach-badge}
+
+### Package a client-ready deliverable
+:::
+
+Findings are documented and packaged to withstand scrutiny — whether that means a registry audit, a donor report, a county planning submission, or a workshop handoff — with the methodology reproducible and the assumptions stated plainly.
+:::
+:::
+
+::: {.eg-sec-head}
+[Sample output]{.eg-eyebrow}
+
+## Sample output figure
+:::
+
+::: {.eg-sample-figure}
+[ Illustrative map placeholder — an actual project map goes here ]
+:::
+
+[Figure: example map/output layout. Not real data.]{.eg-fig-caption}
+
+::: {.eg-sec-head}
+[Sample metrics]{.eg-eyebrow}
+
+## Sample summary metrics
+:::
+
+::: {.eg-metrics-grid}
+::: {.eg-metric}
+[—]{.eg-metric-val}
+
+[Area assessed]{.eg-metric-lbl}
+:::
+
+::: {.eg-metric}
+[—]{.eg-metric-val}
+
+[Key indicator estimate]{.eg-metric-lbl}
+:::
+
+::: {.eg-metric}
+[—]{.eg-metric-val}
+
+[Change detected]{.eg-metric-lbl}
+:::
+
+::: {.eg-metric}
+[—]{.eg-metric-val}
+
+[Confidence level]{.eg-metric-lbl}
+:::
+:::
+
+[Values intentionally left blank — a real case study would report actual, verified figures here.]{.eg-sample-tag}
+
+:::
+:::
+
+::: {#contact .eg-section .eg-contact}
+::: {.eg-contact-wrap}
+::: {.eg-contact-left}
+## Have a project like this?
+
+Tell us what you're trying to prove, protect, or plan for. We'll tell you which layers apply.
+:::
+
+::: {.eg-contact-box}
+[EMAIL]{.eg-mono-label}
+
+[hello@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+:::
+:::
+:::
+
+
+:::
