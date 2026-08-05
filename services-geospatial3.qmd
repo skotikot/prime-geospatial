@@ -36,9 +36,9 @@ We bridge the gap between ecological claims and verifiable reality. Using satell
 Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.
 :::
 
-::: {.eg-layer-stack}
+::: {.eg-layer-stack .eg-dark-panel}
 
-::: {.eg-layer}
+::: {.eg-layer .eg-l1}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l1}
 
@@ -52,16 +52,9 @@ Each service reads like a layer in a GIS project — independently useful, and s
 [High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-layer-one-liner .eg-l1}
 
 ::: {.eg-layer-desc}
-We provide independent, satellite-grounded measurement-reporting-verification (MRV) pipelines designed to meet the strictest registry standards. By integrating precise biomass estimation, biodiversity co-benefit monitoring, automated land-cover change detection, and longitudinal monitoring, we create a transparent data trail that transforms project performance into reliable, investable assets.
+We provide independent, satellite-grounded measurement-reporting-verification (MRV) pipelines designed to meet the strictest registry standards. By integrating precise biomass estimation, automated land-cover change detection, and longitudinal monitoring, we create a transparent data trail that transforms project performance into reliable, investable assets.
 
 Whether you are developing a new project or vetting a portfolio, our rigorous verification ensures your credits withstand third-party scrutiny and satisfy the most demanding due diligence.
-
-Our MRV capabilities include:
-
-- Biomass & carbon stock quantification (satellite + spaceborne lidar fusion)
-- Biodiversity co-benefit monitoring (spectral & structural diversity indices, aligned with CCB/Gold Standard safeguards)
-- Land-cover change detection & longitudinal monitoring
-- Registry-ready reporting & third-party verification support
 
 :::
 
@@ -70,9 +63,9 @@ Our MRV capabilities include:
 
 [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}
 
-::: {.eg-layer-coord}
+::: {.eg-layer-coord .eg-l1}
 [01°06'S 35°51'E\
-Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
+Illustrative anchor: Tsavo–Kasigau region](illustrative-case-study.qmd)
 
 :::
 :::
@@ -84,7 +77,7 @@ Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
 :::
 :::
 
-::: {.eg-layer}
+::: {.eg-layer .eg-l2}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l2}
 
@@ -109,9 +102,9 @@ Our approaches are precision-engineered for spatial planning, regulatory complia
 
 [County governments]{.eg-chip} [Land-use planners]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
-::: {.eg-layer-coord}
+::: {.eg-layer-coord .eg-l2}
 [01°06'S 35°51'E\
-Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
+Illustrative anchor: Tsavo–Kasigau region](illustrative-case-study.qmd)
 
 :::
 :::
@@ -123,7 +116,7 @@ Illustrative anchor: Tsavo–Kasigau region](land-use-modeling.qmd)
 :::
 :::
 
-::: {.eg-layer}
+::: {.eg-layer .eg-l3}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l3}
 
@@ -153,9 +146,9 @@ Our Core Focus Areas:
 
 [Wildlife conservancies]{.eg-chip} [Park authorities]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
-::: {.eg-layer-coord}
+::: {.eg-layer-coord .eg-l3}
 [00°02'N 37°33'E\
-Illustrative anchor: Northern Rangelands](land-use-modeling.qmd)
+Illustrative anchor: Northern Rangelands](illustrative-case-study.qmd)
 :::
 :::
 :::
@@ -166,7 +159,7 @@ Illustrative anchor: Northern Rangelands](land-use-modeling.qmd)
 :::
 :::
 
-::: {.eg-layer}
+::: {.eg-layer .eg-l4}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l4}
 
@@ -196,9 +189,9 @@ Our specialized assessments include:
 
 [Research consortia]{.eg-chip} [Bilateral donors]{.eg-chip} [Conservancy associations]{.eg-chip}
 
-::: {.eg-layer-coord}
+::: {.eg-layer-coord .eg-l4}
 [03°04'S 37°21'E\
-Illustrative anchor: Kilimanjaro socio-ecological zone](land-use-modeling.qmd)
+Illustrative anchor: Kilimanjaro socio-ecological zone](illustrative-case-study.qmd)
 :::
 :::
 :::
@@ -209,7 +202,7 @@ Illustrative anchor: Kilimanjaro socio-ecological zone](land-use-modeling.qmd)
 :::
 :::
 
-::: {.eg-layer}
+::: {.eg-layer .eg-l5}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l5}
 
@@ -231,9 +224,9 @@ We provide the analytical heavy lifting, from advanced statistical modeling to c
 
 [Conservation NGOs and non-Profits]{.eg-chip} [Government environmental agencies]{.eg-chip} [Carbon and biodiversity project developers]{.eg-chip}
 
-::: {.eg-layer-coord}
+::: {.eg-layer-coord .eg-l5}
 [02°17'N 37°59'E\
-Illustrative anchor: Advanced GIS for conservation practitioners](land-use-modeling.qmd)
+Illustrative anchor: Advanced GIS for conservation practitioners](illustrative-case-study.qmd)
 :::
 :::
 :::

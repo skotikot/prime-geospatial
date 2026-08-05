@@ -1112,6 +1112,174 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   outline:none;
 }
 
+/* ---------- LAYER STACK — DARK PANEL VARIANT ---------- */
+/* Add .eg-dark-panel to .eg-layer-stack only. Scoped entirely under
+   .eg-dark-panel so the shared .eg-layer / .eg-layer-main h3 /
+   .eg-layer-one-liner classes reused on the home page are untouched. */
+.eg-dark-panel{
+  --eg-canopy-b:#6FCF87;
+  --eg-ochre-b:#E0A75E;
+  --eg-teal-b:#6FB8C9;
+  --eg-plum-b:#B79BC7;
+  --eg-rust-b:#E08668;
+
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(180deg, #0E1512 0%, #121B17 100%);
+  border-top:1px solid #2B3830;
+  border-radius:8px;
+  padding:8px 32px;
+  margin:6px 0 10px;
+}
+.eg-dark-panel::before{
+  content:"";
+  position:absolute; inset:0;
+  background-image:
+    linear-gradient(rgba(140,196,150,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140,196,150,0.025) 1px, transparent 1px);
+  background-size:14px 14px;
+  pointer-events:none;
+}
+.eg-dark-panel > *{ position:relative; z-index:1; }
+
+.eg-dark-panel .eg-layer{ border-bottom-color:#2B3830; position:relative; }
+.eg-dark-panel .eg-layer:last-child{ border-bottom:none; }
+.eg-dark-panel .eg-layer:hover{ background:rgba(255,255,255,0.03); }
+.eg-dark-panel .eg-layer::after{
+  content:"";
+  position:absolute;
+  left:-32px; top:0; bottom:0; width:4px;
+  background:transparent;
+  transition:background .25s ease, box-shadow .25s ease;
+}
+.eg-dark-panel .eg-layer.eg-l1:hover::after{ background:var(--eg-canopy-b); box-shadow:0 0 18px 2px var(--eg-canopy-b); }
+.eg-dark-panel .eg-layer.eg-l2:hover::after{ background:var(--eg-ochre-b); box-shadow:0 0 18px 2px var(--eg-ochre-b); }
+.eg-dark-panel .eg-layer.eg-l3:hover::after{ background:var(--eg-teal-b); box-shadow:0 0 18px 2px var(--eg-teal-b); }
+.eg-dark-panel .eg-layer.eg-l4:hover::after{ background:var(--eg-plum-b); box-shadow:0 0 18px 2px var(--eg-plum-b); }
+.eg-dark-panel .eg-layer.eg-l5:hover::after{ background:var(--eg-rust-b); box-shadow:0 0 18px 2px var(--eg-rust-b); }
+
+.eg-dark-panel .eg-layer-marker > p{ color:#B7C2B6; }
+.eg-dark-panel .eg-layer-toggle{ border-color:rgba(255,255,255,0.35); }
+.eg-dark-panel .eg-layer-index{ color:#7C8A80; }
+
+.eg-dark-panel .eg-layer-main h3{
+  font-size:clamp(1.6rem, 2.8vw, 2rem) !important;
+  color:#F3F5EE !important;
+  margin-bottom:10px;
+}
+.eg-dark-panel .eg-layer-one-liner{
+  font-size:1.3rem;
+  font-weight:500;
+  margin-bottom:14px;
+}
+.eg-dark-panel .eg-layer-one-liner.eg-l1{ color:var(--eg-canopy-b); }
+.eg-dark-panel .eg-layer-one-liner.eg-l2{ color:var(--eg-ochre-b); }
+.eg-dark-panel .eg-layer-one-liner.eg-l3{ color:var(--eg-teal-b); }
+.eg-dark-panel .eg-layer-one-liner.eg-l4{ color:var(--eg-plum-b); }
+.eg-dark-panel .eg-layer-one-liner.eg-l5{ color:var(--eg-rust-b); }
+
+.eg-dark-panel .eg-layer-desc,
+.eg-dark-panel .eg-layer-desc li{ color:#B7C2B6; }
+
+.eg-dark-panel .eg-layer-meta{ color:#7C8A80; border-top-color:#2B3830; }
+.eg-dark-panel .eg-tag-label{ color:#D3DBD1; }
+.eg-dark-panel .eg-chip{ border-color:#2B3830; background:rgba(255,255,255,0.04); color:#B7C2B6; }
+
+.eg-dark-panel .eg-layer-image{ border:none; }
+
+/* Coordinate line becomes a clickable box, tinted per layer, on the
+   .eg-layer-coord itself preserving the existing border-radius:6px
+   convention from the light-mode a{} rule above. */
+.eg-dark-panel .eg-layer-coord{ border-top-color:#2B3830; }
+.eg-dark-panel .eg-layer-coord a{
+  background:rgba(255,255,255,0.02);
+  border-color:#2B3830;
+  border-radius:6px;
+}
+.eg-dark-panel .eg-layer-coord.eg-l1 a{ color:var(--eg-canopy-b); }
+.eg-dark-panel .eg-layer-coord.eg-l1 a:hover,
+.eg-dark-panel .eg-layer-coord.eg-l1 a:focus-visible{
+  background:rgba(111,207,135,0.08); border-color:var(--eg-canopy-b);
+  box-shadow:0 0 16px rgba(111,207,135,0.25); outline:none;
+}
+.eg-dark-panel .eg-layer-coord.eg-l2 a{ color:var(--eg-ochre-b); }
+.eg-dark-panel .eg-layer-coord.eg-l2 a:hover,
+.eg-dark-panel .eg-layer-coord.eg-l2 a:focus-visible{
+  background:rgba(224,167,94,0.08); border-color:var(--eg-ochre-b);
+  box-shadow:0 0 16px rgba(224,167,94,0.25); outline:none;
+}
+.eg-dark-panel .eg-layer-coord.eg-l3 a{ color:var(--eg-teal-b); }
+.eg-dark-panel .eg-layer-coord.eg-l3 a:hover,
+.eg-dark-panel .eg-layer-coord.eg-l3 a:focus-visible{
+  background:rgba(111,184,201,0.08); border-color:var(--eg-teal-b);
+  box-shadow:0 0 16px rgba(111,184,201,0.25); outline:none;
+}
+.eg-dark-panel .eg-layer-coord.eg-l4 a{ color:var(--eg-plum-b); }
+.eg-dark-panel .eg-layer-coord.eg-l4 a:hover,
+.eg-dark-panel .eg-layer-coord.eg-l4 a:focus-visible{
+  background:rgba(183,155,199,0.08); border-color:var(--eg-plum-b);
+  box-shadow:0 0 16px rgba(183,155,199,0.25); outline:none;
+}
+.eg-dark-panel .eg-layer-coord.eg-l5 a{ color:var(--eg-rust-b); }
+.eg-dark-panel .eg-layer-coord.eg-l5 a:hover,
+.eg-dark-panel .eg-layer-coord.eg-l5 a:focus-visible{
+  background:rgba(224,134,104,0.08); border-color:var(--eg-rust-b);
+  box-shadow:0 0 16px rgba(224,134,104,0.25); outline:none;
+}
+
+/* ---------- ILLUSTRATIVE CASE STUDY PAGE ---------- */
+.eg-disclaimer{
+  background:#FBF3E3;
+  border:1px solid #E4C98A;
+  color:#5C4B1F;
+  padding:16px 20px;
+  margin:26px 0 0;
+  font-size:0.92rem;
+  max-width:70ch;
+}
+.eg-disclaimer strong{
+  display:block;
+  margin-bottom:4px;
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.75rem;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+}
+
+.eg-sample-figure{
+  border:1px solid var(--eg-line);
+  background:linear-gradient(135deg,#cfd6c2 0%,#9aa68a 50%,#6f7d61 100%);
+  min-height:260px;
+  display:flex; align-items:center; justify-content:center;
+  font-family:'IBM Plex Mono', monospace; font-size:0.85rem; color:#fff;
+  text-shadow:0 1px 3px rgba(0,0,0,0.4);
+  margin-bottom:10px;
+  text-align:center;
+  padding:20px;
+}
+.eg-fig-caption{
+  font-family:'IBM Plex Mono', monospace; font-size:0.75rem; color:var(--eg-ink-soft);
+}
+
+.eg-metrics-grid{
+  display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:16px;
+}
+@media(min-width:600px){ .eg-metrics-grid{ grid-template-columns:repeat(4,1fr); } }
+.eg-metric{
+  border:1px solid var(--eg-line); padding:16px; text-align:center; background:var(--eg-paper-deep);
+}
+.eg-metric .eg-metric-val{
+  font-family:'Space Grotesk', sans-serif; font-size:1.6rem; font-weight:700; color:var(--eg-canopy);
+}
+.eg-metric .eg-metric-lbl{
+  font-family:'IBM Plex Mono', monospace; font-size:0.68rem; color:var(--eg-ink-soft);
+  text-transform:uppercase; letter-spacing:0.04em; margin-top:4px;
+}
+.eg-sample-tag{
+  font-family:'IBM Plex Mono', monospace; font-size:0.65rem; color:var(--eg-rust);
+  display:block; margin-top:16px;
+}
+
 /* ---------- APPROACH ---------- */
 .eg-approach-grid{ display:grid; grid-template-columns:1fr; gap:36px; border-top:1px solid var(--eg-line); padding-top:40px; }
 @media(min-width:760px){ .eg-approach-grid{ grid-template-columns:repeat(3,1fr); } }
