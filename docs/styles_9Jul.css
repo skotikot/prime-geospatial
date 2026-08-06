@@ -1135,9 +1135,9 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
   content:"";
   position:absolute; inset:0;
   background-image:
-    linear-gradient(rgba(140,196,150,0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(140,196,150,0.06) 1px, transparent 1px);
-  background-size:42px 42px;
+    linear-gradient(rgba(140,196,150,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(140,196,150,0.025) 1px, transparent 1px);
+  background-size:14px 14px;
   pointer-events:none;
 }
 .eg-dark-panel > *{ position:relative; z-index:1; }
@@ -1163,12 +1163,12 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-dark-panel .eg-layer-index{ color:#7C8A80; }
 
 .eg-dark-panel .eg-layer-main h3{
-  font-size:clamp(1.5rem, 2.6vw, 1.9rem);
-  color:#F3F5EE;
+  font-size:clamp(1.6rem, 2.8vw, 2rem) !important;
+  color:#F3F5EE !important;
   margin-bottom:10px;
 }
 .eg-dark-panel .eg-layer-one-liner{
-  font-size:1.1rem;
+  font-size:1.3rem;
   font-weight:500;
   margin-bottom:14px;
 }
@@ -1185,7 +1185,7 @@ text to the light colors, similar to how .eg-hero-dark is already set up elsewhe
 .eg-dark-panel .eg-tag-label{ color:#D3DBD1; }
 .eg-dark-panel .eg-chip{ border-color:#2B3830; background:rgba(255,255,255,0.04); color:#B7C2B6; }
 
-.eg-dark-panel .eg-layer-image{ border-color:#2B3830; }
+.eg-dark-panel .eg-layer-image{ border:none; }
 
 /* Coordinate line becomes a clickable box, tinted per layer, on the
    .eg-layer-coord itself preserving the existing border-radius:6px
