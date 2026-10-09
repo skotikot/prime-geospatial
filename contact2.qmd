@@ -6,27 +6,12 @@ page-layout: custom
 ::::::::::::::::::: eg-page
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/hero-contact.jpg');"}
 ::: eg-wrap
-
-
-# Let's transform landscapes together
+[Get in touch]{.eg-eyebrow}
 
 ## Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on
 
 :::
 ::::
-
-
-
-:::::: {#invite .eg-section .eg-invite}
-::::: eg-wrap
-::: eg-invite-copy
-[Get in touch]{.eg-eyebrow}
-
-## Let's talk about what it would take to get you decision-ready intelligence you can act on.
-
-:::
-:::::
-::::::
 
 
 
@@ -37,7 +22,7 @@ page-layout: custom
 
 ## Send us a brief
 
-
+Let's talk about what it would take to get you decision-ready intelligence you can act on.
 :::
 
 :::: eg-contact-form-grid
