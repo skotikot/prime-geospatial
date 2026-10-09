@@ -1,0 +1,126 @@
+---
+title: ""
+page-layout: custom
+---
+
+<!-- ================================================================
+     CASE-STUDY PAGE TEMPLATE  (not published — Quarto skips files
+     that start with "_")
+
+     To make a case study for a service layer:
+       1. Copy this file, e.g. to  case-study-mrv.qmd
+       2. Replace every [EDIT: ...] with real content; delete unused sections
+       3. Add the new file to the  render:  list in _quarto.yml
+       4. In services-geospatial3.qmd, point that layer's
+          "Explore case study" link at the new file
+     Layer colours: 01 eg-l1 green · 02 eg-l2 ochre · 03 eg-l3 teal ·
+                    04 eg-l4 plum · 05 eg-l5 rust ·
+                    06 eg-l6 slate
+     ================================================================ -->
+
+::::::::::::::::::: eg-page
+
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
+::: eg-wrap
+[Layer 0X — EDIT: service name]{.eg-eyebrow}
+
+# EDIT: Case-study title
+
+[EDIT: One or two sentences on the question the client needed answered and why it mattered.]{.eg-lede}
+
+::: eg-hero-ctas
+[Talk to us about your landscape](contact2.qmd){.eg-btn .eg-btn-solid} [Back to services](services-geospatial3.qmd#services){.eg-btn .eg-btn-outline}
+:::
+:::
+::::
+
+:::::: {#context .eg-section}
+::::: eg-wrap
+
+::: eg-sec-head
+[The challenge]{.eg-eyebrow}
+
+## EDIT: Short headline for the problem
+:::
+
+::: eg-intro-lede
+EDIT: Where, for whom, and what decision depended on the answer.
+:::
+
+:::::
+::::::
+
+:::::: {#approach .eg-section .eg-services}
+::::: eg-wrap
+
+::: eg-sec-head
+[Our approach]{.eg-eyebrow}
+
+## EDIT: How we tackled it
+:::
+
+::::: eg-values-grid
+
+::: eg-value-item
+### EDIT: Data
+EDIT: Imagery, field data, and other sources used.
+:::
+
+::: eg-value-item
+### EDIT: Methods
+EDIT: Models and analysis, in plain language.
+:::
+
+::: eg-value-item
+### EDIT: Validation
+EDIT: How results were checked against reality.
+:::
+
+:::::
+
+:::::
+::::::
+
+:::::: {#results .eg-section}
+::::: eg-wrap
+
+::: eg-sec-head
+[Results]{.eg-eyebrow}
+
+## EDIT: What we found
+:::
+
+::: eg-scenario-figure
+![](images/web/EDIT-figure.png){fig-alt="EDIT: describe the figure" loading="lazy" decoding="async"}
+
+[EDIT: Figure caption.]{.eg-photo-caption}
+:::
+
+:::::
+::::::
+
+:::::: {#contact .eg-section .eg-contact}
+::::: eg-contact-wrap
+
+::: eg-contact-left
+## Have a landscape that needs a closer look?
+
+Tell us what you're trying to prove, protect, or plan for. Let us discuss which layers apply.
+:::
+
+::: eg-contact-box
+[EMAIL]{.eg-mono-label}
+
+[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
+
+[BASED IN]{.eg-mono-label}
+
+[Nairobi, Kenya]{.eg-email-sub}
+
+[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
+:::
+
+:::::
+::::::
+
+:::::::::::::::::::

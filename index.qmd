@@ -43,7 +43,7 @@ From project design and baseline assessments to monitoring, verification, and im
 :::
 
 ::: {.eg-hero-ctas}
-[Learn more about us](about_clod2.qmd){.eg-btn .eg-btn-outline} [Learn more about the team](about_clod2.qmd#founders){.eg-btn .eg-btn-outline}
+[Learn more about us](about_clod2.qmd){.eg-btn .eg-btn-outline} [Learn more about the team](about_clod2.qmd#team){.eg-btn .eg-btn-outline}
 :::
 :::
 
@@ -62,9 +62,9 @@ From project design and baseline assessments to monitoring, verification, and im
 ::: eg-sec-head
 [What we do]{.eg-eyebrow}
 
-## Five layers of analysis. One landscape.
+## Six layers of analysis. One landscape.
 
-From carbon verification to capacity building, each layer stands alone, or stacks into a full landscape assessment
+From carbon verification to data and decision support, each layer stands alone, or stacks into a full landscape assessment
 :::
 
 ::::::: eg-teaser-grid
@@ -159,6 +159,24 @@ From carbon verification to capacity building, each layer stands alone, or stack
 :::
 :::
 
+::: eg-teaser-card
+::: eg-teaser-photo
+![](images/web/service-data.jpg){loading="lazy" decoding="async"}
+:::
+
+::: eg-teaser-icon
+<i class="bi bi-database"></i>
+:::
+
+::: eg-teaser-body
+### Data Services & Decision Support
+
+[Reliable data, ready for analysis and decisions.]{.eg-teaser-desc}
+
+[Learn more](services-geospatial3.qmd#data){.eg-teaser-link}
+:::
+:::
+
 :::::::
 :::::::::
 ::::::::::
@@ -166,45 +184,57 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 
 
-:::: {#social-ecological .eg-section .eg-ses-dark}
-::: eg-wrap
-::: eg-ses-card
+::::::: {#social-ecological .eg-section .eg-ses-dark}
+:::::: eg-wrap
+::::: eg-ses-card
 
 ::: eg-sec-head
 [Our Core Logic]{.eg-eyebrow}
 
 ## Social-ecological integration
 
-[Environmental Problems Don't Exist in Isolation]{.eg-ses-tagline}
+[Environmental problems don't exist in isolation]{.eg-ses-tagline}
 :::
 
-::: eg-ses-intro-box
+::: eg-ses-lede
 At ArdhiLytics, we recognize that environmental challenges are never purely ecological, they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
 
 By fusing spatial analytics, ecological modeling, and community-informed social-ecological systems thinking, we design interventions that are not just environmentally effective, but socially viable, locally supported, and built to endure.
 :::
 
-::: eg-ses-body
-::: eg-ses-image
-![](images/web/SES.png){fig-alt="Diagram linking Ecology, People and Governance"}
+::: eg-ses-figure
+![](images/web/SES.png){fig-alt="Diagram of three linked layers: Ecology (species, habitats, carbon, ecosystem services), People (livelihoods, culture, resource use, local knowledge) and Governance (institutions, policies, land tenure, incentives)"}
 :::
 
-::: eg-ses-points
-We map the intersection where these critical dimensions meet:
+[We map the intersection where these three dimensions meet:]{.eg-ses-dims-intro}
 
-- **Ecology**: We quantify species presence, habitat quality, carbon storage, and critical ecosystem services.
-- **People**: We account for livelihoods, cultural values, resource dependency, and the wealth of local knowledge that shapes landscape use.
-- **Governance**: We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
+:::: eg-ses-dims
+::: {.eg-ses-dim .eg-ses-eco}
+### Ecology
+
+We quantify species presence, habitat quality, carbon storage, and critical ecosystem services.
+:::
+
+::: {.eg-ses-dim .eg-ses-people}
+### People
+
+We account for livelihoods, cultural values, resource dependency, and the wealth of local knowledge that shapes landscape use.
+:::
+
+::: {.eg-ses-dim .eg-ses-gov}
+### Governance
+
+We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
+:::
+::::
 
 ::: eg-ses-cta
 [Why social-ecological integration matters →](about_clod2.qmd#positionality){.eg-btn .eg-btn-solid}
 :::
-:::
-:::
 
-:::
-:::
-::::
+:::::
+::::::
+:::::::
 
 
 
@@ -219,7 +249,7 @@ We map the intersection where these critical dimensions meet:
 :::
 
 ::: eg-impact-lede
-At PrimeGeo, we believe that scientific knowledge creates the greatest impact when it is shared, accessible, and actionable. As part of our commitment to environmental stewardship and community service, we actively support conservation practitioners, local institutions, and the broader public through training, open environmental data, and rapid-response decision support tools.
+At ArdhiLytics, we believe that scientific knowledge creates the greatest impact when it is shared, accessible, and actionable. As part of our commitment to environmental stewardship and community service, we actively support conservation practitioners, local institutions, and the broader public through training, open environmental data, and rapid-response decision support tools.
 :::
 
 ::: eg-impact-grid
@@ -276,13 +306,13 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 ::: eg-contact-box
 [EMAIL]{.eg-mono-label}
 
-[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
-[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+[Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 :::::
 ::::::

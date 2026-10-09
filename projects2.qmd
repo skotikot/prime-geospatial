@@ -190,13 +190,13 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 ::: eg-contact-box
 [EMAIL]{.eg-mono-label}
 
-[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
-[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+[Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 :::::
 ::::::

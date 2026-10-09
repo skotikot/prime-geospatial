@@ -178,6 +178,7 @@ footer.footer .nav-footer-left{  order: 2 !important; }
   --eg-teal: #3D6B78;
   --eg-plum: #7A6584;
   --eg-rust: #A24E3B;
+  --eg-slate: #4F6D8A;   /* layer 06 — data services */
   --eg-mint: #7AE38E;
 
   font-family: "IBM Plex Sans", sans-serif;
@@ -418,6 +419,8 @@ main.content:has(.eg-page),
 
 .eg-layer-toggle.eg-l5{ background-color:var(--eg-rust); }
 
+.eg-layer-toggle.eg-l6{ background-color:var(--eg-slate); }
+
 .eg-layer-index{ font-family:"IBM Plex Mono", monospace; font-size:0.7rem; color:var(--eg-ink-soft); }
 
 .eg-layer-body{ display:grid; grid-template-columns:1fr; gap:14px; }
@@ -440,6 +443,8 @@ main.content:has(.eg-page),
 
 .eg-layer-one-liner.eg-l5{ color:var(--eg-rust); }
 
+.eg-layer-one-liner.eg-l6{ color:var(--eg-slate); }
+
 .eg-layer-desc{ font-size:0.92rem; color:var(--eg-ink-soft); max-width:80ch; }
 
 /*max-width:52ch*/
@@ -449,15 +454,35 @@ main.content:has(.eg-page),
   margin-top:16px; padding-top:16px; border-top:1px dashed var(--eg-line);
 }
 
+/* Layer image: the grid row is as tall as the text column, and the
+   photo fills exactly that box (cropped, never stretched). On phones,
+   where image and text stack, it uses a fixed 16:10 frame instead. */
 .eg-layer-image{
+  position:relative;
   border:1px solid var(--eg-line);
   overflow:hidden;
-  min-height:220px;
+  aspect-ratio:16/10;
+}
+
+@media(min-width:760px){
+  .eg-layer-image{ aspect-ratio:auto; min-height:260px; }
+}
+
+/* Phones: one column. Layer number sits in a row above, photo comes
+   first, then the text. */
+@media(max-width:759px){
+  .eg-layer{ grid-template-columns:1fr; gap:14px 0; }
+  .eg-layer-marker{ display:flex; align-items:center; gap:10px; }
+  .eg-layer-marker > p{ margin:0; }
+  .eg-layer-image{ order:-1; }
+  .eg-dark-panel{ padding:4px 18px; }
 }
 
 .eg-layer-image img{
-  width:100%; height:100%; min-height:220px;
-  object-fit:cover; display:block;
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover; object-position:center;
+  display:block;
 }
 
 .eg-tag-label{ color:var(--eg-ink); font-weight:500; letter-spacing:0.03em; display:block; margin-bottom:8px; }
@@ -505,6 +530,7 @@ main.content:has(.eg-page),
   --eg-teal-b:#6FB8C9;
   --eg-plum-b:#B79BC7;
   --eg-rust-b:#E08668;
+  --eg-slate-b:#8FB3D9;
 
   position:relative;
   overflow:hidden;
@@ -551,6 +577,8 @@ main.content:has(.eg-page),
 
 .eg-dark-panel .eg-layer.eg-l5:hover::after{ background:var(--eg-rust-b); box-shadow:0 0 18px 2px var(--eg-rust-b); }
 
+.eg-dark-panel .eg-layer.eg-l6:hover::after{ background:var(--eg-slate-b); box-shadow:0 0 18px 2px var(--eg-slate-b); }
+
 .eg-dark-panel .eg-layer-marker > p{ color:#B7C2B6; }
 
 .eg-dark-panel .eg-layer-toggle{ border-color:rgba(255,255,255,0.35); }
@@ -578,6 +606,8 @@ main.content:has(.eg-page),
 .eg-dark-panel .eg-layer-one-liner.eg-l4{ color:var(--eg-plum-b); }
 
 .eg-dark-panel .eg-layer-one-liner.eg-l5{ color:var(--eg-rust-b); }
+
+.eg-dark-panel .eg-layer-one-liner.eg-l6{ color:var(--eg-slate-b); }
 
 .eg-dark-panel .eg-layer-desc,
 .eg-dark-panel .eg-layer-desc li{ color:#B7C2B6; }
@@ -636,6 +666,14 @@ main.content:has(.eg-page),
 .eg-dark-panel .eg-layer-coord.eg-l5 a:focus-visible{
   background:rgba(224,134,104,0.08); border-color:var(--eg-rust-b);
   box-shadow:0 0 16px rgba(224,134,104,0.25); outline:none;
+}
+
+.eg-dark-panel .eg-layer-coord.eg-l6 a{ color:var(--eg-slate-b); }
+
+.eg-dark-panel .eg-layer-coord.eg-l6 a:hover,
+.eg-dark-panel .eg-layer-coord.eg-l6 a:focus-visible{
+  background:rgba(143,179,217,0.08); border-color:var(--eg-slate-b);
+  box-shadow:0 0 16px rgba(143,179,217,0.25); outline:none;
 }
 
 /* ---------- ILLUSTRATIVE CASE STUDY PAGE ---------- */
@@ -848,13 +886,11 @@ main.content:has(.eg-page),
   .eg-teaser-grid{ grid-template-columns:repeat(2,1fr); }
 }
 
-@media(min-width:860px){
+@media(min-width:900px){
   .eg-teaser-grid{ grid-template-columns:repeat(3,1fr); }
 }
 
-@media(min-width:1200px){
-  .eg-teaser-grid{ grid-template-columns:repeat(5,1fr); }
-}
+/* six cards: 2 x 3 on tablets and up, so the grid is always even */
 
 /* Card itself is dark; the section/page background it sits on is untouched. */
 
@@ -938,20 +974,23 @@ main.content:has(.eg-page),
 
 /* cycle the palette's five accent colors across the icon badge + photo underline */
 
-.eg-teaser-card:nth-child(5n/**/+1) .eg-teaser-icon,
-.eg-teaser-card:nth-child(5n/**/+1) .eg-teaser-photo::after{ background:var(--eg-canopy); }
+.eg-teaser-card:nth-child(6n + 1) .eg-teaser-icon,
+.eg-teaser-card:nth-child(6n + 1) .eg-teaser-photo::after{ background:var(--eg-canopy); }
 
-.eg-teaser-card:nth-child(5n/**/+2) .eg-teaser-icon,
-.eg-teaser-card:nth-child(5n/**/+2) .eg-teaser-photo::after{ background:var(--eg-ochre); }
+.eg-teaser-card:nth-child(6n + 2) .eg-teaser-icon,
+.eg-teaser-card:nth-child(6n + 2) .eg-teaser-photo::after{ background:var(--eg-ochre); }
 
-.eg-teaser-card:nth-child(5n/**/+3) .eg-teaser-icon,
-.eg-teaser-card:nth-child(5n/**/+3) .eg-teaser-photo::after{ background:var(--eg-teal); }
+.eg-teaser-card:nth-child(6n + 3) .eg-teaser-icon,
+.eg-teaser-card:nth-child(6n + 3) .eg-teaser-photo::after{ background:var(--eg-teal); }
 
-.eg-teaser-card:nth-child(5n/**/+4) .eg-teaser-icon,
-.eg-teaser-card:nth-child(5n/**/+4) .eg-teaser-photo::after{ background:var(--eg-plum); }
+.eg-teaser-card:nth-child(6n + 4) .eg-teaser-icon,
+.eg-teaser-card:nth-child(6n + 4) .eg-teaser-photo::after{ background:var(--eg-plum); }
 
-.eg-teaser-card:nth-child(5n/**/+5) .eg-teaser-icon,
-.eg-teaser-card:nth-child(5n/**/+5) .eg-teaser-photo::after{ background:var(--eg-rust); }
+.eg-teaser-card:nth-child(6n + 5) .eg-teaser-icon,
+.eg-teaser-card:nth-child(6n + 5) .eg-teaser-photo::after{ background:var(--eg-rust); }
+
+.eg-teaser-card:nth-child(6n + 6) .eg-teaser-icon,
+.eg-teaser-card:nth-child(6n + 6) .eg-teaser-photo::after{ background:var(--eg-slate); }
 
 /* ================================================================
    ABOUT PAGE — split photo hero, floating cards, collapsible text
@@ -1119,71 +1158,77 @@ main.content:has(.eg-page),
 
 /* heading block, styled to match the eyebrow/H2 pattern used elsewhere */
 
-.eg-ses-card .eg-sec-head{ margin-bottom: 0; max-width: none; }
+.eg-ses-card .eg-sec-head{ margin-bottom: 0; max-width: none; text-align:center; }
 
 .eg-ses-tagline{
   display:block;
   text-align: center; /* This centers the text horizontally */
   font-family:"Space Grotesk", sans-serif;
   font-style: italic;
-  font-size: 1.8rem;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
   font-weight: 700;
   color: var(--eg-rust);
   margin-top: 10px;
 }
 
-/* intro copy: dark text box, centered inside the light card */
+/* intro copy: centred lede paragraphs */
 
-.eg-ses-intro-box{
-  background: #0E1512;
-  border-radius: 12px;
-  padding: 32px 40px;
-  margin: 30px auto 38px;
-  max-width: 140ch;/*70ch*/
-  box-shadow: 0 14px 34px rgba(0,0,0,0.25);
+.eg-ses-lede{
+  max-width:78ch; margin:24px auto 32px; text-align:center;
 }
 
-.eg-ses-intro-box p{
-  color: #D3DBD1;
-  font-size: 1.05rem;
-  margin-bottom: 14px;
+.eg-ses-lede p{ color:var(--eg-ink-soft); font-size:1.05rem; margin-bottom:14px; }
+
+.eg-ses-lede p:last-child{ margin-bottom:0; }
+
+/* full-width diagram — never cropped, on any screen size */
+
+.eg-ses-figure{
+  max-width:980px; margin:0 auto 28px;
+  background:#FFFFFF; border:1px solid var(--eg-line); border-radius:12px;
+  padding:14px;
 }
 
-.eg-ses-intro-box p:last-child{ margin-bottom:0; }
+.eg-ses-figure img{ width:100%; height:auto; display:block; }
 
-@media(max-width:640px){
-  .eg-ses-intro-box{ padding: 26px 24px; }
+.eg-ses-dims-intro{
+  display:block; text-align:center; color:var(--eg-ink-soft);
+  font-family:"IBM Plex Mono", monospace; font-size:0.8rem;
+  letter-spacing:0.04em; text-transform:uppercase; margin-bottom:18px;
 }
 
-/* image (left) + bullets (right) row below the intro copy */
+/* three cards, colour-matched to the three bands in the diagram above */
 
-.eg-ses-body{
-  display:grid; grid-template-columns:1fr; gap:32px; align-items:center;
-}
+.eg-ses-dims{ display:grid; grid-template-columns:1fr; gap:16px; margin-bottom:30px; }
 
 @media(min-width:760px){
-  .eg-ses-body{ grid-template-columns: 1fr 1fr; gap:48px; }
+  .eg-ses-dims{ grid-template-columns:repeat(3,1fr); gap:20px; }
 }
 
-.eg-ses-image{
-  border: none;
-  border-radius: 12px;
-  overflow: hidden;
+.eg-ses-dim{
+  background:#FFFFFF; border:1px solid var(--eg-line); border-radius:10px;
+  border-top:6px solid var(--eg-ses-band); padding:20px 22px;
 }
 
-.eg-ses-image img{
-  width:100%; height:100%; min-height:280px; object-fit:cover; display:block;
+.eg-ses-dim h3{
+  display:flex; align-items:center; gap:10px;
+  font-size:1.15rem; color:var(--eg-ink); margin:0 0 8px;
 }
 
-.eg-ses-points p{ color: var(--eg-ink-soft); margin-bottom: 14px; }
+.eg-ses-dim h3::before{
+  content:""; width:12px; height:12px; border-radius:50%;
+  background:var(--eg-ses-band); flex:none;
+}
 
-.eg-ses-points ul{ padding-left: 1.15rem; margin:0 0 24px; }
+.eg-ses-dim p{ color:var(--eg-ink-soft); font-size:0.95rem; margin:0; }
 
-.eg-ses-points li{ margin-bottom:10px; color: var(--eg-ink); }
+.eg-ses-eco{    --eg-ses-band:#9BC172; }   /* green band in SES.png */
+.eg-ses-people{ --eg-ses-band:#6BABCE; }   /* blue band */
+.eg-ses-gov{    --eg-ses-band:#F2C766; }   /* yellow band */
 
 /* CTA button, now sitting below the bullet list */
 
-.eg-ses-cta{ margin-top:8px; }
+.eg-ses-cta{ margin-top:8px; text-align:center; }
 
 .eg-ses-cta .eg-btn-solid{
   background: var(--eg-canopy); color:#F3F5EE; border-color: var(--eg-canopy);
@@ -1303,19 +1348,28 @@ main.content:has(.eg-page),
 
 .eg-position-text p:last-child{ margin-bottom:0; }
 
-.eg-position-map{
+/* Photo column stretches to the height of the text column; the photo
+   fills it (cropped, not stretched). On phones it sits below the text
+   in a 4:3 frame. */
+.eg-position-grid{ align-items:stretch; }
+
+.eg-position-photo{
+  position:relative;
   border:1px solid #2B3830;
   border-radius:14px;
   overflow:hidden;
-  position:sticky; top:110px;
+  aspect-ratio:4/3;
 }
 
-.eg-position-map img{ width:100%; height:100%; min-height:320px; object-fit:cover; display:block; }
+@media(min-width:800px){
+  .eg-position-photo{ aspect-ratio:auto; min-height:320px; }
+}
 
-/* Interactive (Leaflet) map variant — swap in place of the <img> */
-
-@media(max-width:799px){
-  .eg-position-map{ position:static; }
+.eg-position-photo img{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  object-fit:cover; object-position:center;
+  display:block;
 }
 
 /* ---------- HOW WE WORK — colorful vertical timeline, on a photo background ---------- */

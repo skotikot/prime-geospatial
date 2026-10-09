@@ -30,7 +30,7 @@ page-layout: custom
 
 ## Three researchers, one landscape-sized problem
 
-Prime Geospatial began as a collaborative effort among three long-time friends and doctoral researchers. Today, Prime Geospatial serves as the vital link between raw computing and actionable ground truth.
+ArdhiLytics began as a collaborative effort among three long-time friends and doctoral researchers. Today, ArdhiLytics serves as the vital link between raw computing and actionable ground truth.
 
 We handle the heavy lifting — accessing, processing, maintaining, and analyzing complex datasets — while uniquely providing the expert interpretation and essential validation framework that automated geospatial models lack.
 
@@ -66,8 +66,8 @@ While our methodology is global in its scientific rigor, our focus is grounded i
 :::
 
 
-::: eg-position-map
-![](images/web/positionality_graphic.png){fig-alt="Diagram of climate science, ecology and human geography overlapping, with context at the centre"}
+::: eg-position-photo
+![](images/web/positionality-landscape.jpg){fig-alt="Shallow river winding between sandy banks and scattered shrubs in a dryland landscape" loading="lazy" decoding="async"}
 :::
 
 ::::
@@ -214,12 +214,12 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 
 
-:::::: {#founders .eg-section .eg-founders}
+:::::: {#team .eg-section .eg-founders}
 ::::: eg-wrap
 ::: eg-sec-head
 [Meet the team]{.eg-eyebrow}
 
-## The founders
+## Our leadership team
 :::
 
 ::: eg-founder-grid
@@ -231,7 +231,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ### Donald Akanga
 
-[Co-Founder]{.eg-founder-role}
+[Principal Scientist]{.eg-founder-role}
 
 [Geospatial scientist and sustainability practitioner driving transformative impact by linking land‑change dynamics, resource management, and livelihood resilience.]{.eg-founder-expertise}
 
@@ -248,7 +248,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ### Susan Kotikot
 
-[Co-Founder]{.eg-founder-role}
+[Principal Scientist]{.eg-founder-role}
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-founder-expertise}
 
@@ -265,7 +265,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ### Dan Wanyama
 
-[Co-Founder]{.eg-founder-role}
+[Principal Scientist]{.eg-founder-role}
 
 [Geospatial Scientist and Environmental Geographer specializing in forest and agricultural land-use change dynamics, climate variability and human-environment interactions, and socio-ecological vulnerability.]{.eg-founder-expertise}
 
@@ -291,13 +291,13 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 ::: eg-contact-box
 [EMAIL]{.eg-mono-label}
 
-[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
-[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+[Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 :::::
 ::::::

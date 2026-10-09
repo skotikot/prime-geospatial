@@ -127,9 +127,9 @@ Tell us the policy or planning question you're facing. We'll tell you what the l
 ::: eg-contact-box
 [EMAIL]{.eg-mono-label}
 
-[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
 
-[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 
 :::::

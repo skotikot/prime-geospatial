@@ -9,7 +9,7 @@ project:
     - land-use-modeling.qmd
     - illustrative-case-study.qmd
     - about_clod2.qmd
-    - projects2.qmd
+    # - projects2.qmd   # hidden until real case studies are ready
     - contact2.qmd
   # Images used only from the stylesheet or inline style="" are not detected
   # by Quarto, so the web image folder is copied over as a whole.
@@ -33,8 +33,8 @@ website:
         text: Services
       - href: about_clod2.qmd
         text: About us
-      - href: projects2.qmd
-        text: Projects
+      # - href: projects2.qmd   # Projects page hidden for launch
+      #   text: Projects
       - href: contact2.qmd
         text: Contact Us
 
@@ -42,10 +42,10 @@ website:
     background: "#0E1512"
     border: true
     left: |
-      © Prime Geospatial • 2026 • [primegeospatial.com](https://skotikot.github.io/prime-geospatial/)
+      © ArdhiLytics • 2026 • [ardhilytics.com](https://ardhilytics.com)
     right:
       - icon: envelope
-        href: mailto:malaso.susan@gmail.com
+        href: mailto:hello@ardhilytics.com
       - icon: github
         href: https://github.com/skotikot
       - icon: linkedin

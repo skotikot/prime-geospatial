@@ -31,7 +31,7 @@ We bridge the gap between ecological claims and verifiable reality. Using satell
 ::: {.eg-sec-head}
 [Services]{.eg-eyebrow}
 
-## Five layers of analysis, stacked around one landscape.
+## Six layers of analysis, stacked around one landscape.
 
 Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.
 :::
@@ -71,9 +71,7 @@ Our MRV capabilities include:
 [Project developers]{.eg-chip} [Conservancies]{.eg-chip} [Impact investors]{.eg-chip}
 
 ::: {.eg-layer-coord .eg-l1}
-[01°06'S 35°51'E\
-Illustrative anchor: Tsavo–Kasigau region](illustrative-case-study.qmd)
-
+[Explore case study](illustrative-case-study.qmd)
 :::
 :::
 :::
@@ -110,9 +108,7 @@ Our approaches are precision-engineered for spatial planning, regulatory complia
 [County governments]{.eg-chip} [Land-use planners]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
 ::: {.eg-layer-coord .eg-l2}
-[01°06'S 35°51'E\
-Illustrative anchor: Tsavo–Kasigau region](illustrative-case-study.qmd)
-
+[Explore case study](land-use-modeling.qmd)
 :::
 :::
 :::
@@ -154,8 +150,7 @@ Our Core Focus Areas:
 [Wildlife conservancies]{.eg-chip} [Park authorities]{.eg-chip} [Conservation NGOs]{.eg-chip}
 
 ::: {.eg-layer-coord .eg-l3}
-[00°02'N 37°33'E\
-Illustrative anchor: Northern Rangelands](illustrative-case-study.qmd)
+[Explore case study](illustrative-case-study.qmd)
 :::
 :::
 :::
@@ -197,8 +192,7 @@ Our specialized assessments include:
 [Research consortia]{.eg-chip} [Bilateral donors]{.eg-chip} [Conservancy associations]{.eg-chip}
 
 ::: {.eg-layer-coord .eg-l4}
-[03°04'S 37°21'E\
-Illustrative anchor: Kilimanjaro socio-ecological zone](illustrative-case-study.qmd)
+[Explore case study](illustrative-case-study.qmd)
 :::
 :::
 :::
@@ -232,14 +226,55 @@ We provide the analytical heavy lifting, from advanced statistical modeling to c
 [Conservation NGOs and non-Profits]{.eg-chip} [Government environmental agencies]{.eg-chip} [Carbon and biodiversity project developers]{.eg-chip}
 
 ::: {.eg-layer-coord .eg-l5}
-[02°17'N 37°59'E\
-Illustrative anchor: Advanced GIS for conservation practitioners](illustrative-case-study.qmd)
+[Explore case study](illustrative-case-study.qmd)
 :::
 :::
 :::
 
 ::: {.eg-layer-image}
 ![](images/web/service-consulting.jpg){fig-alt="Analysts working together at laptops" loading="lazy" decoding="async"}
+:::
+:::
+:::
+
+::: {#data .eg-layer .eg-l6}
+::: {.eg-layer-marker}
+[ ]{.eg-layer-toggle .eg-l6}
+
+[LAYER 06]{.eg-layer-index}
+:::
+
+::: {.eg-layer-body}
+::: {.eg-layer-main}
+### Data Services & Decision Support
+
+[Reliable data, ready for analysis and decisions.]{.eg-layer-one-liner .eg-l6}
+
+::: {.eg-layer-desc}
+Good decisions start with good data. We design and run surveys, digitize maps and records, and deliver clean, analysis-ready datasets your team can use straight away. Where you need more than data, we build analysis tools and decision-support frameworks that turn those datasets into clear, repeatable answers.
+
+Our data services include:
+
+- Survey design and data collection
+- Digitization of maps and records
+- Analysis-ready datasets
+- Analysis tools
+- Decision-support frameworks
+:::
+
+::: {.eg-layer-meta}
+[Who it's for]{.eg-tag-label}
+
+[County governments]{.eg-chip} [Conservation NGOs]{.eg-chip} [Research institutions]{.eg-chip}
+
+::: {.eg-layer-coord .eg-l6}
+[Explore case study](illustrative-case-study.qmd)
+:::
+:::
+:::
+
+::: {.eg-layer-image}
+![](images/web/service-data.jpg){fig-alt="Computer screen showing maps and data dashboards" loading="lazy" decoding="async"}
 :::
 :::
 :::
@@ -322,13 +357,13 @@ Tell us what you're trying to prove, protect, or plan for. We'll tell you which 
 ::: {.eg-contact-box}
 [EMAIL]{.eg-mono-label}
 
-[hello@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+[hello@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
-[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+[Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@equatorgeospatial.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 :::
 :::

@@ -67,7 +67,7 @@ page-layout: custom
 </div>
 
 <!-- Anti-spam: keeps the subject line clean and silently drops bot submissions -->
-<input type="hidden" name="_subject" value="New inquiry — Prime Geospatial website">
+<input type="hidden" name="_subject" value="New inquiry — ArdhiLytics website">
 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
 <!-- reCAPTCHA switched off until a real site key exists. To turn it back on:
@@ -90,11 +90,11 @@ page-layout: custom
 
 [EMAIL]{.eg-mono-label}
 
-[hello\@equatorgeospatial.com](mailto:hello@equatorgeospatial.com){.eg-email}
+[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
-[Nairobi, Kenya — serving East Africa]{.eg-email-sub}
+[Nairobi, Kenya]{.eg-email-sub}
 
 :::
 
