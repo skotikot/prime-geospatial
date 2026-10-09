@@ -342,7 +342,37 @@ Our workflows are built for auditability. We utilize open-science standards to e
 ## Who we build these layers for
 :::
 
-[Carbon & Conservation Finance]{.eg-sector-chip} [Government & County Planning]{.eg-sector-chip} [Multilaterals & Bilateral Donors]{.eg-sector-chip} [Research Institutions]{.eg-sector-chip} [Agriculture & Insurance]{.eg-sector-chip}
+::: {.eg-sector-grid}
+::: {.eg-sector-card .eg-sc-1}
+[<i class="bi bi-cash-coin"></i>]{.eg-sector-icon}
+
+[Carbon & Conservation Finance]{.eg-sector-name}
+:::
+
+::: {.eg-sector-card .eg-sc-2}
+[<i class="bi bi-bank"></i>]{.eg-sector-icon}
+
+[Government & County Planning]{.eg-sector-name}
+:::
+
+::: {.eg-sector-card .eg-sc-3}
+[<i class="bi bi-globe2"></i>]{.eg-sector-icon}
+
+[Multilaterals & Bilateral Donors]{.eg-sector-name}
+:::
+
+::: {.eg-sector-card .eg-sc-4}
+[<i class="bi bi-journal-text"></i>]{.eg-sector-icon}
+
+[Research Institutions]{.eg-sector-name}
+:::
+
+::: {.eg-sector-card .eg-sc-5}
+[<i class="bi bi-flower1"></i>]{.eg-sector-icon}
+
+[Agriculture & Insurance]{.eg-sector-name}
+:::
+:::
 :::
 :::
 

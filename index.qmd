@@ -5,7 +5,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/hero-home.jpg');"}
 ::: eg-wrap
 [ArdhiLytics: Geospatial Intelligence]{.eg-eyebrow}
 
@@ -71,7 +71,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/web/service-mrv.jpg){loading="lazy" decoding="async"}
+![](images/web/card-mrv.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -89,7 +89,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/web/service-landuse.jpg){loading="lazy" decoding="async"}
+![](images/web/landuse_web_1200.webp){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -227,10 +227,6 @@ We account for livelihoods, cultural values, resource dependency, and the wealth
 We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
 :::
 ::::
-
-::: eg-ses-cta
-[Why social-ecological integration matters →](about_clod2.qmd#positionality){.eg-btn .eg-btn-solid}
-:::
 
 :::::
 ::::::
