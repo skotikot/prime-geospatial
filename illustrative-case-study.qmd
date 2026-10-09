@@ -10,7 +10,7 @@ format:
 
 ::: {.eg-page}
 
-::: {.eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
+::: {.eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
 ::: {.eg-wrap}
 
 [Illustrative example]{.eg-eyebrow}

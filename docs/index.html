@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -38,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-aebee5582aad2cc21780320de70f2d2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f8bae7e04d3f311cf5009a06185e5abf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,10 +74,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles_9Jul.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -82,8 +85,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/ArdhiLytics_Green_Logo.png" alt="" class="navbar-logo light-content">
-    <img src="./images/ArdhiLytics_Green_Logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./images/web/ArdhiLytics_Green_Logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/web/ArdhiLytics_Green_Logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -124,16 +127,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="eg-page">
-<div id="hero" class="eg-hero eg-hero-tint-dark eg-hero-center eg-hero-middle" style="--eg-hero-img:url('images/bannerNew.jpg');">
+<div id="hero" class="eg-hero eg-hero-tint-dark eg-hero-center eg-hero-middle" style="--eg-hero-img:url('images/web/bannerNew.jpg');">
 <div class="eg-wrap">
-<!-- fhgjhg -->
 <p><span class="eg-eyebrow">ArdhiLytics: Geospatial Intelligence</span></p>
 <section id="ardhi-means-land" class="level1">
 <h1>Ardhi means land</h1>
 </section>
 <section id="we-help-you-understand-it" class="level1">
 <h1>We help you understand it</h1>
-<p><a href="services.qmd" class="eg-btn eg-btn-solid">Explore Our Services</a></p>
+<p><a href="./services-geospatial3.html" class="eg-btn eg-btn-solid">Explore Our Services</a></p>
 </section>
 </div>
 </div>
@@ -155,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 <p>From project design and baseline assessments to monitoring, verification, and impact evaluation, we help our partners move beyond assumptions and make decisions backed by credible, measurable evidence.</p>
 </section>
 <div class="eg-hero-ctas">
-<p><a href="about.qmd#about" class="eg-btn eg-btn-outline">Learn more about us</a> <a href="people.qmd#people" class="eg-btn eg-btn-outline">Learn more about the team</a></p>
+<p><a href="./about_clod2.html" class="eg-btn eg-btn-outline">Learn more about us</a> <a href="./about_clod2.html#founders" class="eg-btn eg-btn-outline">Learn more about the team</a></p>
 </div>
 </div>
 </div>
@@ -176,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="eg-teaser-grid">
 <div class="eg-teaser-card">
 <div class="eg-teaser-photo">
-<p><img src="images/service-mrv.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+<p><img src="images/web/service-mrv.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
 </div>
 <div class="eg-teaser-icon">
 <p><i class="bi bi-clipboard-data"></i></p>
@@ -184,12 +186,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="digital-mrv-carbon-verification" class="level3 eg-teaser-body">
 <h3 data-anchor-id="digital-mrv-carbon-verification">Digital MRV &amp; Carbon Verification</h3>
 <p><span class="eg-teaser-desc">High-integrity, audit-ready carbon intelligence that you can bank on.</span></p>
-<p><a href="services-geospatial.qmd#services" class="eg-teaser-link">Learn more</a></p>
+<p><a href="./services-geospatial3.html#mrv" class="eg-teaser-link">Learn more</a></p>
 </section>
 </div>
 <div class="eg-teaser-card">
 <div class="eg-teaser-photo">
-<p><img src="images/service-landuse.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+<p><img src="images/web/service-landuse.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
 </div>
 <div class="eg-teaser-icon">
 <p><i class="bi bi-map"></i></p>
@@ -197,12 +199,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="land-use-land-cover-change-modeling" class="level3 eg-teaser-body">
 <h3 data-anchor-id="land-use-land-cover-change-modeling">Land-Use &amp; Land-Cover Change Modeling</h3>
 <p><span class="eg-teaser-desc">Co-designing the future of your landscape.</span></p>
-<p><a href="services-geospatial.qmd#services" class="eg-teaser-link">Learn more</a></p>
+<p><a href="./land-use-modeling.html" class="eg-teaser-link">Learn more</a></p>
 </section>
 </div>
 <div class="eg-teaser-card">
 <div class="eg-teaser-photo">
-<p><img src="images/service-connectivity.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+<p><img src="images/web/service-connectivity.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
 </div>
 <div class="eg-teaser-icon">
 <p><i class="bi bi-tree"></i></p>
@@ -210,12 +212,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="landscape-connectivity-conservation-planning" class="level3 eg-teaser-body">
 <h3 data-anchor-id="landscape-connectivity-conservation-planning">Landscape Connectivity &amp; Conservation Planning</h3>
 <p><span class="eg-teaser-desc">Bridging the gap between ecological integrity and human prosperity.</span></p>
-<p><a href="services-geospatial.qmd#services" class="eg-teaser-link">Learn more</a></p>
+<p><a href="./services-geospatial3.html#connectivity" class="eg-teaser-link">Learn more</a></p>
 </section>
 </div>
 <div class="eg-teaser-card">
 <div class="eg-teaser-photo">
-<p><img src="images/service-resilience.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+<p><img src="images/web/service-resilience.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
 </div>
 <div class="eg-teaser-icon">
 <p><i class="bi bi-people"></i></p>
@@ -223,12 +225,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="social-ecological-systems-resilience-assessment" class="level3 eg-teaser-body">
 <h3 data-anchor-id="social-ecological-systems-resilience-assessment">Social-Ecological Systems &amp; Resilience Assessment</h3>
 <p><span class="eg-teaser-desc">Where land, climate, and community governance converge.</span></p>
-<p><a href="services-geospatial.qmd#services" class="eg-teaser-link">Learn more</a></p>
+<p><a href="./services-geospatial3.html#resilience" class="eg-teaser-link">Learn more</a></p>
 </section>
 </div>
 <div class="eg-teaser-card">
 <div class="eg-teaser-photo">
-<p><img src="images/service-consulting.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
+<p><img src="images/web/service-consulting.jpg" class="img-fluid" loading="lazy" decoding="async"></p>
 </div>
 <div class="eg-teaser-icon">
 <p><i class="bi bi-mortarboard"></i></p>
@@ -236,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="technical-consulting-capacity-building" class="level3 eg-teaser-body">
 <h3 data-anchor-id="technical-consulting-capacity-building">Technical Consulting &amp; Capacity Building</h3>
 <p><span class="eg-teaser-desc">Translating complex spatial data into actionable, team-led expertise.</span></p>
-<p><a href="services-geospatial.qmd#services" class="eg-teaser-link">Learn more</a></p>
+<p><a href="./services-geospatial3.html#consulting" class="eg-teaser-link">Learn more</a></p>
 </section>
 </div>
 </div>
@@ -258,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="eg-ses-body">
 <div class="eg-ses-image">
-<p><img src="images/SES.png" class="img-fluid"></p>
+<p><img src="images/web/SES.png" class="img-fluid" alt="Diagram linking Ecology, People and Governance"></p>
 </div>
 <div class="eg-ses-points">
 <p>We map the intersection where these critical dimensions meet:</p>
@@ -268,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Governance</strong>: We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.</li>
 </ul>
 <div class="eg-ses-cta">
-<p><a href="about-geospatial_3.qmd#about" class="eg-btn eg-btn-solid">Why social-ecological integration matters →</a></p>
+<p><a href="./about_clod2.html#positionality" class="eg-btn eg-btn-solid">Why social-ecological integration matters →</a></p>
 </div>
 </div>
 </div>
@@ -293,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-anchor-id="conservation-professionals">Conservation professionals</h3>
 <p>We provide practical training, workshops, and mentorship in GIS, remote sensing, environmental monitoring, spatial modeling, and social-ecological assessment — strengthening local expertise so practitioners can make evidence-based conservation and land management decisions.</p>
 <div class="eg-ses-cta">
-<p><a href="about-geospatial_3.qmd#about" class="eg-btn eg-btn-solid">See more about our trainings →</a></p>
+<p><a href="./services-geospatial3.html#consulting" class="eg-btn eg-btn-solid">See more about our trainings →</a></p>
 </div>
 </section>
 </div>
@@ -303,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-anchor-id="knowledge-access">Knowledge access</h3>
 <p>Access to reliable environmental information is essential for informed decision-making. We work to make environmental data, maps, indicators, and analytical tools publicly accessible, helping researchers, communities, NGOs, and policymakers understand and manage their landscapes.</p>
 <div class="eg-ses-cta">
-<p><a href="about-geospatial_3.qmd#about" class="eg-btn eg-btn-solid">See available data →</a></p>
+<p><a href="./contact2.html" class="eg-btn eg-btn-solid">Ask us about our data →</a></p>
 </div>
 </section>
 </div>
@@ -313,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-anchor-id="disaster-intelligence">Disaster intelligence</h3>
 <p>When environmental emergencies occur, timely information can save lives, livelihoods, and ecosystems. We develop and deploy rapid-response mapping and monitoring tools supporting preparedness, impact assessment, and recovery for floods, droughts, wildfires, and land degradation.</p>
 <div class="eg-ses-cta">
-<p><a href="about-geospatial_3.qmd#about" class="eg-btn eg-btn-solid">See available tools →</a></p>
+<p><a href="./contact2.html" class="eg-btn eg-btn-solid">Ask us about our tools →</a></p>
 </div>
 </section>
 </div>

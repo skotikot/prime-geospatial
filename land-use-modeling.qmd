@@ -3,25 +3,21 @@ title: ""
 page-layout: custom
 ---
 
-<header class="eg-hero">
+::::::::::::::::::: eg-page
 
-<div class="eg-wrap">
-
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
+::: eg-wrap
 [Layer 02 — Land-use modeling]{.eg-eyebrow}
 
 # Land-Use & Land-Cover Change Modeling
 
 [We simulate how a landscape is likely to change under different policies and pressures, so decision-makers can see the consequences of a plan before it reaches the ground.]{.eg-lede}
 
-<div class="eg-hero-ctas">
-[Talk to us about your landscape](contact2.qmd){.eg-btn .eg-btn-solid} [Back to services](services-geospatial3.qmd#services){.eg-btn .eg-btn-outline}
-</div>
-
-</div>
-
-</header>
-
-::::::::::::::::::: eg-page
+::: eg-hero-ctas
+[Talk to us about your landscape](contact2.qmd){.eg-btn .eg-btn-solid} [Back to services](services-geospatial3.qmd#land-use){.eg-btn .eg-btn-outline}
+:::
+:::
+::::
 
 :::::: {#how-it-works .eg-section}
 ::::: eg-wrap
@@ -44,12 +40,11 @@ The same approach lets us test alternative futures. Run the model forward under 
 :::::: {#scenario-figure .eg-section}
 ::::: eg-wrap
 
-<figure style="margin:0;">
-<img src="images/nrkWht.jpg" alt="Simulated land cover maps under three governance scenarios" style="width:100%;border:1px solid var(--eg-line);display:block;">
-<figcaption class="eg-photo-caption" style="margin-top:14px;">
-Simulated land cover under three governance scenarios for a landscape in southern Kenya. Comparing a current-policy baseline against group-ranch and privatized tenure shows how a single policy choice reshapes forest, rangeland, and cropland extent, years before it happens on the ground.
-</figcaption>
-</figure>
+::: eg-scenario-figure
+![](images/web/land-use-scenarios.png){fig-alt="Simulated land cover under three governance scenarios for a landscape in southern Kenya" loading="lazy" decoding="async"}
+
+[Simulated land cover under three governance scenarios for a landscape in southern Kenya. Comparing a current-policy baseline against group-ranch and privatized tenure shows how a single policy choice reshapes forest, rangeland, and cropland extent, years before it happens on the ground.]{.eg-photo-caption}
+:::
 
 :::::
 ::::::

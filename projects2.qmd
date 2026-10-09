@@ -4,7 +4,7 @@ page-layout: custom
 ---
 
 ::::::::::::::::::::::::::::::::::::::: eg-page
-:::: {#hero .eg-hero .eg-hero-right .eg-hero-top style="--eg-hero-img:url('images/nrkGraze.jpg');"}
+:::: {#hero .eg-hero .eg-hero-right .eg-hero-top style="--eg-hero-img:url('images/web/nrkGraze.jpg');"}
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
 
@@ -29,7 +29,7 @@ library(leaflet)
 sites <- data.frame(
   name = c(
     "Habitat assessment",
-    "Blue gam mapping",
+    "Blue gum mapping",
     "LULC modeling and scenario planning",
     "Social-ecological assessment"
   ),
@@ -61,7 +61,7 @@ leaflet(height = 460) %>%
 
 ## Where we've worked
 
-Ardhilytics' project work spans a range of landscapes, communities, and use cases; from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
+ArdhiLytics' project work spans a range of landscapes, communities, and use cases; from biodiversity assessments to land-use change modeling for long-term planning. Each marker on the map represents an active or completed project site.
 
 ::::::::::: eg-proj-legend
 :::: eg-proj-legend-item
@@ -74,7 +74,7 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 :::: eg-proj-legend-item
 
 ::: eg-proj-legend-copy
-**Blue gam mapping:** Kenya
+**Blue gum mapping:** Kenya
 :::
 ::::
 
@@ -108,7 +108,7 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 ::::::::::::::: eg-proj-case-grid
 ::::: eg-proj-case-card
 ::: eg-proj-case-photo
-![](images/ecological-modeling.png){loading="lazy" decoding="async"}
+![](images/web/ecological-modeling.jpg){loading="lazy" decoding="async"}
 :::
 
 [Biodiversity]{.eg-proj-case-tag}
@@ -117,14 +117,16 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-proj-case-desc}
 
+<!-- Case-study page not built yet — restore this button when projects_MRV.qmd exists
 ::: eg-proj-case-cta
 [Learn more](projects_MRV.qmd#Nrk_Bio){.eg-btn .eg-btn-outline}
 :::
+-->
 :::::
 
 ::::: eg-proj-case-card
 ::: eg-proj-case-photo
-![](images/nrkWht.jpg){loading="lazy" decoding="async"}
+![](images/web/nrkWht.jpg){loading="lazy" decoding="async"}
 :::
 
 [Biodiversity]{.eg-proj-case-tag}
@@ -133,14 +135,16 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-proj-case-desc}
 
+<!-- Case-study page not built yet — restore this button when projects_MRV.qmd exists
 ::: eg-proj-case-cta
 [Learn more](projects_MRV.qmd#patas_Hab){.eg-btn .eg-btn-outline}
 :::
+-->
 :::::
 
 ::::: eg-proj-case-card
 ::: eg-proj-case-photo
-![](images/nrkGraze.jpg){loading="lazy" decoding="async"}
+![](images/web/nrkGraze.jpg){loading="lazy" decoding="async"}
 :::
 
 [Land-Use Change]{.eg-proj-case-tag}
@@ -156,7 +160,7 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 
 ::::: eg-proj-case-card
 ::: eg-proj-case-photo
-![](images/wildB.jpg){loading="lazy" decoding="async"}
+![](images/web/wildB.jpg){loading="lazy" decoding="async"}
 :::
 
 [Land-Use Change]{.eg-proj-case-tag}
@@ -165,9 +169,11 @@ Ardhilytics' project work spans a range of landscapes, communities, and use case
 
 [Geospatial Data Scientist and Landscape Ecologist specializing in arid and semi-arid landscape (ASAL) management, land-use modeling, and regenerative landscape science.]{.eg-proj-case-desc}
 
+<!-- Case-study page not built yet — restore this button when projects_LULC.qmd exists
 ::: eg-proj-case-cta
 [Learn more](projects_LULC.qmd#scenarios_Nrk){.eg-btn .eg-btn-outline}
 :::
+-->
 :::::
 :::::::::::::::
 :::::::::::::::::

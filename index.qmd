@@ -5,16 +5,15 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
 ::: eg-wrap
-<!-- fhgjhg -->
 [ArdhiLytics: Geospatial Intelligence]{.eg-eyebrow}
 
 # Ardhi means land
 
 # We help you understand it
 
-[Explore Our Services](services.qmd){.eg-btn .eg-btn-solid}
+[Explore Our Services](services-geospatial3.qmd){.eg-btn .eg-btn-solid}
 :::
 ::::
 
@@ -44,7 +43,7 @@ From project design and baseline assessments to monitoring, verification, and im
 :::
 
 ::: {.eg-hero-ctas}
-[Learn more about us](about.qmd#about){.eg-btn .eg-btn-outline} [Learn more about the team](people.qmd#people){.eg-btn .eg-btn-outline}
+[Learn more about us](about_clod2.qmd){.eg-btn .eg-btn-outline} [Learn more about the team](about_clod2.qmd#founders){.eg-btn .eg-btn-outline}
 :::
 :::
 
@@ -72,7 +71,7 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-mrv.jpg){loading="lazy" decoding="async"}
+![](images/web/service-mrv.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -84,13 +83,13 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 [High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial3.qmd#mrv){.eg-teaser-link}
 :::
 :::
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-landuse.jpg){loading="lazy" decoding="async"}
+![](images/web/service-landuse.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -102,13 +101,13 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 [Co-designing the future of your landscape.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](land-use-modeling.qmd){.eg-teaser-link}
 :::
 :::
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-connectivity.jpg){loading="lazy" decoding="async"}
+![](images/web/service-connectivity.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -120,13 +119,13 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 [Bridging the gap between ecological integrity and human prosperity.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial3.qmd#connectivity){.eg-teaser-link}
 :::
 :::
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-resilience.jpg){loading="lazy" decoding="async"}
+![](images/web/service-resilience.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -138,13 +137,13 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 [Where land, climate, and community governance converge.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial3.qmd#resilience){.eg-teaser-link}
 :::
 :::
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/service-consulting.jpg){loading="lazy" decoding="async"}
+![](images/web/service-consulting.jpg){loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon
@@ -156,7 +155,7 @@ From carbon verification to capacity building, each layer stands alone, or stack
 
 [Translating complex spatial data into actionable, team-led expertise.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial.qmd#services){.eg-teaser-link}
+[Learn more](services-geospatial3.qmd#consulting){.eg-teaser-link}
 :::
 :::
 
@@ -187,7 +186,7 @@ By fusing spatial analytics, ecological modeling, and community-informed social-
 
 ::: eg-ses-body
 ::: eg-ses-image
-![](images/SES.png)
+![](images/web/SES.png){fig-alt="Diagram linking Ecology, People and Governance"}
 :::
 
 ::: eg-ses-points
@@ -198,7 +197,7 @@ We map the intersection where these critical dimensions meet:
 - **Governance**: We analyze the institutions, policies, land tenure systems, and economic incentives that dictate how land is managed and protected.
 
 ::: eg-ses-cta
-[Why social-ecological integration matters →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
+[Why social-ecological integration matters →](about_clod2.qmd#positionality){.eg-btn .eg-btn-solid}
 :::
 :::
 :::
@@ -232,7 +231,7 @@ At PrimeGeo, we believe that scientific knowledge creates the greatest impact wh
 We provide practical training, workshops, and mentorship in GIS, remote sensing, environmental monitoring, spatial modeling, and social-ecological assessment — strengthening local expertise so practitioners can make evidence-based conservation and land management decisions.
 
 ::: {.eg-ses-cta}
-[See more about our trainings →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
+[See more about our trainings →](services-geospatial3.qmd#consulting){.eg-btn .eg-btn-solid}
 :::
 :::
 
@@ -244,7 +243,7 @@ We provide practical training, workshops, and mentorship in GIS, remote sensing,
 Access to reliable environmental information is essential for informed decision-making. We work to make environmental data, maps, indicators, and analytical tools publicly accessible, helping researchers, communities, NGOs, and policymakers understand and manage their landscapes.
 
 ::: {.eg-ses-cta}
-[See available data →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
+[Ask us about our data →](contact2.qmd){.eg-btn .eg-btn-solid}
 :::
 :::
 
@@ -256,7 +255,7 @@ Access to reliable environmental information is essential for informed decision-
 When environmental emergencies occur, timely information can save lives, livelihoods, and ecosystems. We develop and deploy rapid-response mapping and monitoring tools supporting preparedness, impact assessment, and recovery for floods, droughts, wildfires, and land degradation.
 
 ::: {.eg-ses-cta}
-[See available tools →](about-geospatial_3.qmd#about){.eg-btn .eg-btn-solid}
+[Ask us about our tools →](contact2.qmd){.eg-btn .eg-btn-solid}
 :::
 
 :::

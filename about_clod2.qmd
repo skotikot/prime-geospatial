@@ -6,7 +6,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/bannerNew.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
 
@@ -22,7 +22,7 @@ page-layout: custom
 :::: eg-history-grid
 
 ::: eg-history-photo
-![](images/wildB.jpg)
+![](images/web/wildB.jpg){fig-alt="Wildebeest and zebra grazing on open grassland"}
 :::
 
 ::: eg-history-text
@@ -67,7 +67,7 @@ While our methodology is global in its scientific rigor, our focus is grounded i
 
 
 ::: eg-position-map
-![](images/positionality_graphic.png)
+![](images/web/positionality_graphic.png){fig-alt="Diagram of climate science, ecology and human geography overlapping, with context at the centre"}
 :::
 
 ::::
@@ -226,7 +226,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Akanga.png)
+![](images/web/Akanga.jpg){fig-alt="Portrait of Donald Akanga"}
 :::
 
 ### Donald Akanga
@@ -243,7 +243,7 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Kotikot.jpg)
+![](images/web/Kotikot.jpg){fig-alt="Portrait of Susan Kotikot"}
 :::
 
 ### Susan Kotikot
@@ -260,14 +260,14 @@ We are driven by the long-term health of the landscapes we analyze. Our goal is 
 
 ::: eg-founder-card
 ::: eg-founder-photo
-![](images/Wanyama2.jpg)
+![](images/web/Wanyama2.jpg){fig-alt="Portrait of Dan Wanyama"}
 :::
 
 ### Dan Wanyama
 
 [Co-Founder]{.eg-founder-role}
 
-[Geospatial Geospatial Scientist and Environmental Geographer specializing in forest and agricultural land-use change dynamics, climate variability and human-environment interactions, and socio-ecological vulnerability.]{.eg-founder-expertise}
+[Geospatial Scientist and Environmental Geographer specializing in forest and agricultural land-use change dynamics, climate variability and human-environment interactions, and socio-ecological vulnerability.]{.eg-founder-expertise}
 
 ::: eg-founder-social
 [<i class="bi bi-linkedin"></i>](https://www.linkedin.com/){target="_blank"}

@@ -4,7 +4,7 @@ page-layout: custom
 ---
 
 ::::::::::::::::::: eg-page
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/nrkGraze.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/nrkGraze.jpg');"}
 ::: eg-wrap
 
 
@@ -70,13 +70,18 @@ page-layout: custom
 <input type="hidden" name="_subject" value="New inquiry — Prime Geospatial website">
 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
+<!-- reCAPTCHA switched off until a real site key exists. To turn it back on:
+     1) register the site at https://www.google.com/recaptcha/admin and paste the key below,
+     2) add the matching secret key in your Formspree form settings,
+     3) uncomment this div and the script tag further down.
 <div class="eg-form-row g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+-->
 
 <button type="submit" class="eg-btn eg-btn-solid">Send us a brief</button>
 
 </form>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
 :::
 

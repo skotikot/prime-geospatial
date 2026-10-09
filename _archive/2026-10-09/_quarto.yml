@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - images/bannerNew.jpg
+    - images/ArdhiLytics_Green_Logo.png
+
+website:
+  title: ""
+  navbar:
+    logo: images/ArdhiLytics_Green_Logo.png
+    title: false
+    logo-href: index.qmd
+    pinned: true
+    search: false    # Add this line to hide the search button
+    background: "#2A5A5C"            # Gives you that sharp, high-contrast header bar
+    foreground: "#FFFFFF"
+    left:
+      # Home button removed
+      # - href: index.qmd
+      #   text: Home
+      # - href: indexNew.qmd
+      #   text: Home
+      #- href: services.qmd
+      #  text: Services
+      - href: services-geospatial3.qmd
+        text: Services
+      - href: about_clod2.qmd
+        text: About us
+      # - href: projects.qmd  # Or "Case Studies / White Papers"
+      #   text: Projects
+      - href: projects2.qmd  # Or "Case Studies / White Papers"
+        text: Projects
+      - href: contact2.qmd
+        text: Contact Us
+
+  # ==========================================
+  # INSERT YOUR GLOBAL PAGE FOOTER HERE
+  # ==========================================
+  page-footer:
+    background: "#0E1512"            # Clean, subtle off-white footer container
+    border: true                      # Adds a crisp dividing hairline above the content
+    left: |
+      © Prime Geospatial • 2026 • [primegeospatial.com](https://skotikot.github.io/prime-geospatial/)
+    right: 
+      - icon: envelope
+        href: mailto:malaso.susan@gmail.com
+      - icon: github
+        href: https://github.com/skotikot
+      - icon: linkedin
+        href: https://www.linkedin.com/in/susankotikot/
+
+format:
+  html:
+    theme: flatly
+    css: styles_9Jul.css # <-- This line tells Quarto to look for your CSS file!
+    toc: true                   # Generates the right-hand page navigation menu
+    toc-location: right
+    # include-after-body: footer.html
+    #   text: |
+    #     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+# Try changing 'cosmo', 'flatly' to 'lux' or 'journal'

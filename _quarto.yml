@@ -1,48 +1,49 @@
 project:
   type: website
   output-dir: docs
+  # Only these pages are built and published. Drafts, copies and old pages
+  # in the folder are ignored until you add them here.
+  render:
+    - index.qmd
+    - services-geospatial3.qmd
+    - land-use-modeling.qmd
+    - illustrative-case-study.qmd
+    - about_clod2.qmd
+    - projects2.qmd
+    - contact2.qmd
+  # Images used only from the stylesheet or inline style="" are not detected
+  # by Quarto, so the web image folder is copied over as a whole.
   resources:
-    - images/bannerNew.jpg
-    - images/ArdhiLytics_Green_Logo.png
+    - images/web/**
+
+execute:
+  freeze: auto   # reuse the saved R map output instead of re-running R every render
 
 website:
   title: ""
   navbar:
-    logo: images/ArdhiLytics_Green_Logo.png
+    logo: images/web/ArdhiLytics_Green_Logo.png
     title: false
     logo-href: index.qmd
     pinned: true
-    search: false    # Add this line to hide the search button
-    background: "#2A5A5C"            # Gives you that sharp, high-contrast header bar
-    foreground: "#FFFFFF"
+    search: false
+    # Navbar colours are set in styles.css (.navbar) — kept in one place.
     left:
-      # Home button removed
-      # - href: index.qmd
-      #   text: Home
-      # - href: indexNew.qmd
-      #   text: Home
-      #- href: services.qmd
-      #  text: Services
       - href: services-geospatial3.qmd
         text: Services
       - href: about_clod2.qmd
         text: About us
-      # - href: projects.qmd  # Or "Case Studies / White Papers"
-      #   text: Projects
-      - href: projects2.qmd  # Or "Case Studies / White Papers"
+      - href: projects2.qmd
         text: Projects
       - href: contact2.qmd
         text: Contact Us
 
-  # ==========================================
-  # INSERT YOUR GLOBAL PAGE FOOTER HERE
-  # ==========================================
   page-footer:
-    background: "#0E1512"            # Clean, subtle off-white footer container
-    border: true                      # Adds a crisp dividing hairline above the content
+    background: "#0E1512"
+    border: true
     left: |
       © Prime Geospatial • 2026 • [primegeospatial.com](https://skotikot.github.io/prime-geospatial/)
-    right: 
+    right:
       - icon: envelope
         href: mailto:malaso.susan@gmail.com
       - icon: github
@@ -53,10 +54,5 @@ website:
 format:
   html:
     theme: flatly
-    css: styles_9Jul.css # <-- This line tells Quarto to look for your CSS file!
-    toc: true                   # Generates the right-hand page navigation menu
-    toc-location: right
-    # include-after-body: footer.html
-    #   text: |
-    #     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-# Try changing 'cosmo', 'flatly' to 'lux' or 'journal'
+    css: styles.css
+    toc: false
