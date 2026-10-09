@@ -311,6 +311,12 @@ main.content:has(.eg-page),
 
 .eg-hero-tint-dark{ --eg-hero-tint: transparent; }   /* no tint over the photo */
 
+/* opt-in: put the dark tint back on one page (used on Services, whose photo is very bright) */
+.eg-hero-tint-dark.eg-hero-tint-on{ --eg-hero-tint: rgba(14,21,18,0.55); }
+
+/* opt-in: keep a long hero line to about three lines (used on Contact) */
+.eg-hero-narrow h2{ max-width:44ch; }
+
 .eg-hero-tint-dark .eg-lede,
 .eg-hero-tint-dark p,
 .eg-hero-tint-dark .eg-eyebrow{ text-shadow:0 1px 2px rgba(0,0,0,0.85), 0 0 10px rgba(0,0,0,0.75), 0 0 24px rgba(0,0,0,0.5); font-weight:500; }

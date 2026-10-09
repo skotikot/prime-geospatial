@@ -5,7 +5,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-center .eg-hero-middle style="--eg-hero-img:url('images/web/hero-home.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-home-nzoia.jpg');"}
 ::: eg-wrap
 [ArdhiLytics: Geospatial Intelligence]{.eg-eyebrow}
 

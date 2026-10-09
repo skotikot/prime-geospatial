@@ -10,7 +10,7 @@ format:
 
 ::: {.eg-page}
 
-::: {.eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-services.jpg');"}
+::: {.eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-services.jpg');"}
 ::: {.eg-wrap}
 
 ## Beyond Estimates: [Rigorous Landscape Intelligence]{.colored-text}.
