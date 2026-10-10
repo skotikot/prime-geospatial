@@ -5,15 +5,18 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-home.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle .eg-hero-statement style="--eg-hero-img:url('images/web/hero-home.jpg');"}
 ::: eg-wrap
 [ArdhiLytics: Geospatial Intelligence]{.eg-eyebrow}
 
-# Ardhi means land
+<!-- PLACEHOLDER headline and description — edit freely. Each line keeps its colour class. -->
+# [Read the land.]{.eg-hl .eg-hl-1} [Model what comes next.]{.eg-hl .eg-hl-2} [Decide with confidence.]{.eg-hl .eg-hl-3}
 
-# We help you understand it
+[Ardhi means land. We turn satellite data, field evidence and local knowledge into clear, decision-ready intelligence for the people who manage East Africa's landscapes.]{.eg-lede}
 
-[Explore Our Services](services-geospatial3.qmd){.eg-btn .eg-btn-solid}
+::: eg-hero-ctas
+[Explore our services](services-geospatial3.qmd){.eg-btn .eg-btn-solid} [Talk to us](contact2.qmd){.eg-btn .eg-btn-outline}
+:::
 :::
 ::::
 

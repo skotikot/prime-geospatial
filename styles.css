@@ -315,7 +315,43 @@ main.content:has(.eg-page),
 .eg-hero-tint-dark.eg-hero-tint-on{ --eg-hero-tint: rgba(14,21,18,0.55); }
 
 /* opt-in: keep a long hero line to about three lines (used on Contact) */
-.eg-hero-narrow h2{ max-width:44ch; }
+.eg-hero-narrow h2{ max-width:40ch; }
+
+/* sit hero text a little lower in the banner (all pages) */
+.eg-hero-middle{ padding-top: clamp(160px, 26vh, 260px); }
+
+/* opt-in: larger hero text (used on Services and Contact) */
+.eg-hero-large h2{ font-size: clamp(2.3rem, 3.8vw, 3.2rem); line-height:1.2; }
+.eg-hero-large .eg-lede{ font-size: clamp(1.25rem, 1.7vw, 1.6rem); line-height:1.55; max-width:68ch; }
+
+/* ---------- HOME HERO — big, colourful statement headline ---------- */
+.eg-hero-statement h1{
+  font-family:"Space Grotesk", sans-serif;
+  font-size: clamp(2.8rem, 5.6vw, 5rem);
+  font-weight:700;
+  line-height:1.04;
+  letter-spacing:-0.01em;
+  margin-bottom:26px;
+  max-width:22ch;
+}
+.eg-hl{ display:block; }
+.eg-hl-1{ color:#F3F5EE; }              /* paper white */
+.eg-hl-2{ color:var(--eg-ochre-hl); }   /* bright ochre */
+.eg-hl-3{ color:var(--eg-canopy-hl); }  /* bright canopy green */
+.eg-hero-statement{ --eg-ochre-hl:#F0B24E; --eg-canopy-hl:#6FCF87; }
+
+.eg-hero-statement .eg-lede{
+  display:block;
+  font-size: clamp(1.1rem, 1.4vw, 1.35rem); line-height:1.6;
+  max-width:52ch; color:#F3F5EE; margin-bottom:30px;
+}
+.eg-hero-statement .eg-btn{
+  font-family:"Space Grotesk", sans-serif; font-weight:700; font-size:0.95rem;
+  text-transform:uppercase; letter-spacing:0.04em; padding:15px 26px;
+}
+.eg-hero-statement .eg-btn-solid{ background:var(--eg-canopy-hl); border-color:var(--eg-canopy-hl); color:#0E1512; }
+.eg-hero-statement .eg-btn-solid:hover{ background:#F3F5EE; border-color:#F3F5EE; color:#0E1512; }
+.eg-hero-statement .eg-btn-outline{ border-width:2px; }
 
 .eg-hero-tint-dark .eg-lede,
 .eg-hero-tint-dark p,
@@ -1809,3 +1845,6 @@ main.content:has(.eg-page),
 .eg-credits-list li strong{ color:var(--eg-ink); display:block; margin-bottom:4px; font-family:"Space Grotesk", sans-serif; }
 .eg-credits-list a{ color:var(--eg-teal); word-break:break-word; }
 .eg-credits-page{ padding-top:150px; min-height:70vh; }
+
+/* buttons in banners: no text shadow (keeps button labels crisp) */
+.eg-hero-tint-dark .eg-btn{ text-shadow:none; }

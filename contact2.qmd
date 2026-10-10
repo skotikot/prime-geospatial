@@ -4,7 +4,7 @@ page-layout: custom
 ---
 
 ::::::::::::::::::: eg-page
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle .eg-hero-narrow style="--eg-hero-img:url('images/web/hero-contact.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle .eg-hero-narrow .eg-hero-large style="--eg-hero-img:url('images/web/hero-contact.jpg');"}
 ::: eg-wrap
 [Get in touch]{.eg-eyebrow}
 
