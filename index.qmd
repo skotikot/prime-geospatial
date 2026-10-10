@@ -1,5 +1,8 @@
 ---
 title: ""
+pagetitle: "Geospatial & Environmental Intelligence"
+description: "ArdhiLytics is a Nairobi-based geospatial and environmental intelligence firm. We transform complex spatial and environmental data into practical insights for planning, conservation, development and resource management."
+image: images/web/social-card.jpg
 page-layout: custom
 ---
 
@@ -9,13 +12,13 @@ page-layout: custom
 ::: eg-wrap
 [ArdhiLytics: Geospatial Intelligence]{.eg-eyebrow}
 
-<!-- PLACEHOLDER headline and description — edit freely. Each line keeps its colour class. -->
-# [Read the land.]{.eg-hl .eg-hl-1} [Model what comes next.]{.eg-hl .eg-hl-2} [Decide with confidence.]{.eg-hl .eg-hl-3}
+<!-- Each headline line keeps its colour class: eg-hl-1 white, eg-hl-2 ochre, eg-hl-3 green -->
+# [Know the landscape]{.eg-hl .eg-hl-1} [Anticipate change]{.eg-hl .eg-hl-2} [Decide with confidence]{.eg-hl .eg-hl-3}
 
-[Ardhi means land. We turn satellite data, field evidence and local knowledge into clear, decision-ready intelligence for the people who manage East Africa's landscapes.]{.eg-lede}
+[We transform complex spatial and environmental data into practical insights that support planning, conservation, development, and resource management.]{.eg-lede}
 
 ::: eg-hero-ctas
-[Explore our services](services-geospatial3.qmd){.eg-btn .eg-btn-solid} [Talk to us](contact2.qmd){.eg-btn .eg-btn-outline}
+[Explore our services](services.qmd){.eg-btn .eg-btn-solid} [Talk to us](contact.qmd){.eg-btn .eg-btn-outline}
 :::
 :::
 ::::
@@ -46,7 +49,7 @@ From project design and baseline assessments to monitoring, verification, and im
 :::
 
 ::: {.eg-hero-ctas}
-[Learn more about us](about_clod2.qmd){.eg-btn .eg-btn-outline} [Learn more about the team](about_clod2.qmd#team){.eg-btn .eg-btn-outline}
+[Learn more about us](about.qmd){.eg-btn .eg-btn-outline} [Learn more about the team](about.qmd#team){.eg-btn .eg-btn-outline}
 :::
 :::
 
@@ -86,7 +89,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 [High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial3.qmd#mrv){.eg-teaser-link}
+[Learn more](services.qmd#mrv){.eg-teaser-link}
 :::
 :::
 
@@ -122,7 +125,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 [Bridging the gap between ecological integrity and human prosperity.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial3.qmd#connectivity){.eg-teaser-link}
+[Learn more](services.qmd#connectivity){.eg-teaser-link}
 :::
 :::
 
@@ -140,7 +143,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 [Where land, climate, and community governance converge.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial3.qmd#resilience){.eg-teaser-link}
+[Learn more](services.qmd#resilience){.eg-teaser-link}
 :::
 :::
 
@@ -158,7 +161,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 [Translating complex spatial data into actionable, team-led expertise.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial3.qmd#consulting){.eg-teaser-link}
+[Learn more](services.qmd#consulting){.eg-teaser-link}
 :::
 :::
 
@@ -176,7 +179,7 @@ From carbon verification to data and decision support, each layer stands alone, 
 
 [Reliable data, ready for analysis and decisions.]{.eg-teaser-desc}
 
-[Learn more](services-geospatial3.qmd#data){.eg-teaser-link}
+[Learn more](services.qmd#data){.eg-teaser-link}
 :::
 :::
 
@@ -260,7 +263,7 @@ At ArdhiLytics, we believe that scientific knowledge creates the greatest impact
 We provide practical training, workshops, and mentorship in GIS, remote sensing, environmental monitoring, spatial modeling, and social-ecological assessment — strengthening local expertise so practitioners can make evidence-based conservation and land management decisions.
 
 ::: {.eg-ses-cta}
-[See more about our trainings →](services-geospatial3.qmd#consulting){.eg-btn .eg-btn-solid}
+[See more about our trainings →](services.qmd#consulting){.eg-btn .eg-btn-solid}
 :::
 :::
 
@@ -272,7 +275,7 @@ We provide practical training, workshops, and mentorship in GIS, remote sensing,
 Access to reliable environmental information is essential for informed decision-making. We work to make environmental data, maps, indicators, and analytical tools publicly accessible, helping researchers, communities, NGOs, and policymakers understand and manage their landscapes.
 
 ::: {.eg-ses-cta}
-[Ask us about our data →](contact2.qmd){.eg-btn .eg-btn-solid}
+[Ask us about our data →](contact.qmd){.eg-btn .eg-btn-solid}
 :::
 :::
 
@@ -284,7 +287,7 @@ Access to reliable environmental information is essential for informed decision-
 When environmental emergencies occur, timely information can save lives, livelihoods, and ecosystems. We develop and deploy rapid-response mapping and monitoring tools supporting preparedness, impact assessment, and recovery for floods, droughts, wildfires, and land degradation.
 
 ::: {.eg-ses-cta}
-[Ask us about our tools →](contact2.qmd){.eg-btn .eg-btn-solid}
+[Ask us about our tools →](contact.qmd){.eg-btn .eg-btn-solid}
 :::
 
 :::
@@ -305,13 +308,13 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 ::: eg-contact-box
 [EMAIL]{.eg-mono-label}
 
-[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
+[info\@ardhilytics.com](mailto:info@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
 [Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:info@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 :::::
 ::::::

@@ -1,0 +1,25 @@
+---
+title: ""
+pagetitle: "Page not found"
+description: "Page not found."
+image: images/web/social-card.jpg
+page-layout: custom
+---
+
+::::::::::::::::::: eg-page
+
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('/images/web/hero-home.jpg');"}
+::: eg-wrap
+[Error 404]{.eg-eyebrow}
+
+# Page not found
+
+[The page you're looking for has moved or doesn't exist. Try one of these instead.]{.eg-lede}
+
+::: eg-hero-ctas
+[Home](/index.html){.eg-btn .eg-btn-solid} [Services](/services.html){.eg-btn .eg-btn-outline} [Contact us](/contact.html){.eg-btn .eg-btn-outline}
+:::
+:::
+::::
+
+:::::::::::::::::::

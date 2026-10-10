@@ -1,5 +1,8 @@
 ---
 title: ""
+pagetitle: "Image credits"
+description: "Sources for the satellite and landscape images used on the ArdhiLytics website."
+image: images/web/social-card.jpg
 page-layout: custom
 ---
 

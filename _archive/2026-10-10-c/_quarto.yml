@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+  # Only these pages are built and published. Drafts, copies and old pages
+  # in the folder are ignored until you add them here.
+  render:
+    - index.qmd
+    - services-geospatial3.qmd
+    - land-use-modeling.qmd
+    - illustrative-case-study.qmd
+    - about_clod2.qmd
+    # - projects2.qmd   # hidden until real case studies are ready
+    - contact2.qmd
+    - image-credits.qmd
+  # Images used only from the stylesheet or inline style="" (hero banners,
+  # section backgrounds) are not detected by Quarto, so they are listed here.
+  # Images used with ![](...) in pages are picked up automatically.
+  resources:
+    - images/web/hero-*.jpg
+    - images/web/bannerNew.jpg
+    - images/web/contactBG.jpg
+    - images/web/habitat.jpg
+    - images/web/nrkGraze.jpg
+    - images/web/nrkWht.jpg
+
+execute:
+  freeze: auto   # reuse the saved R map output instead of re-running R every render
+
+website:
+  title: ""
+  navbar:
+    logo: images/web/ArdhiLytics_Green_Logo.png
+    title: false
+    logo-href: index.qmd
+    pinned: true
+    search: false
+    # Navbar colours are set in styles.css (.navbar) — kept in one place.
+    left:
+      - href: services-geospatial3.qmd
+        text: Services
+      - href: about_clod2.qmd
+        text: About us
+      # - href: projects2.qmd   # Projects page hidden for launch
+      #   text: Projects
+      - href: contact2.qmd
+        text: Contact Us
+
+  page-footer:
+    background: "#0E1512"
+    border: true
+    left: |
+      © ArdhiLytics • 2026 • [ardhilytics.com](https://ardhilytics.com) • [Image credits](image-credits.qmd)
+    right:
+      - icon: envelope
+        href: mailto:hello@ardhilytics.com
+      - icon: github
+        href: https://github.com/skotikot
+      - icon: linkedin
+        href: https://www.linkedin.com/in/susankotikot/
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false

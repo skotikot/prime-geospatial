@@ -11,7 +11,7 @@ page-layout: custom
        1. Copy this file, e.g. to  case-study-mrv.qmd
        2. Replace every [EDIT: ...] with real content; delete unused sections
        3. Add the new file to the  render:  list in _quarto.yml
-       4. In services-geospatial3.qmd, point that layer's
+       4. In services.qmd, point that layer's
           "Explore case study" link at the new file
      Layer colours: 01 eg-l1 green · 02 eg-l2 ochre · 03 eg-l3 teal ·
                     04 eg-l4 plum · 05 eg-l5 rust ·
@@ -29,7 +29,7 @@ page-layout: custom
 [EDIT: One or two sentences on the question the client needed answered and why it mattered.]{.eg-lede}
 
 ::: eg-hero-ctas
-[Talk to us about your landscape](contact2.qmd){.eg-btn .eg-btn-solid} [Back to services](services-geospatial3.qmd#services){.eg-btn .eg-btn-outline}
+[Talk to us about your landscape](contact.qmd){.eg-btn .eg-btn-solid} [Back to services](services.qmd#services){.eg-btn .eg-btn-outline}
 :::
 :::
 ::::
@@ -111,13 +111,13 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 ::: eg-contact-box
 [EMAIL]{.eg-mono-label}
 
-[hello\@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
+[info\@ardhilytics.com](mailto:info@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
 [Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:info@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 
 :::::

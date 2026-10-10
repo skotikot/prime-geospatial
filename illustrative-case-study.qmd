@@ -1,5 +1,8 @@
 ---
 title: ""
+pagetitle: "Illustrative case study"
+description: "An illustrative example of what an ArdhiLytics engagement delivers: methodology, sample outputs and reporting style."
+image: images/web/social-card.jpg
 title-block-banner: false
 page-layout: full
 toc: false
@@ -133,13 +136,13 @@ Tell us what you're trying to prove, protect, or plan for. We'll tell you which 
 ::: {.eg-contact-box}
 [EMAIL]{.eg-mono-label}
 
-[hello@ardhilytics.com](mailto:hello@ardhilytics.com){.eg-email}
+[info@ardhilytics.com](mailto:info@ardhilytics.com){.eg-email}
 
 [BASED IN]{.eg-mono-label}
 
 [Nairobi, Kenya]{.eg-email-sub}
 
-[Send us a brief](mailto:hello@ardhilytics.com){.eg-btn .eg-btn-solid}
+[Send us a brief](mailto:info@ardhilytics.com){.eg-btn .eg-btn-solid}
 :::
 :::
 :::

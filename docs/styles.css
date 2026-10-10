@@ -109,7 +109,7 @@ h1, h2, h3{
   margin-top: 1.5em;
 }
 
-/* ---------- Contact form inputs (contact2.qmd) ---------- */
+/* ---------- Contact form inputs (contact.qmd) ---------- */
 .custom-input{
   border-radius: 8px;
   border: 1px solid #C7C7C7;
@@ -521,13 +521,12 @@ main.content:has(.eg-page),
   .eg-layer-image{ aspect-ratio:auto; min-height:260px; }
 }
 
-/* Phones: one column. Layer number sits in a row above, photo comes
-   first, then the text. */
+/* Phones: one column. Layer number sits in a row above, then the text,
+   with the photo at the bottom. */
 @media(max-width:759px){
   .eg-layer{ grid-template-columns:1fr; gap:14px 0; }
   .eg-layer-marker{ display:flex; align-items:center; gap:10px; }
   .eg-layer-marker > p{ margin:0; }
-  .eg-layer-image{ order:-1; }
 }
 
 .eg-layer-image img{
@@ -1636,7 +1635,7 @@ main.content:has(.eg-page),
   position: relative;
   background-color: #0E1512;
   background-image:
-    linear-gradient(rgba(14,21,18,0.6), rgba(14,21,18,0.6)),
+    linear-gradient(rgba(14,21,18,0.28), rgba(14,21,18,0.28)),   /* lighter tint so the photo shows */
     url("images/web/contactBG.jpg");
   background-size: cover;
   background-position: center;
@@ -1848,3 +1847,7 @@ main.content:has(.eg-page),
 
 /* buttons in banners: no text shadow (keeps button labels crisp) */
 .eg-hero-tint-dark .eg-btn{ text-shadow:none; }
+
+/* text on the lighter contact-form photo keeps a soft shadow for legibility */
+.eg-contact-form .eg-sec-head,
+.eg-contact-form-info{ text-shadow:0 1px 3px rgba(0,0,0,0.6), 0 0 14px rgba(0,0,0,0.45); }
