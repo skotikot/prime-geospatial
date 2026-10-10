@@ -32,7 +32,7 @@ Let's talk about what it would take to get you decision-ready intelligence you c
 
 ::: eg-contact-form-card
 
-<form action="https://formspree.io/f/mrevavwz" method="POST">
+<form action="https://formspree.io/f/mzedganj" method="POST">
 
 <div class="eg-form-row">
 <label for="name" class="form-label">Name</label>
