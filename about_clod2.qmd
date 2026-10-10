@@ -28,13 +28,13 @@ page-layout: custom
 ::: eg-history-text
 [Our story]{.eg-eyebrow}
 
-## Three researchers, one landscape-sized problem
+## Three Researchers. One Shared Frustration.
 
-ArdhiLytics began as a collaborative effort among three long-time friends and doctoral researchers. Today, ArdhiLytics serves as the vital link between raw computing and actionable ground truth.
+ArdhiLytics began with conversations between long-time friends during our doctoral studies. Through years of research and fieldwork, we experienced firsthand the frustrations of fragmented data, limited access to information, and the effort required to turn data into meaningful insights.
 
-We handle the heavy lifting — accessing, processing, maintaining, and analyzing complex datasets — while uniquely providing the expert interpretation and essential validation framework that automated geospatial models lack.
+Those experiences led us to a simple realization: good decisions require good information, but obtaining and using that information is often more difficult than it should be.
 
-We turn raw, intimidating data into clear, verified, and deeply understood spatial insights that drive smarter, faster, and more cost-effective decision-making.
+What started as an idea for improving data access evolved into a consulting practice that helps organizations navigate complex challenges through data-driven analysis, technology, and applied expertise.
 :::
 
 ::::
