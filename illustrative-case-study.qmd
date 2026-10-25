@@ -41,7 +41,7 @@ The location, figures, and outputs on this page are illustrative placeholders bu
 
 ## How an engagement like this runs
 
-Most engagements — whether an MRV pipeline, a land-use scenario, a connectivity assessment, a resilience study, or a capacity-building programme — follow the same three-phase arc, from initial scoping through to a client-ready deliverable.
+Most engagements — whether a data or mapping product, a land-use scenario, a conservation plan, a resilience study, or a capacity-building programme — follow the same three-phase arc, from initial scoping through to a client-ready deliverable.
 :::
 
 ::: {.eg-approach-grid .eg-approach-cards}

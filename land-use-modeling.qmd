@@ -10,14 +10,14 @@ page-layout: custom
 
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
 ::: eg-wrap
-[Layer 02 — Land-use modeling]{.eg-eyebrow}
+[Case study — Landscape change & scenario modeling]{.eg-eyebrow}
 
 # Land-Use & Land-Cover Change Modeling
 
 [We simulate how a landscape is likely to change under different policies and pressures, so decision-makers can see the consequences of a plan before it reaches the ground.]{.eg-lede}
 
 ::: eg-hero-ctas
-[Talk to us about your landscape](contact.qmd){.eg-btn .eg-btn-solid} [Back to services](services.qmd#land-use){.eg-btn .eg-btn-outline}
+[Talk to us about your landscape](contact.qmd){.eg-btn .eg-btn-solid} [Back to services](services.qmd#modeling){.eg-btn .eg-btn-outline}
 :::
 :::
 ::::

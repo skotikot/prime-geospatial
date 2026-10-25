@@ -38,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -238,52 +237,53 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="eg-eyebrow">What drives us</span></p>
 <section id="core-values" class="level2">
 <h2 data-anchor-id="core-values">Core values</h2>
+<p><span class="eg-cv-hint">Hover over or tap a value to read more</span></p>
 </section>
 </div>
-<div class="eg-values-list">
-<div class="eg-value-row eg-v-1">
-<div class="eg-value-icon">
-<p><i class="bi bi-clipboard-data"></i></p>
-</div>
-<section id="scientific-integrity" class="level3 eg-value-copy">
+<div class="eg-cv-list">
+<div class="eg-cv eg-cv-1" tabindex="0">
+<p><span class="eg-cv-num">01</span></p>
+<section id="scientific-integrity" class="level3">
 <h3 data-anchor-id="scientific-integrity">Scientific Integrity</h3>
+<div class="eg-cv-desc">
 <p>We prioritize evidence over convenience. Every model, map, and insight we deliver is held to the highest standards of accuracy, transparency, and reproducibility. We believe that robust data is the only reliable foundation for environmental action.</p>
+</div>
 </section>
 </div>
-<div class="eg-value-row eg-v-2">
-<div class="eg-value-icon">
-<p><i class="bi bi-diagram-3"></i></p>
-</div>
-<section id="integrative-systems-thinking" class="level3 eg-value-copy">
+<div class="eg-cv eg-cv-2" tabindex="0">
+<p><span class="eg-cv-num">02</span></p>
+<section id="integrative-systems-thinking" class="level3">
 <h3 data-anchor-id="integrative-systems-thinking">Integrative Systems Thinking</h3>
+<div class="eg-cv-desc">
 <p>We see the landscape as a whole, not a collection of isolated parts. We actively bridge the gap between biophysical systems and social dynamics, recognizing that the most accurate solutions emerge at the intersection of disciplines.</p>
+</div>
 </section>
 </div>
-<div class="eg-value-row eg-v-3">
-<div class="eg-value-icon">
-<p><i class="bi bi-eye"></i></p>
-</div>
-<section id="applied-transparency" class="level3 eg-value-copy">
+<div class="eg-cv eg-cv-3" tabindex="0">
+<p><span class="eg-cv-num">03</span></p>
+<section id="applied-transparency" class="level3">
 <h3 data-anchor-id="applied-transparency">Applied Transparency</h3>
+<div class="eg-cv-desc">
 <p>We operate in the open. Our workflows are documented, our methods are peer-review-ready, and our findings are auditable. We empower our partners by giving them full clarity into how we arrive at our conclusions, demystifying the “black box” of geospatial analysis.</p>
+</div>
 </section>
 </div>
-<div class="eg-value-row eg-v-4">
-<div class="eg-value-icon">
-<p><i class="bi bi-geo-alt"></i></p>
-</div>
-<section id="field-grounded-reality" class="level3 eg-value-copy">
+<div class="eg-cv eg-cv-4" tabindex="0">
+<p><span class="eg-cv-num">04</span></p>
+<section id="field-grounded-reality" class="level3">
 <h3 data-anchor-id="field-grounded-reality">Field-Grounded Reality</h3>
+<div class="eg-cv-desc">
 <p>Data in a vacuum can be misleading. We bridge the distance between satellite-derived analytics and on-the-ground experience. We are committed to rigorous ground-truthing to ensure our work is theoretically sound, locally relevant, and actionable.</p>
+</div>
 </section>
 </div>
-<div class="eg-value-row eg-v-5">
-<div class="eg-value-icon">
-<p><i class="bi bi-shield-check"></i></p>
-</div>
-<section id="resilient-stewardship" class="level3 eg-value-copy">
+<div class="eg-cv eg-cv-5" tabindex="0">
+<p><span class="eg-cv-num">05</span></p>
+<section id="resilient-stewardship" class="level3">
 <h3 data-anchor-id="resilient-stewardship">Resilient Stewardship</h3>
+<div class="eg-cv-desc">
 <p>We are driven by the long-term health of the landscapes we analyze. Our goal is to provide “Decision-Ready Intelligence” that protects ecosystems and supports community governance, ensuring our partners leave a lasting, positive footprint on the systems they manage.</p>
+</div>
 </section>
 </div>
 </div>
@@ -362,13 +362,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

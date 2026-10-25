@@ -11,7 +11,7 @@ page-layout: custom
 ::: eg-wrap
 [Get in touch]{.eg-eyebrow}
 
-## Whether you're protecting a forest, verifying carbon, or planning for what comes next, we'd love to hear what you're working on
+## Whether you're protecting a forest, mapping a landscape, or planning for what comes next, we'd love to hear what you're working on
 
 :::
 ::::

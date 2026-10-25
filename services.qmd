@@ -1,7 +1,7 @@
 ---
 title: ""
 pagetitle: "Services"
-description: "Six layers of geospatial analysis, from digital MRV and land-use change modeling to connectivity, resilience, capacity building and data services, for landscapes across East Africa."
+description: "Six layers of geospatial analysis, from data services, capacity building and mapping to landscape modeling, conservation planning and resilience assessment, for landscapes across East Africa."
 image: images/web/social-card.jpg
 title-block-banner: false
 page-layout: full
@@ -41,7 +41,7 @@ Each service reads like a layer in a GIS project — independently useful, and s
 
 ::: {.eg-layer-stack .eg-dark-panel}
 
-::: {#mrv .eg-layer .eg-l1}
+::: {#data .eg-layer .eg-l1}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l1}
 
@@ -50,33 +50,30 @@ Each service reads like a layer in a GIS project — independently useful, and s
 
 ::: {.eg-layer-body}
 ::: {.eg-layer-main}
-### Digital MRV & Carbon Verification
+### Data Services & Decision Support
 
-[High-integrity, audit-ready carbon intelligence that you can bank on.]{.eg-layer-one-liner .eg-l1}
+[Reliable data, ready for analysis and decisions.]{.eg-layer-one-liner .eg-l1}
 
 ::: {.eg-layer-desc}
-We provide independent, satellite-grounded measurement-reporting-verification (MRV) pipelines designed to meet the strictest registry standards. By integrating precise biomass estimation, biodiversity co-benefit monitoring, automated land-cover change detection, and longitudinal monitoring, we create a transparent data trail that transforms project performance into reliable, investable assets.
+Good decisions start with good data. We design and run surveys, compile and clean data from scattered sources, and deliver analysis-ready datasets your team can use straight away. Where you need more than data, we build analysis tools and decision-support frameworks that turn those datasets into clear, repeatable answers.
 
-Whether you are developing a new project or vetting a portfolio, our rigorous verification ensures your credits withstand third-party scrutiny and satisfy the most demanding due diligence.
+Our data services include:
 
-Our MRV capabilities include:
-
-- Biomass & carbon stock quantification (satellite + spaceborne lidar fusion)
-- Biodiversity co-benefit monitoring (spectral & structural diversity indices, aligned with CCB/Gold Standard safeguards)
-- Land-cover change detection & longitudinal monitoring
-- Registry-ready reporting & third-party verification support
-
+- Survey design and data collection
+- Analysis-ready datasets
+- Analysis tools
+- Decision-support frameworks
 :::
 
 :::
 
 ::: {.eg-layer-image}
-![](images/web/services_mrv.jpg){loading="lazy" decoding="async"}
+![](images/web/service-data.jpg){fig-alt="Computer screen showing maps and data dashboards" loading="lazy" decoding="async"}
 :::
 :::
 :::
 
-::: {#land-use .eg-layer .eg-l2}
+::: {#consulting .eg-layer .eg-l2}
 ::: {.eg-layer-marker}
 [ ]{.eg-layer-toggle .eg-l2}
 
@@ -85,18 +82,80 @@ Our MRV capabilities include:
 
 ::: {.eg-layer-body}
 ::: {.eg-layer-main}
-### Land-Use & Land-Cover Change Modeling
+### Technical Consulting & Capacity Building
 
-[Co-designing the future of your landscape.]{.eg-layer-one-liner .eg-l2}
+[Translating complex spatial data into actionable, team-led expertise.]{.eg-layer-one-liner .eg-l2}
 
 ::: {.eg-layer-desc}
-Static maps don't capture the pulse of a changing region. We provide dynamic, community-guided scenario modeling that integrates local values and future needs into every projection. From mitigating agricultural sprawl to managing urban growth, we help you build land-use strategies that align conservation goals with sustainable community development. 
-
-Our approaches are precision-engineered for spatial planning, regulatory compliance, and high-impact donor reporting. 
+We provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.
+:::
 
 :::
 
-::: {.eg-layer-coord .eg-l2}
+::: {.eg-layer-image}
+![](images/web/service-consulting.jpg){fig-alt="Analysts working together at laptops" loading="lazy" decoding="async"}
+:::
+:::
+:::
+
+::: {#mapping .eg-layer .eg-l3}
+::: {.eg-layer-marker}
+[ ]{.eg-layer-toggle .eg-l3}
+
+[LAYER 03]{.eg-layer-index}
+:::
+
+::: {.eg-layer-body}
+::: {.eg-layer-main}
+### Land & Resource Mapping
+
+[Accurate, current maps of what is on the ground, and how it is changing.]{.eg-layer-one-liner .eg-l3}
+
+::: {.eg-layer-desc}
+Every good decision starts with knowing what is where. We produce reliable, field-checked maps of land use and land cover, natural resources and land-use change from satellite imagery and field data, and we turn paper maps, boundaries and legacy records into clean digital layers. The result is a trusted spatial baseline your team can plan from, report against and update over time.
+
+Our mapping services include:
+
+- Land-use and land-cover mapping
+- Change detection and monitoring over time
+- Natural resource mapping: forests, rangelands, croplands, water and wetlands
+- Digitizing paper maps, boundaries and records into GIS layers
+- Field validation and accuracy assessment
+:::
+
+:::
+
+::: {.eg-layer-image}
+![](images/web/services_mrv.jpg){fig-alt="Aerial view of a forested hillside above a mosaic of small farms" loading="lazy" decoding="async"}
+:::
+:::
+:::
+
+::: {#modeling .eg-layer .eg-l4}
+::: {.eg-layer-marker}
+[ ]{.eg-layer-toggle .eg-l4}
+
+[LAYER 04]{.eg-layer-index}
+:::
+
+::: {.eg-layer-body}
+::: {.eg-layer-main}
+### Landscape Change & Scenario Modeling
+
+[See where your landscape is heading, and what each decision changes.]{.eg-layer-one-liner .eg-l4}
+
+::: {.eg-layer-desc}
+Maps show where things are today; models show where they are heading. We simulate how land use, ecosystems and whole landscapes are likely to change under different policies, pressures and climate conditions, and we co-design plausible future scenarios with the people who will use them. Planners, investors and communities can then compare options and weigh trade-offs before anything changes on the ground.
+
+Our modeling services include:
+
+- Land-use and land-cover change modeling
+- Ecosystem and landscape modeling, such as habitat suitability and ecosystem services
+- Scenario development with stakeholders
+- Testing policies and interventions before they are rolled out
+:::
+
+::: {.eg-layer-coord .eg-l4}
 [Explore case study](land-use-modeling.qmd)
 :::
 :::
@@ -107,18 +166,18 @@ Our approaches are precision-engineered for spatial planning, regulatory complia
 :::
 :::
 
-::: {#connectivity .eg-layer .eg-l3}
+::: {#conservation .eg-layer .eg-l5}
 ::: {.eg-layer-marker}
-[ ]{.eg-layer-toggle .eg-l3}
+[ ]{.eg-layer-toggle .eg-l5}
 
-[LAYER 03]{.eg-layer-index}
+[LAYER 05]{.eg-layer-index}
 :::
 
 ::: {.eg-layer-body}
 ::: {.eg-layer-main}
-### Landscape Connectivity & Conservation Planning
+### Conservation Planning
 
-[Bridging the gap between ecological integrity and human prosperity.]{.eg-layer-one-liner .eg-l3}
+[Bridging the gap between ecological integrity and human prosperity.]{.eg-layer-one-liner .eg-l5}
 
 ::: {.eg-layer-desc}
 We specialize in mapping and modeling the complexities of fragmented landscapes to create actionable conservation strategies. Our work goes beyond static mapping, utilizing cutting-edge simulation to show where conservation investments and community-led agreements will actually hold, not just where a map says they should.  
@@ -140,18 +199,18 @@ Our Core Focus Areas:
 :::
 :::
 
-::: {#resilience .eg-layer .eg-l4}
+::: {#resilience .eg-layer .eg-l6}
 ::: {.eg-layer-marker}
-[ ]{.eg-layer-toggle .eg-l4}
+[ ]{.eg-layer-toggle .eg-l6}
 
-[LAYER 04]{.eg-layer-index}
+[LAYER 06]{.eg-layer-index}
 :::
 
 ::: {.eg-layer-body}
 ::: {.eg-layer-main}
 ### Social-Ecological Systems & Resilience Assessment
 
-[Where land, climate, and community governance converge.]{.eg-layer-one-liner .eg-l4}
+[Where land, climate, and community governance converge.]{.eg-layer-one-liner .eg-l6}
 
 ::: {.eg-layer-desc}
 Effective conservation requires more than satellite imagery; it requires understanding the governance systems that sustain the land. We pair spatial data with social science to model resilience, assess land governance, and evaluate community-based natural resource management. 
@@ -172,65 +231,6 @@ Our specialized assessments include:
 :::
 :::
 :::
-
-::: {#consulting .eg-layer .eg-l5}
-::: {.eg-layer-marker}
-[ ]{.eg-layer-toggle .eg-l5}
-
-[LAYER 05]{.eg-layer-index}
-:::
-
-::: {.eg-layer-body}
-::: {.eg-layer-main}
-### Technical Consulting & Capacity Building
-
-[Translating complex spatial data into actionable, team-led expertise.]{.eg-layer-one-liner .eg-l5}
-
-::: {.eg-layer-desc}
-We provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.
-:::
-
-:::
-
-::: {.eg-layer-image}
-![](images/web/service-consulting.jpg){fig-alt="Analysts working together at laptops" loading="lazy" decoding="async"}
-:::
-:::
-:::
-
-::: {#data .eg-layer .eg-l6}
-::: {.eg-layer-marker}
-[ ]{.eg-layer-toggle .eg-l6}
-
-[LAYER 06]{.eg-layer-index}
-:::
-
-::: {.eg-layer-body}
-::: {.eg-layer-main}
-### Data Services & Decision Support
-
-[Reliable data, ready for analysis and decisions.]{.eg-layer-one-liner .eg-l6}
-
-::: {.eg-layer-desc}
-Good decisions start with good data. We design and run surveys, digitize maps and records, and deliver clean, analysis-ready datasets your team can use straight away. Where you need more than data, we build analysis tools and decision-support frameworks that turn those datasets into clear, repeatable answers.
-
-Our data services include:
-
-- Survey design and data collection
-- Digitization of maps and records
-- Analysis-ready datasets
-- Analysis tools
-- Decision-support frameworks
-:::
-
-:::
-
-::: {.eg-layer-image}
-![](images/web/service-data.jpg){fig-alt="Computer screen showing maps and data dashboards" loading="lazy" decoding="async"}
-:::
-:::
-:::
-
 :::
 :::
 :::
@@ -274,10 +274,10 @@ We integrate social science with spatial analysis to capture the human dimension
 ::: {.eg-approach-head}
 [C]{.eg-approach-badge}
 
-### Registry-Ready Reproducibility
+### Reproducible, Auditable Workflows
 :::
 
-Our workflows are built for auditability. We utilize open-science standards to ensure every output meets the strict requirements of carbon registries and institutional auditors. By prioritizing documentation and transparency from the start, we eliminate the need for costly rework during final verification.
+Our workflows are built for auditability. We utilize open-science standards to ensure every output meets the requirements of funders, regulators and institutional auditors. By prioritizing documentation and transparency from the start, we eliminate the need for costly rework during final verification.
 :::
 :::
 :::

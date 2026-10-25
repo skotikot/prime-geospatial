@@ -4,9 +4,10 @@ pagetitle: "About us"
 description: "Meet ArdhiLytics: researchers turning fragmented landscape data into practical, decision-ready insight for East Africa."
 image: images/web/social-card.jpg
 page-layout: custom
+anchor-sections: false
 ---
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: eg-page
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::: eg-page
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-about.jpg');"}
 ::: eg-wrap
 <!--[About us]{.eg-eyebrow}-->
@@ -120,77 +121,69 @@ We deliver "Decision-Ready Intelligence" — providing you with transparent, ver
 :::::::::::
 ::::::::::::
 
-::::::::::::::::::::: {#core-values .eg-section .eg-values}
-:::::::::::::::::::: eg-wrap
+:::::::::::::::: {#core-values .eg-section .eg-values}
+::::::::::::::: eg-wrap
 ::: eg-sec-head
 [What drives us]{.eg-eyebrow}
 
 ## Core values
+
+[Hover over or tap a value to read more]{.eg-cv-hint}
 :::
 
-:::::::::::::::::: eg-values-list
-::::: {.eg-value-row .eg-v-1}
-::: eg-value-icon
-<i class="bi bi-clipboard-data"></i>
-:::
+::::::::::::: eg-cv-list
+:::: {.eg-cv .eg-cv-1 tabindex="0"}
+[01]{.eg-cv-num}
 
-::: eg-value-copy
 ### Scientific Integrity
 
+::: eg-cv-desc
 We prioritize evidence over convenience. Every model, map, and insight we deliver is held to the highest standards of accuracy, transparency, and reproducibility. We believe that robust data is the only reliable foundation for environmental action.
 :::
-:::::
+::::
 
-::::: {.eg-value-row .eg-v-2}
-::: eg-value-icon
-<i class="bi bi-diagram-3"></i>
-:::
+:::: {.eg-cv .eg-cv-2 tabindex="0"}
+[02]{.eg-cv-num}
 
-::: eg-value-copy
 ### Integrative Systems Thinking
 
+::: eg-cv-desc
 We see the landscape as a whole, not a collection of isolated parts. We actively bridge the gap between biophysical systems and social dynamics, recognizing that the most accurate solutions emerge at the intersection of disciplines.
 :::
-:::::
+::::
 
-::::: {.eg-value-row .eg-v-3}
-::: eg-value-icon
-<i class="bi bi-eye"></i>
-:::
+:::: {.eg-cv .eg-cv-3 tabindex="0"}
+[03]{.eg-cv-num}
 
-::: eg-value-copy
 ### Applied Transparency
 
+::: eg-cv-desc
 We operate in the open. Our workflows are documented, our methods are peer-review-ready, and our findings are auditable. We empower our partners by giving them full clarity into how we arrive at our conclusions, demystifying the "black box" of geospatial analysis.
 :::
-:::::
+::::
 
-::::: {.eg-value-row .eg-v-4}
-::: eg-value-icon
-<i class="bi bi-geo-alt"></i>
-:::
+:::: {.eg-cv .eg-cv-4 tabindex="0"}
+[04]{.eg-cv-num}
 
-::: eg-value-copy
 ### Field-Grounded Reality
 
+::: eg-cv-desc
 Data in a vacuum can be misleading. We bridge the distance between satellite-derived analytics and on-the-ground experience. We are committed to rigorous ground-truthing to ensure our work is theoretically sound, locally relevant, and actionable.
 :::
-:::::
+::::
 
-::::: {.eg-value-row .eg-v-5}
-::: eg-value-icon
-<i class="bi bi-shield-check"></i>
-:::
+:::: {.eg-cv .eg-cv-5 tabindex="0"}
+[05]{.eg-cv-num}
 
-::: eg-value-copy
 ### Resilient Stewardship
 
+::: eg-cv-desc
 We are driven by the long-term health of the landscapes we analyze. Our goal is to provide "Decision-Ready Intelligence" that protects ecosystems and supports community governance, ensuring our partners leave a lasting, positive footprint on the systems they manage.
 :::
-:::::
-::::::::::::::::::
-::::::::::::::::::::
-:::::::::::::::::::::
+::::
+:::::::::::::
+:::::::::::::::
+::::::::::::::::
 
 ::::::::::::::: {#team .eg-section .eg-founders}
 :::::::::::::: eg-wrap
@@ -273,4 +266,4 @@ Tell us what you're trying to prove, protect, or plan for. Let us discuss which 
 :::
 :::::
 ::::::
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::

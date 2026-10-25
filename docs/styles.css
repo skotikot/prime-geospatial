@@ -1851,3 +1851,87 @@ main.content:has(.eg-page),
 /* text on the lighter contact-form photo keeps a soft shadow for legibility */
 .eg-contact-form .eg-sec-head,
 .eg-contact-form-info{ text-shadow:0 1px 3px rgba(0,0,0,0.6), 0 0 14px rgba(0,0,0,0.45); }
+
+/* ---------- ABOUT — CORE VALUES: colour bars that open on hover / tap ----------
+   Each value is a gradient bar (pale on the left, bright on the right) with a
+   large title. Hovering (desktop) or tapping (phone, via keyboard focus)
+   stretches the bar to full width and reveals the description.            */
+.eg-cv-hint{
+  display:block; margin-top:6px;
+  font-family:"IBM Plex Mono", monospace; font-size:0.8rem;
+  letter-spacing:0.04em; color:var(--eg-ink-soft);
+}
+
+.eg-cv-list{ display:flex; flex-direction:column; gap:16px; margin-top:28px; }
+
+.eg-cv{
+  --cv: 111,207,135;
+  position:relative;
+  width:var(--cv-w, 80%);
+  max-width:100%;
+  padding:26px 84px 26px 30px;
+  border-left:6px solid rgb(var(--cv));
+  border-radius:0 6px 6px 0;
+  background:linear-gradient(90deg,
+     rgba(var(--cv),0.05) 0%, rgba(var(--cv),0.30) 50%, rgba(var(--cv),0.95) 100%);
+  cursor:pointer;
+  outline:none;
+  transition: width .45s ease, box-shadow .3s ease, transform .3s ease;
+}
+
+.eg-cv > p{ margin:0; }
+
+.eg-cv-num{
+  display:block; font-family:"IBM Plex Mono", monospace; font-size:0.8rem;
+  letter-spacing:0.08em; color:var(--eg-ink-soft); margin-bottom:4px;
+}
+
+.eg-cv h3{
+  font-family:"Space Grotesk", sans-serif;
+  font-size:clamp(1.55rem, 2.8vw, 2.4rem);
+  font-weight:700; line-height:1.15; letter-spacing:0.005em;
+  color:var(--eg-ink); margin:0;
+}
+
+/* the plus sign that turns into a close mark */
+.eg-cv::after{
+  content:"+";
+  position:absolute; right:26px; top:50%;
+  width:38px; height:38px; margin-top:-19px;
+  display:flex; align-items:center; justify-content:center;
+  font-family:"Space Grotesk", sans-serif; font-size:1.7rem; line-height:1;
+  color:var(--eg-ink); background:rgba(255,255,255,0.85);
+  border-radius:50%;
+  transition: transform .35s ease;
+}
+
+.eg-cv-desc{
+  max-height:0; opacity:0; overflow:hidden;
+  max-width:72ch;
+  font-size:1.05rem; line-height:1.6; color:var(--eg-ink);
+  transition: max-height .45s ease, opacity .35s ease, margin-top .35s ease;
+}
+.eg-cv-desc p{ margin:0; }
+
+.eg-cv:hover,
+.eg-cv:focus-within{
+  width:100%;
+  box-shadow:0 12px 28px rgba(27,33,29,0.14);
+}
+.eg-cv:hover .eg-cv-desc,
+.eg-cv:focus-within .eg-cv-desc{ max-height:320px; opacity:1; margin-top:12px; }
+.eg-cv:hover::after,
+.eg-cv:focus-within::after{ transform:rotate(45deg); }
+.eg-cv:focus-visible{ box-shadow:0 0 0 3px rgba(var(--cv),0.6), 0 12px 28px rgba(27,33,29,0.14); }
+
+/* colour and resting width per value (staggered like a bar chart) */
+.eg-cv-1{ --cv:111,207,135; --cv-w:74%; }   /* canopy green */
+.eg-cv-2{ --cv:240,178,78;  --cv-w:86%; }   /* ochre */
+.eg-cv-3{ --cv:111,184,201; --cv-w:80%; }   /* teal */
+.eg-cv-4{ --cv:183,155,199; --cv-w:92%; }   /* plum */
+.eg-cv-5{ --cv:224,134,104; --cv-w:78%; }   /* rust */
+
+@media(max-width:759px){
+  .eg-cv{ width:100%; padding:20px 64px 20px 20px; }
+  .eg-cv::after{ right:16px; width:32px; height:32px; margin-top:-16px; font-size:1.4rem; }
+}
