@@ -7,6 +7,8 @@ project:
     - index.qmd
     - services.qmd
     - land-use-modeling.qmd
+    - wef-nexus-mau.qmd
+    - advanced-gis-training.qmd
     - illustrative-case-study.qmd
     - about.qmd
     # - projects2.qmd   # hidden until real case studies are ready

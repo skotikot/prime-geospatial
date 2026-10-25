@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: docs
+  # Only these pages are built and published. Drafts, copies and old pages
+  # in the folder are ignored until you add them here.
+  render:
+    - index.qmd
+    - services.qmd
+    - land-use-modeling.qmd
+    - illustrative-case-study.qmd
+    - about.qmd
+    # - projects2.qmd   # hidden until real case studies are ready
+    - contact.qmd
+    - image-credits.qmd
+    - 404.qmd
+  # Images used only from the stylesheet or inline style="" (hero banners,
+  # section backgrounds) are not detected by Quarto, so they are listed here.
+  # Images used with ![](...) in pages are picked up automatically.
+  resources:
+    - CNAME                      # custom domain for GitHub Pages (ardhilytics.com)
+    - images/web/social-card.jpg # link-preview image
+    - images/web/hero-*.jpg
+    - images/web/bannerNew.jpg
+    - images/web/contactBG.jpg
+    - images/web/habitat.jpg
+    - images/web/nrkGraze.jpg
+    - images/web/nrkWht.jpg
+
+execute:
+  freeze: auto   # reuse the saved R map output instead of re-running R every render
+
+website:
+  title: "ArdhiLytics"
+  site-url: https://ardhilytics.com
+  description: "ArdhiLytics is a Nairobi-based geospatial and environmental intelligence firm. We transform complex spatial and environmental data into practical insights for planning, conservation, development and resource management."
+  favicon: images/web/favicon.png
+  image: images/web/social-card.jpg
+  open-graph: true
+  twitter-card: true
+  navbar:
+    logo: images/web/ArdhiLytics_Green_Logo.png
+    title: false
+    logo-href: index.qmd
+    pinned: true
+    search: false
+    # Navbar colours are set in styles.css (.navbar) — kept in one place.
+    left:
+      - href: index.qmd
+        text: Home
+      - href: services.qmd
+        text: Services
+      - href: about.qmd
+        text: About us
+      # - href: projects2.qmd   # Projects page hidden for launch
+      #   text: Projects
+      - href: contact.qmd
+        text: Contact Us
+
+  page-footer:
+    background: "#0E1512"
+    border: true
+    left: |
+      © ArdhiLytics • 2026 • [ardhilytics.com](https://ardhilytics.com) • [Image credits](image-credits.qmd)
+    right:
+      - icon: envelope
+        href: mailto:info@ardhilytics.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/susankotikot/
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false

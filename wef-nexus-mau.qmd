@@ -1,0 +1,223 @@
+---
+title: ""
+pagetitle: "WEF Nexus Assessment, Greater Mau Forest Complex"
+description: "A Water-Energy-Food nexus assessment of the Greater Mau Forest Complex, Kenya: three decades of rainfall, vegetation and livelihood change, and how the pressures reinforce each other."
+image: images/web/social-card.jpg
+page-layout: custom
+---
+
+<!-- IMAGE PLACEHOLDERS on this page:
+     1. Hero: replace the gradient in style="--eg-hero-img:..." with
+        url('images/web/YOUR-HERO.jpg') and remove the eg-hero-placeholder class
+        and the "Hero image placeholder" label below.
+     2. Field photos: replace each ::: eg-img-placeholder block with an image, e.g.
+        ![](images/web/mau-forest.jpg){fig-alt="..." loading="lazy" decoding="async"}
+        inside a ::: eg-field-img block (see land-use-modeling.qmd). -->
+
+::::::::::::::::::: eg-page
+
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle .eg-hero-placeholder style="--eg-hero-img:linear-gradient(135deg, #1B2E22 0%, #2E4B32 45%, #3D6B78 100%);"}
+::: eg-wrap
+[Case study — Social-ecological systems & resilience]{.eg-eyebrow}
+
+# Water-Energy-Food Nexus Assessment in the Greater Mau Forest Complex, Kenya
+
+[How three decades of climate, land-use and livelihood change are reshaping one of East Africa's most important water towers.]{.eg-lede}
+
+::: eg-hero-ctas
+[Talk to us about your landscape](contact.qmd){.eg-btn .eg-btn-solid} [Back to services](services.qmd#resilience){.eg-btn .eg-btn-outline}
+:::
+:::
+
+[Hero image placeholder]{.eg-placeholder-tag}
+::::
+
+:::::: {#overview .eg-section}
+::::: eg-wrap
+
+::: eg-sec-head
+[Project overview]{.eg-eyebrow}
+
+## A water tower under pressure
+:::
+
+::: eg-cs-text
+The Greater Mau Forest Complex (GMFC) is one of East Africa's most critical social-ecological systems: an essential water tower, a biodiversity hotspot, and a livelihood anchor for nearly five million people. It faces intensifying pressures from climate variability, land-use change, population growth and fragmented governance.
+
+This Water-Energy-Food (WEF) nexus assessment set out to understand how these pressures interact, and to generate actionable evidence for resilience planning in a landscape where data are scarce.
+:::
+
+::: eg-cs-facts
+::: eg-cs-fact
+[1990–2021]{.eg-cs-fact-val}
+
+[Three decades analysed]{.eg-cs-fact-lbl}
+:::
+
+::: eg-cs-fact
+[~5 million]{.eg-cs-fact-val}
+
+[People who depend on the GMFC]{.eg-cs-fact-lbl}
+:::
+
+::: eg-cs-fact
+[3 sectors]{.eg-cs-fact-val}
+
+[Water, energy and food, assessed together]{.eg-cs-fact-lbl}
+:::
+:::
+
+:::::
+::::::
+
+:::::: {#approach .eg-section .eg-services}
+::::: eg-wrap
+
+::: eg-sec-head
+[Approach]{.eg-eyebrow}
+
+## An integrated geospatial and mixed-methods framework
+:::
+
+::::: eg-values-grid
+
+::: eg-value-item
+### Remote sensing analytics
+CHIRPS precipitation data, MODIS EVI vegetation indices, and multi-decadal trend analysis.
+:::
+
+::: eg-value-item
+### Trend and anomaly analysis
+Mann-Kendall and Sen's slope trend detection, anomaly mapping, and assessment of spatial variability.
+:::
+
+::: eg-value-item
+### Field-based insights
+Key informant interviews with county and national experts on lived realities, governance challenges and WEF priorities.
+:::
+
+::: eg-value-item
+### Social-ecological data integration
+Historical crop yields, population-scaled energy consumption, and qualitative observations from communities.
+:::
+
+:::::
+
+:::::
+::::::
+
+:::::: {#findings .eg-section}
+::::: eg-wrap
+
+::: eg-sec-head
+[Key findings]{.eg-eyebrow}
+
+## Reinforcing pressures across water, energy and food
+
+The analysis revealed pressures that reinforce one another, destabilizing the WEF nexus and heightening community vulnerability.
+:::
+
+::: eg-cs-findings
+::: {.eg-cs-finding .eg-cs-water}
+[Water]{.eg-cs-tag}
+
+### Longer dry spells, more erratic rainfall
+
+The GMFC gained an average of [~13 extreme dry days]{.eg-cs-hl} over 32 years, with marked differences between forest, cropland and grassland zones.
+:::
+
+::: {.eg-cs-finding .eg-cs-season}
+[Water · Food]{.eg-cs-tag}
+
+### Less predictable growing seasons
+
+Shifts in rainfall onset and frequency disrupted planting cycles, making the long rains, which support most maize production, less reliable.
+:::
+
+::: {.eg-cs-finding .eg-cs-food}
+[Food]{.eg-cs-tag}
+
+### Declining crop productivity
+
+Vegetation browning and falling maize yields point to growing stress on food systems, especially in rain-fed farming zones.
+:::
+
+::: {.eg-cs-finding .eg-cs-energy}
+[Energy · Forest]{.eg-cs-tag}
+
+### Rising dependence on bioenergy
+
+As crop productivity and water reliability declined, households relied more on charcoal and firewood, adding pressure on the forest itself.
+:::
+:::
+
+:::::
+::::::
+
+:::::: {#field-visit .eg-section .eg-field}
+::::: eg-wrap
+
+::: eg-sec-head
+[From the field]{.eg-eyebrow}
+
+## The Greater Mau landscape
+:::
+
+:::: eg-field-grid
+:::: eg-field-photo
+::: eg-img-placeholder
+[Image placeholder — forest edge or water tower]{.eg-placeholder-label}
+:::
+
+[Caption placeholder]{.eg-field-cap}
+::::
+
+:::: eg-field-photo
+::: eg-img-placeholder
+[Image placeholder — rain-fed maize farms]{.eg-placeholder-label}
+:::
+
+[Caption placeholder]{.eg-field-cap}
+::::
+
+:::: eg-field-photo
+::: eg-img-placeholder
+[Image placeholder — charcoal or firewood use]{.eg-placeholder-label}
+:::
+
+[Caption placeholder]{.eg-field-cap}
+::::
+
+:::: eg-field-photo
+::: eg-img-placeholder
+[Image placeholder — key informant interview or community]{.eg-placeholder-label}
+:::
+
+[Caption placeholder]{.eg-field-cap}
+::::
+::::
+
+:::::
+::::::
+
+:::::: {#contact .eg-section .eg-contact}
+::::: eg-contact-wrap
+
+::: eg-contact-left
+## Facing similar pressures in your landscape?
+
+Tell us the policy or planning question you're facing, and let us discuss which layers apply.
+:::
+
+::: eg-contact-box
+[EMAIL]{.eg-mono-label}
+
+[info\@ardhilytics.com](mailto:info@ardhilytics.com){.eg-email}
+
+[Send us a brief](contact.qmd){.eg-btn .eg-btn-solid}
+:::
+
+:::::
+::::::
+
+:::::::::::::::::::

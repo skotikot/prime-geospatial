@@ -16,10 +16,10 @@ format:
 ::: {.eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle .eg-hero-large style="--eg-hero-img:url('images/web/hero-services.jpg');"}
 ::: {.eg-wrap}
 
-## From Data to Decisions: [Landscape Intelligence You Can Use]{.colored-text}
+## From Data to Decisions
 
 ::: {.eg-lede}
-We help governments, conservation organizations, development partners and land managers across East Africa understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.
+We help governments, conservation organizations, development partners and land managers understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.
 :::
 
 ::: {.eg-hero-ctas}
@@ -69,7 +69,7 @@ Our data services include:
 :::
 
 ::: {.eg-layer-image}
-![](images/web/service-data.jpg){fig-alt="Computer screen showing maps and data dashboards" loading="lazy" decoding="async"}
+![](images/web/service-data-new.jpg){fig-alt="Google Earth Engine code editor showing a map of the most recent burn year across sub-Saharan Africa from MODIS burned-area data" style="object-position: left center;" loading="lazy" decoding="async"}
 :::
 :::
 :::
@@ -91,6 +91,9 @@ Our data services include:
 We provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.
 :::
 
+::: {.eg-layer-coord .eg-l2}
+[Explore case study](advanced-gis-training.qmd)
+:::
 :::
 
 ::: {.eg-layer-image}
@@ -225,6 +228,9 @@ Our specialized assessments include:
 - Climate adaptation
 :::
 
+::: {.eg-layer-coord .eg-l6}
+[Explore case study](wef-nexus-mau.qmd)
+:::
 :::
 
 ::: {.eg-layer-image}

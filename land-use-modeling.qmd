@@ -8,7 +8,7 @@ page-layout: custom
 
 ::::::::::::::::::: eg-page
 
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/bannerNew.jpg');"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-narok-farms.jpg');"}
 ::: eg-wrap
 [Case study — Landscape change & scenario modeling]{.eg-eyebrow}
 
@@ -40,14 +40,50 @@ The same approach lets us test alternative futures. Run the model forward under 
 :::::
 ::::::
 
-:::::: {#scenario-figure .eg-section}
+:::::: {#field-visit .eg-section .eg-field}
 ::::: eg-wrap
 
-::: eg-scenario-figure
-![](images/web/land-use-scenarios.png){fig-alt="Simulated land cover under three governance scenarios for a landscape in southern Kenya" loading="lazy" decoding="async"}
+::: eg-sec-head
+[From the field]{.eg-eyebrow}
 
-[Simulated land cover under three governance scenarios for a landscape in southern Kenya. Comparing a current-policy baseline against group-ranch and privatized tenure shows how a single policy choice reshapes forest, rangeland, and cropland extent, years before it happens on the ground.]{.eg-photo-caption}
+## The landscape behind the model
+
+Photos taken during a field visit to the study landscape in Narok County, Kenya, July 2023. Each shows a land use the model tracks.
 :::
+
+:::: eg-field-grid
+:::: eg-field-photo
+::: eg-field-img
+![](images/web/narok-field-wildlife.jpg){fig-alt="Wildebeest and zebra grazing on open grassland below a wooded hill" loading="lazy" decoding="async"}
+:::
+
+[Wildlife rangeland: migratory herds on open grassland in the Mara ecosystem.]{.eg-field-cap}
+::::
+
+:::: eg-field-photo
+::: eg-field-img
+![](images/web/narok-field-goats.jpg){fig-alt="Goats browsing among acacia trees and flowering aloes at dusk" loading="lazy" decoding="async"}
+:::
+
+[Pastoral grazing: livestock browsing in acacia–aloe bushland.]{.eg-field-cap}
+::::
+
+:::: eg-field-photo
+::: eg-field-img
+![](images/web/narok-field-waterpan.jpg){fig-alt="A water pan dug into open rangeland under a cloudy sky" loading="lazy" decoding="async"}
+:::
+
+[Water for people and livestock: a water pan in the open rangeland.]{.eg-field-cap}
+::::
+
+:::: eg-field-photo
+::: eg-field-img
+![](images/web/narok-field-settlement.jpg){fig-alt="Newly fenced plots and buildings at the edge of a growing town" loading="lazy" decoding="async"}
+:::
+
+[Subdivision and settlement: newly fenced plots at the edge of a growing town.]{.eg-field-cap}
+::::
+::::
 
 :::::
 ::::::

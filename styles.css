@@ -1935,3 +1935,107 @@ main.content:has(.eg-page),
   .eg-cv h3{ min-height:36px; }
   .eg-cv::after{ right:12px; top:12px; width:28px; height:28px; font-size:1.2rem; }
 }
+
+/* ---------- CASE STUDY — field photo gallery ---------- */
+.eg-field-grid{
+  display:grid; grid-template-columns:1fr; gap:22px; margin-top:8px;
+}
+@media(min-width:700px){ .eg-field-grid{ grid-template-columns:repeat(2,1fr); gap:26px; } }
+
+.eg-field-photo{ margin:0; }
+.eg-field-photo > p{ margin:0; }
+.eg-field-img{
+  position:relative; aspect-ratio:4/3; overflow:hidden;
+  border-radius:10px; border:1px solid var(--eg-line);
+}
+.eg-field-img p{ margin:0; }
+.eg-field-img img{
+  position:absolute; inset:0; width:100%; height:100%;
+  object-fit:cover; display:block;
+  transition:transform .5s ease;
+}
+.eg-field-photo:hover .eg-field-img img{ transform:scale(1.03); }
+.eg-field-cap{
+  display:block; margin-top:10px;
+  font-size:0.95rem; line-height:1.5; color:var(--eg-ink-soft);
+}
+
+/* ---------- IMAGE PLACEHOLDERS (swap for real photos before launch) ---------- */
+.eg-placeholder-tag{
+  position:absolute; right:24px; bottom:20px; z-index:3;
+  font-family:"IBM Plex Mono", monospace; font-size:0.72rem; letter-spacing:0.06em;
+  text-transform:uppercase; color:#F3F5EE;
+  border:1px dashed rgba(243,245,238,0.6); padding:6px 10px; border-radius:4px;
+}
+.eg-hero-placeholder > p{ margin:0; }
+
+.eg-img-placeholder{
+  aspect-ratio:4/3; border-radius:10px;
+  border:2px dashed var(--eg-line);
+  background:repeating-linear-gradient(45deg, #E6E9DD 0 14px, #EEF0E6 14px 28px);
+  display:flex; align-items:center; justify-content:center; text-align:center;
+  padding:20px;
+}
+.eg-img-placeholder p{ margin:0; }
+.eg-placeholder-label{
+  font-family:"IBM Plex Mono", monospace; font-size:0.8rem;
+  letter-spacing:0.04em; color:var(--eg-ink-soft);
+}
+
+/* ---------- CASE STUDY — overview text, key facts, findings cards ---------- */
+.eg-cs-text{ max-width:78ch; }
+.eg-cs-text p{ font-size:1.05rem; line-height:1.65; color:var(--eg-ink-soft); margin-bottom:14px; }
+
+.eg-cs-facts{
+  display:grid; grid-template-columns:1fr; gap:16px; margin-top:28px;
+}
+@media(min-width:700px){ .eg-cs-facts{ grid-template-columns:repeat(3,1fr); } }
+.eg-cs-fact{
+  background:#FFFFFF; border:1px solid var(--eg-line); border-radius:10px;
+  border-top:4px solid var(--eg-teal); padding:18px 20px;
+}
+.eg-cs-fact p{ margin:0; }
+.eg-cs-fact-val{
+  display:block; font-family:"Space Grotesk", sans-serif; font-weight:700;
+  font-size:1.7rem; line-height:1.2; color:var(--eg-ink);
+}
+.eg-cs-fact-lbl{ display:block; margin-top:4px; font-size:0.92rem; color:var(--eg-ink-soft); }
+
+.eg-cs-findings{
+  display:grid; grid-template-columns:1fr; gap:18px; margin-top:8px;
+}
+@media(min-width:760px){ .eg-cs-findings{ grid-template-columns:repeat(2,1fr); gap:22px; } }
+
+.eg-cs-finding{
+  --cs:61,107,120;
+  background:linear-gradient(135deg, rgba(var(--cs),0.10) 0%, rgba(255,255,255,0.9) 60%);
+  border:1px solid var(--eg-line); border-left:5px solid rgb(var(--cs));
+  border-radius:0 10px 10px 0; padding:22px 24px;
+}
+.eg-cs-finding p{ margin:0 0 8px; color:var(--eg-ink-soft); font-size:0.98rem; line-height:1.6; }
+.eg-cs-finding h3{
+  font-family:"Space Grotesk", sans-serif; font-size:1.2rem; line-height:1.3;
+  color:var(--eg-ink); margin:6px 0 10px;
+}
+.eg-cs-tag{
+  display:inline-block; font-family:"IBM Plex Mono", monospace; font-size:0.7rem;
+  letter-spacing:0.08em; text-transform:uppercase; color:#FFFFFF;
+  background:rgb(var(--cs)); padding:3px 8px; border-radius:3px;
+}
+.eg-cs-hl{ font-weight:700; color:rgb(var(--cs)); }
+
+.eg-cs-water{  --cs:61,107,120; }   /* teal  */
+.eg-cs-season{ --cs:122,101,132; }  /* plum  */
+.eg-cs-food{   --cs:169,122,61; }   /* ochre */
+.eg-cs-energy{ --cs:162,78,59; }    /* rust  */
+
+/* three-across variant of the field photo grid */
+@media(min-width:900px){ .eg-field-grid.eg-field-grid-3{ grid-template-columns:repeat(3,1fr); gap:22px; } }
+
+/* country / tag chips on case study pages */
+.eg-cs-chips{ display:flex; flex-wrap:wrap; gap:10px; margin-top:6px; }
+.eg-cs-chips p{ display:contents; }
+.eg-cs-chips .eg-chip{
+  margin:0; font-size:0.85rem; padding:7px 14px; border-radius:999px;
+  background:#FFFFFF; border:1px solid var(--eg-line); color:var(--eg-ink);
+}

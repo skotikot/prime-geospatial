@@ -74,7 +74,7 @@ From reliable data and practical training to mapping, modeling and planning, eac
 
 ::: eg-teaser-card
 ::: eg-teaser-photo
-![](images/web/service-data.jpg){loading="lazy" decoding="async"}
+![](images/web/service-data-new.jpg){fig-alt="Google Earth Engine map of the most recent burn year across sub-Saharan Africa from MODIS burned-area data" style="object-position: left center;" loading="lazy" decoding="async"}
 :::
 
 ::: eg-teaser-icon

@@ -49,18 +49,53 @@
     "text": "Tell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply."
   },
   {
+    "objectID": "wef-nexus-mau.html#a-water-tower-under-pressure",
+    "href": "wef-nexus-mau.html#a-water-tower-under-pressure",
+    "title": "ArdhiLytics",
+    "section": "A water tower under pressure",
+    "text": "A water tower under pressure"
+  },
+  {
+    "objectID": "wef-nexus-mau.html#an-integrated-geospatial-and-mixed-methods-framework",
+    "href": "wef-nexus-mau.html#an-integrated-geospatial-and-mixed-methods-framework",
+    "title": "ArdhiLytics",
+    "section": "An integrated geospatial and mixed-methods framework",
+    "text": "An integrated geospatial and mixed-methods framework"
+  },
+  {
+    "objectID": "wef-nexus-mau.html#reinforcing-pressures-across-water-energy-and-food",
+    "href": "wef-nexus-mau.html#reinforcing-pressures-across-water-energy-and-food",
+    "title": "ArdhiLytics",
+    "section": "Reinforcing pressures across water, energy and food",
+    "text": "Reinforcing pressures across water, energy and food\nThe analysis revealed pressures that reinforce one another, destabilizing the WEF nexus and heightening community vulnerability."
+  },
+  {
+    "objectID": "wef-nexus-mau.html#the-greater-mau-landscape",
+    "href": "wef-nexus-mau.html#the-greater-mau-landscape",
+    "title": "ArdhiLytics",
+    "section": "The Greater Mau landscape",
+    "text": "The Greater Mau landscape"
+  },
+  {
+    "objectID": "wef-nexus-mau.html#facing-similar-pressures-in-your-landscape",
+    "href": "wef-nexus-mau.html#facing-similar-pressures-in-your-landscape",
+    "title": "ArdhiLytics",
+    "section": "Facing similar pressures in your landscape?",
+    "text": "Facing similar pressures in your landscape?\nTell us the policy or planning question you’re facing, and let us discuss which layers apply."
+  },
+  {
     "objectID": "services.html",
     "href": "services.html",
     "title": "ArdhiLytics",
     "section": "",
-    "text": "We help governments, conservation organizations, development partners and land managers across East Africa understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.\n\n\nStart a project\n\n\n\n\n\n\nServices\n\n\nWhether you need a specific analysis or an end-to-end assessment, our services scale to match your needs.\n\n\n\n\n\n\nLAYER 01\n\n\n\n\nReliable data, ready for analysis and decisions.\n\nGood decisions start with good data. We design and run surveys, compile and clean data from scattered sources, and deliver analysis-ready datasets your team can use straight away. Where you need more than data, we build analysis tools and decision-support frameworks that turn those datasets into clear, repeatable answers.\nOur data services include:\n\nSurvey design and data collection\nAnalysis-ready datasets\nAnalysis tools\nDecision-support frameworks\n\n\n\n\n\n\n\n\n\n\n\nLAYER 02\n\n\n\n\nTranslating complex spatial data into actionable, team-led expertise.\n\nWe provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.\n\n\n\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nAccurate, current maps of what is on the ground, and how it is changing.\n\nEvery good decision starts with knowing what is where. We produce reliable, field-checked maps of land use and land cover, natural resources and land-use change from satellite imagery and field data, and we turn paper maps, boundaries and legacy records into clean digital layers. The result is a trusted spatial baseline your team can plan from, report against and update over time.\nOur mapping services include:\n\nLand-use and land-cover mapping\nChange detection and monitoring over time\nNatural resource mapping: forests, rangelands, croplands, water and wetlands\nDigitizing paper maps, boundaries and records into GIS layers\nField validation and accuracy assessment\n\n\n\n\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nSee where your landscape is heading, and what each decision changes.\n\nMaps show where things are today; models show where they are heading. We simulate how land use, ecosystems and whole landscapes are likely to change under different policies, pressures and climate conditions, and we co-design plausible future scenarios with the people who will use them. Planners, investors and communities can then compare options and weigh trade-offs before anything changes on the ground.\nOur modeling services include:\n\nLand-use and land-cover change modeling\nEcosystem and landscape modeling, such as habitat suitability and ecosystem services\nScenario development with stakeholders\nTesting policies and interventions before they are rolled out\n\n\n\nExplore case study\n\n\n\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nBridging the gap between ecological integrity and human prosperity.\n\nWe specialize in mapping and modeling the complexities of fragmented landscapes to create actionable conservation strategies. Our work goes beyond static mapping, utilizing cutting-edge simulation to show where conservation investments and community-led agreements will actually hold, not just where a map says they should.\nOur Core Focus Areas:\n\nConnectivity & corridor design\nProactive human-wildlife conflict modeling\nIntegrated well-being assessments\nEffectiveness & impact analysis\n\n\n\n\n\n\n\n\n\n\n\nLAYER 06\n\n\n\n\nWhere land, climate, and community governance converge.\n\nEffective conservation requires more than satellite imagery; it requires understanding the governance systems that sustain the land. We pair spatial data with social science to model resilience, assess land governance, and evaluate community-based natural resource management.\nBy projecting the impacts of interventions before they occur and auditing their performance after implementation, we provide the integrated intelligence necessary to turn conservation goals into lasting, on-the-ground resilience.\nOur specialized assessments include:\n\nLandscape & regenerative planning\nRestoration & intervention analysis\nClimate adaptation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur approach\n\n\nEvery service we provide is anchored in three non-negotiable technical pillars:\n\n\n\n\n\nA\n\n\n\n\nWe go beyond remote sensing pixels by integrating high-fidelity ground truth data including field plots, transects, and bioacoustic monitoring to calibrate our models. This multi-source data fusion ensures our spatial projections reflect actual on-the-ground ecological conditions.\n\n\n\nB\n\n\n\n\nWe integrate social science with spatial analysis to capture the human dimensions of land management. By embedding local governance frameworks and communal knowledge directly into our modeling engines (e.g., Agent-Based Models), we ensure our assessments are socially sustainable and operationally viable.\n\n\n\nC\n\n\n\n\nOur workflows are built for auditability. We utilize open-science standards to ensure every output meets the requirements of funders, regulators and institutional auditors. By prioritizing documentation and transparency from the start, we eliminate the need for costly rework during final verification.\n\n\n\n\n\n\n\nSectors\n\n\n\n\n\n\n\nCarbon & Conservation Finance\n\n\n\nGovernment & County Planning\n\n\n\nMultilaterals & Bilateral Donors\n\n\n\nResearch Institutions\n\n\n\nAgriculture & Insurance\n\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\ninfo@ardhilytics.com\nBASED IN\nNairobi, Kenya\nSend us a brief"
+    "text": "We help governments, conservation organizations, development partners and land managers understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.\n\n\nStart a project\n\n\n\n\n\n\nServices\n\n\nWhether you need a specific analysis or an end-to-end assessment, our services scale to match your needs.\n\n\n\n\n\n\nLAYER 01\n\n\n\n\nReliable data, ready for analysis and decisions.\n\nGood decisions start with good data. We design and run surveys, compile and clean data from scattered sources, and deliver analysis-ready datasets your team can use straight away. Where you need more than data, we build analysis tools and decision-support frameworks that turn those datasets into clear, repeatable answers.\nOur data services include:\n\nSurvey design and data collection\nAnalysis-ready datasets\nAnalysis tools\nDecision-support frameworks\n\n\n\n\n\n\n\n\n\n\n\nLAYER 02\n\n\n\n\nTranslating complex spatial data into actionable, team-led expertise.\n\nWe provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.\n\n\nExplore case study\n\n\n\n\n\n\n\n\n\n\nLAYER 03\n\n\n\n\nAccurate, current maps of what is on the ground, and how it is changing.\n\nEvery good decision starts with knowing what is where. We produce reliable, field-checked maps of land use and land cover, natural resources and land-use change from satellite imagery and field data, and we turn paper maps, boundaries and legacy records into clean digital layers. The result is a trusted spatial baseline your team can plan from, report against and update over time.\nOur mapping services include:\n\nLand-use and land-cover mapping\nChange detection and monitoring over time\nNatural resource mapping: forests, rangelands, croplands, water and wetlands\nDigitizing paper maps, boundaries and records into GIS layers\nField validation and accuracy assessment\n\n\n\n\n\n\n\n\n\n\n\nLAYER 04\n\n\n\n\nSee where your landscape is heading, and what each decision changes.\n\nMaps show where things are today; models show where they are heading. We simulate how land use, ecosystems and whole landscapes are likely to change under different policies, pressures and climate conditions, and we co-design plausible future scenarios with the people who will use them. Planners, investors and communities can then compare options and weigh trade-offs before anything changes on the ground.\nOur modeling services include:\n\nLand-use and land-cover change modeling\nEcosystem and landscape modeling, such as habitat suitability and ecosystem services\nScenario development with stakeholders\nTesting policies and interventions before they are rolled out\n\n\n\nExplore case study\n\n\n\n\n\n\n\n\n\n\nLAYER 05\n\n\n\n\nBridging the gap between ecological integrity and human prosperity.\n\nWe specialize in mapping and modeling the complexities of fragmented landscapes to create actionable conservation strategies. Our work goes beyond static mapping, utilizing cutting-edge simulation to show where conservation investments and community-led agreements will actually hold, not just where a map says they should.\nOur Core Focus Areas:\n\nConnectivity & corridor design\nProactive human-wildlife conflict modeling\nIntegrated well-being assessments\nEffectiveness & impact analysis\n\n\n\n\n\n\n\n\n\n\n\nLAYER 06\n\n\n\n\nWhere land, climate, and community governance converge.\n\nEffective conservation requires more than satellite imagery; it requires understanding the governance systems that sustain the land. We pair spatial data with social science to model resilience, assess land governance, and evaluate community-based natural resource management.\nBy projecting the impacts of interventions before they occur and auditing their performance after implementation, we provide the integrated intelligence necessary to turn conservation goals into lasting, on-the-ground resilience.\nOur specialized assessments include:\n\nLandscape & regenerative planning\nRestoration & intervention analysis\nClimate adaptation\n\n\n\nExplore case study\n\n\n\n\n\n\n\n\n\n\n\n\n\nOur approach\n\n\nEvery service we provide is anchored in three non-negotiable technical pillars:\n\n\n\n\n\nA\n\n\n\n\nWe go beyond remote sensing pixels by integrating high-fidelity ground truth data including field plots, transects, and bioacoustic monitoring to calibrate our models. This multi-source data fusion ensures our spatial projections reflect actual on-the-ground ecological conditions.\n\n\n\nB\n\n\n\n\nWe integrate social science with spatial analysis to capture the human dimensions of land management. By embedding local governance frameworks and communal knowledge directly into our modeling engines (e.g., Agent-Based Models), we ensure our assessments are socially sustainable and operationally viable.\n\n\n\nC\n\n\n\n\nOur workflows are built for auditability. We utilize open-science standards to ensure every output meets the requirements of funders, regulators and institutional auditors. By prioritizing documentation and transparency from the start, we eliminate the need for costly rework during final verification.\n\n\n\n\n\n\n\nSectors\n\n\n\n\n\n\n\nCarbon & Conservation Finance\n\n\n\nGovernment & County Planning\n\n\n\nMultilaterals & Bilateral Donors\n\n\n\nResearch Institutions\n\n\n\nAgriculture & Insurance\n\n\n\n\n\n\n\n\nTell us what you’re trying to prove, protect, or plan for. We’ll tell you which layers apply.\n\n\nEMAIL\ninfo@ardhilytics.com\nBASED IN\nNairobi, Kenya\nSend us a brief"
   },
   {
-    "objectID": "services.html#from-data-to-decisions-landscape-intelligence-you-can-use",
-    "href": "services.html#from-data-to-decisions-landscape-intelligence-you-can-use",
+    "objectID": "services.html#from-data-to-decisions",
+    "href": "services.html#from-data-to-decisions",
     "title": "ArdhiLytics",
     "section": "",
-    "text": "We help governments, conservation organizations, development partners and land managers across East Africa understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.\n\n\nStart a project"
+    "text": "We help governments, conservation organizations, development partners and land managers understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.\n\n\nStart a project"
   },
   {
     "objectID": "services.html#six-layers-of-analysis-stacked-around-one-landscape.",
@@ -133,6 +168,13 @@
     "text": "From satellite records to future scenarios"
   },
   {
+    "objectID": "land-use-modeling.html#the-landscape-behind-the-model",
+    "href": "land-use-modeling.html#the-landscape-behind-the-model",
+    "title": "ArdhiLytics",
+    "section": "The landscape behind the model",
+    "text": "The landscape behind the model\nPhotos taken during a field visit to the study landscape in Narok County, Kenya, July 2023. Each shows a land use the model tracks."
+  },
+  {
     "objectID": "land-use-modeling.html#built-for-decisions-not-just-diagnostics",
     "href": "land-use-modeling.html#built-for-decisions-not-just-diagnostics",
     "title": "ArdhiLytics",
@@ -145,6 +187,48 @@
     "title": "ArdhiLytics",
     "section": "Have a landscape that needs this kind of clarity?",
     "text": "Have a landscape that needs this kind of clarity?\nTell us the policy or planning question you’re facing. We’ll tell you what the land is likely to do next."
+  },
+  {
+    "objectID": "advanced-gis-training.html#building-geospatial-skills-where-conservation-happens",
+    "href": "advanced-gis-training.html#building-geospatial-skills-where-conservation-happens",
+    "title": "ArdhiLytics",
+    "section": "Building geospatial skills where conservation happens",
+    "text": "Building geospatial skills where conservation happens"
+  },
+  {
+    "objectID": "advanced-gis-training.html#six-modules-from-data-access-to-habitat-connectivity",
+    "href": "advanced-gis-training.html#six-modules-from-data-access-to-habitat-connectivity",
+    "title": "ArdhiLytics",
+    "section": "Six modules, from data access to habitat connectivity",
+    "text": "Six modules, from data access to habitat connectivity"
+  },
+  {
+    "objectID": "advanced-gis-training.html#a-typical-training-day",
+    "href": "advanced-gis-training.html#a-typical-training-day",
+    "title": "ArdhiLytics",
+    "section": "A typical training day",
+    "text": "A typical training day\nEach day combines self-paced study with group work and live teaching. Two instructors teach on site and three join remotely, and participants are expected to take charge of their own learning."
+  },
+  {
+    "objectID": "advanced-gis-training.html#a-diverse-international-cohort",
+    "href": "advanced-gis-training.html#a-diverse-international-cohort",
+    "title": "ArdhiLytics",
+    "section": "A diverse, international cohort",
+    "text": "A diverse, international cohort\nThe 2024 cohort brought together conservation practitioners, researchers and students from across Africa and beyond, with backgrounds ranging from wildlife management and ecology to geomatics."
+  },
+  {
+    "objectID": "advanced-gis-training.html#scenes-from-the-training",
+    "href": "advanced-gis-training.html#scenes-from-the-training",
+    "title": "ArdhiLytics",
+    "section": "Scenes from the training",
+    "text": "Scenes from the training\nPhotos: Daniel Samwel"
+  },
+  {
+    "objectID": "advanced-gis-training.html#want-to-build-your-teams-geospatial-skills",
+    "href": "advanced-gis-training.html#want-to-build-your-teams-geospatial-skills",
+    "title": "ArdhiLytics",
+    "section": "Want to build your team’s geospatial skills?",
+    "text": "Want to build your team’s geospatial skills?\nTell us who you’re training and what they need to do, and let us design a programme around it."
   },
   {
     "objectID": "about.html#we-deliver-data-driven-intelligence-where-it-matters-most.",
