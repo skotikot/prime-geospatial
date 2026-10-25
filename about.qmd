@@ -48,11 +48,9 @@ What started as an idea for improving data access evolved into a consulting prac
 
 ## Beyond the map
 
-We don't believe in siloed data. By integrating remote sensing with deep social-ecological theory, we provide more than just maps, we provide context. Our team lives at the intersection of climate science, ecology, and human geography, ensuring that every spatial insight is grounded in rigorous, field-validated reality, not just routine GIS processing.
+Environmental challenges do not exist in isolation. Land-use decisions, ecosystems, climate, livelihoods, and governance are interconnected. That is why we combine remote sensing, spatial analysis, field data, and social-ecological understanding to provide a more complete picture of how landscapes function and change.
 
-Our workflows are built on a foundation of open, reproducible science and peer-reviewed methodology. Through this transdisciplinary approach, we deliver the high-fidelity diagnostics our partners need to plan, protect, and prove their impact with total confidence.
-
-While our methodology is global in its scientific rigor, our focus is grounded in the complex social-ecological landscapes of East Africa. We believe that deep, place-based knowledge is the essential final layer of geospatial analysis, ensuring our diagnostics are not just accurate, but locally transformative.
+By integrating science with local knowledge and context, we help clients move beyond data collection and toward informed, practical, and lasting solutions.
 
 ```{=html}
 <!--::: {.eg-about_map-box}
@@ -127,13 +125,11 @@ We deliver "Decision-Ready Intelligence" — providing you with transparent, ver
 [What drives us]{.eg-eyebrow}
 
 ## Core values
-
-[Hover over or tap a value to read more]{.eg-cv-hint}
 :::
 
 ::::::::::::: eg-cv-list
 :::: {.eg-cv .eg-cv-1 tabindex="0"}
-[01]{.eg-cv-num}
+[<i class="bi bi-clipboard-data"></i>]{.eg-cv-icon}
 
 ### Scientific Integrity
 
@@ -143,7 +139,7 @@ We prioritize evidence over convenience. Every model, map, and insight we delive
 ::::
 
 :::: {.eg-cv .eg-cv-2 tabindex="0"}
-[02]{.eg-cv-num}
+[<i class="bi bi-diagram-3"></i>]{.eg-cv-icon}
 
 ### Integrative Systems Thinking
 
@@ -153,7 +149,7 @@ We see the landscape as a whole, not a collection of isolated parts. We actively
 ::::
 
 :::: {.eg-cv .eg-cv-3 tabindex="0"}
-[03]{.eg-cv-num}
+[<i class="bi bi-eye"></i>]{.eg-cv-icon}
 
 ### Applied Transparency
 
@@ -163,7 +159,7 @@ We operate in the open. Our workflows are documented, our methods are peer-revie
 ::::
 
 :::: {.eg-cv .eg-cv-4 tabindex="0"}
-[04]{.eg-cv-num}
+[<i class="bi bi-geo-alt"></i>]{.eg-cv-icon}
 
 ### Field-Grounded Reality
 
@@ -173,7 +169,7 @@ Data in a vacuum can be misleading. We bridge the distance between satellite-der
 ::::
 
 :::: {.eg-cv .eg-cv-5 tabindex="0"}
-[05]{.eg-cv-num}
+[<i class="bi bi-shield-check"></i>]{.eg-cv-icon}
 
 ### Resilient Stewardship
 

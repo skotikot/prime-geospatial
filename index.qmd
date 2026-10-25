@@ -38,14 +38,11 @@ page-layout: custom
 
 ## ArdhiLytics
 
-ArdhiLytics is a science-driven spatial analytics and environmental intelligence firm.
+ArdhiLytics is a science-driven spatial analytics and environmental intelligence firm. 
 
-We transform complex landscape data into actionable evidence that helps governments, conservation organizations, investors, project developers, and communities make confident decisions. By integrating satellite observation, advanced spatial modeling, field-based data, and social-ecological insights, we deliver audit-ready intelligence that connects environmental outcomes with real-world impact.
+We help governments, conservation organizations, investors, and communities turn complex landscape data into actionable insights for planning, monitoring, and decision-making. By combining satellite observations, spatial analysis, field data, and local knowledge, we deliver credible, evidence-based solutions at the intersection of conservation, climate, and sustainable development. 
 
-Built on a foundation of scientific rigor, transparency, and local relevance, we work at the intersection of conservation, climate, and sustainable development. Our expertise spans data services, land and resource mapping, land-use and landscape modeling, landscape ecology, resilience assessment, and evidence-based planning.
-We bridge spatial and social science, combining ecological data, community knowledge, and governance dynamics to provide a complete understanding of how landscapes function and change over time.
-
-From project design and baseline assessments to monitoring, verification, and impact evaluation, we help our partners move beyond assumptions and make decisions backed by credible, measurable evidence.
+From mapping and landscape assessment to monitoring, verification, and impact evaluation, we help partners make confident decisions grounded in data.
 :::
 
 ::: {.eg-hero-ctas}
@@ -199,13 +196,11 @@ From reliable data and practical training to mapping, modeling and planning, eac
 
 ## Social-ecological integration
 
-[Environmental problems don't exist in isolation]{.eg-ses-tagline}
+<!-- [Environmental problems don't exist in isolation]{.eg-ses-tagline} -->
 :::
 
 ::: eg-ses-lede
-At ArdhiLytics, we recognize that environmental challenges are never purely ecological, they are inextricably linked to social, economic, and governance dynamics. True sustainability emerges only when rigorous science is grounded in the realities of the communities who live, work, and depend on the land.
-
-By fusing spatial analytics, ecological modeling, and community-informed social-ecological systems thinking, we design interventions that are not just environmentally effective, but socially viable, locally supported, and built to endure.
+Environmental challenges are shaped by ecology, people, and governance. Effective solutions require understanding all three. By combining spatial analysis with local knowledge and institutional context, we help clients design solutions that are environmentally sound, socially practical, and built to last.
 :::
 
 ::: eg-ses-figure

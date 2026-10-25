@@ -16,10 +16,10 @@ format:
 ::: {.eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle .eg-hero-large style="--eg-hero-img:url('images/web/hero-services.jpg');"}
 ::: {.eg-wrap}
 
-## Beyond Estimates: [Rigorous Landscape Intelligence]{.colored-text}.
+## From Data to Decisions: [Landscape Intelligence You Can Use]{.colored-text}
 
 ::: {.eg-lede}
-We bridge the gap between ecological claims and verifiable reality. Using satellite data, advanced modeling, and local social-ecological insights, we provide donors, developers, investors, land managers and governments across the region, with the definitive, audit-ready proof needed to secure and sustain your land-use investments.
+We help governments, conservation organizations, development partners and land managers across East Africa understand their landscapes and plan for what comes next. From reliable data and hands-on training to mapping, modeling and conservation planning, we turn complex spatial and environmental information into clear, practical insight.
 :::
 
 ::: {.eg-hero-ctas}
@@ -36,7 +36,8 @@ We bridge the gap between ecological claims and verifiable reality. Using satell
 
 ## Six layers of analysis, stacked around one landscape.
 
-Each service reads like a layer in a GIS project — independently useful, and stronger together. Pick one, or let us build the full stack for a project.
+Whether you need a specific analysis or an end-to-end assessment, our services scale to match your needs.
+
 :::
 
 ::: {.eg-layer-stack .eg-dark-panel}
