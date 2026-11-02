@@ -6,7 +6,7 @@ image: images/web/social-card.jpg
 page-layout: custom
 ---
 
-::::::::::::::::::: eg-page
+::::::::::::::::::: {.eg-page .eg-theme-modeling}
 
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-narok-farms.jpg');"}
 ::: eg-wrap

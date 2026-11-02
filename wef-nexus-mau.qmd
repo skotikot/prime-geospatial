@@ -6,17 +6,9 @@ image: images/web/social-card.jpg
 page-layout: custom
 ---
 
-<!-- IMAGE PLACEHOLDERS on this page:
-     1. Hero: replace the gradient in style="--eg-hero-img:..." with
-        url('images/web/YOUR-HERO.jpg') and remove the eg-hero-placeholder class
-        and the "Hero image placeholder" label below.
-     2. Field photos: replace each ::: eg-img-placeholder block with an image, e.g.
-        ![](images/web/mau-forest.jpg){fig-alt="..." loading="lazy" decoding="async"}
-        inside a ::: eg-field-img block (see land-use-modeling.qmd). -->
+::::::::::::::::::: {.eg-page .eg-theme-ses}
 
-::::::::::::::::::: eg-page
-
-:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle .eg-hero-placeholder style="--eg-hero-img:linear-gradient(135deg, #1B2E22 0%, #2E4B32 45%, #3D6B78 100%);"}
+:::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle style="--eg-hero-img:url('images/web/hero-mau.jpg');"}
 ::: eg-wrap
 [Case study — Social-ecological systems & resilience]{.eg-eyebrow}
 
@@ -28,8 +20,6 @@ page-layout: custom
 [Talk to us about your landscape](contact.qmd){.eg-btn .eg-btn-solid} [Back to services](services.qmd#resilience){.eg-btn .eg-btn-outline}
 :::
 :::
-
-[Hero image placeholder]{.eg-placeholder-tag}
 ::::
 
 :::::: {#overview .eg-section}
@@ -161,39 +151,41 @@ As crop productivity and water reliability declined, households relied more on c
 [From the field]{.eg-eyebrow}
 
 ## The Greater Mau landscape
+
+Photos from the Greater Mau landscape, June 2022.
 :::
 
 :::: eg-field-grid
 :::: eg-field-photo
-::: eg-img-placeholder
-[Image placeholder — forest edge or water tower]{.eg-placeholder-label}
+::: eg-field-img
+![](images/web/mau-field-tea-farms.jpg){fig-alt="Tea bushes in the foreground and a hillside of small farm plots and trees beyond" loading="lazy" decoding="async"}
 :::
 
-[Caption placeholder]{.eg-field-cap}
+[Tea in the foreground, with small farm plots and trees on the hillside beyond.]{.eg-field-cap}
 ::::
 
 :::: eg-field-photo
-::: eg-img-placeholder
-[Image placeholder — rain-fed maize farms]{.eg-placeholder-label}
+::: eg-field-img
+![](images/web/mau-field-hillside-farms.jpg){fig-alt="A hillside of small cultivated plots and scattered trees above a fenced pasture" loading="lazy" decoding="async"}
 :::
 
-[Caption placeholder]{.eg-field-cap}
+[Small cultivated plots and scattered trees on a hillside, above a fenced pasture.]{.eg-field-cap}
 ::::
 
 :::: eg-field-photo
-::: eg-img-placeholder
-[Image placeholder — charcoal or firewood use]{.eg-placeholder-label}
+::: eg-field-img
+![](images/web/mau-field-timber.jpg){fig-alt="Stacks of cut logs beside a red dirt road" loading="lazy" decoding="async"}
 :::
 
-[Caption placeholder]{.eg-field-cap}
+[Stacks of cut logs beside a farm road.]{.eg-field-cap}
 ::::
 
 :::: eg-field-photo
-::: eg-img-placeholder
-[Image placeholder — key informant interview or community]{.eg-placeholder-label}
+::: eg-field-img
+![](images/web/mau-field-tea-forest.jpg){fig-alt="Tea fields in the foreground with forest and farmland across a valley" loading="lazy" decoding="async"}
 :::
 
-[Caption placeholder]{.eg-field-cap}
+[Tea fields in the foreground, with forest and farmland across the valley.]{.eg-field-cap}
 ::::
 ::::
 
