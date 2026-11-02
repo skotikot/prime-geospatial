@@ -2100,18 +2100,15 @@ main.content:has(.eg-page),
 .eg-theme-modeling{   --eg-accent:#B79BC7; --eg-accent-rgb:183,155,199; }  /* Landscape change & scenario modeling */
 .eg-theme-ses{        --eg-accent:#D9479C; --eg-accent-rgb:217,71,156; }   /* Social-ecological systems & resilience */
 
-/* main headings */
+/* main headings (the closing contact band keeps the site-wide colours) */
 .eg-page[class*="eg-theme-"] .eg-sec-head h2{ color:var(--eg-accent); }
-.eg-page[class*="eg-theme-"] .eg-contact-left h2{ color:var(--eg-accent); }
 
 /* eyebrow rules and buttons */
 .eg-page[class*="eg-theme-"] .eg-eyebrow::before{ background:var(--eg-accent); }
-.eg-page[class*="eg-theme-"] .eg-hero .eg-btn-solid,
-.eg-page[class*="eg-theme-"] .eg-contact .eg-btn-solid{
+.eg-page[class*="eg-theme-"] .eg-hero .eg-btn-solid{
   background:var(--eg-accent); border-color:var(--eg-accent); color:#0E1512;
 }
-.eg-page[class*="eg-theme-"] .eg-hero .eg-btn-solid:hover,
-.eg-page[class*="eg-theme-"] .eg-contact .eg-btn-solid:hover{
+.eg-page[class*="eg-theme-"] .eg-hero .eg-btn-solid:hover{
   background:#F3F5EE; border-color:#F3F5EE; color:#0E1512;
 }
 
@@ -2122,3 +2119,6 @@ main.content:has(.eg-page),
 .eg-page[class*="eg-theme-"] .eg-cs-tag{ color:#0E1512; }
 .eg-page[class*="eg-theme-"] .eg-cs-chips .eg-chip{ border-color:rgba(var(--eg-accent-rgb),0.7); }
 .eg-page[class*="eg-theme-"] .eg-field-img{ border-bottom:4px solid var(--eg-accent); }
+
+/* Cloudflare Turnstile spam check on the contact form */
+.eg-turnstile{ min-height:65px; margin:4px 0 18px; }

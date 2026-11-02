@@ -60,12 +60,9 @@ Let's talk about what it would take to get you decision-ready intelligence you c
 <input type="hidden" name="_subject" value="New inquiry — ArdhiLytics website">
 <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
-<!-- reCAPTCHA switched off until a real site key exists. To turn it back on:
-     1) register the site at https://www.google.com/recaptcha/admin and paste the key below,
-     2) add the matching secret key in your Formspree form settings,
-     3) uncomment this div and the script tag further down.
-<div class="eg-form-row g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
--->
+<!-- Spam check: Cloudflare Turnstile. The secret key lives in Formspree
+     (form Settings > CAPTCHA); only the public site key goes here. -->
+<div class="eg-form-row eg-turnstile cf-turnstile" data-sitekey="0x4AAAAAAFxBeg6UH6W4_t_P" data-theme="light" data-size="flexible"></div>
 
 <button type="submit" class="eg-btn eg-btn-solid">Send us a brief</button>
 
@@ -73,7 +70,7 @@ Let's talk about what it would take to get you decision-ready intelligence you c
 
 </form>
 
-<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 <!-- Sends the form to Formspree in the background and shows the result on this page.
      If JavaScript is off, the form still works the old way (via Formspree's page). -->
@@ -92,6 +89,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
+
+    // wait for the Turnstile spam check to finish before sending
+    var token = form.querySelector('[name="cf-turnstile-response"]');
+    if (!token || !token.value) {
+      show("error", "<strong>Almost there.</strong> Please wait for the security check " +
+        "above the button to finish, then click send again.");
+      return;
+    }
+
     button.disabled = true;
     button.textContent = "Sending…";
     status.className = "eg-form-status";
@@ -120,6 +126,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "Please check your connection and try again, or email us at " +
         "<a href='mailto:info@ardhilytics.com'>info@ardhilytics.com</a>.");
     }).finally(function () {
+      // each security token works once, so get a fresh one for the next message
+      if (window.turnstile) { window.turnstile.reset(); }
       button.disabled = false;
       button.textContent = buttonText;
     });
