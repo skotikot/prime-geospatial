@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-391032c6c1495fbca0adf994bb94c984.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f8bae7e04d3f311cf5009a06185e5abf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -153,7 +156,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="eg-contact-form-grid">
 <div class="eg-contact-form-card">
-<form action="https://formspree.io/f/mzedganj" method="POST">
+<!-- The form is sent in the background (see script below), so visitors stay on
+     this page and see the thank-you message here instead of on Formspree. -->
+<form id="eg-contact-form" action="https://formspree.io/f/mzedganj" method="POST">
 <div class="eg-form-row">
 <p><label for="name" class="form-label">Name</label> <input type="text" class="custom-input" id="name" name="name" required=""></p>
 </div>
@@ -178,8 +183,62 @@ ul.task-list li input[type="checkbox"] {
 <button type="submit" class="eg-btn eg-btn-solid">
 Send us a brief
 </button>
+<div id="eg-form-status" class="eg-form-status" role="status" aria-live="polite">
+
+</div>
 </form>
 <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+<!-- Sends the form to Formspree in the background and shows the result on this page.
+     If JavaScript is off, the form still works the old way (via Formspree's page). -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var form = document.getElementById("eg-contact-form");
+  var status = document.getElementById("eg-form-status");
+  if (!form || !status || !window.fetch) return;
+  var button = form.querySelector('button[type="submit"]');
+  var buttonText = button.textContent;
+
+  function show(kind, html) {
+    status.className = "eg-form-status is-visible is-" + kind;
+    status.innerHTML = html;
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    button.disabled = true;
+    button.textContent = "Sending…";
+    status.className = "eg-form-status";
+
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: { "Accept": "application/json" }
+    }).then(function (response) {
+      if (response.ok) {
+        form.reset();
+        show("success",
+          "<strong>Thank you — your brief is on its way.</strong> " +
+          "We'll be in touch at the email address you provided.");
+      } else {
+        return response.json().then(function (data) {
+          var msg = (data && data.errors)
+            ? data.errors.map(function (er) { return er.message; }).join(", ")
+            : "Something went wrong.";
+          show("error", "<strong>Sorry, your message didn't send.</strong> " + msg +
+            " Please try again, or email us at <a href='mailto:info@ardhilytics.com'>info@ardhilytics.com</a>.");
+        });
+      }
+    }).catch(function () {
+      show("error", "<strong>Sorry, your message didn't send.</strong> " +
+        "Please check your connection and try again, or email us at " +
+        "<a href='mailto:info@ardhilytics.com'>info@ardhilytics.com</a>.");
+    }).finally(function () {
+      button.disabled = false;
+      button.textContent = buttonText;
+    });
+  });
+});
+</script>
 </div>
 <section id="prefer-to-skip-the-form" class="level2 eg-contact-form-info">
 <h2 data-anchor-id="prefer-to-skip-the-form">Prefer to skip the form?</h2>

@@ -32,7 +32,9 @@ Let's talk about what it would take to get you decision-ready intelligence you c
 
 ::: eg-contact-form-card
 
-<form action="https://formspree.io/f/mzedganj" method="POST">
+<!-- The form is sent in the background (see script below), so visitors stay on
+     this page and see the thank-you message here instead of on Formspree. -->
+<form id="eg-contact-form" action="https://formspree.io/f/mzedganj" method="POST">
 
 <div class="eg-form-row">
 <label for="name" class="form-label">Name</label>
@@ -67,9 +69,63 @@ Let's talk about what it would take to get you decision-ready intelligence you c
 
 <button type="submit" class="eg-btn eg-btn-solid">Send us a brief</button>
 
+<div id="eg-form-status" class="eg-form-status" role="status" aria-live="polite"></div>
+
 </form>
 
 <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+<!-- Sends the form to Formspree in the background and shows the result on this page.
+     If JavaScript is off, the form still works the old way (via Formspree's page). -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var form = document.getElementById("eg-contact-form");
+  var status = document.getElementById("eg-form-status");
+  if (!form || !status || !window.fetch) return;
+  var button = form.querySelector('button[type="submit"]');
+  var buttonText = button.textContent;
+
+  function show(kind, html) {
+    status.className = "eg-form-status is-visible is-" + kind;
+    status.innerHTML = html;
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    button.disabled = true;
+    button.textContent = "Sending…";
+    status.className = "eg-form-status";
+
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form),
+      headers: { "Accept": "application/json" }
+    }).then(function (response) {
+      if (response.ok) {
+        form.reset();
+        show("success",
+          "<strong>Thank you — your brief is on its way.</strong> " +
+          "We'll be in touch at the email address you provided.");
+      } else {
+        return response.json().then(function (data) {
+          var msg = (data && data.errors)
+            ? data.errors.map(function (er) { return er.message; }).join(", ")
+            : "Something went wrong.";
+          show("error", "<strong>Sorry, your message didn't send.</strong> " + msg +
+            " Please try again, or email us at <a href='mailto:info@ardhilytics.com'>info@ardhilytics.com</a>.");
+        });
+      }
+    }).catch(function () {
+      show("error", "<strong>Sorry, your message didn't send.</strong> " +
+        "Please check your connection and try again, or email us at " +
+        "<a href='mailto:info@ardhilytics.com'>info@ardhilytics.com</a>.");
+    }).finally(function () {
+      button.disabled = false;
+      button.textContent = buttonText;
+    });
+  });
+});
+</script>
 
 :::
 

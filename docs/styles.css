@@ -75,6 +75,32 @@
   font-size: 1.2rem;
 }
 
+/* highlight the menu item for the page you're on (Quarto adds .active to it) */
+.navbar .navbar-nav .nav-link{
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+  color: #8FD39D;
+}
+
+.navbar .navbar-nav .nav-link.active{
+  color: #8FD39D;                             /* canopy green */
+}
+
+.navbar .navbar-nav .nav-link.active::after{
+  content: "";
+  position: absolute;
+  left: var(--bs-navbar-nav-link-padding-x, 0.5rem);
+  right: var(--bs-navbar-nav-link-padding-x, 0.5rem);
+  bottom: 2px;
+  height: 3px;
+  border-radius: 2px;
+  background: #8FD39D;
+}
+
 .navbar-nav{
   margin-left: auto !important;               /* pushes links to the right */
 }
@@ -90,6 +116,9 @@
 /* ---------- Base type ---------- */
 html{
   scroll-behavior: smooth;
+  /* jump links (e.g. services.qmd#consulting) stop below the fixed navbar
+     instead of sliding underneath it */
+  scroll-padding-top: 120px;
 }
 
 body{
@@ -339,6 +368,9 @@ main.content:has(.eg-page),
 .eg-hl-2{ color:var(--eg-ochre-hl); }   /* bright ochre */
 .eg-hl-3{ color:var(--eg-canopy-hl); }  /* bright canopy green */
 .eg-hero-statement{ --eg-ochre-hl:#F0B24E; --eg-canopy-hl:#6FCF87; }
+
+/* home hero sits a little higher than the other pages' heroes */
+.eg-hero-statement.eg-hero-middle{ padding-top: clamp(130px, 19vh, 200px); }
 
 .eg-hero-statement .eg-lede{
   display:block;
@@ -1333,7 +1365,7 @@ main.content:has(.eg-page),
 
 .eg-impact{ background:var(--eg-paper); }
 
-.eg-impact-lede{ max-width:none; color:var(--eg-ink-soft); }
+.eg-impact-lede{ max-width:none; color:var(--eg-ink-soft); font-size:1.2rem; line-height:1.6; }
 
 /*max-width:80ch*/
 
@@ -1712,6 +1744,27 @@ main.content:has(.eg-page),
   cursor:pointer;
   font-size:0.85rem;
 }
+
+.eg-contact-form-card .eg-btn-solid:disabled{ opacity:0.6; cursor:wait; }
+
+/* thank-you / error message shown under the button after sending (contact.qmd) */
+.eg-form-status{ display:none; }
+
+.eg-form-status.is-visible{
+  display:block;
+  margin-top:18px;
+  padding:16px 18px;
+  border-radius:10px;
+  font-size:0.98rem;
+  line-height:1.5;
+  border-left:4px solid;
+}
+
+.eg-form-status.is-success{ background:#EAF5EC; border-color:var(--eg-canopy); color:#1B211D; }
+
+.eg-form-status.is-error{ background:#FBEDEA; border-color:var(--eg-rust); color:#1B211D; }
+
+.eg-form-status a{ color:inherit; text-decoration:underline; }
 
 /* ---------- STUDY-AREA MAP + LEGEND ---------- */
 

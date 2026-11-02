@@ -10,8 +10,6 @@ page-layout: custom
 
 :::: {#hero .eg-hero .eg-hero-tint-dark .eg-hero-tint-on .eg-hero-left .eg-hero-middle .eg-hero-statement style="--eg-hero-img:url('images/web/hero-home.jpg');"}
 ::: eg-wrap
-[ArdhiLytics: Geospatial Intelligence]{.eg-eyebrow}
-
 <!-- Each headline line keeps its colour class: eg-hl-1 white, eg-hl-2 ochre, eg-hl-3 green -->
 # [Know the landscape]{.eg-hl .eg-hl-1} [Anticipate change]{.eg-hl .eg-hl-2} [Decide with confidence]{.eg-hl .eg-hl-3}
 
@@ -30,7 +28,7 @@ page-layout: custom
 ::: eg-who-title
 [Who we are]{.eg-eyebrow}
 
-## We turn landscape data into trusted intelligence for sustainable futures.
+## We turn landscape data into trusted intelligence for sustainable futures
 :::
 
 ::: eg-who-desc
@@ -279,7 +277,7 @@ Access to reliable environmental information is essential for informed decision-
 
 ### Disaster intelligence
 
-When environmental emergencies occur, timely information can save lives, livelihoods, and ecosystems. We develop and deploy rapid-response mapping and monitoring tools supporting preparedness, impact assessment, and recovery for floods, droughts, wildfires, and land degradation.
+When environmental emergencies occur, timely information can save lives, livelihoods, and ecosystems. We develop and deploy rapid-response mapping and monitoring tools supporting preparedness, impact assessment, and recovery for floods, droughts, wildfires, land degradation, and other environmental hazards.
 
 ::: {.eg-ses-cta}
 [Ask us about our tools →](contact.qmd){.eg-btn .eg-btn-solid}

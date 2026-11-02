@@ -6,3 +6,9 @@
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Source documents and full-size originals (not used by the website)
+images/trainingCase/
+
+# Backup copies of edited pages
+_archive/

@@ -88,7 +88,7 @@ Our data services include:
 [Translating complex spatial data into actionable, team-led expertise.]{.eg-layer-one-liner .eg-l2}
 
 ::: {.eg-layer-desc}
-We provide the analytical heavy lifting, from advanced statistical modeling to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.
+We provide the analytical heavy lifting, from advanced statistical modeling and open-source GIS workflows to custom R and Python workflows, so your team can move faster and smarter. More than just a service provider, we build internal capacity through hands-on workshops and deep-dive consulting, empowering your staff to manage complex environmental challenges long after our engagement ends.
 :::
 
 ::: {.eg-layer-coord .eg-l2}
@@ -302,12 +302,6 @@ Our workflows are built for auditability. We utilize open-science standards to e
 :::
 
 ::: {.eg-sector-grid}
-::: {.eg-sector-card .eg-sc-1}
-[<i class="bi bi-cash-coin"></i>]{.eg-sector-icon}
-
-[Carbon & Conservation Finance]{.eg-sector-name}
-:::
-
 ::: {.eg-sector-card .eg-sc-2}
 [<i class="bi bi-bank"></i>]{.eg-sector-icon}
 
